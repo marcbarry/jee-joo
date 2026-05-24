@@ -1,7 +1,7 @@
 // App shell — wires routing to screens, gates deck-bound routes on the deck
 // being loaded (showing a loader while in flight, an error screen if it failed).
 
-const DECK_ROUTES = new Set(['deck', 'review', 'stats']);
+const DECK_ROUTES = new Set(['deck', 'review']);
 
 function App() {
   const { route, go } = useRoute();
@@ -26,7 +26,6 @@ function App() {
       case 'deck':     screen = <DeckLanding />;  break;
       case 'review':   screen = <ReviewScreen />; break;
       case 'settings': screen = <Settings />;     break;
-      case 'stats':    screen = <Stats />;        break;
       default:         screen = <Home />;
     }
   }
