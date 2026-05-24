@@ -16,12 +16,9 @@ function Settings() {
             <span className="tag">app-wide</span>
           </div>
           <div className="panel">
-            <ToggleRow label="Show hanzi 汉字" hint="Master toggle for characters."
-              on={settings.showHanzi} onChange={(v) => updateSettings({ showHanzi: v })} />
-            <ToggleRow label="Show pinyin"
-              on={settings.showPinyin} onChange={(v) => updateSettings({ showPinyin: v })} />
-            <ToggleRow label="Show translation"
-              on={settings.showTranslation} onChange={(v) => updateSettings({ showTranslation: v })} last />
+            <ToggleRow label="Learn with hanzi 汉字"
+              hint="Emphasise hanzi characters on cards"
+              on={settings.showHanzi} onChange={(v) => updateSettings({ showHanzi: v })} last />
           </div>
         </div>
 
@@ -33,7 +30,7 @@ function Settings() {
           </div>
           <div className="panel">
             <StepperRow label="New cards / day"
-              hint={`Global cap. ${daily.newSeen} seen today · ${newAllowance} left.`}
+              hint={`${daily.newSeen} seen today · ${newAllowance} left.`}
               value={settings.newCardsPerDay} min={0} max={50}
               onChange={(v) => updateSettings({ newCardsPerDay: v })} />
             <StepperRow label="Cards per session"
@@ -51,11 +48,10 @@ function Settings() {
           <div>
             <div className="flex items-center justify-between mb-2">
               <span className="tag-on">Deck</span>
-              <span className="tag">this deck</span>
             </div>
             <div className="panel">
               <div style={{ padding: '14px 16px' }}>
-                <div style={{ fontSize: 14, fontWeight: 500 }}>Source</div>
+                <div style={{ fontSize: 14, fontWeight: 500 }}>This Deck</div>
                 <div className="mono" style={{ fontSize: 11, color: 'var(--ink-3)', marginTop: 2 }}>{deck.url}</div>
               </div>
               <div style={{ padding: '14px 16px', borderTop: '1px solid var(--rule)' }}>
@@ -63,7 +59,7 @@ function Settings() {
                         style={{ fontSize: 14, fontWeight: 500, color: 'var(--neg)' }}>
                   Reset progress
                 </button>
-                <div style={{ fontSize: 11, color: 'var(--ink-3)', marginTop: 2 }}>Clears SRS state for this deck only.</div>
+                <div style={{ fontSize: 11, color: 'var(--ink-3)', marginTop: 2 }}>Forget your stored progress for this deck</div>
               </div>
             </div>
           </div>

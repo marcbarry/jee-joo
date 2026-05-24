@@ -89,7 +89,7 @@ function DoneScreen({ total, onContinue }) {
 
 // ─── Phrase card · Self-hint ─────────────────────────────────────────────
 
-function PhraseCard({ card, onGrade, idxInSession, sessionTotal }) {
+function PhraseCard({ card, onGrade }) {
   const { settings } = useStore();
   // Per-token reveal levels: 0 → 1 (pinyin) → 2 (sound+gloss)
   const [levels, setLevels] = React.useState(() => card.tokens.map(() => 0));
@@ -101,21 +101,20 @@ function PhraseCard({ card, onGrade, idxInSession, sessionTotal }) {
     setTransRevealed(false);
   }, [card.id]);
 
+  // Auto-reveal the translation once every token has been hinted at all —
+  // at that point the user has signalled they want help, save them a tap.
+  React.useEffect(() => {
+    if (levels.length && levels.every(v => v >= 1)) {
+      setTransRevealed(true);
+    }
+  }, [levels]);
+
   function bumpToken(i) {
     setLevels(L => L.map((v, j) => j === i ? Math.min(2, v + 1) : v));
   }
 
-  const hintedCount = levels.filter(v => v > 0).length;
-
   return (
     <div className="flex-1 flex flex-col px-5 pt-6">
-      <div className="flex items-center justify-between">
-        <span className="tag">Self-hint</span>
-        <span className="mono" style={{ fontSize: 10, color: 'var(--ink-3)', letterSpacing: '0.06em' }}>
-          {idxInSession + 1} / {sessionTotal}  ·  {hintedCount} / {card.tokens.length} hinted
-        </span>
-      </div>
-
       <div className="flex-1 flex flex-col justify-center">
         <div className="flex items-end justify-center" style={{ gap: 4, flexWrap: 'wrap' }}>
           {card.tokens.map((t, i) => (
@@ -142,10 +141,6 @@ function PhraseCard({ card, onGrade, idxInSession, sessionTotal }) {
                 Tap to reveal <IconChevRight size={14} stroke={2} />
               </span>}
         </button>
-      </div>
-
-      <div className="mono text-center" style={{ fontSize: 10, color: 'var(--ink-3)', marginTop: 14, marginBottom: 10, letterSpacing: '0.04em' }}>
-        tap once → pinyin  ·  tap again → sound + meaning
       </div>
 
       <div className="pb-6">
@@ -181,34 +176,31 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
     setChosen(null);
   }, [card.id]);
 
-  // Render the sentence template with the slot as either blank or filled
-  function renderSentence(filled) {
+  // Renderers — produce a row of the sentence using a chosen field (char or pinyin).
+  // Always available; we render both rows and let the layout switch emphasis based on mode.
+  function renderRow(field, filledMinWidth, blankPlaceholder) {
     return card.template.map((t, i) => {
       if (t.slot) {
-        if (filled) {
+        if (chosen != null) {
           return (
             <span key={i} style={{
               color: 'var(--accent)', background: 'var(--accent-2)',
               padding: '0 8px', borderRadius: 4,
-            }}>{settings.showHanzi ? target.char : target.pinyin}</span>
+            }}>{target[field]}</span>
           );
         }
         return (
           <span key={i} style={{
-            display: 'inline-block', minWidth: settings.showHanzi ? 56 : 80,
+            display: 'inline-block', minWidth: filledMinWidth,
             padding: '0 8px', borderBottom: '2px solid var(--ink)', color: 'var(--ink-4)',
-          }}>{settings.showHanzi ? '?' : '__'}</span>
+          }}>{blankPlaceholder}</span>
         );
       }
-      return <React.Fragment key={i}>{settings.showHanzi ? t.char : t.pinyin}</React.Fragment>;
+      return <React.Fragment key={i}>{t[field]}</React.Fragment>;
     }).reduce((acc, el, i) => i === 0 ? [el] : [...acc, ' ', el], []);
   }
-
-  // The pinyin & say-as rows underneath
-  const pinyinRow = card.template.map((t, i) => {
-    if (t.slot) return chosen != null ? <span key={i} style={{ color: 'var(--accent)' }}>{target.pinyin}</span> : <span key={i} style={{ color: 'var(--ink-4)' }}>____</span>;
-    return <React.Fragment key={i}>{t.pinyin}</React.Fragment>;
-  }).reduce((acc, el, i) => i === 0 ? [el] : [...acc, ' ', el], []);
+  const hanziSentence  = renderRow('char',   56, '?');
+  const pinyinSentence = renderRow('pinyin', 80, '__');
 
   const sayRow = card.template.map((t, i) => {
     if (t.slot) return chosen != null ? sayAs(target.pinyin) : '__';
@@ -230,18 +222,25 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
         <span className="mono" style={{ fontSize: 10, color: 'var(--ink-3)' }}>{idxInSession + 1} / {sessionTotal}</span>
       </div>
 
-      {/* Sentence */}
+      {/* Sentence — both rows render; emphasis swaps with mode. */}
       <div className="text-center mt-6">
-        <div className={settings.showHanzi ? "sc" : ""} style={{
-          fontSize: settings.showHanzi ? 44 : 28,
-          lineHeight: 1.1, fontWeight: 500, color: 'var(--ink)', letterSpacing: '-0.005em',
-        }}>
-          {renderSentence(chosen != null)}
-        </div>
-        {settings.showHanzi && (
-          <div className="mono" style={{ fontSize: 14, color: 'var(--ink-2)', marginTop: 8 }}>{pinyinRow}</div>
+        {settings.showHanzi ? (
+          <>
+            <div className="sc" style={{
+              fontSize: 44, lineHeight: 1.1, fontWeight: 500, color: 'var(--ink)', letterSpacing: '-0.005em',
+            }}>{hanziSentence}</div>
+            <div className="mono" style={{ fontSize: 14, color: 'var(--ink-2)', marginTop: 8 }}>{pinyinSentence}</div>
+          </>
+        ) : (
+          <>
+            <div className="sc" style={{ fontSize: 16, color: 'var(--ink-3)', fontWeight: 400, lineHeight: 1 }}>{hanziSentence}</div>
+            <div style={{
+              fontSize: 26, lineHeight: 1.1, fontWeight: 500, color: 'var(--ink)', letterSpacing: '-0.005em',
+              marginTop: 6,
+            }}>{pinyinSentence}</div>
+          </>
         )}
-        <div className="mono" style={{ fontSize: 13, color: 'var(--accent)', fontStyle: 'italic', marginTop: settings.showHanzi ? 4 : 8 }}>
+        <div className="mono" style={{ fontSize: 13, color: 'var(--accent)', fontStyle: 'italic', marginTop: 8 }}>
           "{sayRow}"
         </div>
       </div>
@@ -287,10 +286,17 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
           else if (dimWrong)  style = { ...style, opacity: 0.4 };
           return (
             <button key={i} className="panel" style={style} onClick={() => pick(i)} disabled={chosen != null}>
-              {settings.showHanzi && (
-                <div className="sc" style={{ fontSize: 26, fontWeight: 500, lineHeight: 1 }}>{o.char}</div>
+              {settings.showHanzi ? (
+                <>
+                  <div className="sc" style={{ fontSize: 26, fontWeight: 500, lineHeight: 1 }}>{o.char}</div>
+                  <div style={{ fontSize: 12, color: 'var(--ink-2)', marginTop: 6 }}>{o.pinyin}</div>
+                </>
+              ) : (
+                <>
+                  <div className="sc" style={{ fontSize: 13, fontWeight: 400, lineHeight: 1, color: 'var(--ink-3)' }}>{o.char}</div>
+                  <div style={{ fontSize: 18, fontWeight: 500, marginTop: 4, color: 'var(--ink)' }}>{o.pinyin}</div>
+                </>
               )}
-              <div style={{ fontSize: 12, color: 'var(--ink-2)', marginTop: settings.showHanzi ? 6 : 0 }}>{o.pinyin}</div>
               <div className="mono" style={{ fontSize: 10, color: 'var(--accent)', fontStyle: 'italic', marginTop: 2 }}>"{sayAs(o.pinyin)}"</div>
             </button>
           );

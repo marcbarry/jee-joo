@@ -65,30 +65,47 @@ function Home() {
                 color: 'var(--ink)', background: 'var(--bg)',
               }}
             />
-            <p className="text-center" style={{ marginTop: 8, fontSize: 11, color: 'var(--ink-3)' }}>
-              Prototype loads the starter for any URL.
-            </p>
+            <button className="btn-primary" style={{ marginTop: 10 }} onClick={loadFromUrl}>
+              Load this URL
+            </button>
           </div>
         )}
       </div>
 
       {/* Footer buttons */}
       <div className="px-6 pb-8 space-y-2.5">
-        <button className="btn-primary" onClick={showInput ? loadFromUrl : start}>
-          {showInput ? 'Load this URL' : 'Try the starter deck'}
-        </button>
-        <button onClick={() => setShowInput(s => !s)}
-                style={{
-                  background: 'transparent',
-                  color: 'var(--ink)',
-                  border: '1.5px dashed var(--ink-3)',
-                  borderRadius: 10,
-                  padding: '12.5px 20px',
-                  font: '500 14px/1 Inter',
-                  width: '100%',
-                }}>
-          {showInput ? 'Cancel' : 'Paste a deck URL...'}
-        </button>
+        {showInput ? (
+          <button onClick={() => setShowInput(false)}
+                  style={{
+                    background: 'transparent',
+                    color: 'var(--ink)',
+                    border: '1.5px dashed var(--ink-3)',
+                    borderRadius: 10,
+                    padding: '12.5px 20px',
+                    font: '500 14px/1 Inter',
+                    width: '100%',
+                  }}>
+            Back
+          </button>
+        ) : (
+          <>
+            <button className="btn-primary" onClick={start}>
+              Try the starter deck
+            </button>
+            <button onClick={() => setShowInput(true)}
+                    style={{
+                      background: 'transparent',
+                      color: 'var(--ink)',
+                      border: '1.5px dashed var(--ink-3)',
+                      borderRadius: 10,
+                      padding: '12.5px 20px',
+                      font: '500 14px/1 Inter',
+                      width: '100%',
+                    }}>
+              Paste a deck URL...
+            </button>
+          </>
+        )}
       </div>
     </Phone>
   );
