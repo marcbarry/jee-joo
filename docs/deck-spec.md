@@ -9,8 +9,18 @@ A Jizhu deck is a single JSON file served over HTTP(S). The deck's URL is its un
   "title": "HSK 1 Core",
   "vocabulary": {
     "vegetables": [
-      { "hanzi": "青菜", "pinyin": "qīngcài", "gloss": "leafy greens" },
-      { "hanzi": "蘑菇", "pinyin": "mógu",    "gloss": "mushroom" }
+      {
+        "id": "8b03f4d1-3f0f-4a39-90df-6b7d4fb1d63d",
+        "hanzi": "青菜",
+        "pinyin": "qīngcài",
+        "gloss": "leafy greens"
+      },
+      {
+        "id": "2ccf8ff0-36cc-4f1d-891a-7853197f4b1e",
+        "hanzi": "蘑菇",
+        "pinyin": "mógu",
+        "gloss": "mushroom"
+      }
     ]
   },
   "units": [
@@ -49,7 +59,7 @@ A Jizhu deck is a single JSON file served over HTTP(S). The deck's URL is its un
 
 ```json
 {
-  "id": "wo-bu-xihuan-yinyueke",
+  "id": "f540cc80-5b7e-46d3-9215-b4d12e79e4f1",
   "hanzi": "我不喜欢音乐课",
   "pinyin": "wǒ bù xǐhuan yīnyuè kè",
   "translation": "I do not like music class",
@@ -65,7 +75,7 @@ A Jizhu deck is a single JSON file served over HTTP(S). The deck's URL is its un
 
 | Field         | Type           | Required | Description                                                                 |
 | ------------- | -------------- | -------- | --------------------------------------------------------------------------- |
-| `id`          | string         | yes      | Stable identifier for the card, unique within the deck.                     |
+| `id`          | string         | yes      | UUID identifier for the card, unique within the deck.                       |
 | `hanzi`       | string         | yes      | The full Chinese phrase in hanzi.                                           |
 | `pinyin`      | string         | yes      | The full phrase in pinyin, written with tone marks (not tone numbers).      |
 | `translation` | string         | yes      | English translation of the phrase.                                          |
@@ -97,7 +107,7 @@ A card becomes a pattern card simply by declaring a `slots` object — no separa
 
 ```json
 {
-  "id": "i-want-X",
+  "id": "bbd8d8f2-aee3-42e0-99b0-20abebf25d59",
   "hanzi": "我要{food}",
   "pinyin": "wǒ yào {food}",
   "translation": "I want {food}",
@@ -145,16 +155,19 @@ Top-level `vocabulary` is an object mapping each **group id** (string) to an arr
 
 | Field    | Type   | Required | Description                                                          |
 | -------- | ------ | -------- | -------------------------------------------------------------------- |
+| `id`     | string | yes      | UUID identifier for this vocabulary item, unique within the deck.     |
 | `hanzi`  | string | yes      | The hanzi for this item.                                             |
 | `pinyin` | string | yes      | The pinyin for this item, with tone marks.                           |
 | `gloss`  | string | yes      | Short English gloss. Use ` / ` for multiple senses.                  |
 
-A `VocabItem` is structurally identical to a literal `Token` — by design, so the renderer can substitute one for the other without transformation.
+A `VocabItem` has the same language fields as a literal `Token`, plus an `id` so individual vocabulary entries can be referenced consistently.
 
 ## Identifiers and stability
 
 - Deck URLs are the unit of identity for local progress. Changing a deck's hosting URL resets local progress for that deck.
-- `unit.id` and `card.id` should be stable across deck revisions. If an `id` changes, the app will treat it as a new card and lose its progress.
+- `card.id` and `VocabItem.id` are UUIDs. They are opaque stable identifiers, not display labels or slugs.
+- `unit.id` and vocabulary group ids are human-readable authoring identifiers. Slots reference vocabulary groups by group id.
+- IDs should be stable across deck revisions. If a card or vocabulary item `id` changes, the app and tooling will treat it as a different object.
 
 ## Conventions
 
