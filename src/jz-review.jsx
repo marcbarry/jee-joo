@@ -132,17 +132,20 @@ function PhraseCard({ card, onGrade }) {
           ))}
         </div>
 
-        {/* Translation reveal — clicking also hints every token */}
+        {/* Translation reveal — clicking also hints every token.
+            minHeight keeps the button the same height in both states so the
+            centered tokens above don't shift when the text size changes. */}
         <button className="mt-10 mx-1 flex items-center justify-between"
                 onClick={revealAll}
                 style={{
                   border: '1px solid var(--rule)', borderRadius: 10,
                   padding: '14px 16px', background: 'var(--bg)',
+                  minHeight: 52,
                 }}>
           <span className="tag">Translation</span>
           {transRevealed
-            ? <span style={{ fontSize: 15, fontWeight: 500, color: 'var(--ink)' }}>{card.translation}</span>
-            : <span className="flex items-center gap-1.5" style={{ fontSize: 13, color: 'var(--ink-2)', fontWeight: 500 }}>
+            ? <span style={{ fontSize: 15, fontWeight: 500, color: 'var(--ink)', lineHeight: '20px' }}>{card.translation}</span>
+            : <span className="flex items-center gap-1.5" style={{ fontSize: 13, color: 'var(--ink-2)', fontWeight: 500, lineHeight: '20px' }}>
                 Tap to reveal <IconChevRight size={14} stroke={2} />
               </span>}
         </button>

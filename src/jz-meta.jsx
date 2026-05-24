@@ -140,31 +140,13 @@ function Stats() {
     buckets[mastery(progress[c.id])].push(c);
   }
 
-  // Build a mini heatmap from review timestamps in progress
-  const weeks = 14, days = 7;
-  const now = new Date();
-  const startMs = now - (weeks * days - 1) * 24 * 60 * 60_000;
-  const dailyCount = new Map();
+  // Active-day count from review timestamps
+  const activeDays = new Set();
   for (const cardId in progress) {
     const t = progress[cardId].lastReviewedAt;
-    if (!t || t < startMs) continue;
-    const key = new Date(t).toISOString().slice(0, 10);
-    dailyCount.set(key, (dailyCount.get(key) ?? 0) + 1);
+    if (!t) continue;
+    activeDays.add(new Date(t).toISOString().slice(0, 10));
   }
-  function dateKeyFor(w, d) {
-    const offsetDays = (weeks - 1 - w) * days + (days - 1 - d);
-    const dt = new Date(now);
-    dt.setDate(dt.getDate() - offsetDays);
-    return dt.toISOString().slice(0, 10);
-  }
-  function heatLvl(count) {
-    if (!count) return '';
-    if (count <= 2) return 'l1';
-    if (count <= 5) return 'l2';
-    if (count <= 10) return 'l3';
-    return 'l4';
-  }
-  const todayK = todayKey(now);
 
   const totalReviews = Object.values(progress).reduce((sum, s) => sum + (s.reps || 0) + (s.lapses || 0), 0);
   const totalLearned = deck.cards.length - buckets.new.length;
@@ -189,34 +171,6 @@ function Stats() {
             <div>
               <div className="mono" style={{ fontSize: 22, fontWeight: 500 }}>{totalLearned}</div>
               <div className="tag" style={{ marginTop: 2 }}>learned</div>
-            </div>
-          </div>
-        </div>
-
-        {/* Heatmap */}
-        <div className="mt-5">
-          <div className="tag-on mb-3">Last 14 weeks</div>
-          <div className="panel" style={{ padding: '14px 12px' }}>
-            <div className="flex justify-between" style={{ gap: 3 }}>
-              {Array.from({ length: weeks }).map((_, w) => (
-                <div key={w} style={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
-                  {Array.from({ length: days }).map((_, d) => {
-                    const k = dateKeyFor(w, d);
-                    const lvl = heatLvl(dailyCount.get(k));
-                    const isToday = k === todayK;
-                    return <span key={d} className={"heat " + (isToday ? "now" : lvl)} />;
-                  })}
-                </div>
-              ))}
-            </div>
-            <div className="flex items-center justify-end gap-1.5 mt-3" style={{ fontSize: 10, color: 'var(--ink-3)' }}>
-              <span className="mono">less</span>
-              <span className="heat" />
-              <span className="heat l1" />
-              <span className="heat l2" />
-              <span className="heat l3" />
-              <span className="heat l4" />
-              <span className="mono">more</span>
             </div>
           </div>
         </div>
