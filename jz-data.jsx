@@ -1,28 +1,65 @@
-// Jizhu starter deck + pinyin → English approximation
-// Both are app concerns per the requirements (say-as is deterministic, not in
-// the deck file). This file is loaded as plain JS attached to window.
+// Pinyin → English approximation, plus small token helpers.
+// Per requirements: the deck stores pinyin only; the say-as approximation is
+// an app concern. Mandarin has ~400 syllables (1300 with tones); the function
+// below covers them all via initial + final rewrite rules, with a handful of
+// overrides for awkward cases the rules would mishandle.
 
-const SAY_AS = {
-  // Greetings + common syllables — tone-stripped lookup
-  "ni": "nee", "hao": "how",
-  "zai": "dzigh", "jian": "jyen",
-  "xie": "shyeh",
-  "dui": "dway", "bu": "boo", "qi": "chee",
-  // Phrases
-  "wo": "waw", "chi": "chrr", "fan": "fahn", "le": "luh",
-  "he": "huh", "cha": "chah",
-  "ming": "ming", "tian": "tyen",
-  "xia": "shyah", "xue": "shweh",
-  "kan": "kahn", "mai": "my", "shui": "shway",
-  "zou": "dzoh", "lai": "lai", "qu": "chyoo",
-  "shi": "shrr",
-  "ta": "tah", "men": "men",
-  "ai": "eye",
-  "shang": "shahng", "xue2": "shweh",  // school
-  "lao": "lao", "shi2": "shrr",        // teacher
+// Pinyin initials → English-friendly consonant sound.
+const INITIAL_MAP = {
+  ''  : '',
+  b: 'b', p: 'p', m: 'm', f: 'f',
+  d: 'd', t: 't', n: 'n', l: 'l',
+  g: 'g', k: 'k', h: 'h',
+  j: 'j', q: 'ch', x: 'sh',
+  r: 'r',
+  z: 'dz', c: 'ts', s: 's',
+  zh: 'j', ch: 'ch', sh: 'sh',
+  y: '',  w: 'w',
 };
 
-// Strip tone marks → bare syllable for lookup
+// Pinyin finals → English-friendly vowel/coda. Longest-match wins; the lookup
+// is keyed on the exact final string, so iang/iong/uang/ueng (4-char) and the
+// 3-char finals come before their 2-char prefixes by virtue of object lookup.
+const FINAL_MAP = {
+  // 4-char
+  iang: 'yahng', iong: 'yoong', uang: 'wahng', ueng: 'wung',
+  // 3-char
+  iao: 'yow', ian: 'yen', ing: 'ing',
+  uai: 'why', uan: 'wahn',
+  ang: 'ahng', eng: 'ung', ong: 'oong',
+  'üan': 'ywen',
+  // 2-char
+  ia: 'yah', ie: 'yeh', iu: 'yo', in: 'een',
+  ua: 'wah', uo: 'waw', ui: 'way', un: 'wun',
+  'üe': 'yweh', 'ün': 'yun',
+  ai: 'eye', ei: 'ay', ao: 'ow', ou: 'oh',
+  an: 'ahn', en: 'uhn', er: 'are',
+  // 1-char
+  a: 'ah', o: 'aw', e: 'uh',
+  i: 'ee', u: 'oo', 'ü': 'yoo',
+};
+
+// After zh/ch/sh/r/z/c/s, bare 'i' is the buzzed retroflex/sibilant — sounds
+// like "rr", not "ee". (chī → "chrr", not "chee".)
+const BUZZED_I_INITIALS = new Set(['zh', 'ch', 'sh', 'r', 'z', 'c', 's']);
+
+// After j/q/x/y, an orthographic 'u' actually represents the ü sound.
+const JQXY = new Set(['j', 'q', 'x', 'y']);
+
+// Whole-syllable overrides for cases where the rule output reads awkwardly to
+// English speakers. Keep this small — the rules cover the vast majority.
+const OVERRIDES = {
+  // w-/y- glide orthography
+  wu: 'oo',
+  yi: 'ee', yin: 'een', ying: 'ing',
+  yu: 'yoo', yue: 'yweh', yuan: 'ywen', yun: 'yun',
+  // j/q/x + ü-merged spellings — rules would produce y-prefixed glides
+  xue:  'shweh',  que:  'chweh',  jue:  'jweh',
+  xuan: 'shwen',  quan: 'chwen',  juan: 'jwen',
+  xun:  'shoon',  qun:  'choon',  jun:  'joon',
+};
+
+// Strip tone marks → bare syllable, lowercased, for rule lookup.
 function stripTones(p) {
   const map = {
     'ā':'a','á':'a','ǎ':'a','à':'a',
@@ -35,106 +72,43 @@ function stripTones(p) {
   return p.split('').map(c => map[c] || c).join('').toLowerCase();
 }
 
-// pinyin (with tones) → English approximation
-function sayAs(pinyin) {
-  const bare = stripTones(pinyin);
-  if (SAY_AS[bare]) return SAY_AS[bare];
-  // Fallback: return the bare pinyin so we always have something to display.
-  return bare;
+function splitSyllable(bare) {
+  if (/^(zh|ch|sh)/.test(bare)) return [bare.slice(0, 2), bare.slice(2)];
+  if (/^[bpmfdtnlgkhjqxrzcsyw]/.test(bare)) return [bare[0], bare.slice(1)];
+  return ['', bare];
 }
 
-// ─── Starter Deck ────────────────────────────────────────────────────────
-// Each card is one of:
-//   { kind: "phrase", id, tokens: [{char, pinyin, gloss}, ...], translation }
-//   { kind: "pattern", id, template: [(token | {slot})…], slot: {id, options: [token, ...]} }
-//
-// The English gloss on each token is also used by pattern cards as the
-// "missing word means: ___" clue when that token is the answer.
+// Pinyin (with or without tone marks) → English approximation.
+function sayAs(pinyin) {
+  if (!pinyin) return '';
+  // A multi-syllable phrase falls back to per-syllable lookup. Pinyin in our
+  // decks is mostly one token = one syllable, but we handle space-separated
+  // input defensively.
+  if (/\s/.test(pinyin)) {
+    return pinyin.split(/\s+/).map(sayAs).join(' ');
+  }
 
-const STARTER_DECK = {
-  id: "jizhu-starter",
-  name: "Jizhu Starter",
-  url: "jizhu.app/d/starter.json",
-  cards: [
-    // — Greetings —
-    { kind: "phrase", id: "g01", translation: "Hello",
-      tokens: [
-        { char: "你", pinyin: "nǐ",  gloss: "you"  },
-        { char: "好", pinyin: "hǎo", gloss: "good" },
-      ] },
-    { kind: "phrase", id: "g02", translation: "Goodbye",
-      tokens: [
-        { char: "再", pinyin: "zài",  gloss: "again" },
-        { char: "见", pinyin: "jiàn", gloss: "see"   },
-      ] },
-    { kind: "phrase", id: "g03", translation: "Thank you",
-      tokens: [
-        { char: "谢", pinyin: "xiè", gloss: "thank" },
-        { char: "谢", pinyin: "xie", gloss: "thank" },
-      ] },
-    { kind: "phrase", id: "g04", translation: "Sorry",
-      tokens: [
-        { char: "对", pinyin: "duì", gloss: "right" },
-        { char: "不", pinyin: "bu",  gloss: "not"   },
-        { char: "起", pinyin: "qǐ",  gloss: "rise"  },
-      ] },
+  const bare = stripTones(pinyin);
+  if (!bare) return '';
 
-    // — Simple sentences —
-    { kind: "phrase", id: "v01", translation: "I ate.",
-      tokens: [
-        { char: "我", pinyin: "wǒ",  gloss: "I"    },
-        { char: "吃", pinyin: "chī", gloss: "eat"  },
-        { char: "饭", pinyin: "fàn", gloss: "meal" },
-        { char: "了", pinyin: "le",  gloss: "·"    },
-      ] },
-    { kind: "phrase", id: "v02", translation: "I drink tea.",
-      tokens: [
-        { char: "我", pinyin: "wǒ", gloss: "I"     },
-        { char: "喝", pinyin: "hē", gloss: "drink" },
-        { char: "茶", pinyin: "chá", gloss: "tea"  },
-      ] },
-    { kind: "phrase", id: "v03", translation: "See you tomorrow.",
-      tokens: [
-        { char: "明", pinyin: "míng", gloss: "bright" },
-        { char: "天", pinyin: "tiān", gloss: "day"    },
-        { char: "见", pinyin: "jiàn", gloss: "see"    },
-      ] },
-    { kind: "phrase", id: "v04", translation: "It snowed.",
-      tokens: [
-        { char: "下", pinyin: "xià",  gloss: "down" },
-        { char: "雪", pinyin: "xuě",  gloss: "snow" },
-        { char: "了", pinyin: "le",   gloss: "·"    },
-      ] },
+  if (OVERRIDES[bare]) return OVERRIDES[bare];
 
-    // — Pattern cards —
-    { kind: "pattern", id: "p01",
-      template: [
-        { char: "我", pinyin: "wǒ", gloss: "I" },
-        { slot: "verb" },
-        { char: "了", pinyin: "le", gloss: "·" },
-      ],
-      slot: { id: "verb", options: [
-        { char: "吃", pinyin: "chī", gloss: "eat"   },
-        { char: "喝", pinyin: "hē",  gloss: "drink" },
-        { char: "看", pinyin: "kàn", gloss: "watch" },
-        { char: "写", pinyin: "xiě", gloss: "write" },
-      ] },
-    },
-    { kind: "pattern", id: "p02",
-      template: [
-        { char: "明", pinyin: "míng", gloss: "bright" },
-        { char: "天", pinyin: "tiān", gloss: "day"    },
-        { slot: "verb" },
-      ],
-      slot: { id: "verb", options: [
-        { char: "见", pinyin: "jiàn", gloss: "see"   },
-        { char: "走", pinyin: "zǒu",  gloss: "leave" },
-        { char: "来", pinyin: "lái",  gloss: "come"  },
-        { char: "去", pinyin: "qù",   gloss: "go"    },
-      ] },
-    },
-  ],
-};
+  let [initial, final] = splitSyllable(bare);
+
+  // j/q/x/y + u-final → ü-final orthography
+  if (JQXY.has(initial) && final.startsWith('u')) {
+    final = 'ü' + final.slice(1);
+  }
+
+  // Buzzed-i after retroflex/sibilant initials
+  if (final === 'i' && BUZZED_I_INITIALS.has(initial)) {
+    return (INITIAL_MAP[initial] ?? '') + 'rr';
+  }
+
+  const initialSound = INITIAL_MAP[initial] ?? '';
+  const finalSound   = FINAL_MAP[final]    ?? final;
+  return initialSound + finalSound;
+}
 
 // Render a pattern card with a specific infill chosen (used during review)
 function renderPattern(card, infillIdx) {
@@ -145,7 +119,6 @@ function renderPattern(card, infillIdx) {
   };
 }
 
-// Toned pinyin from a list of tokens (e.g. "wǒ chī fàn le")
 function tokensToPinyin(tokens) {
   return tokens.map(t => t.pinyin).join(' ');
 }
@@ -154,6 +127,6 @@ function tokensToSay(tokens) {
 }
 
 Object.assign(window, {
-  STARTER_DECK, sayAs, stripTones, renderPattern,
+  sayAs, stripTones, renderPattern,
   tokensToPinyin, tokensToSay,
 });

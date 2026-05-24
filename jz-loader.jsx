@@ -1,0 +1,170 @@
+// Deck loader — fetches a deck manifest, resolves any linked vocabulary
+// and unit files, validates the shape, and assembles the in-memory deck
+// structure the rest of the app consumes.
+//
+// Spec on disk (docs/spec/deck.md) vs in-memory shape diverge in two places:
+//   - Spec uses `hanzi` on tokens; the rendering code uses `char`. We rename.
+//   - Spec uses `slots: { name: { group: "..." } }` + `{ slot: "name" }` tokens.
+//     In-memory pattern cards use a single resolved `slot: { id, options: [...] }`
+//     plus a `template` mixing literal tokens and `{ slot: name }` markers.
+// The loader does that translation once, here.
+//
+// All errors thrown have a `kind` field: 'fetch' | 'cors' | 'parse' | 'schema'.
+
+async function fetchJSON(url) {
+  let res;
+  try {
+    res = await fetch(url, { cache: 'no-store' });
+  } catch (e) {
+    // Browsers surface CORS failures as TypeError on fetch — indistinguishable
+    // from network failures at this layer. We tag both as 'cors' because the
+    // remediation hint (use a CORS-friendly host) is the same and useful.
+    const err = new Error(`Couldn't reach ${url}.`);
+    err.kind = 'cors';
+    err.cause = e;
+    throw err;
+  }
+  if (!res.ok) {
+    const err = new Error(`${url} responded with ${res.status} ${res.statusText}.`);
+    err.kind = 'fetch';
+    throw err;
+  }
+  try {
+    return await res.json();
+  } catch (e) {
+    const err = new Error(`${url} isn't valid JSON.`);
+    err.kind = 'parse';
+    err.cause = e;
+    throw err;
+  }
+}
+
+function resolveUrl(relative, base) {
+  return new URL(relative, base).href;
+}
+
+// Convert a spec-format token to the in-memory shape (rename hanzi → char).
+// Slot tokens pass through unchanged.
+function toMemToken(t) {
+  if (t && typeof t.slot === 'string') return { slot: t.slot };
+  return {
+    char: t?.hanzi ?? '',
+    pinyin: t?.pinyin ?? '',
+    gloss: t?.gloss ?? '',
+  };
+}
+
+// Convert a spec-format VocabItem to the in-memory token shape.
+function vocabItemToToken(item) {
+  return {
+    id: item?.id,
+    char: item?.hanzi ?? '',
+    pinyin: item?.pinyin ?? '',
+    gloss: item?.gloss ?? '',
+  };
+}
+
+// Spec card → in-memory card. v1 supports a single slot per pattern card
+// (the deck data on disk only uses one slot per card; multi-slot is spec'd
+// but not yet authored).
+function toMemCard(card, vocabulary) {
+  const slotNames = Object.keys(card.slots || {});
+
+  if (slotNames.length === 0) {
+    return {
+      kind: 'phrase',
+      id: card.id,
+      translation: card.translation ?? '',
+      tokens: (card.tokens || []).map(toMemToken),
+    };
+  }
+
+  const slotName = slotNames[0];
+  const slotDef = card.slots[slotName];
+  const groupItems = vocabulary[slotDef.group] || [];
+
+  return {
+    kind: 'pattern',
+    id: card.id,
+    translation: card.translation ?? '',
+    template: (card.tokens || []).map(toMemToken),
+    slot: {
+      id: slotName,
+      group: slotDef.group,
+      options: groupItems.map(vocabItemToToken),
+    },
+  };
+}
+
+function validateManifest(m, url) {
+  if (!m || typeof m !== 'object') {
+    const err = new Error(`Deck manifest at ${url} isn't an object.`);
+    err.kind = 'schema';
+    throw err;
+  }
+  if (!m.title || typeof m.title !== 'string') {
+    const err = new Error(`Deck manifest is missing a "title".`);
+    err.kind = 'schema';
+    throw err;
+  }
+  if (!Array.isArray(m.units)) {
+    const err = new Error(`Deck manifest "units" must be an array.`);
+    err.kind = 'schema';
+    throw err;
+  }
+}
+
+async function resolveVocabulary(rawVocab, baseUrl) {
+  const entries = Object.entries(rawVocab || {});
+  const resolved = await Promise.all(entries.map(async ([id, ref]) => {
+    if (typeof ref === 'string') {
+      const file = await fetchJSON(resolveUrl(ref, baseUrl));
+      return [id, Array.isArray(file?.items) ? file.items : []];
+    }
+    // Inline form — already an array of VocabItems per spec.
+    return [id, Array.isArray(ref) ? ref : []];
+  }));
+  return Object.fromEntries(resolved);
+}
+
+async function resolveUnits(rawUnits, baseUrl) {
+  return Promise.all((rawUnits || []).map(async (u) => {
+    if (typeof u === 'string') return await fetchJSON(resolveUrl(u, baseUrl));
+    return u;
+  }));
+}
+
+// Public entry: load a deck from a URL into the in-memory shape.
+async function loadDeckFromUrl(manifestUrl) {
+  const manifest = await fetchJSON(manifestUrl);
+  validateManifest(manifest, manifestUrl);
+
+  const [vocabulary, units] = await Promise.all([
+    resolveVocabulary(manifest.vocabulary, manifestUrl),
+    resolveUnits(manifest.units, manifestUrl),
+  ]);
+
+  const cards = [];
+  for (const unit of units) {
+    for (const c of (unit?.cards || [])) {
+      if (!c || !c.id) continue; // skip malformed
+      cards.push(toMemCard(c, vocabulary));
+    }
+  }
+
+  if (cards.length === 0) {
+    const err = new Error(`Deck has no cards.`);
+    err.kind = 'schema';
+    throw err;
+  }
+
+  return {
+    url: manifestUrl,           // canonical identity for localStorage scoping
+    id: manifestUrl,
+    name: manifest.title,
+    description: manifest.description || '',
+    cards,
+  };
+}
+
+Object.assign(window, { loadDeckFromUrl, fetchJSON });

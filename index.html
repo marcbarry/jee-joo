@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Jizhu — Prototype</title>
+<title>Jìzhù · 记住</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,53 +29,55 @@
     --neg:       #b91c1c;
   }
 
-  html, body { height: 100%; margin: 0; background: var(--bg-3); }
-  body { font-family: 'Inter', system-ui, sans-serif; color: var(--ink); }
+  html, body { height: 100%; margin: 0; }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+  }
   button { font: inherit; color: inherit; background: transparent; border: 0; cursor: pointer; padding: 0; }
   button:disabled { cursor: default; }
   input { font: inherit; color: inherit; }
 
-  /* ─── Canvas backdrop (so prototype sits centered for inspection) ─── */
+  /* ─── Responsive app layout ───
+     Mobile (default): app fills the viewport, full-bleed.
+     Desktop (≥640px): app sits in a centered max-width column on a neutral page background. */
   .canvas-pad {
-    min-height: 100vh; display: flex; align-items: center; justify-content: center;
-    padding: 24px;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
   }
   .phone-mount {
-    transform-origin: center center;
+    width: 100%;
+    max-width: 520px;
+    display: flex;
   }
-
-  /* ─── Phone shell ─── */
   .phone {
-    width: 360px; height: 720px;
-    border-radius: 36px; overflow: hidden; position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     background: var(--bg);
-    box-shadow:
-      0 0 0 1.5px rgba(0,0,0,0.18),
-      0 24px 60px -16px rgba(0,0,0,0.18),
-      0 8px 24px -6px rgba(0,0,0,0.08);
+    min-height: 100vh;
+    min-height: 100dvh;
+    overflow: hidden;
   }
-  .phone-notch {
-    position: absolute; top: 10px; left: 50%; transform: translateX(-50%);
-    width: 92px; height: 26px; border-radius: 14px; background: #111; z-index: 30;
-  }
-  .phone-screen { position: absolute; inset: 0; display: flex; flex-direction: column; background: var(--bg); }
-  .phone-statusbar {
-    height: 44px; padding: 16px 24px 0;
-    display: flex; align-items: center; justify-content: space-between;
-    font: 600 13px/1 'Inter'; color: var(--ink); z-index: 20;
-  }
+  .phone-screen { display: contents; }
+  .phone-notch, .phone-statusbar { display: none; }
   .phone-body { flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
 
-  /* On real mobile: full-bleed app, no bezel */
-  @media (max-width: 640px) {
-    body { background: var(--bg); }
-    .canvas-pad { padding: 0; min-height: 100vh; }
+  @media (min-width: 640px) {
+    body { background: var(--bg-2); }
     .phone {
-      width: 100vw; height: 100vh; border-radius: 0;
-      box-shadow: none;
+      box-shadow: 0 1px 0 var(--rule-2), 0 0 0 1px var(--rule-2);
+      min-height: calc(100vh - 0px);
     }
-    .phone-notch { display: none; }
-    .phone-statusbar { display: none; }
+  }
+  @supports (height: 100dvh) {
+    @media (min-width: 640px) {
+      .phone { min-height: 100dvh; }
+    }
   }
 
   /* ─── Type ─── */

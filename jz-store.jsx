@@ -57,8 +57,11 @@ function JzProvider({ children }) {
   });
   React.useEffect(() => { writeJSON(STORAGE.daily, daily); }, [daily]);
 
-  // Current deck (in-memory only)
+  // Current deck (in-memory only). status: 'idle' | 'loading' | 'ready' | 'error'
   const [deck, setDeck] = React.useState(null);
+  const [deckStatus, setDeckStatus] = React.useState('idle');
+  const [deckError, setDeckError] = React.useState(null);
+  const lastUrlRef = React.useRef(null);
 
   // Per-deck progress
   const [progress, setProgress] = React.useState({});
@@ -72,8 +75,28 @@ function JzProvider({ children }) {
     if (deck) writeJSON(STORAGE.progress(deck.url), next);
   }
 
-  function loadDeck(d) {
-    setDeck(d);
+  // Async load — fetches and resolves the deck manifest into the in-memory shape.
+  // The most recent call wins: if the user kicks off a second load while the
+  // first is in flight, the first's result is discarded.
+  async function openDeck(url) {
+    lastUrlRef.current = url;
+    setDeckStatus('loading');
+    setDeckError(null);
+    try {
+      const d = await loadDeckFromUrl(url);
+      if (lastUrlRef.current !== url) return; // superseded
+      setDeck(d);
+      setDeckStatus('ready');
+    } catch (e) {
+      if (lastUrlRef.current !== url) return;
+      setDeckError(e);
+      setDeckStatus('error');
+      setDeck(null);
+    }
+  }
+
+  function retryDeck() {
+    if (lastUrlRef.current) openDeck(lastUrlRef.current);
   }
 
   function gradeCard(cardId, grade, wasNew) {
@@ -108,7 +131,7 @@ function JzProvider({ children }) {
 
   const value = {
     settings, updateSettings,
-    deck, loadDeck,
+    deck, deckStatus, deckError, openDeck, retryDeck,
     progress, gradeCard, setLastInfill, resetDeckProgress,
     daily, newAllowance,
   };

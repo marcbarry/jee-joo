@@ -1,20 +1,23 @@
 // Home + DeckLanding (wired)
 
+// The canonical default deck — relative to the page origin so it works in
+// local Docker (http://localhost:8080) and GitHub Pages (https://user.github.io/repo/) alike.
+const DEFAULT_DECK_URL = new URL('decks/jizhu-starter.json', window.location.href).href;
+
 function Home() {
-  const { loadDeck } = useStore();
+  const { openDeck } = useStore();
   const { go } = useRoute();
   const [urlValue, setUrlValue] = React.useState('');
   const [showInput, setShowInput] = React.useState(false);
 
   function start() {
-    loadDeck(STARTER_DECK);
+    openDeck(DEFAULT_DECK_URL);
     go('deck');
   }
 
   function loadFromUrl() {
-    // In production this would fetch the JSON. In the prototype we map
-    // the canonical starter URL → STARTER_DECK and fall back for anything else.
-    loadDeck(STARTER_DECK);
+    const url = urlValue.trim() || DEFAULT_DECK_URL;
+    openDeck(url);
     go('deck');
   }
 
@@ -48,7 +51,7 @@ function Home() {
           color: 'var(--ink-2)',
           maxWidth: 220,
         }}>
-          A a flashcard system built specifically for learning Chinese with Pinyin and Hanzi.
+          A flashcard system built specifically for learning Chinese with Pinyin and Hanzi.
         </p>
 
         {showInput && (
@@ -57,7 +60,7 @@ function Home() {
               type="text"
               value={urlValue}
               onChange={(e) => setUrlValue(e.target.value)}
-              placeholder="jizhu.app/d/starter.json"
+              placeholder={DEFAULT_DECK_URL}
               autoFocus
               className="w-full px-3 py-3 mono text-center"
               style={{
