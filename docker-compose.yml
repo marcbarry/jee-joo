@@ -1,0 +1,9 @@
+services:
+  jizhu:
+    build: .
+    container_name: jizhu
+    ports:
+      - "8080:80"
+    volumes:
+      - ./src:/usr/share/nginx/html
+    restart: unless-stopped
