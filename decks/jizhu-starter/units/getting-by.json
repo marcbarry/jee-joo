@@ -5,9 +5,9 @@
   "cards": [
     {
       "id": "ddfe2854-bb5c-4d21-b216-9f53bc50f05e",
-      "hanzi": "很难。",
-      "pinyin": "Hěn nán.",
-      "translation": "It's difficult.",
+      "hanzi": "很难",
+      "pinyin": "Hěn nán",
+      "translation": "It's difficult",
       "tokens": [
         {
           "hanzi": "很难。",
@@ -18,9 +18,9 @@
     },
     {
       "id": "ce69124b-4a09-46d4-82e5-d610c9786108",
-      "hanzi": "我不懂。",
-      "pinyin": "Wǒ bù dǒng.",
-      "translation": "I don't understand.",
+      "hanzi": "我不懂",
+      "pinyin": "Wǒ bù dǒng",
+      "translation": "I don't understand",
       "tokens": [
         {
           "hanzi": "我不懂。",
@@ -31,9 +31,9 @@
     },
     {
       "id": "a0bf80b7-1fa8-43f7-90ba-00a0bcb92213",
-      "hanzi": "请再说一遍。",
-      "pinyin": "Qǐng zài shuō yí biàn.",
-      "translation": "Please say it again.",
+      "hanzi": "请再说一遍",
+      "pinyin": "Qǐng zài shuō yí biàn",
+      "translation": "Please say it again",
       "tokens": [
         {
           "hanzi": "请再说一遍。",
@@ -44,9 +44,9 @@
     },
     {
       "id": "7f4aae0f-ea83-4990-9817-5dbadb0cb4e6",
-      "hanzi": "请说慢一点。",
-      "pinyin": "Qǐng shuō màn yìdiǎn.",
-      "translation": "Please speak more slowly.",
+      "hanzi": "请说慢一点",
+      "pinyin": "Qǐng shuō màn yìdiǎn",
+      "translation": "Please speak more slowly",
       "tokens": [
         {
           "hanzi": "请说慢一点。",
@@ -57,9 +57,9 @@
     },
     {
       "id": "7be59bdc-81cf-44b2-bc51-9d200f6c07ab",
-      "hanzi": "一点儿。",
-      "pinyin": "Yìdiǎnr.",
-      "translation": "A little.",
+      "hanzi": "一点儿",
+      "pinyin": "Yìdiǎnr",
+      "translation": "A little",
       "tokens": [
         {
           "hanzi": "一点儿。",
@@ -70,9 +70,9 @@
     },
     {
       "id": "9f74effc-618b-4813-b688-05e683bdb650",
-      "hanzi": "我会说一点中文。",
-      "pinyin": "Wǒ huì shuō yìdiǎn Zhōngwén.",
-      "translation": "I can speak a little Chinese.",
+      "hanzi": "我会说一点中文",
+      "pinyin": "Wǒ huì shuō yìdiǎn Zhōngwén",
+      "translation": "I can speak a little Chinese",
       "tokens": [
         {
           "hanzi": "我会说一点中文。",
@@ -83,9 +83,9 @@
     },
     {
       "id": "5b51a79b-983e-4d31-867a-8c5323a15ad2",
-      "hanzi": "我还在学。",
-      "pinyin": "Wǒ hái zài xué.",
-      "translation": "I'm still learning.",
+      "hanzi": "我还在学",
+      "pinyin": "Wǒ hái zài xué",
+      "translation": "I'm still learning",
       "tokens": [
         {
           "hanzi": "我还在学。",

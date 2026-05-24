@@ -18,9 +18,9 @@
     },
     {
       "id": "02809ad1-6f35-4a83-be3d-21b3330cdde3",
-      "hanzi": "我们走吧。",
-      "pinyin": "Wǒmen zǒu ba.",
-      "translation": "Let's go.",
+      "hanzi": "我们走吧",
+      "pinyin": "Wǒmen zǒu ba",
+      "translation": "Let's go",
       "tokens": [
         {
           "hanzi": "我们走吧。",
@@ -57,9 +57,9 @@
     },
     {
       "id": "b6a1cb80-1c63-445e-92b7-0c16ac14b111",
-      "hanzi": "我们去{place}吧。",
-      "pinyin": "Wǒmen qù {place} ba.",
-      "translation": "Let's go to {place}.",
+      "hanzi": "我们去{place}吧",
+      "pinyin": "Wǒmen qù {place} ba",
+      "translation": "Let's go to {place}",
       "slots": {
         "place": {
           "group": "places-in-town"
@@ -83,9 +83,9 @@
     },
     {
       "id": "ef9f53af-bbf9-4b94-81b2-73a8c4261539",
-      "hanzi": "我们一起去吧。",
-      "pinyin": "Wǒmen yìqǐ qù ba.",
-      "translation": "Let's go together.",
+      "hanzi": "我们一起去吧",
+      "pinyin": "Wǒmen yìqǐ qù ba",
+      "translation": "Let's go together",
       "tokens": [
         {
           "hanzi": "我们一起去吧。",
@@ -148,9 +148,9 @@
     },
     {
       "id": "fca64c77-5270-4b6a-8c56-82a7cb7e05de",
-      "hanzi": "我们在{place}见。",
-      "pinyin": "Wǒmen zài {place} jiàn.",
-      "translation": "Let's meet at {place}.",
+      "hanzi": "我们在{place}见",
+      "pinyin": "Wǒmen zài {place} jiàn",
+      "translation": "Let's meet at {place}",
       "slots": {
         "place": {
           "group": "places-in-town"
@@ -174,9 +174,9 @@
     },
     {
       "id": "8ad0f393-801f-4cbd-8cba-956735bfd63e",
-      "hanzi": "我们{hour}点见。",
-      "pinyin": "Wǒmen {hour} diǎn jiàn.",
-      "translation": "Let's meet at {hour} o'clock.",
+      "hanzi": "我们{hour}点见",
+      "pinyin": "Wǒmen {hour} diǎn jiàn",
+      "translation": "Let's meet at {hour} o'clock",
       "slots": {
         "hour": {
           "group": "hours"
@@ -200,9 +200,9 @@
     },
     {
       "id": "82613548-5458-47c8-895e-cd51a2217a1f",
-      "hanzi": "我在那里见你。",
-      "pinyin": "Wǒ zài nàlǐ jiàn nǐ.",
-      "translation": "I'll meet you there.",
+      "hanzi": "我在那里见你",
+      "pinyin": "Wǒ zài nàlǐ jiàn nǐ",
+      "translation": "I'll meet you there",
       "tokens": [
         {
           "hanzi": "我在那里见你。",
@@ -213,9 +213,9 @@
     },
     {
       "id": "f456180b-baad-43a7-9e7b-36b2f203deb1",
-      "hanzi": "{place}见。",
-      "pinyin": "{place} jiàn.",
-      "translation": "See you at {place}.",
+      "hanzi": "{place}见",
+      "pinyin": "{place} jiàn",
+      "translation": "See you at {place}",
       "slots": {
         "place": {
           "group": "places-in-town"
@@ -234,9 +234,9 @@
     },
     {
       "id": "36d5c265-a8f4-45d6-908e-733c9243c28a",
-      "hanzi": "一会儿见。",
-      "pinyin": "Yīhuìr jiàn.",
-      "translation": "See you later.",
+      "hanzi": "一会儿见",
+      "pinyin": "Yīhuìr jiàn",
+      "translation": "See you later",
       "tokens": [
         {
           "hanzi": "一会儿见。",
@@ -273,9 +273,9 @@
     },
     {
       "id": "ba98f488-8a0f-4387-9b38-460043e14aa7",
-      "hanzi": "我跟你一起去。",
-      "pinyin": "Wǒ gēn nǐ yìqǐ qù.",
-      "translation": "I'll come with you.",
+      "hanzi": "我跟你一起去",
+      "pinyin": "Wǒ gēn nǐ yìqǐ qù",
+      "translation": "I'll come with you",
       "tokens": [
         {
           "hanzi": "我跟你一起去。",
@@ -325,9 +325,9 @@
     },
     {
       "id": "8ad24c12-53f5-45a0-88b5-45a50a659089",
-      "hanzi": "带一个朋友来吧。",
-      "pinyin": "Dài yí ge péngyou lái ba.",
-      "translation": "Bring a friend.",
+      "hanzi": "带一个朋友来吧",
+      "pinyin": "Dài yí ge péngyou lái ba",
+      "translation": "Bring a friend",
       "tokens": [
         {
           "hanzi": "带一个朋友来吧。",
@@ -338,9 +338,9 @@
     },
     {
       "id": "18ff57c7-01df-4fbf-b3af-6172d764754f",
-      "hanzi": "听起来不错。",
-      "pinyin": "Tīng qǐlai búcuò.",
-      "translation": "Sounds good.",
+      "hanzi": "听起来不错",
+      "pinyin": "Tīng qǐlai búcuò",
+      "translation": "Sounds good",
       "tokens": [
         {
           "hanzi": "听起来不错。",
@@ -351,9 +351,9 @@
     },
     {
       "id": "4d943a32-78dd-4011-9589-df3e750615e0",
-      "hanzi": "我可以。",
-      "pinyin": "Wǒ kěyǐ.",
-      "translation": "That works for me.",
+      "hanzi": "我可以",
+      "pinyin": "Wǒ kěyǐ",
+      "translation": "That works for me",
       "tokens": [
         {
           "hanzi": "我可以。",
@@ -364,9 +364,9 @@
     },
     {
       "id": "21667b48-43bc-43b7-971c-336cabf1a9d9",
-      "hanzi": "对不起，我去不了。",
-      "pinyin": "Duìbuqǐ, wǒ qù bù liǎo.",
-      "translation": "Sorry, I can't make it.",
+      "hanzi": "对不起，我去不了",
+      "pinyin": "Duìbuqǐ, wǒ qù bù liǎo",
+      "translation": "Sorry, I can't make it",
       "tokens": [
         {
           "hanzi": "对不起，我去不了。",
@@ -377,9 +377,9 @@
     },
     {
       "id": "8a4f7879-5600-4534-a5c9-65650aab7650",
-      "hanzi": "下次吧。",
-      "pinyin": "Xià cì ba.",
-      "translation": "Maybe next time.",
+      "hanzi": "下次吧",
+      "pinyin": "Xià cì ba",
+      "translation": "Maybe next time",
       "tokens": [
         {
           "hanzi": "下次吧。",
@@ -390,9 +390,9 @@
     },
     {
       "id": "dd6a9738-3a37-4305-9e1d-c1e27535b31a",
-      "hanzi": "请给我打电话。",
-      "pinyin": "Qǐng gěi wǒ dǎ diànhuà.",
-      "translation": "Please call me.",
+      "hanzi": "请给我打电话",
+      "pinyin": "Qǐng gěi wǒ dǎ diànhuà",
+      "translation": "Please call me",
       "tokens": [
         {
           "hanzi": "请给我打电话。",
@@ -403,9 +403,9 @@
     },
     {
       "id": "246fff6d-1a69-47b3-9896-e22a12d58e01",
-      "hanzi": "我明天给你打电话。",
-      "pinyin": "Wǒ míngtiān gěi nǐ dǎ diànhuà.",
-      "translation": "I will call you tomorrow.",
+      "hanzi": "我明天给你打电话",
+      "pinyin": "Wǒ míngtiān gěi nǐ dǎ diànhuà",
+      "translation": "I will call you tomorrow",
       "tokens": [
         {
           "hanzi": "我明天给你打电话。",
@@ -429,9 +429,9 @@
     },
     {
       "id": "b575e422-d6e8-4f79-b378-58b9e88e7b7a",
-      "hanzi": "我能来。",
-      "pinyin": "Wǒ néng lái.",
-      "translation": "I can come.",
+      "hanzi": "我能来",
+      "pinyin": "Wǒ néng lái",
+      "translation": "I can come",
       "tokens": [
         {
           "hanzi": "我能来。",
@@ -442,9 +442,9 @@
     },
     {
       "id": "28debe1d-13c7-4193-889f-9da3911ff155",
-      "hanzi": "我不能来。",
-      "pinyin": "Wǒ bù néng lái.",
-      "translation": "I can't come.",
+      "hanzi": "我不能来",
+      "pinyin": "Wǒ bù néng lái",
+      "translation": "I can't come",
       "tokens": [
         {
           "hanzi": "我不能来。",

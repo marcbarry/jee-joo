@@ -70,9 +70,9 @@
     },
     {
       "id": "cf096a2e-2538-49e9-beb5-06eb89381146",
-      "hanzi": "我想打车。",
-      "pinyin": "Wǒ xiǎng dǎchē.",
-      "translation": "I want to take a taxi.",
+      "hanzi": "我想打车",
+      "pinyin": "Wǒ xiǎng dǎchē",
+      "translation": "I want to take a taxi",
       "tokens": [
         {
           "hanzi": "我想打车。",
@@ -85,7 +85,7 @@
       "id": "54f2cd1a-8601-48dc-92c5-d719292ad18e",
       "hanzi": "火车站在哪儿？",
       "pinyin": "Huǒchēzhàn zài nǎr?",
-      "translation": "Where is the train station.",
+      "translation": "Where is the train station",
       "tokens": [
         {
           "hanzi": "火车站在哪儿？",
@@ -96,9 +96,9 @@
     },
     {
       "id": "4fc8fd6f-6bfc-4ba3-8f3b-8ad16251b5d3",
-      "hanzi": "请在这里停。",
-      "pinyin": "Qǐng zài zhèlǐ tíng.",
-      "translation": "Please stop here.",
+      "hanzi": "请在这里停",
+      "pinyin": "Qǐng zài zhèlǐ tíng",
+      "translation": "Please stop here",
       "tokens": [
         {
           "hanzi": "请在这里停。",
@@ -109,9 +109,9 @@
     },
     {
       "id": "1e6aca86-689d-45e4-ab44-471951c27018",
-      "hanzi": "我要去{place}。",
-      "pinyin": "Wǒ yào qù {place}.",
-      "translation": "I am going to {place}.",
+      "hanzi": "我要去{place}",
+      "pinyin": "Wǒ yào qù {place}",
+      "translation": "I am going to {place}",
       "slots": {
         "place": {
           "group": "places-in-town"
@@ -156,9 +156,9 @@
     },
     {
       "id": "5f4e2bc2-9c49-41e6-9ca1-cf4037fb3e14",
-      "hanzi": "请带我去{place}。",
-      "pinyin": "Qǐng dài wǒ qù {place}.",
-      "translation": "Please take me to {place}.",
+      "hanzi": "请带我去{place}",
+      "pinyin": "Qǐng dài wǒ qù {place}",
+      "translation": "Please take me to {place}",
       "slots": {
         "place": {
           "group": "places-in-town"

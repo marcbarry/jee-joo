@@ -83,9 +83,9 @@
     },
     {
       "id": "ee452290-c115-48b3-ad87-ae8b71cdbffc",
-      "hanzi": "往{direction}。",
-      "pinyin": "Wǎng {direction}.",
-      "translation": "Turn {direction}.",
+      "hanzi": "往{direction}",
+      "pinyin": "Wǎng {direction}",
+      "translation": "Turn {direction}",
       "slots": {
         "direction": {
           "group": "directions"
@@ -156,9 +156,9 @@
     },
     {
       "id": "0ef0a6c5-d593-43e0-a33c-99620274a118",
-      "hanzi": "我迷路了。",
-      "pinyin": "Wǒ mílù le.",
-      "translation": "I'm lost.",
+      "hanzi": "我迷路了",
+      "pinyin": "Wǒ mílù le",
+      "translation": "I'm lost",
       "tokens": [
         {
           "hanzi": "我迷路了。",

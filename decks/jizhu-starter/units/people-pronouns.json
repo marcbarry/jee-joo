@@ -304,9 +304,9 @@
     },
     {
       "id": "5833c0ed-7cc6-4132-a56a-f2259a9b0a6f",
-      "hanzi": "很高兴认识你。",
-      "pinyin": "Hěn gāoxìng rènshi nǐ.",
-      "translation": "Nice to meet you.",
+      "hanzi": "很高兴认识你",
+      "pinyin": "Hěn gāoxìng rènshi nǐ",
+      "translation": "Nice to meet you",
       "tokens": [
         {
           "hanzi": "很高兴认识你。",
@@ -330,9 +330,9 @@
     },
     {
       "id": "2540bfaf-2236-4526-b4eb-9f2a7d423f6a",
-      "hanzi": "这是我的老师。",
-      "pinyin": "Zhè shì wǒ de lǎoshī.",
-      "translation": "This is my teacher.",
+      "hanzi": "这是我的老师",
+      "pinyin": "Zhè shì wǒ de lǎoshī",
+      "translation": "This is my teacher",
       "tokens": [
         {
           "hanzi": "这是我的老师。",
@@ -343,9 +343,9 @@
     },
     {
       "id": "a943f640-9e7f-446b-aaee-4b8130a93f84",
-      "hanzi": "他是我的朋友。",
-      "pinyin": "Tā shì wǒ de péngyou.",
-      "translation": "He is my friend.",
+      "hanzi": "他是我的朋友",
+      "pinyin": "Tā shì wǒ de péngyou",
+      "translation": "He is my friend",
       "tokens": [
         {
           "hanzi": "他是我的朋友。",
@@ -356,9 +356,9 @@
     },
     {
       "id": "bc6b64e4-2398-4b25-b70e-81dd62cfd410",
-      "hanzi": "我学中文。",
-      "pinyin": "Wǒ xué Zhōngwén.",
-      "translation": "I study Chinese.",
+      "hanzi": "我学中文",
+      "pinyin": "Wǒ xué Zhōngwén",
+      "translation": "I study Chinese",
       "tokens": [
         {
           "hanzi": "我学中文。",
@@ -382,9 +382,9 @@
     },
     {
       "id": "22cece6e-0df5-4034-ad39-d92c3a7268ef",
-      "hanzi": "我住在北京。",
-      "pinyin": "Wǒ zhù zài Běijīng.",
-      "translation": "I live in Beijing.",
+      "hanzi": "我住在北京",
+      "pinyin": "Wǒ zhù zài Běijīng",
+      "translation": "I live in Beijing",
       "tokens": [
         {
           "hanzi": "我住在北京。",
@@ -395,9 +395,9 @@
     },
     {
       "id": "e482051e-0587-460a-bb26-19139fb2cbf6",
-      "hanzi": "我叫{name}。",
-      "pinyin": "Wǒ jiào {name}.",
-      "translation": "My name is {name}.",
+      "hanzi": "我叫{name}",
+      "pinyin": "Wǒ jiào {name}",
+      "translation": "My name is {name}",
       "slots": {
         "name": {
           "group": "person-names"
@@ -416,9 +416,9 @@
     },
     {
       "id": "bcf93750-49b5-4d39-b89a-4ec325ced228",
-      "hanzi": "我是{nationality}。",
-      "pinyin": "Wǒ shì {nationality}.",
-      "translation": "I am {nationality}.",
+      "hanzi": "我是{nationality}",
+      "pinyin": "Wǒ shì {nationality}",
+      "translation": "I am {nationality}",
       "slots": {
         "nationality": {
           "group": "nationalities"
@@ -437,9 +437,9 @@
     },
     {
       "id": "73f89641-ee5f-4bf1-9200-b20fe438697b",
-      "hanzi": "我是{profession}。",
-      "pinyin": "Wǒ shì {profession}.",
-      "translation": "I am a {profession}.",
+      "hanzi": "我是{profession}",
+      "pinyin": "Wǒ shì {profession}",
+      "translation": "I am a {profession}",
       "slots": {
         "profession": {
           "group": "professions"
@@ -458,9 +458,9 @@
     },
     {
       "id": "6732e60b-5ec2-46ea-bcb5-ec7e7c5607cc",
-      "hanzi": "他是{profession}。",
-      "pinyin": "Tā shì {profession}.",
-      "translation": "He is a {profession}.",
+      "hanzi": "他是{profession}",
+      "pinyin": "Tā shì {profession}",
+      "translation": "He is a {profession}",
       "slots": {
         "profession": {
           "group": "professions"
@@ -479,9 +479,9 @@
     },
     {
       "id": "7afbf25c-a698-45fa-a54b-85502ac8f087",
-      "hanzi": "我在{place}工作。",
-      "pinyin": "Wǒ zài {place} gōngzuò.",
-      "translation": "I work at {place}.",
+      "hanzi": "我在{place}工作",
+      "pinyin": "Wǒ zài {place} gōngzuò",
+      "translation": "I work at {place}",
       "slots": {
         "place": {
           "group": "places-in-town"

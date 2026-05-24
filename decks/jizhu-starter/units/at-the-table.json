@@ -5,9 +5,9 @@
   "cards": [
     {
       "id": "76837912-8a23-4ba0-b503-4c77a96caf32",
-      "hanzi": "闻起来很香。",
-      "pinyin": "Wén qǐlai hěn xiāng.",
-      "translation": "It smells delicious.",
+      "hanzi": "闻起来很香",
+      "pinyin": "Wén qǐlai hěn xiāng",
+      "translation": "It smells delicious",
       "tokens": [
         {
           "hanzi": "闻起来很香。",
@@ -18,9 +18,9 @@
     },
     {
       "id": "f57e29f3-e062-4ef0-aea4-a0bbc109cd52",
-      "hanzi": "看起来很好吃。",
-      "pinyin": "Kàn qǐlai hěn hǎochī.",
-      "translation": "It looks delicious.",
+      "hanzi": "看起来很好吃",
+      "pinyin": "Kàn qǐlai hěn hǎochī",
+      "translation": "It looks delicious",
       "tokens": [
         {
           "hanzi": "看起来很好吃。",
@@ -31,9 +31,9 @@
     },
     {
       "id": "5cda8f16-943c-46f3-bd00-acd8d412dd53",
-      "hanzi": "很好吃。",
-      "pinyin": "Hěn hǎochī.",
-      "translation": "It's delicious.",
+      "hanzi": "很好吃",
+      "pinyin": "Hěn hǎochī",
+      "translation": "It's delicious",
       "tokens": [
         {
           "hanzi": "很好吃。",
@@ -57,9 +57,9 @@
     },
     {
       "id": "72eeee36-df39-4572-baf1-e556523cc817",
-      "hanzi": "很好。",
-      "pinyin": "Hěn hǎo.",
-      "translation": "Very good.",
+      "hanzi": "很好",
+      "pinyin": "Hěn hǎo",
+      "translation": "Very good",
       "tokens": [
         {
           "hanzi": "很好。",
@@ -70,9 +70,9 @@
     },
     {
       "id": "7781cbfb-4815-4e8c-ab0c-b2ee1d9be1b4",
-      "hanzi": "这个菜很好。",
-      "pinyin": "Zhège cài hěn hǎo.",
-      "translation": "This dish is very good.",
+      "hanzi": "这个菜很好",
+      "pinyin": "Zhège cài hěn hǎo",
+      "translation": "This dish is very good",
       "tokens": [
         {
           "hanzi": "这个菜很好。",
@@ -83,9 +83,9 @@
     },
     {
       "id": "02aa15eb-1f96-4e79-be27-99ee9245beee",
-      "hanzi": "我吃饱了，谢谢。",
-      "pinyin": "Wǒ chī bǎo le, xièxie.",
-      "translation": "I'm full, thank you.",
+      "hanzi": "我吃饱了，谢谢",
+      "pinyin": "Wǒ chī bǎo le, xièxie",
+      "translation": "I'm full, thank you",
       "tokens": [
         {
           "hanzi": "我吃饱了，谢谢。",
@@ -96,9 +96,9 @@
     },
     {
       "id": "2e3569b7-b41a-47a4-a385-4c40a8892b43",
-      "hanzi": "再来一点，谢谢。",
-      "pinyin": "Zài lái yìdiǎn, xièxie.",
-      "translation": "A little more, please.",
+      "hanzi": "再来一点，谢谢",
+      "pinyin": "Zài lái yìdiǎn, xièxie",
+      "translation": "A little more, please",
       "tokens": [
         {
           "hanzi": "再来一点，谢谢。",

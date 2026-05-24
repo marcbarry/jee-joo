@@ -187,9 +187,9 @@
     },
     {
       "id": "4589b9ca-6aa6-47fb-b1a4-2496af28f7e1",
-      "hanzi": "这本书很好。",
-      "pinyin": "Zhè běn shū hěn hǎo.",
-      "translation": "This book is good.",
+      "hanzi": "这本书很好",
+      "pinyin": "Zhè běn shū hěn hǎo",
+      "translation": "This book is good",
       "tokens": [
         {
           "hanzi": "这本书很好。",

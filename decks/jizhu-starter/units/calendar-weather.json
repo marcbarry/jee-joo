@@ -265,9 +265,9 @@
     },
     {
       "id": "4c2c7ef0-1b0e-4d32-ae3a-e206b641d409",
-      "hanzi": "今天很热。",
-      "pinyin": "Jīntiān hěn rè.",
-      "translation": "It's hot today.",
+      "hanzi": "今天很热",
+      "pinyin": "Jīntiān hěn rè",
+      "translation": "It's hot today",
       "tokens": [
         {
           "hanzi": "今天很热。",
@@ -278,9 +278,9 @@
     },
     {
       "id": "2a178303-c0eb-49f5-9bdb-2294cb584878",
-      "hanzi": "今天很冷。",
-      "pinyin": "Jīntiān hěn lěng.",
-      "translation": "It's cold today.",
+      "hanzi": "今天很冷",
+      "pinyin": "Jīntiān hěn lěng",
+      "translation": "It's cold today",
       "tokens": [
         {
           "hanzi": "今天很冷。",

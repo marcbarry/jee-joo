@@ -5,9 +5,9 @@
   "cards": [
     {
       "id": "a9e841cc-457f-4445-95d9-0003af926dec",
-      "hanzi": "我有预订。",
-      "pinyin": "Wǒ yǒu yùdìng.",
-      "translation": "I have a reservation.",
+      "hanzi": "我有预订",
+      "pinyin": "Wǒ yǒu yùdìng",
+      "translation": "I have a reservation",
       "tokens": [
         {
           "hanzi": "我有预订。",
@@ -18,9 +18,9 @@
     },
     {
       "id": "7d78ec93-b829-48eb-b269-fc7035b4849f",
-      "hanzi": "我想办理入住。",
-      "pinyin": "Wǒ xiǎng bànlǐ rùzhù.",
-      "translation": "I'd like to check in.",
+      "hanzi": "我想办理入住",
+      "pinyin": "Wǒ xiǎng bànlǐ rùzhù",
+      "translation": "I'd like to check in",
       "tokens": [
         {
           "hanzi": "我想办理入住。",
@@ -31,9 +31,9 @@
     },
     {
       "id": "69784c08-3d2d-4da0-9540-05520f993b3d",
-      "hanzi": "我想退房。",
-      "pinyin": "Wǒ xiǎng tuìfáng.",
-      "translation": "I'd like to check out.",
+      "hanzi": "我想退房",
+      "pinyin": "Wǒ xiǎng tuìfáng",
+      "translation": "I'd like to check out",
       "tokens": [
         {
           "hanzi": "我想退房。",
@@ -44,9 +44,9 @@
     },
     {
       "id": "82b7126d-d30b-418d-8a62-e8ec95b65ec9",
-      "hanzi": "我叫{name}。",
-      "pinyin": "Wǒ jiào {name}.",
-      "translation": "My name is {name}.",
+      "hanzi": "我叫{name}",
+      "pinyin": "Wǒ jiào {name}",
+      "translation": "My name is {name}",
       "slots": {
         "name": {
           "group": "person-names"
@@ -65,9 +65,9 @@
     },
     {
       "id": "937f399c-993e-441c-acee-0f73b54815d4",
-      "hanzi": "这是我的护照。",
-      "pinyin": "Zhè shì wǒ de hùzhào.",
-      "translation": "Here is my passport.",
+      "hanzi": "这是我的护照",
+      "pinyin": "Zhè shì wǒ de hùzhào",
+      "translation": "Here is my passport",
       "tokens": [
         {
           "hanzi": "这是我的护照。",
@@ -91,9 +91,9 @@
     },
     {
       "id": "e3b87ce5-2b17-4a47-b5d5-55ac838c8e64",
-      "hanzi": "我想要一间单人房。",
-      "pinyin": "Wǒ xiǎng yào yì jiān dānrénfáng.",
-      "translation": "I'd like a single room.",
+      "hanzi": "我想要一间单人房",
+      "pinyin": "Wǒ xiǎng yào yì jiān dānrénfáng",
+      "translation": "I'd like a single room",
       "tokens": [
         {
           "hanzi": "我想要一间单人房。",
@@ -104,9 +104,9 @@
     },
     {
       "id": "17c075a1-df30-4b9e-8c69-435375af9274",
-      "hanzi": "我想要一间双人房。",
-      "pinyin": "Wǒ xiǎng yào yì jiān shuāngrénfáng.",
-      "translation": "I'd like a double room.",
+      "hanzi": "我想要一间双人房",
+      "pinyin": "Wǒ xiǎng yào yì jiān shuāngrénfáng",
+      "translation": "I'd like a double room",
       "tokens": [
         {
           "hanzi": "我想要一间双人房。",
@@ -130,9 +130,9 @@
     },
     {
       "id": "3601636f-63ac-4ec5-83df-5b30a770f6ff",
-      "hanzi": "住{nights}晚。",
-      "pinyin": "Zhù {nights} wǎn.",
-      "translation": "For {nights} nights.",
+      "hanzi": "住{nights}晚",
+      "pinyin": "Zhù {nights} wǎn",
+      "translation": "For {nights} nights",
       "slots": {
         "nights": {
           "group": "night-counts"
@@ -221,9 +221,9 @@
     },
     {
       "id": "bf2d0480-9cf4-4642-beda-b84b04178b87",
-      "hanzi": "请给我钥匙。",
-      "pinyin": "Qǐng gěi wǒ yàoshi.",
-      "translation": "The key, please.",
+      "hanzi": "请给我钥匙",
+      "pinyin": "Qǐng gěi wǒ yàoshi",
+      "translation": "The key, please",
       "tokens": [
         {
           "hanzi": "请给我钥匙。",
@@ -234,9 +234,9 @@
     },
     {
       "id": "72327bb8-6833-4d81-b5f5-37c2eacb894a",
-      "hanzi": "我的钥匙丢了。",
-      "pinyin": "Wǒ de yàoshi diū le.",
-      "translation": "I've lost my key.",
+      "hanzi": "我的钥匙丢了",
+      "pinyin": "Wǒ de yàoshi diū le",
+      "translation": "I've lost my key",
       "tokens": [
         {
           "hanzi": "我的钥匙丢了。",
@@ -247,9 +247,9 @@
     },
     {
       "id": "b11023d6-2244-4e91-9936-e13bf1ad3a32",
-      "hanzi": "房间太热了。",
-      "pinyin": "Fángjiān tài rè le.",
-      "translation": "The room is too hot.",
+      "hanzi": "房间太热了",
+      "pinyin": "Fángjiān tài rè le",
+      "translation": "The room is too hot",
       "tokens": [
         {
           "hanzi": "房间太热了。",
@@ -260,9 +260,9 @@
     },
     {
       "id": "2f753cf0-498c-42d1-8c59-495a1a2f8334",
-      "hanzi": "房间太冷了。",
-      "pinyin": "Fángjiān tài lěng le.",
-      "translation": "The room is too cold.",
+      "hanzi": "房间太冷了",
+      "pinyin": "Fángjiān tài lěng le",
+      "translation": "The room is too cold",
       "tokens": [
         {
           "hanzi": "房间太冷了。",
@@ -273,9 +273,9 @@
     },
     {
       "id": "c7dea3d3-e68a-4053-8365-aeb919b45a3d",
-      "hanzi": "空调坏了。",
-      "pinyin": "Kōngtiáo huài le.",
-      "translation": "The air conditioning isn't working.",
+      "hanzi": "空调坏了",
+      "pinyin": "Kōngtiáo huài le",
+      "translation": "The air conditioning isn't working",
       "tokens": [
         {
           "hanzi": "空调坏了。",
@@ -286,9 +286,9 @@
     },
     {
       "id": "b23bf3df-c324-42a9-832f-5509567f85a3",
-      "hanzi": "热水坏了。",
-      "pinyin": "Rèshuǐ huài le.",
-      "translation": "The hot water isn't working.",
+      "hanzi": "热水坏了",
+      "pinyin": "Rèshuǐ huài le",
+      "translation": "The hot water isn't working",
       "tokens": [
         {
           "hanzi": "热水坏了。",
@@ -364,9 +364,9 @@
     },
     {
       "id": "fcfe49ed-6be2-46d3-a6aa-a585d05dbdc5",
-      "hanzi": "我想把行李放在这里。",
-      "pinyin": "Wǒ xiǎng bǎ xíngli fàng zài zhèlǐ.",
-      "translation": "I'd like to leave my bags here.",
+      "hanzi": "我想把行李放在这里",
+      "pinyin": "Wǒ xiǎng bǎ xíngli fàng zài zhèlǐ",
+      "translation": "I'd like to leave my bags here",
       "tokens": [
         {
           "hanzi": "我想把行李放在这里。",
@@ -377,9 +377,9 @@
     },
     {
       "id": "a422d470-90a1-4fa6-b9a8-fe5ee48a3894",
-      "hanzi": "我一会儿来拿。",
-      "pinyin": "Wǒ yīhuìr lái ná.",
-      "translation": "I'll pick them up later.",
+      "hanzi": "我一会儿来拿",
+      "pinyin": "Wǒ yīhuìr lái ná",
+      "translation": "I'll pick them up later",
       "tokens": [
         {
           "hanzi": "我一会儿来拿。",
@@ -390,9 +390,9 @@
     },
     {
       "id": "58976948-e80e-494b-bf74-19b0749b38c2",
-      "hanzi": "谢谢你的帮助。",
-      "pinyin": "Xièxie nǐ de bāngzhù.",
-      "translation": "Thank you for your help.",
+      "hanzi": "谢谢你的帮助",
+      "pinyin": "Xièxie nǐ de bāngzhù",
+      "translation": "Thank you for your help",
       "tokens": [
         {
           "hanzi": "谢谢你的帮助。",

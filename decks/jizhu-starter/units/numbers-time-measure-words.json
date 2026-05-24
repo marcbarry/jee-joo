@@ -421,9 +421,9 @@
     },
     {
       "id": "ff0ae9db-cdc3-47ea-84b9-311f2bcacf34",
-      "hanzi": "还早。",
-      "pinyin": "Hái zǎo.",
-      "translation": "It's still early.",
+      "hanzi": "还早",
+      "pinyin": "Hái zǎo",
+      "translation": "It's still early",
       "tokens": [
         {
           "hanzi": "还早。",
@@ -434,9 +434,9 @@
     },
     {
       "id": "8393a599-1c8a-4722-ba4d-bb100beaad24",
-      "hanzi": "很晚了。",
-      "pinyin": "Hěn wǎn le.",
-      "translation": "It's getting late.",
+      "hanzi": "很晚了",
+      "pinyin": "Hěn wǎn le",
+      "translation": "It's getting late",
       "tokens": [
         {
           "hanzi": "很晚了。",
@@ -460,9 +460,9 @@
     },
     {
       "id": "31d4f1d2-8bdb-4c41-b512-1c4891e6c1bf",
-      "hanzi": "我{age}岁。",
-      "pinyin": "Wǒ {age} suì.",
-      "translation": "I am {age} years old.",
+      "hanzi": "我{age}岁",
+      "pinyin": "Wǒ {age} suì",
+      "translation": "I am {age} years old",
       "slots": {
         "age": {
           "group": "ages"

@@ -5,9 +5,9 @@
   "cards": [
     {
       "id": "e04f8eac-6ec0-420a-8070-4f1183264663",
-      "hanzi": "你好。",
-      "pinyin": "Nǐ hǎo.",
-      "translation": "Hello.",
+      "hanzi": "你好",
+      "pinyin": "Nǐ hǎo",
+      "translation": "Hello",
       "tokens": [
         {
           "hanzi": "你好。",
@@ -20,7 +20,7 @@
       "id": "28411c37-4609-4c4a-bd3a-382c705d6285",
       "hanzi": "喂？",
       "pinyin": "Wéi?",
-      "translation": "Hello (on the phone).",
+      "translation": "Hello (on the phone)",
       "tokens": [
         {
           "hanzi": "喂？",
@@ -31,9 +31,9 @@
     },
     {
       "id": "07ea7ef2-c4db-4a22-98a6-223cde05dafc",
-      "hanzi": "再见。",
-      "pinyin": "Zàijiàn.",
-      "translation": "Goodbye.",
+      "hanzi": "再见",
+      "pinyin": "Zàijiàn",
+      "translation": "Goodbye",
       "tokens": [
         {
           "hanzi": "再见。",
@@ -44,9 +44,9 @@
     },
     {
       "id": "f903a616-987d-41e7-8b99-eed376404508",
-      "hanzi": "明天见。",
-      "pinyin": "Míngtiān jiàn.",
-      "translation": "See you tomorrow.",
+      "hanzi": "明天见",
+      "pinyin": "Míngtiān jiàn",
+      "translation": "See you tomorrow",
       "tokens": [
         {
           "hanzi": "明天见。",
@@ -57,9 +57,9 @@
     },
     {
       "id": "f4cfa8d2-5bbe-4292-8ec4-6a03cf45b305",
-      "hanzi": "谢谢。",
-      "pinyin": "Xièxie.",
-      "translation": "Thank you.",
+      "hanzi": "谢谢",
+      "pinyin": "Xièxie",
+      "translation": "Thank you",
       "tokens": [
         {
           "hanzi": "谢谢。",
@@ -70,9 +70,9 @@
     },
     {
       "id": "758a8ee1-92e9-4096-bbc7-4100ed3d83e5",
-      "hanzi": "不客气。",
-      "pinyin": "Bú kèqi.",
-      "translation": "You're welcome.",
+      "hanzi": "不客气",
+      "pinyin": "Bú kèqi",
+      "translation": "You're welcome",
       "tokens": [
         {
           "hanzi": "不客气。",
@@ -83,9 +83,9 @@
     },
     {
       "id": "243cfc3f-d27f-49cd-a26f-88bca074a87f",
-      "hanzi": "对不起。",
-      "pinyin": "Duìbuqǐ.",
-      "translation": "Sorry.",
+      "hanzi": "对不起",
+      "pinyin": "Duìbuqǐ",
+      "translation": "Sorry",
       "tokens": [
         {
           "hanzi": "对不起。",
@@ -96,9 +96,9 @@
     },
     {
       "id": "b43a0256-5fd3-4098-a1f0-2809f6c17eae",
-      "hanzi": "没关系。",
-      "pinyin": "Méi guānxi.",
-      "translation": "It's nothing. / No problem.",
+      "hanzi": "没关系",
+      "pinyin": "Méi guānxi",
+      "translation": "It's nothing. / No problem",
       "tokens": [
         {
           "hanzi": "没关系。",
@@ -109,9 +109,9 @@
     },
     {
       "id": "5592acd2-8bb7-4395-a428-e5898e1c66ed",
-      "hanzi": "请进。",
-      "pinyin": "Qǐng jìn.",
-      "translation": "Please come in.",
+      "hanzi": "请进",
+      "pinyin": "Qǐng jìn",
+      "translation": "Please come in",
       "tokens": [
         {
           "hanzi": "请进。",
@@ -122,9 +122,9 @@
     },
     {
       "id": "e3432f73-3de5-4a24-b912-daaf04267978",
-      "hanzi": "请坐。",
-      "pinyin": "Qǐng zuò.",
-      "translation": "Please sit down.",
+      "hanzi": "请坐",
+      "pinyin": "Qǐng zuò",
+      "translation": "Please sit down",
       "tokens": [
         {
           "hanzi": "请坐。",
