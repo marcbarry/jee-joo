@@ -6,19 +6,18 @@ A first deck for Jizhu, drawn from `hsk-1.md` and `first-trip-china.md`. English
 
 **Jizhu Starter — HSK 1 + First Trip to China**
 
-Two halves that reinforce each other: the HSK 1 building blocks (pronouns, numbers, question words, core verbs, particles, common nouns) anchor the practical "First Trip" units so that scenario phrases land on prepared ground rather than being memorized as opaque strings.
+HSK 1 building blocks (pronouns, numbers, question words, core verbs, particles, common nouns) alongside practical "First Trip" units (restaurants, hotels, directions, polite responses) so the deck is useful for both grammar drilling and real-world situations.
 
 ## Design principles
 
-1. **Foundations before scenarios.** Pronouns, numbers, question words, verbs, and common nouns are prerequisites for nearly every phrase in the first-trip material; they're sequenced first.
-2. **Earnable wins early.** Greetings and polite responses up front — within minutes of opening the app a learner can say something real.
-3. **Single words and phrases mix freely.** Both are cards; both have `tokens[]`. A single-word card just has one token.
-4. **Pattern phrases via slots, not duplication.** Where the same sentence frame applies to many infills (foods, places, durations), use a single pattern card referencing a shared vocabulary group — see the spec's `slots` and `vocabulary` sections.
-5. **Keep token decomposition meaningful.** Tokens split at word boundaries (e.g. `喜欢` is one token), not per-character, so glosses stay learnable.
+1. **Single words and phrases mix freely.** Both are cards; both have `tokens[]`. A single-word card just has one token.
+2. **Pattern phrases via slots, not duplication.** Where the same sentence frame applies to many infills (foods, places, durations), use a single pattern card referencing a shared vocabulary group — see the spec's `slots` and `vocabulary` sections.
+3. **Keep token decomposition meaningful.** Tokens split at word boundaries (e.g. `喜欢` is one token), not per-character, so glosses stay learnable.
+4. **Units are buckets, not steps.** A unit groups thematically related cards. There is no prerequisite chain and no intended study order — the SRS surfaces cards from across the whole deck.
 
 ## Shared vocabulary groups
 
-Defined at the deck level and referenced by slot tokens in pattern cards. The food groups are also the source content for Unit 10 (Food Vocabulary), so they double as both drill material and slot infills.
+Defined at the deck level and referenced by slot tokens in pattern cards. The food groups are also the source content for the Food Vocabulary unit, so they double as both drill material and slot infills.
 
 - `vegetables` — bok choy, Chinese cabbage, spinach, lettuce, broccoli, carrot, potato, sweet potato, tomato, cucumber, eggplant, bell pepper, chili pepper, garlic, ginger, onion, spring onion, leek, mushroom, wood ear mushroom, bean sprouts, green beans, snow peas, corn, tofu, seaweed.
 - `meats` — pork, beef, lamb, chicken, duck, egg.
@@ -31,9 +30,9 @@ Defined at the deck level and referenced by slot tokens in pattern cards. The fo
 
 ## Units
 
-### Unit 1 — Greetings & Politeness
+### Greetings & Politeness
 
-The quickest wins. Mostly fixed phrases.
+Mostly fixed phrases.
 
 - Hello.
 - Hello (on the phone).
@@ -46,9 +45,7 @@ The quickest wins. Mostly fixed phrases.
 - Please come in.
 - Please sit down.
 
-### Unit 2 — People & Pronouns
-
-Foundational. Single-word cards plus introductions.
+### People & Pronouns
 
 - I / me
 - you (singular)
@@ -79,9 +76,9 @@ Foundational. Single-word cards plus introductions.
 - This is my teacher.
 - He is my friend.
 
-### Unit 3 — Numbers, Time & Measure Words
+### Numbers, Time & Measure Words
 
-Numbers 0–10, the everyday time words, and the five HSK 1 measure words taught in the contexts where they actually appear (`岁` for age, `本` for books, etc.).
+Numbers 0–10, everyday time words, and the five HSK 1 measure words taught in the contexts where they actually appear (`岁` for age, `本` for books, etc.).
 
 - zero, one, two, three, four, five, six, seven, eight, nine, ten
 - general measure word (个)
@@ -106,9 +103,7 @@ Numbers 0–10, the everyday time words, and the five HSK 1 measure words taught
 - How old are you?
 - I am ___ years old.
 
-### Unit 4 — Asking Questions
-
-The interrogatives plus complete questions to anchor them.
+### Asking Questions
 
 - who
 - what
@@ -121,9 +116,7 @@ The interrogatives plus complete questions to anchor them.
 - How much is this?
 - Where is `{places-in-town}`? *(pattern, slot → `places-in-town`)*
 
-### Unit 5 — Essential Verbs
-
-The verbs that show up everywhere in the rest of the deck.
+### Essential Verbs
 
 - to be
 - to have / there is
@@ -162,7 +155,7 @@ The verbs that show up everywhere in the rest of the deck.
 - (possessive / modifier particle)
 - (completed-action / change-of-state particle)
 
-### Unit 6 — Calendar & Weather
+### Calendar & Weather
 
 - year
 - month
@@ -179,9 +172,9 @@ The verbs that show up everywhere in the rest of the deck.
 - happy / pleased
 - pretty / beautiful
 
-### Unit 7 — Things Around You
+### Things Around You
 
-Common nouns for home and tech that a learner will hear in casual conversation.
+Common nouns for home and tech.
 
 - book
 - (Chinese) character
@@ -201,9 +194,9 @@ Common nouns for home and tech that a learner will hear in casual conversation.
 - What is this?
 - Whose is this?
 
-### Unit 8 — At the Restaurant
+### At the Restaurant
 
-The core ordering scenario. Pattern phrases use the food slot groups.
+Pattern phrases use the food slot groups.
 
 - It's difficult to choose.
 - Sorry, I'm thinking slowly.
@@ -225,9 +218,9 @@ The core ordering scenario. Pattern phrases use the food slot groups.
 - The bill, please.
 - Can I pay by phone?
 
-### Unit 9 — At the Table
+### At the Table
 
-Reacting to food. Short, high-emotional-payoff phrases.
+Reacting to food.
 
 - It smells delicious.
 - It looks delicious.
@@ -238,9 +231,9 @@ Reacting to food. Short, high-emotional-payoff phrases.
 - A little more, please.
 - Cheers!
 
-### Unit 10 — Food Vocabulary
+### Food Vocabulary
 
-Surfaces the items in the shared vocabulary groups (`vegetables`, `meats`, `seafood`, `staples`, `seasonings`) as drillable cards in their own right. Same source of truth as the restaurant slots — the learner drills the items here, then encounters them again in pattern phrases in Unit 8.
+Surfaces the items in the shared vocabulary groups (`vegetables`, `meats`, `seafood`, `staples`, `seasonings`) as drillable cards in their own right. Same source of truth as the restaurant slots — the learner drills the items here, encounters them again in pattern phrases.
 
 Coverage by group:
 
@@ -250,9 +243,7 @@ Coverage by group:
 - Staples (~6 items): full `staples` group.
 - Seasonings (~6 items): full `seasonings` group.
 
-### Unit 11 — Polite Social Responses
-
-The "interacting with friends and their families" half of first-trip.
+### Polite Social Responses
 
 - No, thank you.
 - Yes please, I appreciate that.
@@ -265,9 +256,9 @@ The "interacting with friends and their families" half of first-trip.
 - I don't really drink.
 - Just a little, please.
 
-### Unit 12 — Getting Around (On Foot)
+### Getting Around (On Foot)
 
-Directions and the survival phrases for being out in a city.
+Directions and survival phrases for being out in a city.
 
 - left
 - right
@@ -284,7 +275,7 @@ Directions and the survival phrases for being out in a city.
 - Where is the bathroom?
 - Where is the subway?
 
-### Unit 13 — Getting Around (Transport)
+### Getting Around (Transport)
 
 Vehicles and transport hubs.
 
@@ -300,7 +291,7 @@ Vehicles and transport hubs.
 - Please take me to `{places-in-town}`. *(pattern, slot → `places-in-town`)*
 - Please stop here.
 
-### Unit 14 — At the Hotel
+### At the Hotel
 
 Check-in, check-out, and the small requests in between.
 
@@ -334,7 +325,7 @@ Check-in, check-out, and the small requests in between.
 - I'll pick them up later.
 - Thank you for your help.
 
-### Unit 15 — Getting By
+### Getting By
 
 Phrases for when the conversation outpaces the learner.
 
@@ -354,7 +345,3 @@ Phrases for when the conversation outpaces the learner.
 - **Romanization style.** Spec already says tone marks, not tone numbers. Reaffirm here.
 - **Pattern card progress.** When the SRS surfaces a pattern card, does it pick a random infill each review, cycle through, or treat infills as separate progress targets? Out of scope for the JSON; flagged for the runtime design.
 - **Deck size sanity check.** Roughly 230–270 cards across 15 units once pattern cards are counted singly. Manageable because pattern phrases collapse what would otherwise be many near-duplicates.
-
-## Suggested ordering rationale
-
-Units 1–7 are foundations and can be drilled in any order, but Greetings first gives the fastest dopamine hit. Units 8–15 are scenario-based and assume the foundations. Within a session, the SRS layer (still to be designed) will surface cards across units based on the learner's state — but the **default first pass** should follow the unit order so that scenario phrases land on prepared ground.
