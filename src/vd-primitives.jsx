@@ -50,7 +50,7 @@ function GradeRow({ disabled = false, onGrade }) {
     { k: 'again', lbl: 'Again', sub: '<1m', cls: 'again' },
     { k: 'hard',  lbl: 'Hard',  sub: '6m',  cls: '' },
     { k: 'good',  lbl: 'Good',  sub: '1d',  cls: '' },
-    { k: 'easy',  lbl: 'Easy',  sub: '4d',  cls: 'easy' },
+    { k: 'easy',  lbl: 'Easy',  sub: '4d',  cls: '' },
   ];
   return (
     <div className="grid grid-cols-4 gap-2" style={{ opacity: disabled ? 0.4 : 1 }}>
@@ -67,14 +67,12 @@ function GradeRow({ disabled = false, onGrade }) {
 }
 
 // Per-token ruby block (used in review screens).
-// Pronunciation is always shown EXCEPT when hanzi is the emphasis.
-//   hanzi-test (default):    bare hanzi · click 1 → pinyin + pronunciation · click 2 → gloss.
-//   pinyin-test (hanziOff):  pinyin big + pronunciation always shown · click → gloss.
-function HintToken({ char, pinyin, say, gloss, level = 0, hanziOff = false }) {
-  const has1 = level >= 1, has2 = level >= 2;
-
+// A hint on a single token reveals the English for that one item; once every token has been
+// hinted, the parent auto-reveals the full sentence translation.
+//   hanzi-test (default):    bare hanzi · hint reveals pinyin + pronunciation + gloss together.
+//   pinyin-test (hanziOff):  pinyin big + pronunciation always shown · hint reveals gloss.
+function HintToken({ char, pinyin, say, gloss, hinted = false, hanziOff = false }) {
   if (hanziOff) {
-    // Pinyin-test mode — pronunciation always visible; click reveals the gloss.
     return (
       <span className="flex flex-col items-center" style={{ padding: '0 4px', minWidth: 64 }}>
         <span className="sc" style={{
@@ -83,7 +81,7 @@ function HintToken({ char, pinyin, say, gloss, level = 0, hanziOff = false }) {
         <span style={{
           fontSize: 26, lineHeight: 1.05, marginTop: 4, color: 'var(--ink)',
           fontWeight: 500, letterSpacing: '-0.005em',
-          borderBottom: level === 0 ? '1.5px dotted var(--ink-4)' : '1.5px solid transparent',
+          borderBottom: hinted ? '1.5px solid transparent' : '1.5px dotted var(--ink-4)',
           paddingBottom: 1,
         }}>{pinyin}</span>
         <span className="mono" style={{
@@ -92,33 +90,32 @@ function HintToken({ char, pinyin, say, gloss, level = 0, hanziOff = false }) {
         }}>"{say}"</span>
         <span style={{
           fontSize: 11, color: 'var(--ink-3)', marginTop: 4, height: 13, lineHeight: 1,
-          opacity: has1 ? 1 : 0,
+          opacity: hinted ? 1 : 0,
         }}>{gloss}</span>
       </span>
     );
   }
 
-  // Hanzi-test mode — pinyin AND pronunciation revealed together at level 1; gloss at level 2.
   return (
     <span className="flex flex-col items-center" style={{ padding: '0 4px', minWidth: 64 }}>
       <span style={{
         height: 14, fontSize: 12, fontWeight: 500, color: 'var(--ink-2)', lineHeight: 1,
-        opacity: has1 ? 1 : 0,
+        opacity: hinted ? 1 : 0,
       }}>{pinyin}</span>
       <span className="sc" style={{
         fontSize: 42, lineHeight: 1.05, marginTop: 6, color: 'var(--ink)',
         fontWeight: 500,
-        borderBottom: level === 0 ? '1.5px dotted var(--ink-4)' : '1.5px solid transparent',
+        borderBottom: hinted ? '1.5px solid transparent' : '1.5px dotted var(--ink-4)',
         paddingBottom: 1,
       }}>{char}</span>
       <span className="mono" style={{
         fontSize: 11, fontWeight: 500, color: 'var(--accent)', marginTop: 6,
         height: 14, lineHeight: 1, fontStyle: 'italic',
-        opacity: has1 ? 1 : 0,
+        opacity: hinted ? 1 : 0,
       }}>"{say}"</span>
       <span style={{
         fontSize: 11, color: 'var(--ink-3)', marginTop: 4, height: 13, lineHeight: 1,
-        opacity: has2 ? 1 : 0,
+        opacity: hinted ? 1 : 0,
       }}>{gloss}</span>
     </span>
   );

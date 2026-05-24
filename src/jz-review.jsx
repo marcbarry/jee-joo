@@ -91,26 +91,31 @@ function DoneScreen({ total, onContinue }) {
 
 function PhraseCard({ card, onGrade }) {
   const { settings } = useStore();
-  // Per-token reveal levels: 0 → 1 (pinyin) → 2 (sound+gloss)
-  const [levels, setLevels] = React.useState(() => card.tokens.map(() => 0));
+  // Each token is hinted or not (binary). Hinting reveals the English for that one token.
+  const [hinted, setHinted] = React.useState(() => card.tokens.map(() => false));
   const [transRevealed, setTransRevealed] = React.useState(false);
 
   // Reset state when card changes
   React.useEffect(() => {
-    setLevels(card.tokens.map(() => 0));
+    setHinted(card.tokens.map(() => false));
     setTransRevealed(false);
   }, [card.id]);
 
-  // Auto-reveal the translation once every token has been hinted at all —
-  // at that point the user has signalled they want help, save them a tap.
+  // When every token has been hinted, auto-reveal the full sentence translation.
   React.useEffect(() => {
-    if (levels.length && levels.every(v => v >= 1)) {
+    if (hinted.length && hinted.every(Boolean)) {
       setTransRevealed(true);
     }
-  }, [levels]);
+  }, [hinted]);
 
-  function bumpToken(i) {
-    setLevels(L => L.map((v, j) => j === i ? Math.min(2, v + 1) : v));
+  function hintToken(i) {
+    setHinted(H => H.map((v, j) => j === i ? true : v));
+  }
+
+  // Reveal the translation directly AND hint every token at the same time.
+  function revealAll() {
+    setHinted(H => H.map(() => true));
+    setTransRevealed(true);
   }
 
   return (
@@ -118,18 +123,18 @@ function PhraseCard({ card, onGrade }) {
       <div className="flex-1 flex flex-col justify-center">
         <div className="flex items-end justify-center" style={{ gap: 4, flexWrap: 'wrap' }}>
           {card.tokens.map((t, i) => (
-            <button key={i} onClick={() => bumpToken(i)}>
+            <button key={i} onClick={() => hintToken(i)}>
               <HintToken
                 char={t.char} pinyin={t.pinyin} say={sayAs(t.pinyin)} gloss={t.gloss}
-                level={levels[i]} hanziOff={!settings.showHanzi}
+                hinted={hinted[i]} hanziOff={!settings.showHanzi}
               />
             </button>
           ))}
         </div>
 
-        {/* Translation reveal */}
+        {/* Translation reveal — clicking also hints every token */}
         <button className="mt-10 mx-1 flex items-center justify-between"
-                onClick={() => setTransRevealed(true)}
+                onClick={revealAll}
                 style={{
                   border: '1px solid var(--rule)', borderRadius: 10,
                   padding: '14px 16px', background: 'var(--bg)',
