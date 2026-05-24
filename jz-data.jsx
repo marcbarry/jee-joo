@@ -24,8 +24,9 @@ const FINAL_MAP = {
   // 4-char
   iang: 'yahng', iong: 'yoong', uang: 'wahng', ueng: 'wung',
   // 3-char
-  iao: 'yow', ian: 'yen', ing: 'ing',
+  iao: 'yow', ian: 'yen', iou: 'yo', ing: 'ing',
   uai: 'why', uan: 'wahn',
+  uei: 'way', uen: 'wun',
   ang: 'ahng', eng: 'ung', ong: 'oong',
   'üan': 'ywen',
   // 2-char
@@ -49,17 +50,24 @@ const JQXY = new Set(['j', 'q', 'x', 'y']);
 // Whole-syllable overrides for cases where the rule output reads awkwardly to
 // English speakers. Keep this small — the rules cover the vast majority.
 const OVERRIDES = {
-  // w-/y- glide orthography
+  // w-/y- bare syllables
   wu: 'oo',
-  yi: 'ee', yin: 'een', ying: 'ing',
-  yu: 'yoo', yue: 'yweh', yuan: 'ywen', yun: 'yun',
+  yi: 'ee',
   // j/q/x + ü-merged spellings — rules would produce y-prefixed glides
   xue:  'shweh',  que:  'chweh',  jue:  'jweh',
   xuan: 'shwen',  quan: 'chwen',  juan: 'jwen',
   xun:  'shoon',  qun:  'choon',  jun:  'joon',
 };
 
-// Strip tone marks → bare syllable, lowercased, for rule lookup.
+// Strip sentence punctuation around a pinyin syllable.
+function cleanPinyinSyllable(p) {
+  return p
+    .replace(/^[“"'<([{]+|[”"'>)\]}.,!?;:。？！、，；：]+$/g, '')
+    .toLowerCase();
+}
+
+// Strip tone marks → bare syllable, lowercased, for rule lookup. Toned ü vowels
+// stay in the ü class so nü/lü remain distinct from nu/lu.
 function stripTones(p) {
   const map = {
     'ā':'a','á':'a','ǎ':'a','à':'a',
@@ -67,9 +75,32 @@ function stripTones(p) {
     'ī':'i','í':'i','ǐ':'i','ì':'i',
     'ō':'o','ó':'o','ǒ':'o','ò':'o',
     'ū':'u','ú':'u','ǔ':'u','ù':'u',
-    'ǖ':'u','ǘ':'u','ǚ':'u','ǜ':'u','ü':'u',
+    'ǖ':'ü','ǘ':'ü','ǚ':'ü','ǜ':'ü',
   };
-  return p.split('').map(c => map[c] || c).join('').toLowerCase();
+  return cleanPinyinSyllable(p).split('').map(c => map[c] || c).join('');
+}
+
+function normalizeYW(bare) {
+  if (bare === 'yi') return bare;
+  if (bare === 'wu') return bare;
+  if (bare === 'yu') return 'ü';
+
+  // y marks i-/ü-family finals when no consonant initial is written.
+  if (bare.startsWith('y')) {
+    const rest = bare.slice(1);
+    if (['ue', 'uan', 'un'].includes(rest)) return 'ü' + rest.slice(1);
+    if (rest === 'ong') return 'iong';
+    return 'i' + rest;
+  }
+
+  // w marks u-family finals when no consonant initial is written.
+  if (bare.startsWith('w')) {
+    const rest = bare.slice(1);
+    if (rest === 'u') return 'u';
+    return 'u' + rest;
+  }
+
+  return bare;
 }
 
 function splitSyllable(bare) {
@@ -88,7 +119,7 @@ function sayAs(pinyin) {
     return pinyin.split(/\s+/).map(sayAs).join(' ');
   }
 
-  const bare = stripTones(pinyin);
+  const bare = normalizeYW(stripTones(pinyin));
   if (!bare) return '';
 
   if (OVERRIDES[bare]) return OVERRIDES[bare];
