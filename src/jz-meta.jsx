@@ -160,7 +160,7 @@ function Stats() {
           <div className="grid grid-cols-3 gap-4">
             <div>
               <div className="mono" style={{ fontSize: 22, fontWeight: 500, color: 'var(--accent)' }}>
-                {[...dailyCount.keys()].length || 0}
+                {activeDays.size || 0}
               </div>
               <div className="tag" style={{ marginTop: 2 }}>active days</div>
             </div>
