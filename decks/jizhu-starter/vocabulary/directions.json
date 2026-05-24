@@ -1,0 +1,23 @@
+{
+  "id": "directions",
+  "items": [
+    {
+      "id": "",
+      "hanzi": "左",
+      "pinyin": "zuǒ",
+      "gloss": "left"
+    },
+    {
+      "id": "",
+      "hanzi": "右",
+      "pinyin": "yòu",
+      "gloss": "right"
+    },
+    {
+      "id": "",
+      "hanzi": "一直走",
+      "pinyin": "yīzhí zǒu",
+      "gloss": "straight ahead"
+    }
+  ]
+}

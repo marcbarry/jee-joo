@@ -1,0 +1,506 @@
+{
+  "id": "people-pronouns",
+  "title": "People & Pronouns",
+  "cards": [
+    {
+      "id": "",
+      "hanzi": "我",
+      "pinyin": "wǒ",
+      "translation": "I / me",
+      "tokens": [
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "gloss": "I / me"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "translation": "you (singular)",
+      "tokens": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "gloss": "you (singular)"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "他",
+      "pinyin": "tā",
+      "translation": "he / him",
+      "tokens": [
+        {
+          "hanzi": "他",
+          "pinyin": "tā",
+          "gloss": "he / him"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "她",
+      "pinyin": "tā",
+      "translation": "she / her",
+      "tokens": [
+        {
+          "hanzi": "她",
+          "pinyin": "tā",
+          "gloss": "she / her"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我们",
+      "pinyin": "wǒmen",
+      "translation": "we / us",
+      "tokens": [
+        {
+          "hanzi": "我们",
+          "pinyin": "wǒmen",
+          "gloss": "we / us"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "你们",
+      "pinyin": "nǐmen",
+      "translation": "you (plural)",
+      "tokens": [
+        {
+          "hanzi": "你们",
+          "pinyin": "nǐmen",
+          "gloss": "you (plural)"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "他们",
+      "pinyin": "tāmen",
+      "translation": "they (mixed or masculine)",
+      "tokens": [
+        {
+          "hanzi": "他们",
+          "pinyin": "tāmen",
+          "gloss": "they (mixed or masculine)"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "她们",
+      "pinyin": "tāmen",
+      "translation": "they (feminine)",
+      "tokens": [
+        {
+          "hanzi": "她们",
+          "pinyin": "tāmen",
+          "gloss": "they (feminine)"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "这",
+      "pinyin": "zhè",
+      "translation": "this",
+      "tokens": [
+        {
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "gloss": "this"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "那",
+      "pinyin": "nà",
+      "translation": "that",
+      "tokens": [
+        {
+          "hanzi": "那",
+          "pinyin": "nà",
+          "gloss": "that"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "人",
+      "pinyin": "rén",
+      "translation": "person",
+      "tokens": [
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "gloss": "person"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "名字",
+      "pinyin": "míngzi",
+      "translation": "name",
+      "tokens": [
+        {
+          "hanzi": "名字",
+          "pinyin": "míngzi",
+          "gloss": "name"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "朋友",
+      "pinyin": "péngyou",
+      "translation": "friend",
+      "tokens": [
+        {
+          "hanzi": "朋友",
+          "pinyin": "péngyou",
+          "gloss": "friend"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "学生",
+      "pinyin": "xuésheng",
+      "translation": "student",
+      "tokens": [
+        {
+          "hanzi": "学生",
+          "pinyin": "xuésheng",
+          "gloss": "student"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "老师",
+      "pinyin": "lǎoshī",
+      "translation": "teacher",
+      "tokens": [
+        {
+          "hanzi": "老师",
+          "pinyin": "lǎoshī",
+          "gloss": "teacher"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "同学",
+      "pinyin": "tóngxué",
+      "translation": "classmate",
+      "tokens": [
+        {
+          "hanzi": "同学",
+          "pinyin": "tóngxué",
+          "gloss": "classmate"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "医生",
+      "pinyin": "yīshēng",
+      "translation": "doctor",
+      "tokens": [
+        {
+          "hanzi": "医生",
+          "pinyin": "yīshēng",
+          "gloss": "doctor"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "先生",
+      "pinyin": "xiānsheng",
+      "translation": "Mr. / sir",
+      "tokens": [
+        {
+          "hanzi": "先生",
+          "pinyin": "xiānsheng",
+          "gloss": "Mr. / sir"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "小姐",
+      "pinyin": "xiǎojiě",
+      "translation": "Miss",
+      "tokens": [
+        {
+          "hanzi": "小姐",
+          "pinyin": "xiǎojiě",
+          "gloss": "Miss"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "中国",
+      "pinyin": "Zhōngguó",
+      "translation": "China",
+      "tokens": [
+        {
+          "hanzi": "中国",
+          "pinyin": "Zhōngguó",
+          "gloss": "China"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "北京",
+      "pinyin": "Běijīng",
+      "translation": "Beijing",
+      "tokens": [
+        {
+          "hanzi": "北京",
+          "pinyin": "Běijīng",
+          "gloss": "Beijing"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "你叫什么名字？",
+      "pinyin": "Nǐ jiào shénme míngzi?",
+      "translation": "What is your name?",
+      "tokens": [
+        {
+          "hanzi": "你叫什么名字？",
+          "pinyin": "Nǐ jiào shénme míngzi?",
+          "gloss": "What is your name?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "你姓什么？",
+      "pinyin": "Nǐ xìng shénme?",
+      "translation": "What is your surname?",
+      "tokens": [
+        {
+          "hanzi": "你姓什么？",
+          "pinyin": "Nǐ xìng shénme?",
+          "gloss": "What is your surname?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "很高兴认识你。",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "translation": "Nice to meet you.",
+      "tokens": [
+        {
+          "hanzi": "很高兴认识你。",
+          "pinyin": "Hěn gāoxìng rènshi nǐ.",
+          "gloss": "Nice to meet you."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "你是哪国人？",
+      "pinyin": "Nǐ shì nǎ guó rén?",
+      "translation": "Where are you from?",
+      "tokens": [
+        {
+          "hanzi": "你是哪国人？",
+          "pinyin": "Nǐ shì nǎ guó rén?",
+          "gloss": "Where are you from?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "这是我的老师。",
+      "pinyin": "Zhè shì wǒ de lǎoshī.",
+      "translation": "This is my teacher.",
+      "tokens": [
+        {
+          "hanzi": "这是我的老师。",
+          "pinyin": "Zhè shì wǒ de lǎoshī.",
+          "gloss": "This is my teacher."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "他是我的朋友。",
+      "pinyin": "Tā shì wǒ de péngyou.",
+      "translation": "He is my friend.",
+      "tokens": [
+        {
+          "hanzi": "他是我的朋友。",
+          "pinyin": "Tā shì wǒ de péngyou.",
+          "gloss": "He is my friend."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我学中文。",
+      "pinyin": "Wǒ xué Zhōngwén.",
+      "translation": "I study Chinese.",
+      "tokens": [
+        {
+          "hanzi": "我学中文。",
+          "pinyin": "Wǒ xué Zhōngwén.",
+          "gloss": "I study Chinese."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "你住在哪儿？",
+      "pinyin": "Nǐ zhù zài nǎr?",
+      "translation": "Where do you live?",
+      "tokens": [
+        {
+          "hanzi": "你住在哪儿？",
+          "pinyin": "Nǐ zhù zài nǎr?",
+          "gloss": "Where do you live?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我住在北京。",
+      "pinyin": "Wǒ zhù zài Běijīng.",
+      "translation": "I live in Beijing.",
+      "tokens": [
+        {
+          "hanzi": "我住在北京。",
+          "pinyin": "Wǒ zhù zài Běijīng.",
+          "gloss": "I live in Beijing."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我叫{name}。",
+      "pinyin": "Wǒ jiào {name}.",
+      "translation": "My name is {name}.",
+      "slots": {
+        "name": {
+          "group": "person-names"
+        }
+      },
+      "tokens": [
+        {
+          "hanzi": "我叫",
+          "pinyin": "wǒ jiào",
+          "gloss": "my name is"
+        },
+        {
+          "slot": "name"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我是{nationality}。",
+      "pinyin": "Wǒ shì {nationality}.",
+      "translation": "I am {nationality}.",
+      "slots": {
+        "nationality": {
+          "group": "nationalities"
+        }
+      },
+      "tokens": [
+        {
+          "hanzi": "我是",
+          "pinyin": "wǒ shì",
+          "gloss": "I am"
+        },
+        {
+          "slot": "nationality"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我是{profession}。",
+      "pinyin": "Wǒ shì {profession}.",
+      "translation": "I am a {profession}.",
+      "slots": {
+        "profession": {
+          "group": "professions"
+        }
+      },
+      "tokens": [
+        {
+          "hanzi": "我是",
+          "pinyin": "wǒ shì",
+          "gloss": "I am"
+        },
+        {
+          "slot": "profession"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "他是{profession}。",
+      "pinyin": "Tā shì {profession}.",
+      "translation": "He is a {profession}.",
+      "slots": {
+        "profession": {
+          "group": "professions"
+        }
+      },
+      "tokens": [
+        {
+          "hanzi": "他是",
+          "pinyin": "tā shì",
+          "gloss": "he is"
+        },
+        {
+          "slot": "profession"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我在{place}工作。",
+      "pinyin": "Wǒ zài {place} gōngzuò.",
+      "translation": "I work at {place}.",
+      "slots": {
+        "place": {
+          "group": "places-in-town"
+        }
+      },
+      "tokens": [
+        {
+          "hanzi": "我在",
+          "pinyin": "wǒ zài",
+          "gloss": "I am at"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "hanzi": "工作",
+          "pinyin": "gōngzuò",
+          "gloss": "work"
+        }
+      ]
+    }
+  ]
+}

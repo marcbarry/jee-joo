@@ -1,0 +1,35 @@
+{
+  "id": "durations",
+  "items": [
+    {
+      "id": "",
+      "hanzi": "一会儿",
+      "pinyin": "yīhuìr",
+      "gloss": "a moment"
+    },
+    {
+      "id": "",
+      "hanzi": "几分钟",
+      "pinyin": "jǐ fēnzhōng",
+      "gloss": "a few minutes"
+    },
+    {
+      "id": "",
+      "hanzi": "一个小时",
+      "pinyin": "yí ge xiǎoshí",
+      "gloss": "an hour"
+    },
+    {
+      "id": "",
+      "hanzi": "一天",
+      "pinyin": "yì tiān",
+      "gloss": "a day"
+    },
+    {
+      "id": "",
+      "hanzi": "一个星期",
+      "pinyin": "yí ge xīngqī",
+      "gloss": "a week"
+    }
+  ]
+}

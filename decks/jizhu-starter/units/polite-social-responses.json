@@ -1,0 +1,136 @@
+{
+  "id": "polite-social-responses",
+  "title": "Polite Social Responses",
+  "cards": [
+    {
+      "id": "",
+      "hanzi": "不用了，谢谢。",
+      "pinyin": "Bú yòng le, xièxie.",
+      "translation": "No, thank you.",
+      "tokens": [
+        {
+          "hanzi": "不用了，谢谢。",
+          "pinyin": "Bú yòng le, xièxie.",
+          "gloss": "No, thank you."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "好的，谢谢。",
+      "pinyin": "Hǎo de, xièxie.",
+      "translation": "Yes please, I appreciate that.",
+      "tokens": [
+        {
+          "hanzi": "好的，谢谢。",
+          "pinyin": "Hǎo de, xièxie.",
+          "gloss": "Yes please, I appreciate that."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "谢谢，你太好了。",
+      "pinyin": "Xièxie, nǐ tài hǎo le.",
+      "translation": "Thank you, you're very kind.",
+      "tokens": [
+        {
+          "hanzi": "谢谢，你太好了。",
+          "pinyin": "Xièxie, nǐ tài hǎo le.",
+          "gloss": "Thank you, you're very kind."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "太好了。",
+      "pinyin": "Tài hǎo le.",
+      "translation": "Great.",
+      "tokens": [
+        {
+          "hanzi": "太好了。",
+          "pinyin": "Tài hǎo le.",
+          "gloss": "Great."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "好。",
+      "pinyin": "Hǎo.",
+      "translation": "Good.",
+      "tokens": [
+        {
+          "hanzi": "好。",
+          "pinyin": "Hǎo.",
+          "gloss": "Good."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "可以。",
+      "pinyin": "Kěyǐ.",
+      "translation": "That's fine.",
+      "tokens": [
+        {
+          "hanzi": "可以。",
+          "pinyin": "Kěyǐ.",
+          "gloss": "That's fine."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我会努力。",
+      "pinyin": "Wǒ huì nǔlì.",
+      "translation": "I will work hard.",
+      "tokens": [
+        {
+          "hanzi": "我会努力。",
+          "pinyin": "Wǒ huì nǔlì.",
+          "gloss": "I will work hard."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我不太抽烟。",
+      "pinyin": "Wǒ bú tài chōuyān.",
+      "translation": "I don't really smoke.",
+      "tokens": [
+        {
+          "hanzi": "我不太抽烟。",
+          "pinyin": "Wǒ bú tài chōuyān.",
+          "gloss": "I don't really smoke."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我不太喝酒。",
+      "pinyin": "Wǒ bú tài hējiǔ.",
+      "translation": "I don't really drink.",
+      "tokens": [
+        {
+          "hanzi": "我不太喝酒。",
+          "pinyin": "Wǒ bú tài hējiǔ.",
+          "gloss": "I don't really drink."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "一点点就好。",
+      "pinyin": "Yìdiǎndiǎn jiù hǎo.",
+      "translation": "Just a little, please.",
+      "tokens": [
+        {
+          "hanzi": "一点点就好。",
+          "pinyin": "Yìdiǎndiǎn jiù hǎo.",
+          "gloss": "Just a little, please."
+        }
+      ]
+    }
+  ]
+}

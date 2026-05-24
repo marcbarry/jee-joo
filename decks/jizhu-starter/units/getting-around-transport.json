@@ -1,0 +1,178 @@
+{
+  "id": "getting-around-transport",
+  "title": "Getting Around (Transport)",
+  "cards": [
+    {
+      "id": "",
+      "hanzi": "飞机",
+      "pinyin": "fēijī",
+      "translation": "airplane",
+      "tokens": [
+        {
+          "hanzi": "飞机",
+          "pinyin": "fēijī",
+          "gloss": "airplane"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "出租车",
+      "pinyin": "chūzūchē",
+      "translation": "taxi",
+      "tokens": [
+        {
+          "hanzi": "出租车",
+          "pinyin": "chūzūchē",
+          "gloss": "taxi"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "公共汽车",
+      "pinyin": "gōnggòng qìchē",
+      "translation": "bus",
+      "tokens": [
+        {
+          "hanzi": "公共汽车",
+          "pinyin": "gōnggòng qìchē",
+          "gloss": "bus"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "地铁",
+      "pinyin": "dìtiě",
+      "translation": "subway / metro",
+      "tokens": [
+        {
+          "hanzi": "地铁",
+          "pinyin": "dìtiě",
+          "gloss": "subway / metro"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "火车站",
+      "pinyin": "huǒchēzhàn",
+      "translation": "train station",
+      "tokens": [
+        {
+          "hanzi": "火车站",
+          "pinyin": "huǒchēzhàn",
+          "gloss": "train station"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我想打车。",
+      "pinyin": "Wǒ xiǎng dǎchē.",
+      "translation": "I want to take a taxi.",
+      "tokens": [
+        {
+          "hanzi": "我想打车。",
+          "pinyin": "Wǒ xiǎng dǎchē.",
+          "gloss": "I want to take a taxi."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "火车站在哪儿？",
+      "pinyin": "Huǒchēzhàn zài nǎr?",
+      "translation": "Where is the train station.",
+      "tokens": [
+        {
+          "hanzi": "火车站在哪儿？",
+          "pinyin": "Huǒchēzhàn zài nǎr?",
+          "gloss": "Where is the train station."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "请在这里停。",
+      "pinyin": "Qǐng zài zhèlǐ tíng.",
+      "translation": "Please stop here.",
+      "tokens": [
+        {
+          "hanzi": "请在这里停。",
+          "pinyin": "Qǐng zài zhèlǐ tíng.",
+          "gloss": "Please stop here."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我要去{place}。",
+      "pinyin": "Wǒ yào qù {place}.",
+      "translation": "I am going to {place}.",
+      "slots": {
+        "place": {
+          "group": "places-in-town"
+        }
+      },
+      "tokens": [
+        {
+          "hanzi": "我要去",
+          "pinyin": "wǒ yào qù",
+          "gloss": "I am going to"
+        },
+        {
+          "slot": "place"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "去{place}多少钱？",
+      "pinyin": "Qù {place} duōshao qián?",
+      "translation": "How much to {place}?",
+      "slots": {
+        "place": {
+          "group": "places-in-town"
+        }
+      },
+      "tokens": [
+        {
+          "hanzi": "去",
+          "pinyin": "qù",
+          "gloss": "go to"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "hanzi": "多少钱",
+          "pinyin": "duōshao qián",
+          "gloss": "how much"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "请带我去{place}。",
+      "pinyin": "Qǐng dài wǒ qù {place}.",
+      "translation": "Please take me to {place}.",
+      "slots": {
+        "place": {
+          "group": "places-in-town"
+        }
+      },
+      "tokens": [
+        {
+          "hanzi": "请带我去",
+          "pinyin": "qǐng dài wǒ qù",
+          "gloss": "please take me to"
+        },
+        {
+          "slot": "place"
+        }
+      ]
+    }
+  ]
+}

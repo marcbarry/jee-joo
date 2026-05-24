@@ -1,0 +1,404 @@
+{
+  "id": "at-the-hotel",
+  "title": "At the Hotel",
+  "cards": [
+    {
+      "id": "",
+      "hanzi": "我有预订。",
+      "pinyin": "Wǒ yǒu yùdìng.",
+      "translation": "I have a reservation.",
+      "tokens": [
+        {
+          "hanzi": "我有预订。",
+          "pinyin": "Wǒ yǒu yùdìng.",
+          "gloss": "I have a reservation."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我想办理入住。",
+      "pinyin": "Wǒ xiǎng bànlǐ rùzhù.",
+      "translation": "I'd like to check in.",
+      "tokens": [
+        {
+          "hanzi": "我想办理入住。",
+          "pinyin": "Wǒ xiǎng bànlǐ rùzhù.",
+          "gloss": "I'd like to check in."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我想退房。",
+      "pinyin": "Wǒ xiǎng tuìfáng.",
+      "translation": "I'd like to check out.",
+      "tokens": [
+        {
+          "hanzi": "我想退房。",
+          "pinyin": "Wǒ xiǎng tuìfáng.",
+          "gloss": "I'd like to check out."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我叫{name}。",
+      "pinyin": "Wǒ jiào {name}.",
+      "translation": "My name is {name}.",
+      "slots": {
+        "name": {
+          "group": "person-names"
+        }
+      },
+      "tokens": [
+        {
+          "hanzi": "我叫",
+          "pinyin": "wǒ jiào",
+          "gloss": "my name is"
+        },
+        {
+          "slot": "name"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "这是我的护照。",
+      "pinyin": "Zhè shì wǒ de hùzhào.",
+      "translation": "Here is my passport.",
+      "tokens": [
+        {
+          "hanzi": "这是我的护照。",
+          "pinyin": "Zhè shì wǒ de hùzhào.",
+          "gloss": "Here is my passport."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "有空房吗？",
+      "pinyin": "Yǒu kòngfáng ma?",
+      "translation": "Do you have any rooms available?",
+      "tokens": [
+        {
+          "hanzi": "有空房吗？",
+          "pinyin": "Yǒu kòngfáng ma?",
+          "gloss": "Do you have any rooms available?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我想要一间单人房。",
+      "pinyin": "Wǒ xiǎng yào yì jiān dānrénfáng.",
+      "translation": "I'd like a single room.",
+      "tokens": [
+        {
+          "hanzi": "我想要一间单人房。",
+          "pinyin": "Wǒ xiǎng yào yì jiān dānrénfáng.",
+          "gloss": "I'd like a single room."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我想要一间双人房。",
+      "pinyin": "Wǒ xiǎng yào yì jiān shuāngrénfáng.",
+      "translation": "I'd like a double room.",
+      "tokens": [
+        {
+          "hanzi": "我想要一间双人房。",
+          "pinyin": "Wǒ xiǎng yào yì jiān shuāngrénfáng.",
+          "gloss": "I'd like a double room."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "住几晚？",
+      "pinyin": "Zhù jǐ wǎn?",
+      "translation": "For how many nights?",
+      "tokens": [
+        {
+          "hanzi": "住几晚？",
+          "pinyin": "Zhù jǐ wǎn?",
+          "gloss": "For how many nights?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "住{nights}晚。",
+      "pinyin": "Zhù {nights} wǎn.",
+      "translation": "For {nights} nights.",
+      "slots": {
+        "nights": {
+          "group": "night-counts"
+        }
+      },
+      "tokens": [
+        {
+          "hanzi": "住",
+          "pinyin": "zhù",
+          "gloss": "stay"
+        },
+        {
+          "slot": "nights"
+        },
+        {
+          "hanzi": "晚",
+          "pinyin": "wǎn",
+          "gloss": "nights"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "每晚多少钱？",
+      "pinyin": "Měi wǎn duōshao qián?",
+      "translation": "How much per night?",
+      "tokens": [
+        {
+          "hanzi": "每晚多少钱？",
+          "pinyin": "Měi wǎn duōshao qián?",
+          "gloss": "How much per night?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "包括早餐吗？",
+      "pinyin": "Bāokuò zǎocān ma?",
+      "translation": "Is breakfast included?",
+      "tokens": [
+        {
+          "hanzi": "包括早餐吗？",
+          "pinyin": "Bāokuò zǎocān ma?",
+          "gloss": "Is breakfast included?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "早餐几点？",
+      "pinyin": "Zǎocān jǐ diǎn?",
+      "translation": "What time is breakfast?",
+      "tokens": [
+        {
+          "hanzi": "早餐几点？",
+          "pinyin": "Zǎocān jǐ diǎn?",
+          "gloss": "What time is breakfast?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "有无线网吗？",
+      "pinyin": "Yǒu wúxiànwǎng ma?",
+      "translation": "Is there Wi-Fi?",
+      "tokens": [
+        {
+          "hanzi": "有无线网吗？",
+          "pinyin": "Yǒu wúxiànwǎng ma?",
+          "gloss": "Is there Wi-Fi?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "无线网密码是什么？",
+      "pinyin": "Wúxiànwǎng mìmǎ shì shénme?",
+      "translation": "What is the Wi-Fi password?",
+      "tokens": [
+        {
+          "hanzi": "无线网密码是什么？",
+          "pinyin": "Wúxiànwǎng mìmǎ shì shénme?",
+          "gloss": "What is the Wi-Fi password?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "请给我钥匙。",
+      "pinyin": "Qǐng gěi wǒ yàoshi.",
+      "translation": "The key, please.",
+      "tokens": [
+        {
+          "hanzi": "请给我钥匙。",
+          "pinyin": "Qǐng gěi wǒ yàoshi.",
+          "gloss": "The key, please."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我的钥匙丢了。",
+      "pinyin": "Wǒ de yàoshi diū le.",
+      "translation": "I've lost my key.",
+      "tokens": [
+        {
+          "hanzi": "我的钥匙丢了。",
+          "pinyin": "Wǒ de yàoshi diū le.",
+          "gloss": "I've lost my key."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "房间太热了。",
+      "pinyin": "Fángjiān tài rè le.",
+      "translation": "The room is too hot.",
+      "tokens": [
+        {
+          "hanzi": "房间太热了。",
+          "pinyin": "Fángjiān tài rè le.",
+          "gloss": "The room is too hot."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "房间太冷了。",
+      "pinyin": "Fángjiān tài lěng le.",
+      "translation": "The room is too cold.",
+      "tokens": [
+        {
+          "hanzi": "房间太冷了。",
+          "pinyin": "Fángjiān tài lěng le.",
+          "gloss": "The room is too cold."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "空调坏了。",
+      "pinyin": "Kōngtiáo huài le.",
+      "translation": "The air conditioning isn't working.",
+      "tokens": [
+        {
+          "hanzi": "空调坏了。",
+          "pinyin": "Kōngtiáo huài le.",
+          "gloss": "The air conditioning isn't working."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "热水坏了。",
+      "pinyin": "Rèshuǐ huài le.",
+      "translation": "The hot water isn't working.",
+      "tokens": [
+        {
+          "hanzi": "热水坏了。",
+          "pinyin": "Rèshuǐ huài le.",
+          "gloss": "The hot water isn't working."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "可以再给我一条毛巾吗？",
+      "pinyin": "Kěyǐ zài gěi wǒ yì tiáo máojīn ma?",
+      "translation": "Could I have another towel?",
+      "tokens": [
+        {
+          "hanzi": "可以再给我一条毛巾吗？",
+          "pinyin": "Kěyǐ zài gěi wǒ yì tiáo máojīn ma?",
+          "gloss": "Could I have another towel?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "可以再给我一点水吗？",
+      "pinyin": "Kěyǐ zài gěi wǒ yìdiǎn shuǐ ma?",
+      "translation": "Could I have more water?",
+      "tokens": [
+        {
+          "hanzi": "可以再给我一点水吗？",
+          "pinyin": "Kěyǐ zài gěi wǒ yìdiǎn shuǐ ma?",
+          "gloss": "Could I have more water?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "什么时候退房？",
+      "pinyin": "Shénme shíhou tuìfáng?",
+      "translation": "When is checkout time?",
+      "tokens": [
+        {
+          "hanzi": "什么时候退房？",
+          "pinyin": "Shénme shíhou tuìfáng?",
+          "gloss": "When is checkout time?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "可以帮我叫出租车吗？",
+      "pinyin": "Kěyǐ bāng wǒ jiào chūzūchē ma?",
+      "translation": "Could you call me a taxi?",
+      "tokens": [
+        {
+          "hanzi": "可以帮我叫出租车吗？",
+          "pinyin": "Kěyǐ bāng wǒ jiào chūzūchē ma?",
+          "gloss": "Could you call me a taxi?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "可以帮我看一下行李吗？",
+      "pinyin": "Kěyǐ bāng wǒ kàn yíxià xíngli ma?",
+      "translation": "Could you keep my bags?",
+      "tokens": [
+        {
+          "hanzi": "可以帮我看一下行李吗？",
+          "pinyin": "Kěyǐ bāng wǒ kàn yíxià xíngli ma?",
+          "gloss": "Could you keep my bags?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我想把行李放在这里。",
+      "pinyin": "Wǒ xiǎng bǎ xíngli fàng zài zhèlǐ.",
+      "translation": "I'd like to leave my bags here.",
+      "tokens": [
+        {
+          "hanzi": "我想把行李放在这里。",
+          "pinyin": "Wǒ xiǎng bǎ xíngli fàng zài zhèlǐ.",
+          "gloss": "I'd like to leave my bags here."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我一会儿来拿。",
+      "pinyin": "Wǒ yīhuìr lái ná.",
+      "translation": "I'll pick them up later.",
+      "tokens": [
+        {
+          "hanzi": "我一会儿来拿。",
+          "pinyin": "Wǒ yīhuìr lái ná.",
+          "gloss": "I'll pick them up later."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "谢谢你的帮助。",
+      "pinyin": "Xièxie nǐ de bāngzhù.",
+      "translation": "Thank you for your help.",
+      "tokens": [
+        {
+          "hanzi": "谢谢你的帮助。",
+          "pinyin": "Xièxie nǐ de bāngzhù.",
+          "gloss": "Thank you for your help."
+        }
+      ]
+    }
+  ]
+}

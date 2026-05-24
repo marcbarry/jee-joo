@@ -1,0 +1,456 @@
+{
+  "id": "making-plans",
+  "title": "Making Plans",
+  "cards": [
+    {
+      "id": "",
+      "hanzi": "我们走吧？",
+      "pinyin": "Wǒmen zǒu ba?",
+      "translation": "Shall we go?",
+      "tokens": [
+        {
+          "hanzi": "我们走吧？",
+          "pinyin": "Wǒmen zǒu ba?",
+          "gloss": "Shall we go?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我们走吧。",
+      "pinyin": "Wǒmen zǒu ba.",
+      "translation": "Let's go.",
+      "tokens": [
+        {
+          "hanzi": "我们走吧。",
+          "pinyin": "Wǒmen zǒu ba.",
+          "gloss": "Let's go."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我们去{place}吧？",
+      "pinyin": "Wǒmen qù {place} ba?",
+      "translation": "Shall we go to {place}?",
+      "slots": {
+        "place": {
+          "group": "places-in-town"
+        }
+      },
+      "tokens": [
+        {
+          "hanzi": "我们去",
+          "pinyin": "wǒmen qù",
+          "gloss": "we go to"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "hanzi": "吧",
+          "pinyin": "ba",
+          "gloss": "suggestion particle"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我们去{place}吧。",
+      "pinyin": "Wǒmen qù {place} ba.",
+      "translation": "Let's go to {place}.",
+      "slots": {
+        "place": {
+          "group": "places-in-town"
+        }
+      },
+      "tokens": [
+        {
+          "hanzi": "我们去",
+          "pinyin": "wǒmen qù",
+          "gloss": "we go to"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "hanzi": "吧",
+          "pinyin": "ba",
+          "gloss": "suggestion particle"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我们一起去吧。",
+      "pinyin": "Wǒmen yìqǐ qù ba.",
+      "translation": "Let's go together.",
+      "tokens": [
+        {
+          "hanzi": "我们一起去吧。",
+          "pinyin": "Wǒmen yìqǐ qù ba.",
+          "gloss": "Let's go together."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "你明天有空吗？",
+      "pinyin": "Nǐ míngtiān yǒu kòng ma?",
+      "translation": "Are you free tomorrow?",
+      "tokens": [
+        {
+          "hanzi": "你明天有空吗？",
+          "pinyin": "Nǐ míngtiān yǒu kòng ma?",
+          "gloss": "Are you free tomorrow?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "你今晚有空吗？",
+      "pinyin": "Nǐ jīnwǎn yǒu kòng ma?",
+      "translation": "Are you free tonight?",
+      "tokens": [
+        {
+          "hanzi": "你今晚有空吗？",
+          "pinyin": "Nǐ jīnwǎn yǒu kòng ma?",
+          "gloss": "Are you free tonight?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我们几点见？",
+      "pinyin": "Wǒmen jǐ diǎn jiàn?",
+      "translation": "What time shall we meet?",
+      "tokens": [
+        {
+          "hanzi": "我们几点见？",
+          "pinyin": "Wǒmen jǐ diǎn jiàn?",
+          "gloss": "What time shall we meet?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我们在哪儿见？",
+      "pinyin": "Wǒmen zài nǎr jiàn?",
+      "translation": "Where shall we meet?",
+      "tokens": [
+        {
+          "hanzi": "我们在哪儿见？",
+          "pinyin": "Wǒmen zài nǎr jiàn?",
+          "gloss": "Where shall we meet?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我们在{place}见。",
+      "pinyin": "Wǒmen zài {place} jiàn.",
+      "translation": "Let's meet at {place}.",
+      "slots": {
+        "place": {
+          "group": "places-in-town"
+        }
+      },
+      "tokens": [
+        {
+          "hanzi": "我们在",
+          "pinyin": "wǒmen zài",
+          "gloss": "we are at"
+        },
+        {
+          "slot": "place"
+        },
+        {
+          "hanzi": "见",
+          "pinyin": "jiàn",
+          "gloss": "meet"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我们{hour}点见。",
+      "pinyin": "Wǒmen {hour} diǎn jiàn.",
+      "translation": "Let's meet at {hour} o'clock.",
+      "slots": {
+        "hour": {
+          "group": "hours"
+        }
+      },
+      "tokens": [
+        {
+          "hanzi": "我们",
+          "pinyin": "wǒmen",
+          "gloss": "we"
+        },
+        {
+          "slot": "hour"
+        },
+        {
+          "hanzi": "点见",
+          "pinyin": "diǎn jiàn",
+          "gloss": "o'clock meet"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我在那里见你。",
+      "pinyin": "Wǒ zài nàlǐ jiàn nǐ.",
+      "translation": "I'll meet you there.",
+      "tokens": [
+        {
+          "hanzi": "我在那里见你。",
+          "pinyin": "Wǒ zài nàlǐ jiàn nǐ.",
+          "gloss": "I'll meet you there."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "{place}见。",
+      "pinyin": "{place} jiàn.",
+      "translation": "See you at {place}.",
+      "slots": {
+        "place": {
+          "group": "places-in-town"
+        }
+      },
+      "tokens": [
+        {
+          "slot": "place"
+        },
+        {
+          "hanzi": "见",
+          "pinyin": "jiàn",
+          "gloss": "see"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "一会儿见。",
+      "pinyin": "Yīhuìr jiàn.",
+      "translation": "See you later.",
+      "tokens": [
+        {
+          "hanzi": "一会儿见。",
+          "pinyin": "Yīhuìr jiàn.",
+          "gloss": "See you later."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "你想来吗？",
+      "pinyin": "Nǐ xiǎng lái ma?",
+      "translation": "Do you want to come?",
+      "tokens": [
+        {
+          "hanzi": "你想来吗？",
+          "pinyin": "Nǐ xiǎng lái ma?",
+          "gloss": "Do you want to come?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "你想跟我一起来吗？",
+      "pinyin": "Nǐ xiǎng gēn wǒ yìqǐ lái ma?",
+      "translation": "Do you want to come with me?",
+      "tokens": [
+        {
+          "hanzi": "你想跟我一起来吗？",
+          "pinyin": "Nǐ xiǎng gēn wǒ yìqǐ lái ma?",
+          "gloss": "Do you want to come with me?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我跟你一起去。",
+      "pinyin": "Wǒ gēn nǐ yìqǐ qù.",
+      "translation": "I'll come with you.",
+      "tokens": [
+        {
+          "hanzi": "我跟你一起去。",
+          "pinyin": "Wǒ gēn nǐ yìqǐ qù.",
+          "gloss": "I'll come with you."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "一起",
+      "pinyin": "yìqǐ",
+      "translation": "together",
+      "tokens": [
+        {
+          "hanzi": "一起",
+          "pinyin": "yìqǐ",
+          "gloss": "together"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "跟我",
+      "pinyin": "gēn wǒ",
+      "translation": "with me",
+      "tokens": [
+        {
+          "hanzi": "跟我",
+          "pinyin": "gēn wǒ",
+          "gloss": "with me"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "跟我们",
+      "pinyin": "gēn wǒmen",
+      "translation": "with us",
+      "tokens": [
+        {
+          "hanzi": "跟我们",
+          "pinyin": "gēn wǒmen",
+          "gloss": "with us"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "带一个朋友来吧。",
+      "pinyin": "Dài yí ge péngyou lái ba.",
+      "translation": "Bring a friend.",
+      "tokens": [
+        {
+          "hanzi": "带一个朋友来吧。",
+          "pinyin": "Dài yí ge péngyou lái ba.",
+          "gloss": "Bring a friend."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "听起来不错。",
+      "pinyin": "Tīng qǐlai búcuò.",
+      "translation": "Sounds good.",
+      "tokens": [
+        {
+          "hanzi": "听起来不错。",
+          "pinyin": "Tīng qǐlai búcuò.",
+          "gloss": "Sounds good."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我可以。",
+      "pinyin": "Wǒ kěyǐ.",
+      "translation": "That works for me.",
+      "tokens": [
+        {
+          "hanzi": "我可以。",
+          "pinyin": "Wǒ kěyǐ.",
+          "gloss": "That works for me."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "对不起，我去不了。",
+      "pinyin": "Duìbuqǐ, wǒ qù bù liǎo.",
+      "translation": "Sorry, I can't make it.",
+      "tokens": [
+        {
+          "hanzi": "对不起，我去不了。",
+          "pinyin": "Duìbuqǐ, wǒ qù bù liǎo.",
+          "gloss": "Sorry, I can't make it."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "下次吧。",
+      "pinyin": "Xià cì ba.",
+      "translation": "Maybe next time.",
+      "tokens": [
+        {
+          "hanzi": "下次吧。",
+          "pinyin": "Xià cì ba.",
+          "gloss": "Maybe next time."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "请给我打电话。",
+      "pinyin": "Qǐng gěi wǒ dǎ diànhuà.",
+      "translation": "Please call me.",
+      "tokens": [
+        {
+          "hanzi": "请给我打电话。",
+          "pinyin": "Qǐng gěi wǒ dǎ diànhuà.",
+          "gloss": "Please call me."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我明天给你打电话。",
+      "pinyin": "Wǒ míngtiān gěi nǐ dǎ diànhuà.",
+      "translation": "I will call you tomorrow.",
+      "tokens": [
+        {
+          "hanzi": "我明天给你打电话。",
+          "pinyin": "Wǒ míngtiān gěi nǐ dǎ diànhuà.",
+          "gloss": "I will call you tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "你能来吗？",
+      "pinyin": "Nǐ néng lái ma?",
+      "translation": "Can you come?",
+      "tokens": [
+        {
+          "hanzi": "你能来吗？",
+          "pinyin": "Nǐ néng lái ma?",
+          "gloss": "Can you come?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我能来。",
+      "pinyin": "Wǒ néng lái.",
+      "translation": "I can come.",
+      "tokens": [
+        {
+          "hanzi": "我能来。",
+          "pinyin": "Wǒ néng lái.",
+          "gloss": "I can come."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我不能来。",
+      "pinyin": "Wǒ bù néng lái.",
+      "translation": "I can't come.",
+      "tokens": [
+        {
+          "hanzi": "我不能来。",
+          "pinyin": "Wǒ bù néng lái.",
+          "gloss": "I can't come."
+        }
+      ]
+    }
+  ]
+}

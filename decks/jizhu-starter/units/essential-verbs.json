@@ -1,0 +1,578 @@
+{
+  "id": "essential-verbs",
+  "title": "Essential Verbs",
+  "cards": [
+    {
+      "id": "",
+      "hanzi": "是",
+      "pinyin": "shì",
+      "translation": "to be",
+      "tokens": [
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "gloss": "to be"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "有",
+      "pinyin": "yǒu",
+      "translation": "to have / there is",
+      "tokens": [
+        {
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "gloss": "to have / there is"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "在",
+      "pinyin": "zài",
+      "translation": "to be at / in",
+      "tokens": [
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "gloss": "to be at / in"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "要",
+      "pinyin": "yào",
+      "translation": "to want / would like",
+      "tokens": [
+        {
+          "hanzi": "要",
+          "pinyin": "yào",
+          "gloss": "to want / would like"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "喜欢",
+      "pinyin": "xǐhuan",
+      "translation": "to like",
+      "tokens": [
+        {
+          "hanzi": "喜欢",
+          "pinyin": "xǐhuan",
+          "gloss": "to like"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "爱",
+      "pinyin": "ài",
+      "translation": "to love",
+      "tokens": [
+        {
+          "hanzi": "爱",
+          "pinyin": "ài",
+          "gloss": "to love"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "去",
+      "pinyin": "qù",
+      "translation": "to go",
+      "tokens": [
+        {
+          "hanzi": "去",
+          "pinyin": "qù",
+          "gloss": "to go"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "来",
+      "pinyin": "lái",
+      "translation": "to come",
+      "tokens": [
+        {
+          "hanzi": "来",
+          "pinyin": "lái",
+          "gloss": "to come"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "回",
+      "pinyin": "huí",
+      "translation": "to return",
+      "tokens": [
+        {
+          "hanzi": "回",
+          "pinyin": "huí",
+          "gloss": "to return"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "吃",
+      "pinyin": "chī",
+      "translation": "to eat",
+      "tokens": [
+        {
+          "hanzi": "吃",
+          "pinyin": "chī",
+          "gloss": "to eat"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "喝",
+      "pinyin": "hē",
+      "translation": "to drink",
+      "tokens": [
+        {
+          "hanzi": "喝",
+          "pinyin": "hē",
+          "gloss": "to drink"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "看",
+      "pinyin": "kàn",
+      "translation": "to look / watch",
+      "tokens": [
+        {
+          "hanzi": "看",
+          "pinyin": "kàn",
+          "gloss": "to look / watch"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "看见",
+      "pinyin": "kànjiàn",
+      "translation": "to see",
+      "tokens": [
+        {
+          "hanzi": "看见",
+          "pinyin": "kànjiàn",
+          "gloss": "to see"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "听",
+      "pinyin": "tīng",
+      "translation": "to listen",
+      "tokens": [
+        {
+          "hanzi": "听",
+          "pinyin": "tīng",
+          "gloss": "to listen"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "说",
+      "pinyin": "shuō",
+      "translation": "to speak",
+      "tokens": [
+        {
+          "hanzi": "说",
+          "pinyin": "shuō",
+          "gloss": "to speak"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "读",
+      "pinyin": "dú",
+      "translation": "to read",
+      "tokens": [
+        {
+          "hanzi": "读",
+          "pinyin": "dú",
+          "gloss": "to read"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "写",
+      "pinyin": "xiě",
+      "translation": "to write",
+      "tokens": [
+        {
+          "hanzi": "写",
+          "pinyin": "xiě",
+          "gloss": "to write"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "叫",
+      "pinyin": "jiào",
+      "translation": "to be called / named",
+      "tokens": [
+        {
+          "hanzi": "叫",
+          "pinyin": "jiào",
+          "gloss": "to be called / named"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "坐",
+      "pinyin": "zuò",
+      "translation": "to sit",
+      "tokens": [
+        {
+          "hanzi": "坐",
+          "pinyin": "zuò",
+          "gloss": "to sit"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "住",
+      "pinyin": "zhù",
+      "translation": "to live / reside",
+      "tokens": [
+        {
+          "hanzi": "住",
+          "pinyin": "zhù",
+          "gloss": "to live / reside"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "做",
+      "pinyin": "zuò",
+      "translation": "to do / make",
+      "tokens": [
+        {
+          "hanzi": "做",
+          "pinyin": "zuò",
+          "gloss": "to do / make"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "开",
+      "pinyin": "kāi",
+      "translation": "to open",
+      "tokens": [
+        {
+          "hanzi": "开",
+          "pinyin": "kāi",
+          "gloss": "to open"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "睡觉",
+      "pinyin": "shuìjiào",
+      "translation": "to sleep",
+      "tokens": [
+        {
+          "hanzi": "睡觉",
+          "pinyin": "shuìjiào",
+          "gloss": "to sleep"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "打电话",
+      "pinyin": "dǎ diànhuà",
+      "translation": "to make a phone call",
+      "tokens": [
+        {
+          "hanzi": "打电话",
+          "pinyin": "dǎ diànhuà",
+          "gloss": "to make a phone call"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "懂",
+      "pinyin": "dǒng",
+      "translation": "to understand",
+      "tokens": [
+        {
+          "hanzi": "懂",
+          "pinyin": "dǒng",
+          "gloss": "to understand"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "认识",
+      "pinyin": "rènshi",
+      "translation": "to know / recognize people",
+      "tokens": [
+        {
+          "hanzi": "认识",
+          "pinyin": "rènshi",
+          "gloss": "to know / recognize people"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "学习",
+      "pinyin": "xuéxí",
+      "translation": "to study",
+      "tokens": [
+        {
+          "hanzi": "学习",
+          "pinyin": "xuéxí",
+          "gloss": "to study"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "工作",
+      "pinyin": "gōngzuò",
+      "translation": "to work",
+      "tokens": [
+        {
+          "hanzi": "工作",
+          "pinyin": "gōngzuò",
+          "gloss": "to work"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "买",
+      "pinyin": "mǎi",
+      "translation": "to buy",
+      "tokens": [
+        {
+          "hanzi": "买",
+          "pinyin": "mǎi",
+          "gloss": "to buy"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "问",
+      "pinyin": "wèn",
+      "translation": "to ask",
+      "tokens": [
+        {
+          "hanzi": "问",
+          "pinyin": "wèn",
+          "gloss": "to ask"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "会",
+      "pinyin": "huì",
+      "translation": "to be able to (learned skill)",
+      "tokens": [
+        {
+          "hanzi": "会",
+          "pinyin": "huì",
+          "gloss": "to be able to (learned skill)"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "能",
+      "pinyin": "néng",
+      "translation": "to be able to (capability / permission)",
+      "tokens": [
+        {
+          "hanzi": "能",
+          "pinyin": "néng",
+          "gloss": "to be able to (capability / permission)"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "请",
+      "pinyin": "qǐng",
+      "translation": "please / to invite",
+      "tokens": [
+        {
+          "hanzi": "请",
+          "pinyin": "qǐng",
+          "gloss": "please / to invite"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "不",
+      "pinyin": "bù",
+      "translation": "not",
+      "tokens": [
+        {
+          "hanzi": "不",
+          "pinyin": "bù",
+          "gloss": "not"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "没有",
+      "pinyin": "méiyǒu",
+      "translation": "not (with have)",
+      "tokens": [
+        {
+          "hanzi": "没有",
+          "pinyin": "méiyǒu",
+          "gloss": "not (with have)"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "也",
+      "pinyin": "yě",
+      "translation": "also",
+      "tokens": [
+        {
+          "hanzi": "也",
+          "pinyin": "yě",
+          "gloss": "also"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "都",
+      "pinyin": "dōu",
+      "translation": "all / both",
+      "tokens": [
+        {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "gloss": "all / both"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "很",
+      "pinyin": "hěn",
+      "translation": "very",
+      "tokens": [
+        {
+          "hanzi": "很",
+          "pinyin": "hěn",
+          "gloss": "very"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "太",
+      "pinyin": "tài",
+      "translation": "too / excessively",
+      "tokens": [
+        {
+          "hanzi": "太",
+          "pinyin": "tài",
+          "gloss": "too / excessively"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "一点儿",
+      "pinyin": "yìdiǎnr",
+      "translation": "a little",
+      "tokens": [
+        {
+          "hanzi": "一点儿",
+          "pinyin": "yìdiǎnr",
+          "gloss": "a little"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "吗",
+      "pinyin": "ma",
+      "translation": "question particle - yes/no",
+      "tokens": [
+        {
+          "hanzi": "吗",
+          "pinyin": "ma",
+          "gloss": "question particle - yes/no"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "呢",
+      "pinyin": "ne",
+      "translation": "question particle - and you?",
+      "tokens": [
+        {
+          "hanzi": "呢",
+          "pinyin": "ne",
+          "gloss": "question particle - and you?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "的",
+      "pinyin": "de",
+      "translation": "possessive / modifier particle",
+      "tokens": [
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "gloss": "possessive / modifier particle"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "了",
+      "pinyin": "le",
+      "translation": "completed-action / change-of-state particle",
+      "tokens": [
+        {
+          "hanzi": "了",
+          "pinyin": "le",
+          "gloss": "completed-action / change-of-state particle"
+        }
+      ]
+    }
+  ]
+}

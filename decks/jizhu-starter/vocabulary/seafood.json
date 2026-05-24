@@ -1,0 +1,41 @@
+{
+  "id": "seafood",
+  "items": [
+    {
+      "id": "",
+      "hanzi": "鱼",
+      "pinyin": "yú",
+      "gloss": "fish"
+    },
+    {
+      "id": "",
+      "hanzi": "虾",
+      "pinyin": "xiā",
+      "gloss": "shrimp / prawn"
+    },
+    {
+      "id": "",
+      "hanzi": "螃蟹",
+      "pinyin": "pángxiè",
+      "gloss": "crab"
+    },
+    {
+      "id": "",
+      "hanzi": "鱿鱼",
+      "pinyin": "yóuyú",
+      "gloss": "squid"
+    },
+    {
+      "id": "",
+      "hanzi": "蛤蜊",
+      "pinyin": "gélí",
+      "gloss": "clam"
+    },
+    {
+      "id": "",
+      "hanzi": "扇贝",
+      "pinyin": "shànbèi",
+      "gloss": "scallop"
+    }
+  ]
+}

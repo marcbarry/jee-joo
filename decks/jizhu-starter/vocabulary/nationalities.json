@@ -1,0 +1,23 @@
+{
+  "id": "nationalities",
+  "items": [
+    {
+      "id": "",
+      "hanzi": "中国人",
+      "pinyin": "Zhōngguó rén",
+      "gloss": "Chinese"
+    },
+    {
+      "id": "",
+      "hanzi": "美国人",
+      "pinyin": "Měiguó rén",
+      "gloss": "American"
+    },
+    {
+      "id": "",
+      "hanzi": "英国人",
+      "pinyin": "Yīngguó rén",
+      "gloss": "British"
+    }
+  ]
+}

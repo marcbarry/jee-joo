@@ -1,0 +1,123 @@
+{
+  "id": "getting-by",
+  "title": "Getting By",
+  "cards": [
+    {
+      "id": "",
+      "hanzi": "很难。",
+      "pinyin": "Hěn nán.",
+      "translation": "It's difficult.",
+      "tokens": [
+        {
+          "hanzi": "很难。",
+          "pinyin": "Hěn nán.",
+          "gloss": "It's difficult."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我不懂。",
+      "pinyin": "Wǒ bù dǒng.",
+      "translation": "I don't understand.",
+      "tokens": [
+        {
+          "hanzi": "我不懂。",
+          "pinyin": "Wǒ bù dǒng.",
+          "gloss": "I don't understand."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "请再说一遍。",
+      "pinyin": "Qǐng zài shuō yí biàn.",
+      "translation": "Please say it again.",
+      "tokens": [
+        {
+          "hanzi": "请再说一遍。",
+          "pinyin": "Qǐng zài shuō yí biàn.",
+          "gloss": "Please say it again."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "请说慢一点。",
+      "pinyin": "Qǐng shuō màn yìdiǎn.",
+      "translation": "Please speak more slowly.",
+      "tokens": [
+        {
+          "hanzi": "请说慢一点。",
+          "pinyin": "Qǐng shuō màn yìdiǎn.",
+          "gloss": "Please speak more slowly."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "一点儿。",
+      "pinyin": "Yìdiǎnr.",
+      "translation": "A little.",
+      "tokens": [
+        {
+          "hanzi": "一点儿。",
+          "pinyin": "Yìdiǎnr.",
+          "gloss": "A little."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我会说一点中文。",
+      "pinyin": "Wǒ huì shuō yìdiǎn Zhōngwén.",
+      "translation": "I can speak a little Chinese.",
+      "tokens": [
+        {
+          "hanzi": "我会说一点中文。",
+          "pinyin": "Wǒ huì shuō yìdiǎn Zhōngwén.",
+          "gloss": "I can speak a little Chinese."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我还在学。",
+      "pinyin": "Wǒ hái zài xué.",
+      "translation": "I'm still learning.",
+      "tokens": [
+        {
+          "hanzi": "我还在学。",
+          "pinyin": "Wǒ hái zài xué.",
+          "gloss": "I'm still learning."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "这个中文怎么说？",
+      "pinyin": "Zhège Zhōngwén zěnme shuō?",
+      "translation": "How do you say this in Chinese?",
+      "tokens": [
+        {
+          "hanzi": "这个中文怎么说？",
+          "pinyin": "Zhège Zhōngwén zěnme shuō?",
+          "gloss": "How do you say this in Chinese?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "这是什么意思？",
+      "pinyin": "Zhè shì shénme yìsi?",
+      "translation": "What does this mean?",
+      "tokens": [
+        {
+          "hanzi": "这是什么意思？",
+          "pinyin": "Zhè shì shénme yìsi?",
+          "gloss": "What does this mean?"
+        }
+      ]
+    }
+  ]
+}

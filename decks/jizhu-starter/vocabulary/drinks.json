@@ -1,0 +1,17 @@
+{
+  "id": "drinks",
+  "items": [
+    {
+      "id": "",
+      "hanzi": "水",
+      "pinyin": "shuǐ",
+      "gloss": "water"
+    },
+    {
+      "id": "",
+      "hanzi": "茶",
+      "pinyin": "chá",
+      "gloss": "tea"
+    }
+  ]
+}

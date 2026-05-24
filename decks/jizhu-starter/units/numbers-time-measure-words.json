@@ -1,0 +1,487 @@
+{
+  "id": "numbers-time-measure-words",
+  "title": "Numbers, Time & Measure Words",
+  "cards": [
+    {
+      "id": "",
+      "hanzi": "零",
+      "pinyin": "líng",
+      "translation": "zero",
+      "tokens": [
+        {
+          "hanzi": "零",
+          "pinyin": "líng",
+          "gloss": "zero"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "一",
+      "pinyin": "yī",
+      "translation": "one",
+      "tokens": [
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "gloss": "one"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "二",
+      "pinyin": "èr",
+      "translation": "two",
+      "tokens": [
+        {
+          "hanzi": "二",
+          "pinyin": "èr",
+          "gloss": "two"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "三",
+      "pinyin": "sān",
+      "translation": "three",
+      "tokens": [
+        {
+          "hanzi": "三",
+          "pinyin": "sān",
+          "gloss": "three"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "四",
+      "pinyin": "sì",
+      "translation": "four",
+      "tokens": [
+        {
+          "hanzi": "四",
+          "pinyin": "sì",
+          "gloss": "four"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "五",
+      "pinyin": "wǔ",
+      "translation": "five",
+      "tokens": [
+        {
+          "hanzi": "五",
+          "pinyin": "wǔ",
+          "gloss": "five"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "六",
+      "pinyin": "liù",
+      "translation": "six",
+      "tokens": [
+        {
+          "hanzi": "六",
+          "pinyin": "liù",
+          "gloss": "six"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "七",
+      "pinyin": "qī",
+      "translation": "seven",
+      "tokens": [
+        {
+          "hanzi": "七",
+          "pinyin": "qī",
+          "gloss": "seven"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "八",
+      "pinyin": "bā",
+      "translation": "eight",
+      "tokens": [
+        {
+          "hanzi": "八",
+          "pinyin": "bā",
+          "gloss": "eight"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "九",
+      "pinyin": "jiǔ",
+      "translation": "nine",
+      "tokens": [
+        {
+          "hanzi": "九",
+          "pinyin": "jiǔ",
+          "gloss": "nine"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "十",
+      "pinyin": "shí",
+      "translation": "ten",
+      "tokens": [
+        {
+          "hanzi": "十",
+          "pinyin": "shí",
+          "gloss": "ten"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "个",
+      "pinyin": "ge",
+      "translation": "general measure word",
+      "tokens": [
+        {
+          "hanzi": "个",
+          "pinyin": "ge",
+          "gloss": "general measure word"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "岁",
+      "pinyin": "suì",
+      "translation": "years old",
+      "tokens": [
+        {
+          "hanzi": "岁",
+          "pinyin": "suì",
+          "gloss": "years old"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "本",
+      "pinyin": "běn",
+      "translation": "volume / measure word for books",
+      "tokens": [
+        {
+          "hanzi": "本",
+          "pinyin": "běn",
+          "gloss": "volume / measure word for books"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "些",
+      "pinyin": "xiē",
+      "translation": "some / a few",
+      "tokens": [
+        {
+          "hanzi": "些",
+          "pinyin": "xiē",
+          "gloss": "some / a few"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "块",
+      "pinyin": "kuài",
+      "translation": "piece / unit of currency",
+      "tokens": [
+        {
+          "hanzi": "块",
+          "pinyin": "kuài",
+          "gloss": "piece / unit of currency"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "点",
+      "pinyin": "diǎn",
+      "translation": "o'clock",
+      "tokens": [
+        {
+          "hanzi": "点",
+          "pinyin": "diǎn",
+          "gloss": "o'clock"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "分钟",
+      "pinyin": "fēnzhōng",
+      "translation": "minute",
+      "tokens": [
+        {
+          "hanzi": "分钟",
+          "pinyin": "fēnzhōng",
+          "gloss": "minute"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "时候",
+      "pinyin": "shíhou",
+      "translation": "time / moment",
+      "tokens": [
+        {
+          "hanzi": "时候",
+          "pinyin": "shíhou",
+          "gloss": "time / moment"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "现在",
+      "pinyin": "xiànzài",
+      "translation": "now",
+      "tokens": [
+        {
+          "hanzi": "现在",
+          "pinyin": "xiànzài",
+          "gloss": "now"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "以后",
+      "pinyin": "yǐhòu",
+      "translation": "later",
+      "tokens": [
+        {
+          "hanzi": "以后",
+          "pinyin": "yǐhòu",
+          "gloss": "later"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "快",
+      "pinyin": "kuài",
+      "translation": "soon",
+      "tokens": [
+        {
+          "hanzi": "快",
+          "pinyin": "kuài",
+          "gloss": "soon"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "刚才",
+      "pinyin": "gāngcái",
+      "translation": "earlier",
+      "tokens": [
+        {
+          "hanzi": "刚才",
+          "pinyin": "gāngcái",
+          "gloss": "earlier"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "一会儿",
+      "pinyin": "yīhuìr",
+      "translation": "in a moment",
+      "tokens": [
+        {
+          "hanzi": "一会儿",
+          "pinyin": "yīhuìr",
+          "gloss": "in a moment"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "今天",
+      "pinyin": "jīntiān",
+      "translation": "today",
+      "tokens": [
+        {
+          "hanzi": "今天",
+          "pinyin": "jīntiān",
+          "gloss": "today"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "明天",
+      "pinyin": "míngtiān",
+      "translation": "tomorrow",
+      "tokens": [
+        {
+          "hanzi": "明天",
+          "pinyin": "míngtiān",
+          "gloss": "tomorrow"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "昨天",
+      "pinyin": "zuótiān",
+      "translation": "yesterday",
+      "tokens": [
+        {
+          "hanzi": "昨天",
+          "pinyin": "zuótiān",
+          "gloss": "yesterday"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "早上",
+      "pinyin": "zǎoshang",
+      "translation": "morning",
+      "tokens": [
+        {
+          "hanzi": "早上",
+          "pinyin": "zǎoshang",
+          "gloss": "morning"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "中午",
+      "pinyin": "zhōngwǔ",
+      "translation": "noon",
+      "tokens": [
+        {
+          "hanzi": "中午",
+          "pinyin": "zhōngwǔ",
+          "gloss": "noon"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "下午",
+      "pinyin": "xiàwǔ",
+      "translation": "afternoon",
+      "tokens": [
+        {
+          "hanzi": "下午",
+          "pinyin": "xiàwǔ",
+          "gloss": "afternoon"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "什么时候",
+      "pinyin": "shénme shíhou",
+      "translation": "when?",
+      "tokens": [
+        {
+          "hanzi": "什么时候",
+          "pinyin": "shénme shíhou",
+          "gloss": "when?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "现在几点？",
+      "pinyin": "Xiànzài jǐ diǎn?",
+      "translation": "What time is it?",
+      "tokens": [
+        {
+          "hanzi": "现在几点？",
+          "pinyin": "Xiànzài jǐ diǎn?",
+          "gloss": "What time is it?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "还早。",
+      "pinyin": "Hái zǎo.",
+      "translation": "It's still early.",
+      "tokens": [
+        {
+          "hanzi": "还早。",
+          "pinyin": "Hái zǎo.",
+          "gloss": "It's still early."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "很晚了。",
+      "pinyin": "Hěn wǎn le.",
+      "translation": "It's getting late.",
+      "tokens": [
+        {
+          "hanzi": "很晚了。",
+          "pinyin": "Hěn wǎn le.",
+          "gloss": "It's getting late."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "你多大？",
+      "pinyin": "Nǐ duō dà?",
+      "translation": "How old are you?",
+      "tokens": [
+        {
+          "hanzi": "你多大？",
+          "pinyin": "Nǐ duō dà?",
+          "gloss": "How old are you?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我{age}岁。",
+      "pinyin": "Wǒ {age} suì.",
+      "translation": "I am {age} years old.",
+      "slots": {
+        "age": {
+          "group": "ages"
+        }
+      },
+      "tokens": [
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "gloss": "I"
+        },
+        {
+          "slot": "age"
+        },
+        {
+          "hanzi": "岁",
+          "pinyin": "suì",
+          "gloss": "years old"
+        }
+      ]
+    }
+  ]
+}

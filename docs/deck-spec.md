@@ -1,6 +1,8 @@
 # Jizhu Deck Specification
 
-A Jizhu deck is a single JSON file served over HTTP(S). The deck's URL is its unique identifier — all local progress state is keyed by that URL.
+A Jizhu deck is loaded from a manifest JSON file served over HTTP(S). The manifest URL is the deck's unique identifier — all local progress state is keyed by that URL.
+
+The manifest may either contain all deck data inline, or it may reference separate unit and vocabulary group files by relative URL. Referenced files are resolved relative to the manifest URL.
 
 ## Top-level shape
 
@@ -8,27 +10,10 @@ A Jizhu deck is a single JSON file served over HTTP(S). The deck's URL is its un
 {
   "title": "HSK 1 Core",
   "vocabulary": {
-    "vegetables": [
-      {
-        "id": "8b03f4d1-3f0f-4a39-90df-6b7d4fb1d63d",
-        "hanzi": "青菜",
-        "pinyin": "qīngcài",
-        "gloss": "leafy greens"
-      },
-      {
-        "id": "2ccf8ff0-36cc-4f1d-891a-7853197f4b1e",
-        "hanzi": "蘑菇",
-        "pinyin": "mógu",
-        "gloss": "mushroom"
-      }
-    ]
+    "vegetables": "hsk-1-core/vocabulary/vegetables.json"
   },
   "units": [
-    {
-      "id": "greetings",
-      "title": "Greetings",
-      "cards": []
-    }
+    "hsk-1-core/units/greetings.json"
   ]
 }
 ```
@@ -36,8 +21,47 @@ A Jizhu deck is a single JSON file served over HTTP(S). The deck's URL is its un
 | Field        | Type                          | Required | Description                                                                              |
 | ------------ | ----------------------------- | -------- | ---------------------------------------------------------------------------------------- |
 | `title`      | string                        | yes      | Human-readable deck name shown in the UI.                                                |
-| `vocabulary` | object (group id → VocabItem[]) | no     | Named vocabulary groups that pattern-card slots can draw from. See [Vocabulary](#vocabulary). |
-| `units`      | array of Unit                 | yes      | The units that group cards. Order in the array carries no meaning — units are not studied sequentially. |
+| `vocabulary` | object (group id → VocabItem[] or string) | no | Named vocabulary groups that pattern-card slots can draw from. A string value is a relative URL to a vocabulary group file. See [Vocabulary](#vocabulary). |
+| `units`      | array of Unit or string       | yes      | The units that group cards. A string value is a relative URL to a unit file. Order in the array carries no meaning — units are not studied sequentially. |
+
+## Split deck files
+
+For larger decks, the manifest should usually stay small and reference separate files:
+
+```text
+decks/
+  jizhu-starter.json
+  jizhu-starter/
+    vocabulary/
+      vegetables.json
+      places-in-town.json
+    units/
+      greetings-politeness.json
+      at-the-restaurant.json
+```
+
+In this layout, `decks/jizhu-starter.json` is the canonical deck URL. Files under `decks/jizhu-starter/` are implementation parts of that deck.
+
+### Referenced vocabulary group file
+
+```json
+{
+  "id": "vegetables",
+  "items": [
+    {
+      "id": "8b03f4d1-3f0f-4a39-90df-6b7d4fb1d63d",
+      "hanzi": "青菜",
+      "pinyin": "qīngcài",
+      "gloss": "leafy greens"
+    }
+  ]
+}
+```
+
+| Field   | Type        | Required | Description                                      |
+| ------- | ----------- | -------- | ------------------------------------------------ |
+| `id`    | string      | yes      | Vocabulary group id. Must match the manifest key. |
+| `items` | VocabItem[] | yes      | Items belonging to this vocabulary group.        |
 
 ## Unit
 

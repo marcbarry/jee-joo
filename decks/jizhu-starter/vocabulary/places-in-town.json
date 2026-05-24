@@ -1,0 +1,65 @@
+{
+  "id": "places-in-town",
+  "items": [
+    {
+      "id": "",
+      "hanzi": "厕所",
+      "pinyin": "cèsuǒ",
+      "gloss": "bathroom"
+    },
+    {
+      "id": "",
+      "hanzi": "地铁",
+      "pinyin": "dìtiě",
+      "gloss": "subway / metro"
+    },
+    {
+      "id": "",
+      "hanzi": "火车站",
+      "pinyin": "huǒchēzhàn",
+      "gloss": "train station"
+    },
+    {
+      "id": "",
+      "hanzi": "机场",
+      "pinyin": "jīchǎng",
+      "gloss": "airport"
+    },
+    {
+      "id": "",
+      "hanzi": "酒店",
+      "pinyin": "jiǔdiàn",
+      "gloss": "hotel"
+    },
+    {
+      "id": "",
+      "hanzi": "医院",
+      "pinyin": "yīyuàn",
+      "gloss": "hospital"
+    },
+    {
+      "id": "",
+      "hanzi": "商店",
+      "pinyin": "shāngdiàn",
+      "gloss": "shop / store"
+    },
+    {
+      "id": "",
+      "hanzi": "饭店",
+      "pinyin": "fàndiàn",
+      "gloss": "restaurant"
+    },
+    {
+      "id": "",
+      "hanzi": "学校",
+      "pinyin": "xuéxiào",
+      "gloss": "school"
+    },
+    {
+      "id": "",
+      "hanzi": "家",
+      "pinyin": "jiā",
+      "gloss": "home"
+    }
+  ]
+}

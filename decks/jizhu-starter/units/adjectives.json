@@ -1,0 +1,123 @@
+{
+  "id": "adjectives",
+  "title": "Adjectives",
+  "cards": [
+    {
+      "id": "",
+      "hanzi": "好",
+      "pinyin": "hǎo",
+      "translation": "good",
+      "tokens": [
+        {
+          "hanzi": "好",
+          "pinyin": "hǎo",
+          "gloss": "good"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "大",
+      "pinyin": "dà",
+      "translation": "big",
+      "tokens": [
+        {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "gloss": "big"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "小",
+      "pinyin": "xiǎo",
+      "translation": "small",
+      "tokens": [
+        {
+          "hanzi": "小",
+          "pinyin": "xiǎo",
+          "gloss": "small"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "多",
+      "pinyin": "duō",
+      "translation": "many / much",
+      "tokens": [
+        {
+          "hanzi": "多",
+          "pinyin": "duō",
+          "gloss": "many / much"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "少",
+      "pinyin": "shǎo",
+      "translation": "few / little",
+      "tokens": [
+        {
+          "hanzi": "少",
+          "pinyin": "shǎo",
+          "gloss": "few / little"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "热",
+      "pinyin": "rè",
+      "translation": "hot",
+      "tokens": [
+        {
+          "hanzi": "热",
+          "pinyin": "rè",
+          "gloss": "hot"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "冷",
+      "pinyin": "lěng",
+      "translation": "cold",
+      "tokens": [
+        {
+          "hanzi": "冷",
+          "pinyin": "lěng",
+          "gloss": "cold"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "高兴",
+      "pinyin": "gāoxìng",
+      "translation": "happy / pleased",
+      "tokens": [
+        {
+          "hanzi": "高兴",
+          "pinyin": "gāoxìng",
+          "gloss": "happy / pleased"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "漂亮",
+      "pinyin": "piàoliang",
+      "translation": "pretty / beautiful",
+      "tokens": [
+        {
+          "hanzi": "漂亮",
+          "pinyin": "piàoliang",
+          "gloss": "pretty / beautiful"
+        }
+      ]
+    }
+  ]
+}

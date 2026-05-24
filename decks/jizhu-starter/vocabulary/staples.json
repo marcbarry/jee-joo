@@ -1,0 +1,41 @@
+{
+  "id": "staples",
+  "items": [
+    {
+      "id": "",
+      "hanzi": "米饭",
+      "pinyin": "mǐfàn",
+      "gloss": "rice"
+    },
+    {
+      "id": "",
+      "hanzi": "面条",
+      "pinyin": "miàntiáo",
+      "gloss": "noodles"
+    },
+    {
+      "id": "",
+      "hanzi": "饺子",
+      "pinyin": "jiǎozi",
+      "gloss": "dumplings"
+    },
+    {
+      "id": "",
+      "hanzi": "包子",
+      "pinyin": "bāozi",
+      "gloss": "steamed bun"
+    },
+    {
+      "id": "",
+      "hanzi": "面包",
+      "pinyin": "miànbāo",
+      "gloss": "bread"
+    },
+    {
+      "id": "",
+      "hanzi": "汤",
+      "pinyin": "tāng",
+      "gloss": "soup"
+    }
+  ]
+}

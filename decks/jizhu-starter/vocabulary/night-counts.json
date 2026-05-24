@@ -1,0 +1,89 @@
+{
+  "id": "night-counts",
+  "items": [
+    {
+      "id": "",
+      "hanzi": "一",
+      "pinyin": "yī",
+      "gloss": "one"
+    },
+    {
+      "id": "",
+      "hanzi": "二",
+      "pinyin": "èr",
+      "gloss": "two"
+    },
+    {
+      "id": "",
+      "hanzi": "三",
+      "pinyin": "sān",
+      "gloss": "three"
+    },
+    {
+      "id": "",
+      "hanzi": "四",
+      "pinyin": "sì",
+      "gloss": "four"
+    },
+    {
+      "id": "",
+      "hanzi": "五",
+      "pinyin": "wǔ",
+      "gloss": "five"
+    },
+    {
+      "id": "",
+      "hanzi": "六",
+      "pinyin": "liù",
+      "gloss": "six"
+    },
+    {
+      "id": "",
+      "hanzi": "七",
+      "pinyin": "qī",
+      "gloss": "seven"
+    },
+    {
+      "id": "",
+      "hanzi": "八",
+      "pinyin": "bā",
+      "gloss": "eight"
+    },
+    {
+      "id": "",
+      "hanzi": "九",
+      "pinyin": "jiǔ",
+      "gloss": "nine"
+    },
+    {
+      "id": "",
+      "hanzi": "十",
+      "pinyin": "shí",
+      "gloss": "ten"
+    },
+    {
+      "id": "",
+      "hanzi": "十一",
+      "pinyin": "shí yī",
+      "gloss": "ten-one"
+    },
+    {
+      "id": "",
+      "hanzi": "十二",
+      "pinyin": "shí èr",
+      "gloss": "ten-two"
+    },
+    {
+      "id": "",
+      "hanzi": "十三",
+      "pinyin": "shí sān",
+      "gloss": "ten-three"
+    },
+    {
+      "id": "",
+      "hanzi": "十四",
+      "pinyin": "shí sì",
+      "gloss": "ten-four"
+    }
+  ]
+}

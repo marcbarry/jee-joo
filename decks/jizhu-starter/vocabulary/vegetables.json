@@ -1,0 +1,167 @@
+{
+  "id": "vegetables",
+  "items": [
+    {
+      "id": "",
+      "hanzi": "小白菜",
+      "pinyin": "xiǎo báicài",
+      "gloss": "bok choy"
+    },
+    {
+      "id": "",
+      "hanzi": "大白菜",
+      "pinyin": "dà báicài",
+      "gloss": "Chinese cabbage"
+    },
+    {
+      "id": "",
+      "hanzi": "卷心菜",
+      "pinyin": "juǎnxīncài",
+      "gloss": "cabbage"
+    },
+    {
+      "id": "",
+      "hanzi": "菠菜",
+      "pinyin": "bōcài",
+      "gloss": "spinach"
+    },
+    {
+      "id": "",
+      "hanzi": "生菜",
+      "pinyin": "shēngcài",
+      "gloss": "lettuce"
+    },
+    {
+      "id": "",
+      "hanzi": "西兰花",
+      "pinyin": "xīlánhuā",
+      "gloss": "broccoli"
+    },
+    {
+      "id": "",
+      "hanzi": "胡萝卜",
+      "pinyin": "húluóbo",
+      "gloss": "carrot"
+    },
+    {
+      "id": "",
+      "hanzi": "土豆",
+      "pinyin": "tǔdòu",
+      "gloss": "potato"
+    },
+    {
+      "id": "",
+      "hanzi": "红薯",
+      "pinyin": "hóngshǔ",
+      "gloss": "sweet potato"
+    },
+    {
+      "id": "",
+      "hanzi": "西红柿",
+      "pinyin": "xīhóngshì",
+      "gloss": "tomato"
+    },
+    {
+      "id": "",
+      "hanzi": "黄瓜",
+      "pinyin": "huángguā",
+      "gloss": "cucumber"
+    },
+    {
+      "id": "",
+      "hanzi": "茄子",
+      "pinyin": "qiézi",
+      "gloss": "eggplant / aubergine"
+    },
+    {
+      "id": "",
+      "hanzi": "甜椒",
+      "pinyin": "tiánjiāo",
+      "gloss": "bell pepper"
+    },
+    {
+      "id": "",
+      "hanzi": "辣椒",
+      "pinyin": "làjiāo",
+      "gloss": "chili pepper"
+    },
+    {
+      "id": "",
+      "hanzi": "大蒜",
+      "pinyin": "dàsuàn",
+      "gloss": "garlic"
+    },
+    {
+      "id": "",
+      "hanzi": "姜",
+      "pinyin": "jiāng",
+      "gloss": "ginger"
+    },
+    {
+      "id": "",
+      "hanzi": "洋葱",
+      "pinyin": "yángcōng",
+      "gloss": "onion"
+    },
+    {
+      "id": "",
+      "hanzi": "葱",
+      "pinyin": "cōng",
+      "gloss": "spring onion / scallion"
+    },
+    {
+      "id": "",
+      "hanzi": "韭菜",
+      "pinyin": "jiǔcài",
+      "gloss": "leek"
+    },
+    {
+      "id": "",
+      "hanzi": "蘑菇",
+      "pinyin": "mógu",
+      "gloss": "mushroom"
+    },
+    {
+      "id": "",
+      "hanzi": "木耳",
+      "pinyin": "mù'ěr",
+      "gloss": "wood ear mushroom"
+    },
+    {
+      "id": "",
+      "hanzi": "豆芽",
+      "pinyin": "dòuyá",
+      "gloss": "bean sprouts"
+    },
+    {
+      "id": "",
+      "hanzi": "四季豆",
+      "pinyin": "sìjìdòu",
+      "gloss": "green beans"
+    },
+    {
+      "id": "",
+      "hanzi": "荷兰豆",
+      "pinyin": "hélándòu",
+      "gloss": "snow peas"
+    },
+    {
+      "id": "",
+      "hanzi": "玉米",
+      "pinyin": "yùmǐ",
+      "gloss": "corn"
+    },
+    {
+      "id": "",
+      "hanzi": "豆腐",
+      "pinyin": "dòufu",
+      "gloss": "tofu"
+    },
+    {
+      "id": "",
+      "hanzi": "海带",
+      "pinyin": "hǎidài",
+      "gloss": "seaweed"
+    }
+  ]
+}

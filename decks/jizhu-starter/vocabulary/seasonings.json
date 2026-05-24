@@ -1,0 +1,41 @@
+{
+  "id": "seasonings",
+  "items": [
+    {
+      "id": "",
+      "hanzi": "酱油",
+      "pinyin": "jiàngyóu",
+      "gloss": "soy sauce"
+    },
+    {
+      "id": "",
+      "hanzi": "醋",
+      "pinyin": "cù",
+      "gloss": "vinegar"
+    },
+    {
+      "id": "",
+      "hanzi": "辣椒油",
+      "pinyin": "làjiāo yóu",
+      "gloss": "chili oil"
+    },
+    {
+      "id": "",
+      "hanzi": "糖",
+      "pinyin": "táng",
+      "gloss": "sugar"
+    },
+    {
+      "id": "",
+      "hanzi": "盐",
+      "pinyin": "yán",
+      "gloss": "salt"
+    },
+    {
+      "id": "",
+      "hanzi": "胡椒",
+      "pinyin": "hújiāo",
+      "gloss": "pepper"
+    }
+  ]
+}

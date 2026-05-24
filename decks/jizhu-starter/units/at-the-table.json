@@ -1,0 +1,123 @@
+{
+  "id": "at-the-table",
+  "title": "At the Table",
+  "cards": [
+    {
+      "id": "",
+      "hanzi": "闻起来很香。",
+      "pinyin": "Wén qǐlai hěn xiāng.",
+      "translation": "It smells delicious.",
+      "tokens": [
+        {
+          "hanzi": "闻起来很香。",
+          "pinyin": "Wén qǐlai hěn xiāng.",
+          "gloss": "It smells delicious."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "看起来很好吃。",
+      "pinyin": "Kàn qǐlai hěn hǎochī.",
+      "translation": "It looks delicious.",
+      "tokens": [
+        {
+          "hanzi": "看起来很好吃。",
+          "pinyin": "Kàn qǐlai hěn hǎochī.",
+          "gloss": "It looks delicious."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "很好吃。",
+      "pinyin": "Hěn hǎochī.",
+      "translation": "It's delicious.",
+      "tokens": [
+        {
+          "hanzi": "很好吃。",
+          "pinyin": "Hěn hǎochī.",
+          "gloss": "It's delicious."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "好吃！",
+      "pinyin": "Hǎochī!",
+      "translation": "Delicious!",
+      "tokens": [
+        {
+          "hanzi": "好吃！",
+          "pinyin": "Hǎochī!",
+          "gloss": "Delicious!"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "很好。",
+      "pinyin": "Hěn hǎo.",
+      "translation": "Very good.",
+      "tokens": [
+        {
+          "hanzi": "很好。",
+          "pinyin": "Hěn hǎo.",
+          "gloss": "Very good."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "这个菜很好。",
+      "pinyin": "Zhège cài hěn hǎo.",
+      "translation": "This dish is very good.",
+      "tokens": [
+        {
+          "hanzi": "这个菜很好。",
+          "pinyin": "Zhège cài hěn hǎo.",
+          "gloss": "This dish is very good."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我吃饱了，谢谢。",
+      "pinyin": "Wǒ chī bǎo le, xièxie.",
+      "translation": "I'm full, thank you.",
+      "tokens": [
+        {
+          "hanzi": "我吃饱了，谢谢。",
+          "pinyin": "Wǒ chī bǎo le, xièxie.",
+          "gloss": "I'm full, thank you."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "再来一点，谢谢。",
+      "pinyin": "Zài lái yìdiǎn, xièxie.",
+      "translation": "A little more, please.",
+      "tokens": [
+        {
+          "hanzi": "再来一点，谢谢。",
+          "pinyin": "Zài lái yìdiǎn, xièxie.",
+          "gloss": "A little more, please."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "干杯！",
+      "pinyin": "Gānbēi!",
+      "translation": "Cheers!",
+      "tokens": [
+        {
+          "hanzi": "干杯！",
+          "pinyin": "Gānbēi!",
+          "gloss": "Cheers!"
+        }
+      ]
+    }
+  ]
+}

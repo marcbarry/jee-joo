@@ -1,0 +1,41 @@
+{
+  "id": "meats",
+  "items": [
+    {
+      "id": "",
+      "hanzi": "猪肉",
+      "pinyin": "zhūròu",
+      "gloss": "pork"
+    },
+    {
+      "id": "",
+      "hanzi": "牛肉",
+      "pinyin": "niúròu",
+      "gloss": "beef"
+    },
+    {
+      "id": "",
+      "hanzi": "羊肉",
+      "pinyin": "yángròu",
+      "gloss": "lamb / mutton"
+    },
+    {
+      "id": "",
+      "hanzi": "鸡肉",
+      "pinyin": "jīròu",
+      "gloss": "chicken"
+    },
+    {
+      "id": "",
+      "hanzi": "鸭肉",
+      "pinyin": "yāròu",
+      "gloss": "duck"
+    },
+    {
+      "id": "",
+      "hanzi": "鸡蛋",
+      "pinyin": "jīdàn",
+      "gloss": "egg"
+    }
+  ]
+}

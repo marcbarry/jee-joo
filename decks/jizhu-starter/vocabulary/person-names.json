@@ -1,0 +1,23 @@
+{
+  "id": "person-names",
+  "items": [
+    {
+      "id": "",
+      "hanzi": "小王",
+      "pinyin": "Xiǎo Wáng",
+      "gloss": "Xiao Wang"
+    },
+    {
+      "id": "",
+      "hanzi": "小李",
+      "pinyin": "Xiǎo Lǐ",
+      "gloss": "Xiao Li"
+    },
+    {
+      "id": "",
+      "hanzi": "小张",
+      "pinyin": "Xiǎo Zhāng",
+      "gloss": "Xiao Zhang"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "id": "things-around-you",
+  "title": "Things Around You",
+  "cards": [
+    {
+      "id": "",
+      "hanzi": "书",
+      "pinyin": "shū",
+      "translation": "book",
+      "tokens": [
+        {
+          "hanzi": "书",
+          "pinyin": "shū",
+          "gloss": "book"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "字",
+      "pinyin": "zì",
+      "translation": "Chinese character",
+      "tokens": [
+        {
+          "hanzi": "字",
+          "pinyin": "zì",
+          "gloss": "Chinese character"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "衣服",
+      "pinyin": "yīfu",
+      "translation": "clothes",
+      "tokens": [
+        {
+          "hanzi": "衣服",
+          "pinyin": "yīfu",
+          "gloss": "clothes"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "钱",
+      "pinyin": "qián",
+      "translation": "money",
+      "tokens": [
+        {
+          "hanzi": "钱",
+          "pinyin": "qián",
+          "gloss": "money"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "杯子",
+      "pinyin": "bēizi",
+      "translation": "cup",
+      "tokens": [
+        {
+          "hanzi": "杯子",
+          "pinyin": "bēizi",
+          "gloss": "cup"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "桌子",
+      "pinyin": "zhuōzi",
+      "translation": "table",
+      "tokens": [
+        {
+          "hanzi": "桌子",
+          "pinyin": "zhuōzi",
+          "gloss": "table"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "椅子",
+      "pinyin": "yǐzi",
+      "translation": "chair",
+      "tokens": [
+        {
+          "hanzi": "椅子",
+          "pinyin": "yǐzi",
+          "gloss": "chair"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "东西",
+      "pinyin": "dōngxi",
+      "translation": "thing / stuff",
+      "tokens": [
+        {
+          "hanzi": "东西",
+          "pinyin": "dōngxi",
+          "gloss": "thing / stuff"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "猫",
+      "pinyin": "māo",
+      "translation": "cat",
+      "tokens": [
+        {
+          "hanzi": "猫",
+          "pinyin": "māo",
+          "gloss": "cat"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "狗",
+      "pinyin": "gǒu",
+      "translation": "dog",
+      "tokens": [
+        {
+          "hanzi": "狗",
+          "pinyin": "gǒu",
+          "gloss": "dog"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "电视",
+      "pinyin": "diànshì",
+      "translation": "television",
+      "tokens": [
+        {
+          "hanzi": "电视",
+          "pinyin": "diànshì",
+          "gloss": "television"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "电脑",
+      "pinyin": "diànnǎo",
+      "translation": "computer",
+      "tokens": [
+        {
+          "hanzi": "电脑",
+          "pinyin": "diànnǎo",
+          "gloss": "computer"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "电话",
+      "pinyin": "diànhuà",
+      "translation": "telephone",
+      "tokens": [
+        {
+          "hanzi": "电话",
+          "pinyin": "diànhuà",
+          "gloss": "telephone"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "电影",
+      "pinyin": "diànyǐng",
+      "translation": "movie",
+      "tokens": [
+        {
+          "hanzi": "电影",
+          "pinyin": "diànyǐng",
+          "gloss": "movie"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "这本书很好。",
+      "pinyin": "Zhè běn shū hěn hǎo.",
+      "translation": "This book is good.",
+      "tokens": [
+        {
+          "hanzi": "这本书很好。",
+          "pinyin": "Zhè běn shū hěn hǎo.",
+          "gloss": "This book is good."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "这是什么？",
+      "pinyin": "Zhè shì shénme?",
+      "translation": "What is this?",
+      "tokens": [
+        {
+          "hanzi": "这是什么？",
+          "pinyin": "Zhè shì shénme?",
+          "gloss": "What is this?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "这是谁的？",
+      "pinyin": "Zhè shì shéi de?",
+      "translation": "Whose is this?",
+      "tokens": [
+        {
+          "hanzi": "这是谁的？",
+          "pinyin": "Zhè shì shéi de?",
+          "gloss": "Whose is this?"
+        }
+      ]
+    }
+  ]
+}

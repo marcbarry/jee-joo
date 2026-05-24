@@ -1,0 +1,747 @@
+{
+  "id": "food-vocabulary",
+  "title": "Food Vocabulary",
+  "cards": [
+    {
+      "id": "",
+      "hanzi": "小白菜",
+      "pinyin": "xiǎo báicài",
+      "translation": "bok choy",
+      "tokens": [
+        {
+          "hanzi": "小白菜",
+          "pinyin": "xiǎo báicài",
+          "gloss": "bok choy"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "大白菜",
+      "pinyin": "dà báicài",
+      "translation": "Chinese cabbage",
+      "tokens": [
+        {
+          "hanzi": "大白菜",
+          "pinyin": "dà báicài",
+          "gloss": "Chinese cabbage"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "卷心菜",
+      "pinyin": "juǎnxīncài",
+      "translation": "cabbage",
+      "tokens": [
+        {
+          "hanzi": "卷心菜",
+          "pinyin": "juǎnxīncài",
+          "gloss": "cabbage"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "菠菜",
+      "pinyin": "bōcài",
+      "translation": "spinach",
+      "tokens": [
+        {
+          "hanzi": "菠菜",
+          "pinyin": "bōcài",
+          "gloss": "spinach"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "生菜",
+      "pinyin": "shēngcài",
+      "translation": "lettuce",
+      "tokens": [
+        {
+          "hanzi": "生菜",
+          "pinyin": "shēngcài",
+          "gloss": "lettuce"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "西兰花",
+      "pinyin": "xīlánhuā",
+      "translation": "broccoli",
+      "tokens": [
+        {
+          "hanzi": "西兰花",
+          "pinyin": "xīlánhuā",
+          "gloss": "broccoli"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "胡萝卜",
+      "pinyin": "húluóbo",
+      "translation": "carrot",
+      "tokens": [
+        {
+          "hanzi": "胡萝卜",
+          "pinyin": "húluóbo",
+          "gloss": "carrot"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "土豆",
+      "pinyin": "tǔdòu",
+      "translation": "potato",
+      "tokens": [
+        {
+          "hanzi": "土豆",
+          "pinyin": "tǔdòu",
+          "gloss": "potato"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "红薯",
+      "pinyin": "hóngshǔ",
+      "translation": "sweet potato",
+      "tokens": [
+        {
+          "hanzi": "红薯",
+          "pinyin": "hóngshǔ",
+          "gloss": "sweet potato"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "西红柿",
+      "pinyin": "xīhóngshì",
+      "translation": "tomato",
+      "tokens": [
+        {
+          "hanzi": "西红柿",
+          "pinyin": "xīhóngshì",
+          "gloss": "tomato"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "黄瓜",
+      "pinyin": "huángguā",
+      "translation": "cucumber",
+      "tokens": [
+        {
+          "hanzi": "黄瓜",
+          "pinyin": "huángguā",
+          "gloss": "cucumber"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "茄子",
+      "pinyin": "qiézi",
+      "translation": "eggplant / aubergine",
+      "tokens": [
+        {
+          "hanzi": "茄子",
+          "pinyin": "qiézi",
+          "gloss": "eggplant / aubergine"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "甜椒",
+      "pinyin": "tiánjiāo",
+      "translation": "bell pepper",
+      "tokens": [
+        {
+          "hanzi": "甜椒",
+          "pinyin": "tiánjiāo",
+          "gloss": "bell pepper"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "辣椒",
+      "pinyin": "làjiāo",
+      "translation": "chili pepper",
+      "tokens": [
+        {
+          "hanzi": "辣椒",
+          "pinyin": "làjiāo",
+          "gloss": "chili pepper"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "大蒜",
+      "pinyin": "dàsuàn",
+      "translation": "garlic",
+      "tokens": [
+        {
+          "hanzi": "大蒜",
+          "pinyin": "dàsuàn",
+          "gloss": "garlic"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "姜",
+      "pinyin": "jiāng",
+      "translation": "ginger",
+      "tokens": [
+        {
+          "hanzi": "姜",
+          "pinyin": "jiāng",
+          "gloss": "ginger"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "洋葱",
+      "pinyin": "yángcōng",
+      "translation": "onion",
+      "tokens": [
+        {
+          "hanzi": "洋葱",
+          "pinyin": "yángcōng",
+          "gloss": "onion"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "葱",
+      "pinyin": "cōng",
+      "translation": "spring onion / scallion",
+      "tokens": [
+        {
+          "hanzi": "葱",
+          "pinyin": "cōng",
+          "gloss": "spring onion / scallion"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "韭菜",
+      "pinyin": "jiǔcài",
+      "translation": "leek",
+      "tokens": [
+        {
+          "hanzi": "韭菜",
+          "pinyin": "jiǔcài",
+          "gloss": "leek"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "蘑菇",
+      "pinyin": "mógu",
+      "translation": "mushroom",
+      "tokens": [
+        {
+          "hanzi": "蘑菇",
+          "pinyin": "mógu",
+          "gloss": "mushroom"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "木耳",
+      "pinyin": "mù'ěr",
+      "translation": "wood ear mushroom",
+      "tokens": [
+        {
+          "hanzi": "木耳",
+          "pinyin": "mù'ěr",
+          "gloss": "wood ear mushroom"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "豆芽",
+      "pinyin": "dòuyá",
+      "translation": "bean sprouts",
+      "tokens": [
+        {
+          "hanzi": "豆芽",
+          "pinyin": "dòuyá",
+          "gloss": "bean sprouts"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "四季豆",
+      "pinyin": "sìjìdòu",
+      "translation": "green beans",
+      "tokens": [
+        {
+          "hanzi": "四季豆",
+          "pinyin": "sìjìdòu",
+          "gloss": "green beans"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "荷兰豆",
+      "pinyin": "hélándòu",
+      "translation": "snow peas",
+      "tokens": [
+        {
+          "hanzi": "荷兰豆",
+          "pinyin": "hélándòu",
+          "gloss": "snow peas"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "玉米",
+      "pinyin": "yùmǐ",
+      "translation": "corn",
+      "tokens": [
+        {
+          "hanzi": "玉米",
+          "pinyin": "yùmǐ",
+          "gloss": "corn"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "豆腐",
+      "pinyin": "dòufu",
+      "translation": "tofu",
+      "tokens": [
+        {
+          "hanzi": "豆腐",
+          "pinyin": "dòufu",
+          "gloss": "tofu"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "海带",
+      "pinyin": "hǎidài",
+      "translation": "seaweed",
+      "tokens": [
+        {
+          "hanzi": "海带",
+          "pinyin": "hǎidài",
+          "gloss": "seaweed"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "猪肉",
+      "pinyin": "zhūròu",
+      "translation": "pork",
+      "tokens": [
+        {
+          "hanzi": "猪肉",
+          "pinyin": "zhūròu",
+          "gloss": "pork"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "牛肉",
+      "pinyin": "niúròu",
+      "translation": "beef",
+      "tokens": [
+        {
+          "hanzi": "牛肉",
+          "pinyin": "niúròu",
+          "gloss": "beef"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "羊肉",
+      "pinyin": "yángròu",
+      "translation": "lamb / mutton",
+      "tokens": [
+        {
+          "hanzi": "羊肉",
+          "pinyin": "yángròu",
+          "gloss": "lamb / mutton"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "鸡肉",
+      "pinyin": "jīròu",
+      "translation": "chicken",
+      "tokens": [
+        {
+          "hanzi": "鸡肉",
+          "pinyin": "jīròu",
+          "gloss": "chicken"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "鸭肉",
+      "pinyin": "yāròu",
+      "translation": "duck",
+      "tokens": [
+        {
+          "hanzi": "鸭肉",
+          "pinyin": "yāròu",
+          "gloss": "duck"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "鸡蛋",
+      "pinyin": "jīdàn",
+      "translation": "egg",
+      "tokens": [
+        {
+          "hanzi": "鸡蛋",
+          "pinyin": "jīdàn",
+          "gloss": "egg"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "鱼",
+      "pinyin": "yú",
+      "translation": "fish",
+      "tokens": [
+        {
+          "hanzi": "鱼",
+          "pinyin": "yú",
+          "gloss": "fish"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "虾",
+      "pinyin": "xiā",
+      "translation": "shrimp / prawn",
+      "tokens": [
+        {
+          "hanzi": "虾",
+          "pinyin": "xiā",
+          "gloss": "shrimp / prawn"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "螃蟹",
+      "pinyin": "pángxiè",
+      "translation": "crab",
+      "tokens": [
+        {
+          "hanzi": "螃蟹",
+          "pinyin": "pángxiè",
+          "gloss": "crab"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "鱿鱼",
+      "pinyin": "yóuyú",
+      "translation": "squid",
+      "tokens": [
+        {
+          "hanzi": "鱿鱼",
+          "pinyin": "yóuyú",
+          "gloss": "squid"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "蛤蜊",
+      "pinyin": "gélí",
+      "translation": "clam",
+      "tokens": [
+        {
+          "hanzi": "蛤蜊",
+          "pinyin": "gélí",
+          "gloss": "clam"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "扇贝",
+      "pinyin": "shànbèi",
+      "translation": "scallop",
+      "tokens": [
+        {
+          "hanzi": "扇贝",
+          "pinyin": "shànbèi",
+          "gloss": "scallop"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "米饭",
+      "pinyin": "mǐfàn",
+      "translation": "rice",
+      "tokens": [
+        {
+          "hanzi": "米饭",
+          "pinyin": "mǐfàn",
+          "gloss": "rice"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "面条",
+      "pinyin": "miàntiáo",
+      "translation": "noodles",
+      "tokens": [
+        {
+          "hanzi": "面条",
+          "pinyin": "miàntiáo",
+          "gloss": "noodles"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "饺子",
+      "pinyin": "jiǎozi",
+      "translation": "dumplings",
+      "tokens": [
+        {
+          "hanzi": "饺子",
+          "pinyin": "jiǎozi",
+          "gloss": "dumplings"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "包子",
+      "pinyin": "bāozi",
+      "translation": "steamed bun",
+      "tokens": [
+        {
+          "hanzi": "包子",
+          "pinyin": "bāozi",
+          "gloss": "steamed bun"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "面包",
+      "pinyin": "miànbāo",
+      "translation": "bread",
+      "tokens": [
+        {
+          "hanzi": "面包",
+          "pinyin": "miànbāo",
+          "gloss": "bread"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "汤",
+      "pinyin": "tāng",
+      "translation": "soup",
+      "tokens": [
+        {
+          "hanzi": "汤",
+          "pinyin": "tāng",
+          "gloss": "soup"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "酱油",
+      "pinyin": "jiàngyóu",
+      "translation": "soy sauce",
+      "tokens": [
+        {
+          "hanzi": "酱油",
+          "pinyin": "jiàngyóu",
+          "gloss": "soy sauce"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "醋",
+      "pinyin": "cù",
+      "translation": "vinegar",
+      "tokens": [
+        {
+          "hanzi": "醋",
+          "pinyin": "cù",
+          "gloss": "vinegar"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "辣椒油",
+      "pinyin": "làjiāo yóu",
+      "translation": "chili oil",
+      "tokens": [
+        {
+          "hanzi": "辣椒油",
+          "pinyin": "làjiāo yóu",
+          "gloss": "chili oil"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "糖",
+      "pinyin": "táng",
+      "translation": "sugar",
+      "tokens": [
+        {
+          "hanzi": "糖",
+          "pinyin": "táng",
+          "gloss": "sugar"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "盐",
+      "pinyin": "yán",
+      "translation": "salt",
+      "tokens": [
+        {
+          "hanzi": "盐",
+          "pinyin": "yán",
+          "gloss": "salt"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "胡椒",
+      "pinyin": "hújiāo",
+      "translation": "pepper",
+      "tokens": [
+        {
+          "hanzi": "胡椒",
+          "pinyin": "hújiāo",
+          "gloss": "pepper"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "水",
+      "pinyin": "shuǐ",
+      "translation": "water",
+      "tokens": [
+        {
+          "hanzi": "水",
+          "pinyin": "shuǐ",
+          "gloss": "water"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "茶",
+      "pinyin": "chá",
+      "translation": "tea",
+      "tokens": [
+        {
+          "hanzi": "茶",
+          "pinyin": "chá",
+          "gloss": "tea"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "水果",
+      "pinyin": "shuǐguǒ",
+      "translation": "fruit",
+      "tokens": [
+        {
+          "hanzi": "水果",
+          "pinyin": "shuǐguǒ",
+          "gloss": "fruit"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "苹果",
+      "pinyin": "píngguǒ",
+      "translation": "apple",
+      "tokens": [
+        {
+          "hanzi": "苹果",
+          "pinyin": "píngguǒ",
+          "gloss": "apple"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "菜",
+      "pinyin": "cài",
+      "translation": "dish / cuisine",
+      "tokens": [
+        {
+          "hanzi": "菜",
+          "pinyin": "cài",
+          "gloss": "dish / cuisine"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "米饭",
+      "pinyin": "mǐfàn",
+      "translation": "meal / cooked rice",
+      "tokens": [
+        {
+          "hanzi": "米饭",
+          "pinyin": "mǐfàn",
+          "gloss": "meal / cooked rice"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "id": "getting-around-on-foot",
+  "title": "Getting Around (On Foot)",
+  "cards": [
+    {
+      "id": "",
+      "hanzi": "左边",
+      "pinyin": "zuǒbian",
+      "translation": "left",
+      "tokens": [
+        {
+          "hanzi": "左边",
+          "pinyin": "zuǒbian",
+          "gloss": "left"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "右边",
+      "pinyin": "yòubian",
+      "translation": "right",
+      "tokens": [
+        {
+          "hanzi": "右边",
+          "pinyin": "yòubian",
+          "gloss": "right"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "一直走",
+      "pinyin": "yīzhí zǒu",
+      "translation": "straight ahead",
+      "tokens": [
+        {
+          "hanzi": "一直走",
+          "pinyin": "yīzhí zǒu",
+          "gloss": "straight ahead"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "往回走",
+      "pinyin": "wǎng huí zǒu",
+      "translation": "turn around / go back",
+      "tokens": [
+        {
+          "hanzi": "往回走",
+          "pinyin": "wǎng huí zǒu",
+          "gloss": "turn around / go back"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "这里",
+      "pinyin": "zhèlǐ",
+      "translation": "here",
+      "tokens": [
+        {
+          "hanzi": "这里",
+          "pinyin": "zhèlǐ",
+          "gloss": "here"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "那里",
+      "pinyin": "nàlǐ",
+      "translation": "there",
+      "tokens": [
+        {
+          "hanzi": "那里",
+          "pinyin": "nàlǐ",
+          "gloss": "there"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "往{direction}。",
+      "pinyin": "Wǎng {direction}.",
+      "translation": "Turn {direction}.",
+      "slots": {
+        "direction": {
+          "group": "directions"
+        }
+      },
+      "tokens": [
+        {
+          "hanzi": "往",
+          "pinyin": "wǎng",
+          "gloss": "toward"
+        },
+        {
+          "slot": "direction"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "有多远？",
+      "pinyin": "Yǒu duō yuǎn?",
+      "translation": "How far is it?",
+      "tokens": [
+        {
+          "hanzi": "有多远？",
+          "pinyin": "Yǒu duō yuǎn?",
+          "gloss": "How far is it?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "要多久？",
+      "pinyin": "Yào duō jiǔ?",
+      "translation": "How long does it take?",
+      "tokens": [
+        {
+          "hanzi": "要多久？",
+          "pinyin": "Yào duō jiǔ?",
+          "gloss": "How long does it take?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "可以走路去吗？",
+      "pinyin": "Kěyǐ zǒulù qù ma?",
+      "translation": "Is it walkable?",
+      "tokens": [
+        {
+          "hanzi": "可以走路去吗？",
+          "pinyin": "Kěyǐ zǒulù qù ma?",
+          "gloss": "Is it walkable?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "你能在地图上给我看吗？",
+      "pinyin": "Nǐ néng zài dìtú shang gěi wǒ kàn ma?",
+      "translation": "Can you show me on the map?",
+      "tokens": [
+        {
+          "hanzi": "你能在地图上给我看吗？",
+          "pinyin": "Nǐ néng zài dìtú shang gěi wǒ kàn ma?",
+          "gloss": "Can you show me on the map?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我迷路了。",
+      "pinyin": "Wǒ mílù le.",
+      "translation": "I'm lost.",
+      "tokens": [
+        {
+          "hanzi": "我迷路了。",
+          "pinyin": "Wǒ mílù le.",
+          "gloss": "I'm lost."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "厕所在哪儿？",
+      "pinyin": "Cèsuǒ zài nǎr?",
+      "translation": "Where is the bathroom?",
+      "tokens": [
+        {
+          "hanzi": "厕所在哪儿？",
+          "pinyin": "Cèsuǒ zài nǎr?",
+          "gloss": "Where is the bathroom?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "地铁在哪儿？",
+      "pinyin": "Dìtiě zài nǎr?",
+      "translation": "Where is the subway?",
+      "tokens": [
+        {
+          "hanzi": "地铁在哪儿？",
+          "pinyin": "Dìtiě zài nǎr?",
+          "gloss": "Where is the subway?"
+        }
+      ]
+    }
+  ]
+}

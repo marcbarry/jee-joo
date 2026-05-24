@@ -1,0 +1,23 @@
+{
+  "id": "professions",
+  "items": [
+    {
+      "id": "",
+      "hanzi": "学生",
+      "pinyin": "xuésheng",
+      "gloss": "student"
+    },
+    {
+      "id": "",
+      "hanzi": "老师",
+      "pinyin": "lǎoshī",
+      "gloss": "teacher"
+    },
+    {
+      "id": "",
+      "hanzi": "医生",
+      "pinyin": "yīshēng",
+      "gloss": "doctor"
+    }
+  ]
+}

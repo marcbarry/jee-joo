@@ -1,0 +1,162 @@
+{
+  "id": "greetings-politeness",
+  "title": "Greetings & Politeness",
+  "cards": [
+    {
+      "id": "",
+      "hanzi": "你好。",
+      "pinyin": "Nǐ hǎo.",
+      "translation": "Hello.",
+      "tokens": [
+        {
+          "hanzi": "你好。",
+          "pinyin": "Nǐ hǎo.",
+          "gloss": "Hello."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "喂？",
+      "pinyin": "Wéi?",
+      "translation": "Hello (on the phone).",
+      "tokens": [
+        {
+          "hanzi": "喂？",
+          "pinyin": "Wéi?",
+          "gloss": "Hello (on the phone)."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "再见。",
+      "pinyin": "Zàijiàn.",
+      "translation": "Goodbye.",
+      "tokens": [
+        {
+          "hanzi": "再见。",
+          "pinyin": "Zàijiàn.",
+          "gloss": "Goodbye."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "明天见。",
+      "pinyin": "Míngtiān jiàn.",
+      "translation": "See you tomorrow.",
+      "tokens": [
+        {
+          "hanzi": "明天见。",
+          "pinyin": "Míngtiān jiàn.",
+          "gloss": "See you tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "谢谢。",
+      "pinyin": "Xièxie.",
+      "translation": "Thank you.",
+      "tokens": [
+        {
+          "hanzi": "谢谢。",
+          "pinyin": "Xièxie.",
+          "gloss": "Thank you."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "不客气。",
+      "pinyin": "Bú kèqi.",
+      "translation": "You're welcome.",
+      "tokens": [
+        {
+          "hanzi": "不客气。",
+          "pinyin": "Bú kèqi.",
+          "gloss": "You're welcome."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "对不起。",
+      "pinyin": "Duìbuqǐ.",
+      "translation": "Sorry.",
+      "tokens": [
+        {
+          "hanzi": "对不起。",
+          "pinyin": "Duìbuqǐ.",
+          "gloss": "Sorry."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "没关系。",
+      "pinyin": "Méi guānxi.",
+      "translation": "It's nothing. / No problem.",
+      "tokens": [
+        {
+          "hanzi": "没关系。",
+          "pinyin": "Méi guānxi.",
+          "gloss": "It's nothing. / No problem."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "请进。",
+      "pinyin": "Qǐng jìn.",
+      "translation": "Please come in.",
+      "tokens": [
+        {
+          "hanzi": "请进。",
+          "pinyin": "Qǐng jìn.",
+          "gloss": "Please come in."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "请坐。",
+      "pinyin": "Qǐng zuò.",
+      "translation": "Please sit down.",
+      "tokens": [
+        {
+          "hanzi": "请坐。",
+          "pinyin": "Qǐng zuò.",
+          "gloss": "Please sit down."
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "你好吗？",
+      "pinyin": "Nǐ hǎo ma?",
+      "translation": "How are you?",
+      "tokens": [
+        {
+          "hanzi": "你好吗？",
+          "pinyin": "Nǐ hǎo ma?",
+          "gloss": "How are you?"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "hanzi": "我很好，你呢？",
+      "pinyin": "Wǒ hěn hǎo, nǐ ne?",
+      "translation": "I am fine, and you?",
+      "tokens": [
+        {
+          "hanzi": "我很好，你呢？",
+          "pinyin": "Wǒ hěn hǎo, nǐ ne?",
+          "gloss": "I am fine, and you?"
+        }
+      ]
+    }
+  ]
+}
