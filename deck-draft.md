@@ -31,6 +31,7 @@ Defined at the deck level and referenced by slot tokens in pattern cards. The fo
 - `person-names` — common example names used for practice cards.
 - `nationalities` — Chinese, American, British.
 - `ages` — one through ninety-nine.
+- `hours` — one through twelve (for clock times).
 - `night-counts` — one through fourteen.
 - `professions` — student, teacher, doctor.
 
@@ -377,10 +378,35 @@ Check-in, check-out, and the small requests in between.
 - I'll pick them up later.
 - Thank you for your help.
 
-### Calls & Plans
+### Making Plans
 
-Phone-flavoured phrases — separate from the rest because they share a register and tend to chain together.
+Arranging to meet, going places together, and the small back-and-forth around invitations — calls, confirmations, "shall we?", "let's...".
 
+- Shall we go?
+- Let's go.
+- Shall we go to `{places-in-town}`? *(pattern, slot → `places-in-town`)*
+- Let's go to `{places-in-town}`. *(pattern, slot → `places-in-town`)*
+- Let's go together.
+- Are you free tomorrow?
+- Are you free tonight?
+- What time shall we meet?
+- Where shall we meet?
+- Let's meet at `{places-in-town}`. *(pattern, slot → `places-in-town`)*
+- Let's meet at `{hours}` o'clock. *(pattern, slot → `hours`)*
+- I'll meet you there.
+- See you at `{places-in-town}`. *(pattern, slot → `places-in-town`)*
+- See you later.
+- Do you want to come?
+- Do you want to come with me?
+- I'll come with you.
+- together
+- with me
+- with us
+- Bring a friend.
+- Sounds good.
+- That works for me.
+- Sorry, I can't make it.
+- Maybe next time.
 - Please call me.
 - I will call you tomorrow.
 - Can you come?
@@ -407,4 +433,4 @@ Phrases for when the conversation outpaces the learner.
 - **Token granularity for fixed compounds.** `你好` — one token or two? Probably one (it's a fixed compound), with the gloss "hello". Same for `谢谢`, `再见`, `对不起`.
 - **Romanization style.** Spec already says tone marks, not tone numbers. Reaffirm here.
 - **Pattern card progress.** When the SRS surfaces a pattern card, does it pick a random infill each review, cycle through, or treat infills as separate progress targets? Out of scope for the JSON; flagged for the runtime design.
-- **Deck size sanity check.** Roughly 260–300 cards across 17 units once pattern cards are counted singly. Manageable because pattern phrases collapse what would otherwise be many near-duplicates.
+- **Deck size sanity check.** Roughly 280–320 cards across 17 units once pattern cards are counted singly. Manageable because pattern phrases collapse what would otherwise be many near-duplicates.
