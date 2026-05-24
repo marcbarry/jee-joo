@@ -131,7 +131,7 @@ A card becomes a pattern card simply by declaring a `slots` object — no separa
 - The same slot name appearing in multiple places (e.g. once in `hanzi` and once in `tokens`) is filled with the **same** `VocabItem` for that render.
 - The same group can be referenced by slots in different cards — that's the point.
 
-### Known limitations (v1)
+### Known limitations
 
 - A slot references exactly one group. Filtering or multi-group unions are not supported.
 - Tone sandhi at slot boundaries (e.g. `不` shifting before a 4th-tone infill) is not resolved automatically; authors should keep slot positions in tone-stable contexts where possible, or accept the simplification.
