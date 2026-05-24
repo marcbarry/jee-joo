@@ -19,18 +19,20 @@ HSK 1 building blocks (pronouns, numbers, question words, core verbs, particles,
 
 Defined at the deck level and referenced by slot tokens in pattern cards. The food groups are also the source content for the Food Vocabulary unit, so they double as both drill material and slot infills.
 
-- `vegetables` — bok choy, Chinese cabbage, spinach, lettuce, broccoli, carrot, potato, sweet potato, tomato, cucumber, eggplant, bell pepper, chili pepper, garlic, ginger, onion, spring onion, leek, mushroom, wood ear mushroom, bean sprouts, green beans, snow peas, corn, tofu, seaweed.
+- `vegetables` — bok choy, Chinese cabbage, cabbage, spinach, lettuce, broccoli, carrot, potato, sweet potato, tomato, cucumber, eggplant, bell pepper, chili pepper, garlic, ginger, onion, spring onion, leek, mushroom, wood ear mushroom, bean sprouts, green beans, snow peas, corn, tofu, seaweed.
 - `meats` — pork, beef, lamb, chicken, duck, egg.
 - `seafood` — fish, shrimp, crab, squid, clam, scallop.
 - `staples` — rice, noodles, dumplings, steamed bun, bread, soup.
 - `seasonings` — soy sauce, vinegar, chili oil, sugar, salt, pepper.
+- `drinks` — water, tea.
 - `directions` — left, right, straight ahead.
 - `durations` — a moment, a few minutes, an hour, a day, a week.
-- `places-in-town` — bathroom, subway, train station, airport, hotel, hospital, shop, restaurant, school.
+- `places-in-town` — bathroom, subway, train station, airport, hotel, hospital, shop, restaurant, school, home.
 - `person-names` — common example names used for practice cards.
 - `nationalities` — Chinese, American, British.
 - `ages` — one through ninety-nine.
 - `night-counts` — one through fourteen.
+- `professions` — student, teacher, doctor.
 
 ## Units
 
@@ -48,6 +50,8 @@ Mostly fixed phrases.
 - It's nothing. / No problem.
 - Please come in.
 - Please sit down.
+- How are you?
+- I am fine, and you?
 
 ### People & Pronouns
 
@@ -61,6 +65,7 @@ Mostly fixed phrases.
 - they (feminine)
 - this
 - that
+- person
 - name
 - friend
 - student
@@ -79,6 +84,12 @@ Mostly fixed phrases.
 - I am `{nationalities}`. *(pattern, slot → `nationalities`)*
 - This is my teacher.
 - He is my friend.
+- I am a `{professions}`. *(pattern, slot → `professions`)*
+- He is a `{professions}`. *(pattern, slot → `professions`)*
+- I study Chinese.
+- I work at ___.
+- Where do you live?
+- I live in Beijing.
 
 ### Numbers, Time & Measure Words
 
@@ -90,10 +101,14 @@ Numbers 0–10, everyday time words, and the five HSK 1 measure words taught in 
 - volume — for books (本)
 - some / a few (些)
 - piece / unit of currency (块)
+- o'clock (点)
+- minute (分钟)
+- time / moment (时候)
 - now
 - later
 - soon
 - earlier
+- in a moment
 - today
 - tomorrow
 - yesterday
@@ -119,6 +134,7 @@ Numbers 0–10, everyday time words, and the five HSK 1 measure words taught in 
 - how much / how many
 - How much is this?
 - Where is `{places-in-town}`? *(pattern, slot → `places-in-town`)*
+- Where are you going?
 
 ### Essential Verbs
 
@@ -139,6 +155,13 @@ Numbers 0–10, everyday time words, and the five HSK 1 measure words taught in 
 - to speak
 - to read
 - to write
+- to be called / named
+- to sit
+- to live / reside
+- to do / make
+- to open
+- to sleep
+- to make a phone call
 - to understand (会)
 - to know / recognize (people)
 - to study
@@ -147,6 +170,7 @@ Numbers 0–10, everyday time words, and the five HSK 1 measure words taught in 
 - to ask
 - to be able to (learned skill)
 - to be able to (capability / permission)
+- please / to invite
 - not
 - not (with "have")
 - also
@@ -158,6 +182,20 @@ Numbers 0–10, everyday time words, and the five HSK 1 measure words taught in 
 - (question particle — and you?)
 - (possessive / modifier particle)
 - (completed-action / change-of-state particle)
+
+### Adjectives
+
+The HSK 1 descriptive words. Drilled as bare adjectives plus a couple of "this is X" phrases.
+
+- good
+- big
+- small
+- many / much
+- few / little
+- hot
+- cold
+- happy / pleased
+- pretty / beautiful
 
 ### Calendar & Weather
 
@@ -173,8 +211,6 @@ Numbers 0–10, everyday time words, and the five HSK 1 measure words taught in 
 - It's hot today.
 - It's cold today.
 - Is it going to rain?
-- happy / pleased
-- pretty / beautiful
 
 ### Things Around You
 
@@ -210,6 +246,9 @@ Pattern phrases use the food slot groups.
 - I'd like something with `{staples}`. *(pattern, slot → `staples`)*
 - I'd like something with `{vegetables}`. *(pattern, slot → `vegetables`)*
 - I'd like something with `{meats}`. *(pattern, slot → `meats`)*
+- I want to drink `{drinks}`. *(pattern, slot → `drinks`)*
+- Do you want to eat?
+- I am hungry.
 - Lots of vegetables, please.
 - Not too spicy, please.
 - Is this spicy?
@@ -231,21 +270,30 @@ Reacting to food.
 - It's delicious.
 - Delicious!
 - Very good.
+- This dish is very good.
 - I'm full, thank you.
 - A little more, please.
 - Cheers!
 
 ### Food Vocabulary
 
-Surfaces the items in the shared vocabulary groups (`vegetables`, `meats`, `seafood`, `staples`, `seasonings`) as drillable cards in their own right. Same source of truth as the restaurant slots — the learner drills the items here, encounters them again in pattern phrases.
+Surfaces the items in the shared vocabulary groups (`vegetables`, `meats`, `seafood`, `staples`, `seasonings`, `drinks`) as drillable cards in their own right. Same source of truth as the restaurant slots — the learner drills the items here, encounters them again in pattern phrases.
 
 Coverage by group:
 
-- Vegetables (~26 items): full `vegetables` group.
+- Vegetables (~27 items): full `vegetables` group.
 - Meats (~6 items): full `meats` group.
 - Seafood (~6 items): full `seafood` group.
 - Staples (~6 items): full `staples` group.
 - Seasonings (~6 items): full `seasonings` group.
+- Drinks (~2 items): full `drinks` group.
+
+Plus a small set of HSK 1 food-and-drink basics that don't fit a slot group cleanly:
+
+- fruit
+- apple
+- dish / cuisine (菜)
+- meal / cooked rice (米饭)
 
 ### Polite Social Responses
 
@@ -290,7 +338,7 @@ Vehicles and transport hubs.
 - train station
 - I want to take a taxi.
 - Where is the train station?
-- I am going to the airport.
+- I am going to `{places-in-town}`. *(pattern, slot → `places-in-town`)*
 - How much to `{places-in-town}`? *(pattern, slot → `places-in-town`)*
 - Please take me to `{places-in-town}`. *(pattern, slot → `places-in-town`)*
 - Please stop here.
@@ -329,6 +377,16 @@ Check-in, check-out, and the small requests in between.
 - I'll pick them up later.
 - Thank you for your help.
 
+### Calls & Plans
+
+Phone-flavoured phrases — separate from the rest because they share a register and tend to chain together.
+
+- Please call me.
+- I will call you tomorrow.
+- Can you come?
+- I can come.
+- I can't come.
+
 ### Getting By
 
 Phrases for when the conversation outpaces the learner.
@@ -338,6 +396,7 @@ Phrases for when the conversation outpaces the learner.
 - Please say it again.
 - Please speak more slowly.
 - A little.
+- I can speak a little Chinese.
 - I'm still learning.
 - How do you say this in Chinese?
 - What does this mean?
@@ -348,4 +407,4 @@ Phrases for when the conversation outpaces the learner.
 - **Token granularity for fixed compounds.** `你好` — one token or two? Probably one (it's a fixed compound), with the gloss "hello". Same for `谢谢`, `再见`, `对不起`.
 - **Romanization style.** Spec already says tone marks, not tone numbers. Reaffirm here.
 - **Pattern card progress.** When the SRS surfaces a pattern card, does it pick a random infill each review, cycle through, or treat infills as separate progress targets? Out of scope for the JSON; flagged for the runtime design.
-- **Deck size sanity check.** Roughly 230–270 cards across 15 units once pattern cards are counted singly. Manageable because pattern phrases collapse what would otherwise be many near-duplicates.
+- **Deck size sanity check.** Roughly 260–300 cards across 17 units once pattern cards are counted singly. Manageable because pattern phrases collapse what would otherwise be many near-duplicates.
