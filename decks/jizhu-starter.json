@@ -1,0 +1,7127 @@
+{
+  "title": "Jizhu Starter",
+  "vocabulary": {
+    "vegetables": [
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "xi?o b?ic?i",
+        "gloss": "bok choy"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "d? b?ic?i",
+        "gloss": "Chinese cabbage"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "ju?nx?nc?i",
+        "gloss": "cabbage"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "b?c?i",
+        "gloss": "spinach"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh?ngc?i",
+        "gloss": "lettuce"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "x?l?nhu?",
+        "gloss": "broccoli"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "h?lu?bo",
+        "gloss": "carrot"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "t?d?u",
+        "gloss": "potato"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "h?ngsh?",
+        "gloss": "sweet potato"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "x?h?ngsh?",
+        "gloss": "tomato"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "hu?nggu?",
+        "gloss": "cucumber"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "qi?zi",
+        "gloss": "eggplant / aubergine"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "ti?nji?o",
+        "gloss": "bell pepper"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "l?ji?o",
+        "gloss": "chili pepper"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "d?su?n",
+        "gloss": "garlic"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "ji?ng",
+        "gloss": "ginger"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "y?ngc?ng",
+        "gloss": "onion"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "c?ng",
+        "gloss": "spring onion / scallion"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "ji?c?i",
+        "gloss": "leek"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "m?gu",
+        "gloss": "mushroom"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "m?'?r",
+        "gloss": "wood ear mushroom"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "d?uy?",
+        "gloss": "bean sprouts"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s?j?d?u",
+        "gloss": "green beans"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "h?l?nd?u",
+        "gloss": "snow peas"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "y?m?",
+        "gloss": "corn"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "d?ufu",
+        "gloss": "tofu"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "h?id?i",
+        "gloss": "seaweed"
+      }
+    ],
+    "meats": [
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "zh?r?u",
+        "gloss": "pork"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "ni?r?u",
+        "gloss": "beef"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "y?ngr?u",
+        "gloss": "lamb / mutton"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "j?r?u",
+        "gloss": "chicken"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "y?r?u",
+        "gloss": "duck"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "j?d?n",
+        "gloss": "egg"
+      }
+    ],
+    "seafood": [
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "y?",
+        "gloss": "fish"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "xi?",
+        "gloss": "shrimp / prawn"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "p?ngxi?",
+        "gloss": "crab"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "y?uy?",
+        "gloss": "squid"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "g?l?",
+        "gloss": "clam"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh?nb?i",
+        "gloss": "scallop"
+      }
+    ],
+    "staples": [
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "m?f?n",
+        "gloss": "rice"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "mi?nti?o",
+        "gloss": "noodles"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "ji?ozi",
+        "gloss": "dumplings"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "b?ozi",
+        "gloss": "steamed bun"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "mi?nb?o",
+        "gloss": "bread"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "t?ng",
+        "gloss": "soup"
+      }
+    ],
+    "seasonings": [
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "ji?ngy?u",
+        "gloss": "soy sauce"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "c?",
+        "gloss": "vinegar"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "l?ji?o y?u",
+        "gloss": "chili oil"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "t?ng",
+        "gloss": "sugar"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "y?n",
+        "gloss": "salt"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "h?ji?o",
+        "gloss": "pepper"
+      }
+    ],
+    "drinks": [
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "shu?",
+        "gloss": "water"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "ch?",
+        "gloss": "tea"
+      }
+    ],
+    "directions": [
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "zu?",
+        "gloss": "left"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "y?u",
+        "gloss": "right"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "y?zh? z?u",
+        "gloss": "straight ahead"
+      }
+    ],
+    "durations": [
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "y?hu?r",
+        "gloss": "a moment"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "j? f?nzh?ng",
+        "gloss": "a few minutes"
+      },
+      {
+        "id": "",
+        "hanzi": "????",
+        "pinyin": "y? ge xi?osh?",
+        "gloss": "an hour"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "y? ti?n",
+        "gloss": "a day"
+      },
+      {
+        "id": "",
+        "hanzi": "????",
+        "pinyin": "y? ge x?ngq?",
+        "gloss": "a week"
+      }
+    ],
+    "places-in-town": [
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "c?su?",
+        "gloss": "bathroom"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "d?ti?",
+        "gloss": "subway / metro"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "hu?ch?zh?n",
+        "gloss": "train station"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "j?ch?ng",
+        "gloss": "airport"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "ji?di?n",
+        "gloss": "hotel"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "y?yu?n",
+        "gloss": "hospital"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh?ngdi?n",
+        "gloss": "shop / store"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "f?ndi?n",
+        "gloss": "restaurant"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "xu?xi?o",
+        "gloss": "school"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "ji?",
+        "gloss": "home"
+      }
+    ],
+    "person-names": [
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "Xi?o W?ng",
+        "gloss": "Xiao Wang"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "Xi?o L?",
+        "gloss": "Xiao Li"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "Xi?o Zh?ng",
+        "gloss": "Xiao Zhang"
+      }
+    ],
+    "nationalities": [
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "Zh?nggu? r?n",
+        "gloss": "Chinese"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "M?igu? r?n",
+        "gloss": "American"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "Y?nggu? r?n",
+        "gloss": "British"
+      }
+    ],
+    "ages": [
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "y?",
+        "gloss": "one"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "?r",
+        "gloss": "two"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "s?n",
+        "gloss": "three"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "s?",
+        "gloss": "four"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "w?",
+        "gloss": "five"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "li?",
+        "gloss": "six"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "q?",
+        "gloss": "seven"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "b?",
+        "gloss": "eight"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "ji?",
+        "gloss": "nine"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "sh?",
+        "gloss": "ten"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh? y?",
+        "gloss": "ten-one"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh? ?r",
+        "gloss": "ten-two"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh? s?n",
+        "gloss": "ten-three"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh? s?",
+        "gloss": "ten-four"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh? w?",
+        "gloss": "ten-five"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh? li?",
+        "gloss": "ten-six"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh? q?",
+        "gloss": "ten-seven"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh? b?",
+        "gloss": "ten-eight"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh? ji?",
+        "gloss": "ten-nine"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "?r sh?",
+        "gloss": "twenty"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "?r sh? y?",
+        "gloss": "twenty-one"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "?r sh? ?r",
+        "gloss": "twenty-two"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "?r sh? s?n",
+        "gloss": "twenty-three"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "?r sh? s?",
+        "gloss": "twenty-four"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "?r sh? w?",
+        "gloss": "twenty-five"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "?r sh? li?",
+        "gloss": "twenty-six"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "?r sh? q?",
+        "gloss": "twenty-seven"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "?r sh? b?",
+        "gloss": "twenty-eight"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "?r sh? ji?",
+        "gloss": "twenty-nine"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "s?n sh?",
+        "gloss": "threety"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s?n sh? y?",
+        "gloss": "thirty-one"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s?n sh? ?r",
+        "gloss": "thirty-two"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s?n sh? s?n",
+        "gloss": "thirty-three"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s?n sh? s?",
+        "gloss": "thirty-four"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s?n sh? w?",
+        "gloss": "thirty-five"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s?n sh? li?",
+        "gloss": "thirty-six"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s?n sh? q?",
+        "gloss": "thirty-seven"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s?n sh? b?",
+        "gloss": "thirty-eight"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s?n sh? ji?",
+        "gloss": "thirty-nine"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "s? sh?",
+        "gloss": "fourty"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s? sh? y?",
+        "gloss": "forty-one"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s? sh? ?r",
+        "gloss": "forty-two"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s? sh? s?n",
+        "gloss": "forty-three"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s? sh? s?",
+        "gloss": "forty-four"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s? sh? w?",
+        "gloss": "forty-five"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s? sh? li?",
+        "gloss": "forty-six"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s? sh? q?",
+        "gloss": "forty-seven"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s? sh? b?",
+        "gloss": "forty-eight"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "s? sh? ji?",
+        "gloss": "forty-nine"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "w? sh?",
+        "gloss": "fivety"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "w? sh? y?",
+        "gloss": "fifty-one"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "w? sh? ?r",
+        "gloss": "fifty-two"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "w? sh? s?n",
+        "gloss": "fifty-three"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "w? sh? s?",
+        "gloss": "fifty-four"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "w? sh? w?",
+        "gloss": "fifty-five"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "w? sh? li?",
+        "gloss": "fifty-six"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "w? sh? q?",
+        "gloss": "fifty-seven"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "w? sh? b?",
+        "gloss": "fifty-eight"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "w? sh? ji?",
+        "gloss": "fifty-nine"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "li? sh?",
+        "gloss": "sixty"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "li? sh? y?",
+        "gloss": "sixty-one"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "li? sh? ?r",
+        "gloss": "sixty-two"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "li? sh? s?n",
+        "gloss": "sixty-three"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "li? sh? s?",
+        "gloss": "sixty-four"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "li? sh? w?",
+        "gloss": "sixty-five"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "li? sh? li?",
+        "gloss": "sixty-six"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "li? sh? q?",
+        "gloss": "sixty-seven"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "li? sh? b?",
+        "gloss": "sixty-eight"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "li? sh? ji?",
+        "gloss": "sixty-nine"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "q? sh?",
+        "gloss": "seventy"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "q? sh? y?",
+        "gloss": "seventy-one"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "q? sh? ?r",
+        "gloss": "seventy-two"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "q? sh? s?n",
+        "gloss": "seventy-three"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "q? sh? s?",
+        "gloss": "seventy-four"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "q? sh? w?",
+        "gloss": "seventy-five"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "q? sh? li?",
+        "gloss": "seventy-six"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "q? sh? q?",
+        "gloss": "seventy-seven"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "q? sh? b?",
+        "gloss": "seventy-eight"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "q? sh? ji?",
+        "gloss": "seventy-nine"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "b? sh?",
+        "gloss": "eightty"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "b? sh? y?",
+        "gloss": "eighty-one"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "b? sh? ?r",
+        "gloss": "eighty-two"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "b? sh? s?n",
+        "gloss": "eighty-three"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "b? sh? s?",
+        "gloss": "eighty-four"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "b? sh? w?",
+        "gloss": "eighty-five"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "b? sh? li?",
+        "gloss": "eighty-six"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "b? sh? q?",
+        "gloss": "eighty-seven"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "b? sh? b?",
+        "gloss": "eighty-eight"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "b? sh? ji?",
+        "gloss": "eighty-nine"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "ji? sh?",
+        "gloss": "ninety"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "ji? sh? y?",
+        "gloss": "ninety-one"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "ji? sh? ?r",
+        "gloss": "ninety-two"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "ji? sh? s?n",
+        "gloss": "ninety-three"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "ji? sh? s?",
+        "gloss": "ninety-four"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "ji? sh? w?",
+        "gloss": "ninety-five"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "ji? sh? li?",
+        "gloss": "ninety-six"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "ji? sh? q?",
+        "gloss": "ninety-seven"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "ji? sh? b?",
+        "gloss": "ninety-eight"
+      },
+      {
+        "id": "",
+        "hanzi": "???",
+        "pinyin": "ji? sh? ji?",
+        "gloss": "ninety-nine"
+      }
+    ],
+    "hours": [
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "y?",
+        "gloss": "one"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "?r",
+        "gloss": "two"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "s?n",
+        "gloss": "three"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "s?",
+        "gloss": "four"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "w?",
+        "gloss": "five"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "li?",
+        "gloss": "six"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "q?",
+        "gloss": "seven"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "b?",
+        "gloss": "eight"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "ji?",
+        "gloss": "nine"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "sh?",
+        "gloss": "ten"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh? y?",
+        "gloss": "ten-one"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh? ?r",
+        "gloss": "ten-two"
+      }
+    ],
+    "night-counts": [
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "y?",
+        "gloss": "one"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "?r",
+        "gloss": "two"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "s?n",
+        "gloss": "three"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "s?",
+        "gloss": "four"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "w?",
+        "gloss": "five"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "li?",
+        "gloss": "six"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "q?",
+        "gloss": "seven"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "b?",
+        "gloss": "eight"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "ji?",
+        "gloss": "nine"
+      },
+      {
+        "id": "",
+        "hanzi": "?",
+        "pinyin": "sh?",
+        "gloss": "ten"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh? y?",
+        "gloss": "ten-one"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh? ?r",
+        "gloss": "ten-two"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh? s?n",
+        "gloss": "ten-three"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "sh? s?",
+        "gloss": "ten-four"
+      }
+    ],
+    "professions": [
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "xu?sheng",
+        "gloss": "student"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "l?osh?",
+        "gloss": "teacher"
+      },
+      {
+        "id": "",
+        "hanzi": "??",
+        "pinyin": "y?sh?ng",
+        "gloss": "doctor"
+      }
+    ]
+  },
+  "units": [
+    {
+      "id": "greetings-politeness",
+      "title": "Greetings & Politeness",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "N? h?o.",
+          "translation": "Hello.",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "n? h?o",
+              "gloss": "hello"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "W?i?",
+          "translation": "Hello (on the phone).",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?i",
+              "gloss": "hello on the phone"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "Z?iji?n.",
+          "translation": "Goodbye.",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "z?iji?n",
+              "gloss": "goodbye"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "M?ngti?n ji?n.",
+          "translation": "See you tomorrow.",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "m?ngti?n",
+              "gloss": "tomorrow"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "ji?n",
+              "gloss": "see"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "Xi?xie.",
+          "translation": "Thank you.",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "xi?xie",
+              "gloss": "thank you"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "B? k?qi.",
+          "translation": "You're welcome.",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "b? k?qi",
+              "gloss": "you're welcome"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "Du?buq?.",
+          "translation": "Sorry.",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "du?buq?",
+              "gloss": "sorry"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "M?i gu?nxi.",
+          "translation": "It's nothing. / No problem.",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "m?i gu?nxi",
+              "gloss": "no problem"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "Q?ng j?n.",
+          "translation": "Please come in.",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "q?ng",
+              "gloss": "please"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "j?n",
+              "gloss": "enter"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "Q?ng zu?.",
+          "translation": "Please sit down.",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "q?ng",
+              "gloss": "please"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "zu?",
+              "gloss": "sit"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "N? h?o ma?",
+          "translation": "How are you?",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "n?",
+              "gloss": "you"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "h?o",
+              "gloss": "good"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "ma",
+              "gloss": "question particle"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "W? h?n h?o, n? ne?",
+          "translation": "I am fine, and you?",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I / me"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "h?n",
+              "gloss": "very"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "h?o",
+              "gloss": "good"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "n?",
+              "gloss": "you"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "ne",
+              "gloss": "and you?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people-pronouns",
+      "title": "People & Pronouns",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "w?",
+          "translation": "I / me",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I / me"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "n?",
+          "translation": "you (singular)",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "n?",
+              "gloss": "you (singular)"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "t?",
+          "translation": "he / him",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "t?",
+              "gloss": "he / him"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "t?",
+          "translation": "she / her",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "t?",
+              "gloss": "she / her"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "w?men",
+          "translation": "we / us",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "w?men",
+              "gloss": "we / us"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "n?men",
+          "translation": "you (plural)",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "n?men",
+              "gloss": "you (plural)"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "t?men",
+          "translation": "they (mixed or masculine)",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "t?men",
+              "gloss": "they (mixed or masculine)"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "t?men",
+          "translation": "they (feminine)",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "t?men",
+              "gloss": "they (feminine)"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "zh?",
+          "translation": "this",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "zh?",
+              "gloss": "this"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "n?",
+          "translation": "that",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "n?",
+              "gloss": "that"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "r?n",
+          "translation": "person",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "r?n",
+              "gloss": "person"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "m?ngzi",
+          "translation": "name",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "m?ngzi",
+              "gloss": "name"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "p?ngyou",
+          "translation": "friend",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "p?ngyou",
+              "gloss": "friend"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "xu?sheng",
+          "translation": "student",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "xu?sheng",
+              "gloss": "student"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "l?osh?",
+          "translation": "teacher",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "l?osh?",
+              "gloss": "teacher"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "t?ngxu?",
+          "translation": "classmate",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "t?ngxu?",
+              "gloss": "classmate"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "y?sh?ng",
+          "translation": "doctor",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "y?sh?ng",
+              "gloss": "doctor"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "xi?nsheng",
+          "translation": "Mr. / sir",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "xi?nsheng",
+              "gloss": "Mr. / sir"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "xi?oji?",
+          "translation": "Miss",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "xi?oji?",
+              "gloss": "Miss"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "Zh?nggu?",
+          "translation": "China",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "Zh?nggu?",
+              "gloss": "China"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "B?ij?ng",
+          "translation": "Beijing",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "B?ij?ng",
+              "gloss": "Beijing"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "N? ji?o sh?nme m?ngzi?",
+          "translation": "What is your name?",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "n?",
+              "gloss": "you"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "ji?o",
+              "gloss": "be called"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "sh?nme",
+              "gloss": "what"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "m?ngzi",
+              "gloss": "name"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??{name}?",
+          "pinyin": "W? ji?o {name}.",
+          "translation": "My name is {name}.",
+          "slots": {
+            "name": {
+              "group": "person-names"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I / me"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "ji?o",
+              "gloss": "be called"
+            },
+            {
+              "slot": "name"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "N? x?ng sh?nme?",
+          "translation": "What is your surname?",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "n?",
+              "gloss": "you"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "x?ng",
+              "gloss": "be surnamed"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "sh?nme",
+              "gloss": "what"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "H?n g?ox?ng r?nshi n?.",
+          "translation": "Nice to meet you.",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "h?n",
+              "gloss": "very"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "g?ox?ng",
+              "gloss": "happy"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "r?nshi",
+              "gloss": "know / meet"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "n?",
+              "gloss": "you"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "N? sh? n? gu? r?n?",
+          "translation": "Where are you from?",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "n?",
+              "gloss": "you"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "sh?",
+              "gloss": "to be"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "n?",
+              "gloss": "which"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "gu?",
+              "gloss": "country"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "r?n",
+              "gloss": "person"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??{nationality}?",
+          "pinyin": "W? sh? {nationality}.",
+          "translation": "I am {nationality}.",
+          "slots": {
+            "nationality": {
+              "group": "nationalities"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I / me"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "sh?",
+              "gloss": "to be"
+            },
+            {
+              "slot": "nationality"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "Zh? sh? w? de l?osh?.",
+          "translation": "This is my teacher.",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "zh?",
+              "gloss": "this"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "sh?",
+              "gloss": "to be"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I / me"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "de",
+              "gloss": "possessive particle"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "l?osh?",
+              "gloss": "teacher"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "T? sh? w? de p?ngyou.",
+          "translation": "He is my friend.",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "t?",
+              "gloss": "he"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "sh?",
+              "gloss": "to be"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I / me"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "de",
+              "gloss": "possessive particle"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "p?ngyou",
+              "gloss": "friend"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??{profession}?",
+          "pinyin": "W? sh? {profession}.",
+          "translation": "I am a {profession}.",
+          "slots": {
+            "profession": {
+              "group": "professions"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I / me"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "sh?",
+              "gloss": "to be"
+            },
+            {
+              "slot": "profession"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??{profession}?",
+          "pinyin": "T? sh? {profession}.",
+          "translation": "He is a {profession}.",
+          "slots": {
+            "profession": {
+              "group": "professions"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "t?",
+              "gloss": "he"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "sh?",
+              "gloss": "to be"
+            },
+            {
+              "slot": "profession"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "W? xu? Zh?ngw?n.",
+          "translation": "I study Chinese.",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I / me"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "xu?",
+              "gloss": "study"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "Zh?ngw?n",
+              "gloss": "Chinese language"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??{place}???",
+          "pinyin": "W? z?i {place} g?ngzu?.",
+          "translation": "I work at {place}.",
+          "slots": {
+            "place": {
+              "group": "places-in-town"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I / me"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "z?i",
+              "gloss": "at / in"
+            },
+            {
+              "slot": "place"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "g?ngzu?",
+              "gloss": "work"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "N? zh? z?i n?r?",
+          "translation": "Where do you live?",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "n?",
+              "gloss": "you"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "zh?",
+              "gloss": "live"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "z?i",
+              "gloss": "at / in"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "n?r",
+              "gloss": "where"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "W? zh? z?i B?ij?ng.",
+          "translation": "I live in Beijing.",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I / me"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "zh?",
+              "gloss": "live"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "z?i",
+              "gloss": "at / in"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "B?ij?ng",
+              "gloss": "Beijing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numbers-time-measure-words",
+      "title": "Numbers, Time & Measure Words",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "l?ng",
+          "translation": "zero",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "l?ng",
+              "gloss": "zero"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "y?",
+          "translation": "one",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "y?",
+              "gloss": "one"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "?r",
+          "translation": "two",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "?r",
+              "gloss": "two"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "s?n",
+          "translation": "three",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "s?n",
+              "gloss": "three"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "s?",
+          "translation": "four",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "s?",
+              "gloss": "four"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "w?",
+          "translation": "five",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "five"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "li?",
+          "translation": "six",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "li?",
+              "gloss": "six"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "q?",
+          "translation": "seven",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "q?",
+              "gloss": "seven"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "b?",
+          "translation": "eight",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "b?",
+              "gloss": "eight"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "ji?",
+          "translation": "nine",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "ji?",
+              "gloss": "nine"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "sh?",
+          "translation": "ten",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "sh?",
+              "gloss": "ten"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "ge",
+          "translation": "general measure word",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "ge",
+              "gloss": "general measure word"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "su?",
+          "translation": "years old",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "su?",
+              "gloss": "years old"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "b?n",
+          "translation": "volume / measure word for books",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "b?n",
+              "gloss": "volume / measure word for books"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "xi?",
+          "translation": "some / a few",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "xi?",
+              "gloss": "some / a few"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "ku?i",
+          "translation": "piece / unit of currency",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "ku?i",
+              "gloss": "piece / unit of currency"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "di?n",
+          "translation": "o'clock",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "di?n",
+              "gloss": "o'clock"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "f?nzh?ng",
+          "translation": "minute",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "f?nzh?ng",
+              "gloss": "minute"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "sh?hou",
+          "translation": "time / moment",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "sh?hou",
+              "gloss": "time / moment"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "xi?nz?i",
+          "translation": "now",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "xi?nz?i",
+              "gloss": "now"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "y?h?u",
+          "translation": "later",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "y?h?u",
+              "gloss": "later"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "ku?i",
+          "translation": "soon",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "ku?i",
+              "gloss": "soon"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "g?ngc?i",
+          "translation": "earlier",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "g?ngc?i",
+              "gloss": "earlier"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "y?hu?r",
+          "translation": "in a moment",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "y?hu?r",
+              "gloss": "in a moment"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "j?nti?n",
+          "translation": "today",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "j?nti?n",
+              "gloss": "today"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "m?ngti?n",
+          "translation": "tomorrow",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "m?ngti?n",
+              "gloss": "tomorrow"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "zu?ti?n",
+          "translation": "yesterday",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "zu?ti?n",
+              "gloss": "yesterday"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "z?oshang",
+          "translation": "morning",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "z?oshang",
+              "gloss": "morning"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "zh?ngw?",
+          "translation": "noon",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "zh?ngw?",
+              "gloss": "noon"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "xi?w?",
+          "translation": "afternoon",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "xi?w?",
+              "gloss": "afternoon"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "sh?nme sh?hou",
+          "translation": "when?",
+          "tokens": [
+            {
+              "hanzi": "????",
+              "pinyin": "sh?nme sh?hou",
+              "gloss": "when?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "Xi?nz?i j? di?n?",
+          "translation": "What time is it?",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "xi?nz?i",
+              "gloss": "now"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "j?",
+              "gloss": "how many"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "di?n",
+              "gloss": "o'clock"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "H?i z?o.",
+          "translation": "It's still early.",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "h?i",
+              "gloss": "still"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "z?o",
+              "gloss": "early"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "H?n w?n le.",
+          "translation": "It's getting late.",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "h?n",
+              "gloss": "very"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "w?n",
+              "gloss": "late"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "le",
+              "gloss": "change-of-state particle"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "N? du? d??",
+          "translation": "How old are you?",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "n?",
+              "gloss": "you"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "du? d?",
+              "gloss": "how old"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?{age}??",
+          "pinyin": "W? {age} su?.",
+          "translation": "I am {age} years old.",
+          "slots": {
+            "age": {
+              "group": "ages"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I / me"
+            },
+            {
+              "slot": "age"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "su?",
+              "gloss": "years old"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asking-questions",
+      "title": "Asking Questions",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "sh?i",
+          "translation": "who",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "sh?i",
+              "gloss": "who"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "sh?nme",
+          "translation": "what",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "sh?nme",
+              "gloss": "what"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "n?r",
+          "translation": "where",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "n?r",
+              "gloss": "where"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "n?",
+          "translation": "which",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "n?",
+              "gloss": "which"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "z?nmey?ng",
+          "translation": "how",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "z?nmey?ng",
+              "gloss": "how"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "z?nmey?ng?",
+          "translation": "how about?",
+          "tokens": [
+            {
+              "hanzi": "????",
+              "pinyin": "z?nmey?ng?",
+              "gloss": "how about?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "j?",
+          "translation": "how many (small)",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "j?",
+              "gloss": "how many (small)"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "du?shao",
+          "translation": "how much / how many",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "du?shao",
+              "gloss": "how much / how many"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "Zh?ge du?shao qi?n?",
+          "translation": "How much is this?",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "zh?ge",
+              "gloss": "this"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "du?shao",
+              "gloss": "how much"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "qi?n",
+              "gloss": "money"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "{place}????",
+          "pinyin": "{place} z?i n?r?",
+          "translation": "Where is {place}?",
+          "slots": {
+            "place": {
+              "group": "places-in-town"
+            }
+          },
+          "tokens": [
+            {
+              "slot": "place"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "z?i",
+              "gloss": "be at"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "n?r",
+              "gloss": "where"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "N? q? n?r?",
+          "translation": "Where are you going?",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "n?",
+              "gloss": "you"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "q?",
+              "gloss": "go"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "n?r",
+              "gloss": "where"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "essential-verbs",
+      "title": "Essential Verbs",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "sh?",
+          "translation": "to be",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "sh?",
+              "gloss": "to be"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "y?u",
+          "translation": "to have / there is",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "y?u",
+              "gloss": "to have / there is"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "z?i",
+          "translation": "to be at / in",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "z?i",
+              "gloss": "to be at / in"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "y?o",
+          "translation": "to want / would like",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "y?o",
+              "gloss": "to want / would like"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "x?huan",
+          "translation": "to like",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "x?huan",
+              "gloss": "to like"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "?i",
+          "translation": "to love",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "?i",
+              "gloss": "to love"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "q?",
+          "translation": "to go",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "q?",
+              "gloss": "to go"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "l?i",
+          "translation": "to come",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "l?i",
+              "gloss": "to come"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "hu?",
+          "translation": "to return",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "hu?",
+              "gloss": "to return"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "ch?",
+          "translation": "to eat",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "ch?",
+              "gloss": "to eat"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "h?",
+          "translation": "to drink",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "h?",
+              "gloss": "to drink"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "k?n",
+          "translation": "to look / watch",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "k?n",
+              "gloss": "to look / watch"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "k?nji?n",
+          "translation": "to see",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "k?nji?n",
+              "gloss": "to see"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "t?ng",
+          "translation": "to listen",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "t?ng",
+              "gloss": "to listen"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "shu?",
+          "translation": "to speak",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "shu?",
+              "gloss": "to speak"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "d?",
+          "translation": "to read",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "d?",
+              "gloss": "to read"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "xi?",
+          "translation": "to write",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "xi?",
+              "gloss": "to write"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "ji?o",
+          "translation": "to be called / named",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "ji?o",
+              "gloss": "to be called / named"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "zu?",
+          "translation": "to sit",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "zu?",
+              "gloss": "to sit"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "zh?",
+          "translation": "to live / reside",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "zh?",
+              "gloss": "to live / reside"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "zu?",
+          "translation": "to do / make",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "zu?",
+              "gloss": "to do / make"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "k?i",
+          "translation": "to open",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "k?i",
+              "gloss": "to open"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "shu?ji?o",
+          "translation": "to sleep",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "shu?ji?o",
+              "gloss": "to sleep"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "d? di?nhu?",
+          "translation": "to make a phone call",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "d? di?nhu?",
+              "gloss": "to make a phone call"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "d?ng",
+          "translation": "to understand",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "d?ng",
+              "gloss": "to understand"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "r?nshi",
+          "translation": "to know / recognize people",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "r?nshi",
+              "gloss": "to know / recognize people"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "xu?x?",
+          "translation": "to study",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "xu?x?",
+              "gloss": "to study"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "g?ngzu?",
+          "translation": "to work",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "g?ngzu?",
+              "gloss": "to work"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "m?i",
+          "translation": "to buy",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "m?i",
+              "gloss": "to buy"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "w?n",
+          "translation": "to ask",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?n",
+              "gloss": "to ask"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "hu?",
+          "translation": "to be able to (learned skill)",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "hu?",
+              "gloss": "to be able to (learned skill)"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "n?ng",
+          "translation": "to be able to (capability / permission)",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "n?ng",
+              "gloss": "to be able to (capability / permission)"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "q?ng",
+          "translation": "please / to invite",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "q?ng",
+              "gloss": "please / to invite"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "b?",
+          "translation": "not",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "b?",
+              "gloss": "not"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "m?iy?u",
+          "translation": "not (with have)",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "m?iy?u",
+              "gloss": "not (with have)"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "y?",
+          "translation": "also",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "y?",
+              "gloss": "also"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "d?u",
+          "translation": "all / both",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "d?u",
+              "gloss": "all / both"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "h?n",
+          "translation": "very",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "h?n",
+              "gloss": "very"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "t?i",
+          "translation": "too / excessively",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "t?i",
+              "gloss": "too / excessively"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "y?di?nr",
+          "translation": "a little",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "y?di?nr",
+              "gloss": "a little"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "ma",
+          "translation": "question particle - yes/no",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "ma",
+              "gloss": "question particle - yes/no"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "ne",
+          "translation": "question particle - and you?",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "ne",
+              "gloss": "question particle - and you?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "de",
+          "translation": "possessive / modifier particle",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "de",
+              "gloss": "possessive / modifier particle"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "le",
+          "translation": "completed-action / change-of-state particle",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "le",
+              "gloss": "completed-action / change-of-state particle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adjectives",
+      "title": "Adjectives",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "h?o",
+          "translation": "good",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "h?o",
+              "gloss": "good"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "d?",
+          "translation": "big",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "d?",
+              "gloss": "big"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "xi?o",
+          "translation": "small",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "xi?o",
+              "gloss": "small"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "du?",
+          "translation": "many / much",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "du?",
+              "gloss": "many / much"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "sh?o",
+          "translation": "few / little",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "sh?o",
+              "gloss": "few / little"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "r?",
+          "translation": "hot",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "r?",
+              "gloss": "hot"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "l?ng",
+          "translation": "cold",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "l?ng",
+              "gloss": "cold"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "g?ox?ng",
+          "translation": "happy / pleased",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "g?ox?ng",
+              "gloss": "happy / pleased"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "pi?oliang",
+          "translation": "pretty / beautiful",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "pi?oliang",
+              "gloss": "pretty / beautiful"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calendar-weather",
+      "title": "Calendar & Weather",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "ni?n",
+          "translation": "year",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "ni?n",
+              "gloss": "year"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "yu?",
+          "translation": "month",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "yu?",
+              "gloss": "month"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "h?o",
+          "translation": "day of the month",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "h?o",
+              "gloss": "day of the month"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "x?ngq?",
+          "translation": "week",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "x?ngq?",
+              "gloss": "week"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "ti?nq?",
+          "translation": "weather",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "ti?nq?",
+              "gloss": "weather"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "xi? y?",
+          "translation": "to rain",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "xi? y?",
+              "gloss": "to rain"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "J?nti?n x?ngq? j??",
+          "translation": "What day is today?",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "j?nti?n",
+              "gloss": "today"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "x?ngq?",
+              "gloss": "week"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "j?",
+              "gloss": "which number"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "J?nti?n j? yu? j? h?o?",
+          "translation": "What is the date today?",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "j?nti?n",
+              "gloss": "today"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "j?",
+              "gloss": "which number"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "yu?",
+              "gloss": "month"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "j?",
+              "gloss": "which number"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "h?o",
+              "gloss": "day of month"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "y? yu?",
+          "translation": "one month / month 1",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "y?",
+              "gloss": "one"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "yu?",
+              "gloss": "month"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "?r yu?",
+          "translation": "two month / month 2",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "?r",
+              "gloss": "two"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "yu?",
+              "gloss": "month"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "s?n yu?",
+          "translation": "three month / month 3",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "s?n",
+              "gloss": "three"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "yu?",
+              "gloss": "month"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "s? yu?",
+          "translation": "four month / month 4",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "s?",
+              "gloss": "four"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "yu?",
+              "gloss": "month"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "w? yu?",
+          "translation": "five month / month 5",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "five"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "yu?",
+              "gloss": "month"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "li? yu?",
+          "translation": "six month / month 6",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "li?",
+              "gloss": "six"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "yu?",
+              "gloss": "month"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "q? yu?",
+          "translation": "seven month / month 7",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "q?",
+              "gloss": "seven"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "yu?",
+              "gloss": "month"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "b? yu?",
+          "translation": "eight month / month 8",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "b?",
+              "gloss": "eight"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "yu?",
+              "gloss": "month"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "ji? yu?",
+          "translation": "nine month / month 9",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "ji?",
+              "gloss": "nine"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "yu?",
+              "gloss": "month"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "sh? yu?",
+          "translation": "ten month / month 10",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "sh?",
+              "gloss": "ten"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "yu?",
+              "gloss": "month"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "sh? y? yu?",
+          "translation": "ten-one month / month 11",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "sh? y?",
+              "gloss": "ten-one"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "yu?",
+              "gloss": "month"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "sh? ?r yu?",
+          "translation": "ten-two month / month 12",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "sh? ?r",
+              "gloss": "ten-two"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "yu?",
+              "gloss": "month"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "J?nti?n h?n r?.",
+          "translation": "It's hot today.",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "j?nti?n",
+              "gloss": "today"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "h?n",
+              "gloss": "very"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "r?",
+              "gloss": "hot"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "J?nti?n h?n l?ng.",
+          "translation": "It's cold today.",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "j?nti?n",
+              "gloss": "today"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "h?n",
+              "gloss": "very"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "l?ng",
+              "gloss": "cold"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "Hu? xi? y? ma?",
+          "translation": "Is it going to rain?",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "hu?",
+              "gloss": "will / be likely to"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "xi? y?",
+              "gloss": "rain"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "ma",
+              "gloss": "question particle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "things-around-you",
+      "title": "Things Around You",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "sh?",
+          "translation": "book",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "sh?",
+              "gloss": "book"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "z?",
+          "translation": "Chinese character",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "z?",
+              "gloss": "Chinese character"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "y?fu",
+          "translation": "clothes",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "y?fu",
+              "gloss": "clothes"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "qi?n",
+          "translation": "money",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "qi?n",
+              "gloss": "money"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "b?izi",
+          "translation": "cup",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "b?izi",
+              "gloss": "cup"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "zhu?zi",
+          "translation": "table",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "zhu?zi",
+              "gloss": "table"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "y?zi",
+          "translation": "chair",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "y?zi",
+              "gloss": "chair"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "d?ngxi",
+          "translation": "thing / stuff",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "d?ngxi",
+              "gloss": "thing / stuff"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "m?o",
+          "translation": "cat",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "m?o",
+              "gloss": "cat"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "g?u",
+          "translation": "dog",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "g?u",
+              "gloss": "dog"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "di?nsh?",
+          "translation": "television",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "di?nsh?",
+              "gloss": "television"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "di?nn?o",
+          "translation": "computer",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "di?nn?o",
+              "gloss": "computer"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "di?nhu?",
+          "translation": "telephone",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "di?nhu?",
+              "gloss": "telephone"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "di?ny?ng",
+          "translation": "movie",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "di?ny?ng",
+              "gloss": "movie"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "Zh? b?n sh? h?n h?o.",
+          "translation": "This book is good.",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "zh?",
+              "gloss": "this"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "b?n",
+              "gloss": "measure word for books"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "sh?",
+              "gloss": "book"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "h?n",
+              "gloss": "very"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "h?o",
+              "gloss": "good"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "Zh? sh? sh?nme?",
+          "translation": "What is this?",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "zh?",
+              "gloss": "this"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "sh?",
+              "gloss": "to be"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "sh?nme",
+              "gloss": "what"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "Zh? sh? sh?i de?",
+          "translation": "Whose is this?",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "zh?",
+              "gloss": "this"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "sh?",
+              "gloss": "to be"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "sh?i",
+              "gloss": "who"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "de",
+              "gloss": "possessive particle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "at-the-restaurant",
+      "title": "At the Restaurant",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "H?n n?n xu?n.",
+          "translation": "It's difficult to choose.",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "h?n",
+              "gloss": "very"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "n?n",
+              "gloss": "difficult"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "xu?n",
+              "gloss": "choose"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????????",
+          "pinyin": "B? h?oy?si, w? xi?ng de m?n.",
+          "translation": "Sorry, I'm thinking slowly.",
+          "tokens": [
+            {
+              "hanzi": "????",
+              "pinyin": "b? h?oy?si",
+              "gloss": "sorry / excuse me"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "xi?ng",
+              "gloss": "think"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "de",
+              "gloss": "manner particle"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "m?n",
+              "gloss": "slow"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????????",
+          "pinyin": "W? h?i b? zh?d?o di?n sh?nme.",
+          "translation": "I don't know what to order yet.",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "h?i",
+              "gloss": "yet / still"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "b?",
+              "gloss": "not"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "zh?d?o",
+              "gloss": "know"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "di?n",
+              "gloss": "order"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "sh?nme",
+              "gloss": "what"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????????",
+          "pinyin": "W? h?i b? qu?d?ng xi?ng y?o sh?nme.",
+          "translation": "I'm not sure what I want yet.",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "h?i",
+              "gloss": "yet"
+            },
+            {
+              "hanzi": "???",
+              "pinyin": "b? qu?d?ng",
+              "gloss": "not sure"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "xi?ng y?o",
+              "gloss": "would like"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "sh?nme",
+              "gloss": "what"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???{staple}?",
+          "pinyin": "Q?ng g?i w? {staple}.",
+          "translation": "Please can I have {staple}.",
+          "slots": {
+            "staple": {
+              "group": "staples"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "q?ng",
+              "gloss": "please"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "g?i",
+              "gloss": "give"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "me"
+            },
+            {
+              "slot": "staple"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????{staple}??",
+          "pinyin": "W? xi?ng y?o y?u {staple} de.",
+          "translation": "I'd like something with {staple}.",
+          "slots": {
+            "staple": {
+              "group": "staples"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "xi?ng y?o",
+              "gloss": "would like"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "y?u",
+              "gloss": "with / have"
+            },
+            {
+              "slot": "staple"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "de",
+              "gloss": "nominalizer"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????{vegetable}??",
+          "pinyin": "W? xi?ng y?o y?u {vegetable} de.",
+          "translation": "I'd like something with {vegetable}.",
+          "slots": {
+            "vegetable": {
+              "group": "vegetables"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "xi?ng y?o",
+              "gloss": "would like"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "y?u",
+              "gloss": "with / have"
+            },
+            {
+              "slot": "vegetable"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "de",
+              "gloss": "nominalizer"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????{meat}??",
+          "pinyin": "W? xi?ng y?o y?u {meat} de.",
+          "translation": "I'd like something with {meat}.",
+          "slots": {
+            "meat": {
+              "group": "meats"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I"
+            },
+            {
+              "hanzi": "??",
+              "pinyin": "xi?ng y?o",
+              "gloss": "would like"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "y?u",
+              "gloss": "with / have"
+            },
+            {
+              "slot": "meat"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "de",
+              "gloss": "nominalizer"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???{drink}?",
+          "pinyin": "W? xi?ng h? {drink}.",
+          "translation": "I want to drink {drink}.",
+          "slots": {
+            "drink": {
+              "group": "drinks"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "xi?ng",
+              "gloss": "want"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "h?",
+              "gloss": "drink"
+            },
+            {
+              "slot": "drink"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "N? xi?ng ch?f?n ma?",
+          "translation": "Do you want to eat?",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "N? xi?ng ch?f?n ma?",
+              "gloss": "Do you want to eat?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "W? ? le.",
+          "translation": "I am hungry.",
+          "tokens": [
+            {
+              "hanzi": "????",
+              "pinyin": "W? ? le.",
+              "gloss": "I am hungry."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????????",
+          "pinyin": "Du? y?di?n sh?c?i, xi?xie.",
+          "translation": "Lots of vegetables, please.",
+          "tokens": [
+            {
+              "hanzi": "?????????",
+              "pinyin": "Du? y?di?n sh?c?i, xi?xie.",
+              "gloss": "Lots of vegetables, please."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????????",
+          "pinyin": "B? y?o t?i l?, xi?xie.",
+          "translation": "Not too spicy, please.",
+          "tokens": [
+            {
+              "hanzi": "????????",
+              "pinyin": "B? y?o t?i l?, xi?xie.",
+              "gloss": "Not too spicy, please."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "Zh?ge l? ma?",
+          "translation": "Is this spicy?",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "Zh?ge l? ma?",
+              "gloss": "Is this spicy?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "W? b? ch? r?u.",
+          "translation": "I don't eat meat.",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "W? b? ch? r?u.",
+              "gloss": "I don't eat meat."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "W? b? y?o zh?ge.",
+          "translation": "I don't want this.",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "W? b? y?o zh?ge.",
+              "gloss": "I don't want this."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "W? b? y?o n?ge.",
+          "translation": "I don't want that.",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "W? b? y?o n?ge.",
+              "gloss": "I don't want that."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????????",
+          "pinyin": "N? n?ng tu?ji?n y? ge ma?",
+          "translation": "Can you recommend something?",
+          "tokens": [
+            {
+              "hanzi": "????????",
+              "pinyin": "N? n?ng tu?ji?n y? ge ma?",
+              "gloss": "Can you recommend something?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????????",
+          "pinyin": "W? y?o g?n t?men y?y?ng de.",
+          "translation": "The same as theirs, please.",
+          "tokens": [
+            {
+              "hanzi": "?????????",
+              "pinyin": "W? y?o g?n t?men y?y?ng de.",
+              "gloss": "The same as theirs, please."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "Z?i l?i y? ge.",
+          "translation": "One more, please.",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "Z?i l?i y? ge.",
+              "gloss": "One more, please."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "M?id?n, xi?xie.",
+          "translation": "The bill, please.",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "M?id?n, xi?xie.",
+              "gloss": "The bill, please."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????????",
+          "pinyin": "K?y? sh?uj? zh?f? ma?",
+          "translation": "Can I pay by phone?",
+          "tokens": [
+            {
+              "hanzi": "????????",
+              "pinyin": "K?y? sh?uj? zh?f? ma?",
+              "gloss": "Can I pay by phone?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "at-the-table",
+      "title": "At the Table",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "W?n q?lai h?n xi?ng.",
+          "translation": "It smells delicious.",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "W?n q?lai h?n xi?ng.",
+              "gloss": "It smells delicious."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "K?n q?lai h?n h?och?.",
+          "translation": "It looks delicious.",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "K?n q?lai h?n h?och?.",
+              "gloss": "It looks delicious."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "H?n h?och?.",
+          "translation": "It's delicious.",
+          "tokens": [
+            {
+              "hanzi": "????",
+              "pinyin": "H?n h?och?.",
+              "gloss": "It's delicious."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "H?och?!",
+          "translation": "Delicious!",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "H?och?!",
+              "gloss": "Delicious!"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "H?n h?o.",
+          "translation": "Very good.",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "H?n h?o.",
+              "gloss": "Very good."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "Zh?ge c?i h?n h?o.",
+          "translation": "This dish is very good.",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "Zh?ge c?i h?n h?o.",
+              "gloss": "This dish is very good."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????????",
+          "pinyin": "W? ch? b?o le, xi?xie.",
+          "translation": "I'm full, thank you.",
+          "tokens": [
+            {
+              "hanzi": "????????",
+              "pinyin": "W? ch? b?o le, xi?xie.",
+              "gloss": "I'm full, thank you."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????????",
+          "pinyin": "Z?i l?i y?di?n, xi?xie.",
+          "translation": "A little more, please.",
+          "tokens": [
+            {
+              "hanzi": "????????",
+              "pinyin": "Z?i l?i y?di?n, xi?xie.",
+              "gloss": "A little more, please."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "G?nb?i!",
+          "translation": "Cheers!",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "G?nb?i!",
+              "gloss": "Cheers!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-vocabulary",
+      "title": "Food Vocabulary",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "xi?o b?ic?i",
+          "translation": "bok choy",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "xi?o b?ic?i",
+              "gloss": "bok choy"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "d? b?ic?i",
+          "translation": "Chinese cabbage",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "d? b?ic?i",
+              "gloss": "Chinese cabbage"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "ju?nx?nc?i",
+          "translation": "cabbage",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "ju?nx?nc?i",
+              "gloss": "cabbage"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "b?c?i",
+          "translation": "spinach",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "b?c?i",
+              "gloss": "spinach"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "sh?ngc?i",
+          "translation": "lettuce",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "sh?ngc?i",
+              "gloss": "lettuce"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "x?l?nhu?",
+          "translation": "broccoli",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "x?l?nhu?",
+              "gloss": "broccoli"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "h?lu?bo",
+          "translation": "carrot",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "h?lu?bo",
+              "gloss": "carrot"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "t?d?u",
+          "translation": "potato",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "t?d?u",
+              "gloss": "potato"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "h?ngsh?",
+          "translation": "sweet potato",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "h?ngsh?",
+              "gloss": "sweet potato"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "x?h?ngsh?",
+          "translation": "tomato",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "x?h?ngsh?",
+              "gloss": "tomato"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "hu?nggu?",
+          "translation": "cucumber",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "hu?nggu?",
+              "gloss": "cucumber"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "qi?zi",
+          "translation": "eggplant / aubergine",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "qi?zi",
+              "gloss": "eggplant / aubergine"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "ti?nji?o",
+          "translation": "bell pepper",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "ti?nji?o",
+              "gloss": "bell pepper"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "l?ji?o",
+          "translation": "chili pepper",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "l?ji?o",
+              "gloss": "chili pepper"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "d?su?n",
+          "translation": "garlic",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "d?su?n",
+              "gloss": "garlic"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "ji?ng",
+          "translation": "ginger",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "ji?ng",
+              "gloss": "ginger"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "y?ngc?ng",
+          "translation": "onion",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "y?ngc?ng",
+              "gloss": "onion"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "c?ng",
+          "translation": "spring onion / scallion",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "c?ng",
+              "gloss": "spring onion / scallion"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "ji?c?i",
+          "translation": "leek",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "ji?c?i",
+              "gloss": "leek"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "m?gu",
+          "translation": "mushroom",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "m?gu",
+              "gloss": "mushroom"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "m?'?r",
+          "translation": "wood ear mushroom",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "m?'?r",
+              "gloss": "wood ear mushroom"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "d?uy?",
+          "translation": "bean sprouts",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "d?uy?",
+              "gloss": "bean sprouts"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "s?j?d?u",
+          "translation": "green beans",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "s?j?d?u",
+              "gloss": "green beans"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "h?l?nd?u",
+          "translation": "snow peas",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "h?l?nd?u",
+              "gloss": "snow peas"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "y?m?",
+          "translation": "corn",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "y?m?",
+              "gloss": "corn"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "d?ufu",
+          "translation": "tofu",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "d?ufu",
+              "gloss": "tofu"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "h?id?i",
+          "translation": "seaweed",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "h?id?i",
+              "gloss": "seaweed"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "zh?r?u",
+          "translation": "pork",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "zh?r?u",
+              "gloss": "pork"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "ni?r?u",
+          "translation": "beef",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "ni?r?u",
+              "gloss": "beef"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "y?ngr?u",
+          "translation": "lamb / mutton",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "y?ngr?u",
+              "gloss": "lamb / mutton"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "j?r?u",
+          "translation": "chicken",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "j?r?u",
+              "gloss": "chicken"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "y?r?u",
+          "translation": "duck",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "y?r?u",
+              "gloss": "duck"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "j?d?n",
+          "translation": "egg",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "j?d?n",
+              "gloss": "egg"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "y?",
+          "translation": "fish",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "y?",
+              "gloss": "fish"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "xi?",
+          "translation": "shrimp / prawn",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "xi?",
+              "gloss": "shrimp / prawn"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "p?ngxi?",
+          "translation": "crab",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "p?ngxi?",
+              "gloss": "crab"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "y?uy?",
+          "translation": "squid",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "y?uy?",
+              "gloss": "squid"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "g?l?",
+          "translation": "clam",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "g?l?",
+              "gloss": "clam"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "sh?nb?i",
+          "translation": "scallop",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "sh?nb?i",
+              "gloss": "scallop"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "m?f?n",
+          "translation": "rice",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "m?f?n",
+              "gloss": "rice"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "mi?nti?o",
+          "translation": "noodles",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "mi?nti?o",
+              "gloss": "noodles"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "ji?ozi",
+          "translation": "dumplings",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "ji?ozi",
+              "gloss": "dumplings"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "b?ozi",
+          "translation": "steamed bun",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "b?ozi",
+              "gloss": "steamed bun"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "mi?nb?o",
+          "translation": "bread",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "mi?nb?o",
+              "gloss": "bread"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "t?ng",
+          "translation": "soup",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "t?ng",
+              "gloss": "soup"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "ji?ngy?u",
+          "translation": "soy sauce",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "ji?ngy?u",
+              "gloss": "soy sauce"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "c?",
+          "translation": "vinegar",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "c?",
+              "gloss": "vinegar"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "l?ji?o y?u",
+          "translation": "chili oil",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "l?ji?o y?u",
+              "gloss": "chili oil"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "t?ng",
+          "translation": "sugar",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "t?ng",
+              "gloss": "sugar"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "y?n",
+          "translation": "salt",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "y?n",
+              "gloss": "salt"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "h?ji?o",
+          "translation": "pepper",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "h?ji?o",
+              "gloss": "pepper"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "shu?",
+          "translation": "water",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "shu?",
+              "gloss": "water"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "ch?",
+          "translation": "tea",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "ch?",
+              "gloss": "tea"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "shu?gu?",
+          "translation": "fruit",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "shu?gu?",
+              "gloss": "fruit"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "p?nggu?",
+          "translation": "apple",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "p?nggu?",
+              "gloss": "apple"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?",
+          "pinyin": "c?i",
+          "translation": "dish / cuisine",
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "c?i",
+              "gloss": "dish / cuisine"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "m?f?n",
+          "translation": "meal / cooked rice",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "m?f?n",
+              "gloss": "meal / cooked rice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polite-social-responses",
+      "title": "Polite Social Responses",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "B? y?ng le, xi?xie.",
+          "translation": "No, thank you.",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "B? y?ng le, xi?xie.",
+              "gloss": "No, thank you."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "H?o de, xi?xie.",
+          "translation": "Yes please, I appreciate that.",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "H?o de, xi?xie.",
+              "gloss": "Yes please, I appreciate that."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????????",
+          "pinyin": "Xi?xie, n? t?i h?o le.",
+          "translation": "Thank you, you're very kind.",
+          "tokens": [
+            {
+              "hanzi": "????????",
+              "pinyin": "Xi?xie, n? t?i h?o le.",
+              "gloss": "Thank you, you're very kind."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "T?i h?o le.",
+          "translation": "Great.",
+          "tokens": [
+            {
+              "hanzi": "????",
+              "pinyin": "T?i h?o le.",
+              "gloss": "Great."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "H?o.",
+          "translation": "Good.",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "H?o.",
+              "gloss": "Good."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "K?y?.",
+          "translation": "That's fine.",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "K?y?.",
+              "gloss": "That's fine."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "W? hu? n?l?.",
+          "translation": "I will work hard.",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "W? hu? n?l?.",
+              "gloss": "I will work hard."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "W? b? t?i ch?uy?n.",
+          "translation": "I don't really smoke.",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "W? b? t?i ch?uy?n.",
+              "gloss": "I don't really smoke."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "W? b? t?i h?ji?.",
+          "translation": "I don't really drink.",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "W? b? t?i h?ji?.",
+              "gloss": "I don't really drink."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "Y?di?ndi?n ji? h?o.",
+          "translation": "Just a little, please.",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "Y?di?ndi?n ji? h?o.",
+              "gloss": "Just a little, please."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getting-around-on-foot",
+      "title": "Getting Around (On Foot)",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "zu?bian",
+          "translation": "left",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "zu?bian",
+              "gloss": "left"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "y?ubian",
+          "translation": "right",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "y?ubian",
+              "gloss": "right"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "y?zh? z?u",
+          "translation": "straight ahead",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "y?zh? z?u",
+              "gloss": "straight ahead"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "w?ng hu? z?u",
+          "translation": "turn around / go back",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "w?ng hu? z?u",
+              "gloss": "turn around / go back"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "zh?l?",
+          "translation": "here",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "zh?l?",
+              "gloss": "here"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "n?l?",
+          "translation": "there",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "n?l?",
+              "gloss": "there"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?{direction}?",
+          "pinyin": "W?ng {direction}.",
+          "translation": "Turn {direction}.",
+          "slots": {
+            "direction": {
+              "group": "directions"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?ng",
+              "gloss": "toward"
+            },
+            {
+              "slot": "direction"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "Y?u du? yu?n?",
+          "translation": "How far is it?",
+          "tokens": [
+            {
+              "hanzi": "????",
+              "pinyin": "Y?u du? yu?n?",
+              "gloss": "How far is it?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "Y?o du? ji??",
+          "translation": "How long does it take?",
+          "tokens": [
+            {
+              "hanzi": "????",
+              "pinyin": "Y?o du? ji??",
+              "gloss": "How long does it take?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "K?y? z?ul? q? ma?",
+          "translation": "Is it walkable?",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "K?y? z?ul? q? ma?",
+              "gloss": "Is it walkable?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????????",
+          "pinyin": "N? n?ng z?i d?t? shang g?i w? k?n ma?",
+          "translation": "Can you show me on the map?",
+          "tokens": [
+            {
+              "hanzi": "???????????",
+              "pinyin": "N? n?ng z?i d?t? shang g?i w? k?n ma?",
+              "gloss": "Can you show me on the map?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "W? m?l? le.",
+          "translation": "I'm lost.",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "W? m?l? le.",
+              "gloss": "I'm lost."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "C?su? z?i n?r?",
+          "translation": "Where is the bathroom?",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "C?su? z?i n?r?",
+              "gloss": "Where is the bathroom?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "D?ti? z?i n?r?",
+          "translation": "Where is the subway?",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "D?ti? z?i n?r?",
+              "gloss": "Where is the subway?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getting-around-transport",
+      "title": "Getting Around (Transport)",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "f?ij?",
+          "translation": "airplane",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "f?ij?",
+              "gloss": "airplane"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "ch?z?ch?",
+          "translation": "taxi",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "ch?z?ch?",
+              "gloss": "taxi"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "g?ngg?ng q?ch?",
+          "translation": "bus",
+          "tokens": [
+            {
+              "hanzi": "????",
+              "pinyin": "g?ngg?ng q?ch?",
+              "gloss": "bus"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "d?ti?",
+          "translation": "subway / metro",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "d?ti?",
+              "gloss": "subway / metro"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "hu?ch?zh?n",
+          "translation": "train station",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "hu?ch?zh?n",
+              "gloss": "train station"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "W? xi?ng d?ch?.",
+          "translation": "I want to take a taxi.",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "W? xi?ng d?ch?.",
+              "gloss": "I want to take a taxi."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "Hu?ch?zh?n z?i n?r?",
+          "translation": "Where is the train station?",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "Hu?ch?zh?n z?i n?r?",
+              "gloss": "Where is the train station?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???{place}?",
+          "pinyin": "W? y?o q? {place}.",
+          "translation": "I am going to {place}.",
+          "slots": {
+            "place": {
+              "group": "places-in-town"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "y?o",
+              "gloss": "want / will"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "q?",
+              "gloss": "go"
+            },
+            {
+              "slot": "place"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?{place}????",
+          "pinyin": "Q? {place} du?shao qi?n?",
+          "translation": "How much to {place}?",
+          "slots": {
+            "place": {
+              "group": "places-in-town"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "q?",
+              "gloss": "go to"
+            },
+            {
+              "slot": "place"
+            },
+            {
+              "hanzi": "???",
+              "pinyin": "du?shao qi?n",
+              "gloss": "how much money"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????{place}?",
+          "pinyin": "Q?ng d?i w? q? {place}.",
+          "translation": "Please take me to {place}.",
+          "slots": {
+            "place": {
+              "group": "places-in-town"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "q?ng",
+              "gloss": "please"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "d?i",
+              "gloss": "take / bring"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "me"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "q?",
+              "gloss": "go"
+            },
+            {
+              "slot": "place"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "Q?ng z?i zh?l? t?ng.",
+          "translation": "Please stop here.",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "Q?ng z?i zh?l? t?ng.",
+              "gloss": "Please stop here."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "at-the-hotel",
+      "title": "At the Hotel",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "W? y?u y?d?ng.",
+          "translation": "I have a reservation.",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "W? y?u y?d?ng.",
+              "gloss": "I have a reservation."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "W? xi?ng b?nl? r?zh?.",
+          "translation": "I'd like to check in.",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "W? xi?ng b?nl? r?zh?.",
+              "gloss": "I'd like to check in."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "W? xi?ng tu?f?ng.",
+          "translation": "I'd like to check out.",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "W? xi?ng tu?f?ng.",
+              "gloss": "I'd like to check out."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??{name}?",
+          "pinyin": "W? ji?o {name}.",
+          "translation": "My name is {name}.",
+          "slots": {
+            "name": {
+              "group": "person-names"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "w?",
+              "gloss": "I"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "ji?o",
+              "gloss": "be called"
+            },
+            {
+              "slot": "name"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "Zh? sh? w? de h?zh?o.",
+          "translation": "Here is my passport.",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "Zh? sh? w? de h?zh?o.",
+              "gloss": "Here is my passport."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "Y?u k?ngf?ng ma?",
+          "translation": "Do you have any rooms available?",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "Y?u k?ngf?ng ma?",
+              "gloss": "Do you have any rooms available?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????????",
+          "pinyin": "W? xi?ng y?o y? ji?n d?nr?nf?ng.",
+          "translation": "I'd like a single room.",
+          "tokens": [
+            {
+              "hanzi": "?????????",
+              "pinyin": "W? xi?ng y?o y? ji?n d?nr?nf?ng.",
+              "gloss": "I'd like a single room."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????????",
+          "pinyin": "W? xi?ng y?o y? ji?n shu?ngr?nf?ng.",
+          "translation": "I'd like a double room.",
+          "tokens": [
+            {
+              "hanzi": "?????????",
+              "pinyin": "W? xi?ng y?o y? ji?n shu?ngr?nf?ng.",
+              "gloss": "I'd like a double room."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "Zh? j? w?n?",
+          "translation": "For how many nights?",
+          "tokens": [
+            {
+              "hanzi": "????",
+              "pinyin": "Zh? j? w?n?",
+              "gloss": "For how many nights?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?{nights}??",
+          "pinyin": "Zh? {nights} w?n.",
+          "translation": "For {nights} nights.",
+          "slots": {
+            "nights": {
+              "group": "night-counts"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "?",
+              "pinyin": "zh?",
+              "gloss": "stay"
+            },
+            {
+              "slot": "nights"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "w?n",
+              "gloss": "night"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "M?i w?n du?shao qi?n?",
+          "translation": "How much per night?",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "M?i w?n du?shao qi?n?",
+              "gloss": "How much per night?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "B?oku? z?oc?n ma?",
+          "translation": "Is breakfast included?",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "B?oku? z?oc?n ma?",
+              "gloss": "Is breakfast included?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "Z?oc?n j? di?n?",
+          "translation": "What time is breakfast?",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "Z?oc?n j? di?n?",
+              "gloss": "What time is breakfast?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "Y?u w?xi?nw?ng ma?",
+          "translation": "Is there Wi-Fi?",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "Y?u w?xi?nw?ng ma?",
+              "gloss": "Is there Wi-Fi?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????????",
+          "pinyin": "W?xi?nw?ng m?m? sh? sh?nme?",
+          "translation": "What is the Wi-Fi password?",
+          "tokens": [
+            {
+              "hanzi": "?????????",
+              "pinyin": "W?xi?nw?ng m?m? sh? sh?nme?",
+              "gloss": "What is the Wi-Fi password?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "Q?ng g?i w? y?oshi.",
+          "translation": "The key, please.",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "Q?ng g?i w? y?oshi.",
+              "gloss": "The key, please."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "W? de y?oshi di? le.",
+          "translation": "I've lost my key.",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "W? de y?oshi di? le.",
+              "gloss": "I've lost my key."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "F?ngji?n t?i r? le.",
+          "translation": "The room is too hot.",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "F?ngji?n t?i r? le.",
+              "gloss": "The room is too hot."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "F?ngji?n t?i l?ng le.",
+          "translation": "The room is too cold.",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "F?ngji?n t?i l?ng le.",
+              "gloss": "The room is too cold."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "K?ngti?o hu?i le.",
+          "translation": "The air conditioning isn't working.",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "K?ngti?o hu?i le.",
+              "gloss": "The air conditioning isn't working."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "R?shu? hu?i le.",
+          "translation": "The hot water isn't working.",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "R?shu? hu?i le.",
+              "gloss": "The hot water isn't working."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????????",
+          "pinyin": "K?y? z?i g?i w? y? ti?o m?oj?n ma?",
+          "translation": "Could I have another towel?",
+          "tokens": [
+            {
+              "hanzi": "???????????",
+              "pinyin": "K?y? z?i g?i w? y? ti?o m?oj?n ma?",
+              "gloss": "Could I have another towel?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????????",
+          "pinyin": "K?y? z?i g?i w? y?di?n shu? ma?",
+          "translation": "Could I have more water?",
+          "tokens": [
+            {
+              "hanzi": "??????????",
+              "pinyin": "K?y? z?i g?i w? y?di?n shu? ma?",
+              "gloss": "Could I have more water?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "Sh?nme sh?hou tu?f?ng?",
+          "translation": "When is checkout time?",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "Sh?nme sh?hou tu?f?ng?",
+              "gloss": "When is checkout time?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????????",
+          "pinyin": "K?y? b?ng w? ji?o ch?z?ch? ma?",
+          "translation": "Could you call me a taxi?",
+          "tokens": [
+            {
+              "hanzi": "??????????",
+              "pinyin": "K?y? b?ng w? ji?o ch?z?ch? ma?",
+              "gloss": "Could you call me a taxi?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????????",
+          "pinyin": "K?y? b?ng w? k?n y?xi? x?ngli ma?",
+          "translation": "Could you keep my bags?",
+          "tokens": [
+            {
+              "hanzi": "???????????",
+              "pinyin": "K?y? b?ng w? k?n y?xi? x?ngli ma?",
+              "gloss": "Could you keep my bags?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????????",
+          "pinyin": "W? xi?ng b? x?ngli f?ng z?i zh?l?.",
+          "translation": "I'd like to leave my bags here.",
+          "tokens": [
+            {
+              "hanzi": "??????????",
+              "pinyin": "W? xi?ng b? x?ngli f?ng z?i zh?l?.",
+              "gloss": "I'd like to leave my bags here."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "W? y?hu?r l?i n?.",
+          "translation": "I'll pick them up later.",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "W? y?hu?r l?i n?.",
+              "gloss": "I'll pick them up later."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "Xi?xie n? de b?ngzh?.",
+          "translation": "Thank you for your help.",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "Xi?xie n? de b?ngzh?.",
+              "gloss": "Thank you for your help."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "making-plans",
+      "title": "Making Plans",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "W?men z?u ba?",
+          "translation": "Shall we go?",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "W?men z?u ba?",
+              "gloss": "Shall we go?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "W?men z?u ba.",
+          "translation": "Let's go.",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "W?men z?u ba.",
+              "gloss": "Let's go."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???{place}??",
+          "pinyin": "W?men q? {place} ba?",
+          "translation": "Shall we go to {place}?",
+          "slots": {
+            "place": {
+              "group": "places-in-town"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "w?men",
+              "gloss": "we"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "q?",
+              "gloss": "go"
+            },
+            {
+              "slot": "place"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "ba",
+              "gloss": "suggestion particle"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???{place}??",
+          "pinyin": "W?men q? {place} ba.",
+          "translation": "Let's go to {place}.",
+          "slots": {
+            "place": {
+              "group": "places-in-town"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "w?men",
+              "gloss": "we"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "q?",
+              "gloss": "go"
+            },
+            {
+              "slot": "place"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "ba",
+              "gloss": "suggestion particle"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "W?men y?q? q? ba.",
+          "translation": "Let's go together.",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "W?men y?q? q? ba.",
+              "gloss": "Let's go together."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "N? m?ngti?n y?u k?ng ma?",
+          "translation": "Are you free tomorrow?",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "N? m?ngti?n y?u k?ng ma?",
+              "gloss": "Are you free tomorrow?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "N? j?nw?n y?u k?ng ma?",
+          "translation": "Are you free tonight?",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "N? j?nw?n y?u k?ng ma?",
+              "gloss": "Are you free tonight?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "W?men j? di?n ji?n?",
+          "translation": "What time shall we meet?",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "W?men j? di?n ji?n?",
+              "gloss": "What time shall we meet?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "W?men z?i n?r ji?n?",
+          "translation": "Where shall we meet?",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "W?men z?i n?r ji?n?",
+              "gloss": "Where shall we meet?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???{place}??",
+          "pinyin": "W?men z?i {place} ji?n.",
+          "translation": "Let's meet at {place}.",
+          "slots": {
+            "place": {
+              "group": "places-in-town"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "w?men",
+              "gloss": "we"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "z?i",
+              "gloss": "at"
+            },
+            {
+              "slot": "place"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "ji?n",
+              "gloss": "meet / see"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??{hour}???",
+          "pinyin": "W?men {hour} di?n ji?n.",
+          "translation": "Let's meet at {hour} o'clock.",
+          "slots": {
+            "hour": {
+              "group": "hours"
+            }
+          },
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "w?men",
+              "gloss": "we"
+            },
+            {
+              "slot": "hour"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "di?n",
+              "gloss": "o'clock"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "ji?n",
+              "gloss": "meet / see"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "W? z?i n?l? ji?n n?.",
+          "translation": "I'll meet you there.",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "W? z?i n?l? ji?n n?.",
+              "gloss": "I'll meet you there."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "{place}??",
+          "pinyin": "{place} ji?n.",
+          "translation": "See you at {place}.",
+          "slots": {
+            "place": {
+              "group": "places-in-town"
+            }
+          },
+          "tokens": [
+            {
+              "slot": "place"
+            },
+            {
+              "hanzi": "?",
+              "pinyin": "ji?n",
+              "gloss": "see"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "Y?hu?r ji?n.",
+          "translation": "See you later.",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "Y?hu?r ji?n.",
+              "gloss": "See you later."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "N? xi?ng l?i ma?",
+          "translation": "Do you want to come?",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "N? xi?ng l?i ma?",
+              "gloss": "Do you want to come?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????????",
+          "pinyin": "N? xi?ng g?n w? y?q? l?i ma?",
+          "translation": "Do you want to come with me?",
+          "tokens": [
+            {
+              "hanzi": "?????????",
+              "pinyin": "N? xi?ng g?n w? y?q? l?i ma?",
+              "gloss": "Do you want to come with me?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "W? g?n n? y?q? q?.",
+          "translation": "I'll come with you.",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "W? g?n n? y?q? q?.",
+              "gloss": "I'll come with you."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "y?q?",
+          "translation": "together",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "y?q?",
+              "gloss": "together"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??",
+          "pinyin": "g?n w?",
+          "translation": "with me",
+          "tokens": [
+            {
+              "hanzi": "??",
+              "pinyin": "g?n w?",
+              "gloss": "with me"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "g?n w?men",
+          "translation": "with us",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "g?n w?men",
+              "gloss": "with us"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????????",
+          "pinyin": "D?i y? ge p?ngyou l?i ba.",
+          "translation": "Bring a friend.",
+          "tokens": [
+            {
+              "hanzi": "????????",
+              "pinyin": "D?i y? ge p?ngyou l?i ba.",
+              "gloss": "Bring a friend."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "T?ng q?lai b?cu?.",
+          "translation": "Sounds good.",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "T?ng q?lai b?cu?.",
+              "gloss": "Sounds good."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "W? k?y?.",
+          "translation": "That works for me.",
+          "tokens": [
+            {
+              "hanzi": "????",
+              "pinyin": "W? k?y?.",
+              "gloss": "That works for me."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????????",
+          "pinyin": "Du?buq?, w? q? b? li?o.",
+          "translation": "Sorry, I can't make it.",
+          "tokens": [
+            {
+              "hanzi": "?????????",
+              "pinyin": "Du?buq?, w? q? b? li?o.",
+              "gloss": "Sorry, I can't make it."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "Xi? c? ba.",
+          "translation": "Maybe next time.",
+          "tokens": [
+            {
+              "hanzi": "????",
+              "pinyin": "Xi? c? ba.",
+              "gloss": "Maybe next time."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "Q?ng g?i w? d? di?nhu?.",
+          "translation": "Please call me.",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "Q?ng g?i w? d? di?nhu?.",
+              "gloss": "Please call me."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????????",
+          "pinyin": "W? m?ngti?n g?i n? d? di?nhu?.",
+          "translation": "I will call you tomorrow.",
+          "tokens": [
+            {
+              "hanzi": "?????????",
+              "pinyin": "W? m?ngti?n g?i n? d? di?nhu?.",
+              "gloss": "I will call you tomorrow."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "N? n?ng l?i ma?",
+          "translation": "Can you come?",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "N? n?ng l?i ma?",
+              "gloss": "Can you come?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "W? n?ng l?i.",
+          "translation": "I can come.",
+          "tokens": [
+            {
+              "hanzi": "????",
+              "pinyin": "W? n?ng l?i.",
+              "gloss": "I can come."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "W? b? n?ng l?i.",
+          "translation": "I can't come.",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "W? b? n?ng l?i.",
+              "gloss": "I can't come."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getting-by",
+      "title": "Getting By",
+      "cards": [
+        {
+          "id": "",
+          "hanzi": "???",
+          "pinyin": "H?n n?n.",
+          "translation": "It's difficult.",
+          "tokens": [
+            {
+              "hanzi": "???",
+              "pinyin": "H?n n?n.",
+              "gloss": "It's difficult."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "W? b? d?ng.",
+          "translation": "I don't understand.",
+          "tokens": [
+            {
+              "hanzi": "????",
+              "pinyin": "W? b? d?ng.",
+              "gloss": "I don't understand."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "Q?ng z?i shu? y? bi?n.",
+          "translation": "Please say it again.",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "Q?ng z?i shu? y? bi?n.",
+              "gloss": "Please say it again."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "??????",
+          "pinyin": "Q?ng shu? m?n y?di?n.",
+          "translation": "Please speak more slowly.",
+          "tokens": [
+            {
+              "hanzi": "??????",
+              "pinyin": "Q?ng shu? m?n y?di?n.",
+              "gloss": "Please speak more slowly."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????",
+          "pinyin": "Y?di?nr.",
+          "translation": "A little.",
+          "tokens": [
+            {
+              "hanzi": "????",
+              "pinyin": "Y?di?nr.",
+              "gloss": "A little."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????????",
+          "pinyin": "W? hu? shu? y?di?n Zh?ngw?n.",
+          "translation": "I can speak a little Chinese.",
+          "tokens": [
+            {
+              "hanzi": "????????",
+              "pinyin": "W? hu? shu? y?di?n Zh?ngw?n.",
+              "gloss": "I can speak a little Chinese."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "?????",
+          "pinyin": "W? h?i z?i xu?.",
+          "translation": "I'm still learning.",
+          "tokens": [
+            {
+              "hanzi": "?????",
+              "pinyin": "W? h?i z?i xu?.",
+              "gloss": "I'm still learning."
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "????????",
+          "pinyin": "Zh?ge Zh?ngw?n z?nme shu??",
+          "translation": "How do you say this in Chinese?",
+          "tokens": [
+            {
+              "hanzi": "????????",
+              "pinyin": "Zh?ge Zh?ngw?n z?nme shu??",
+              "gloss": "How do you say this in Chinese?"
+            }
+          ]
+        },
+        {
+          "id": "",
+          "hanzi": "???????",
+          "pinyin": "Zh? sh? sh?nme y?si?",
+          "translation": "What does this mean?",
+          "tokens": [
+            {
+              "hanzi": "???????",
+              "pinyin": "Zh? sh? sh?nme y?si?",
+              "gloss": "What does this mean?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
