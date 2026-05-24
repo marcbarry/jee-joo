@@ -144,12 +144,25 @@ async function loadDeckFromUrl(manifestUrl) {
     resolveUnits(manifest.units, manifestUrl),
   ]);
 
+  // Emit BOTH the unit-grouped structure (for the deck-landing list) and a
+  // flat `cards` array (for the SRS layer, which doesn't care about units).
+  const memUnits = [];
   const cards = [];
   for (const unit of units) {
-    for (const c of (unit?.cards || [])) {
+    if (!unit) continue;
+    const unitCards = [];
+    for (const c of (unit.cards || [])) {
       if (!c || !c.id) continue; // skip malformed
-      cards.push(toMemCard(c, vocabulary));
+      const mc = toMemCard(c, vocabulary);
+      unitCards.push(mc);
+      cards.push(mc);
     }
+    memUnits.push({
+      id: unit.id || '',
+      title: unit.title || '',
+      description: unit.description || '',
+      cards: unitCards,
+    });
   }
 
   if (cards.length === 0) {
@@ -163,6 +176,7 @@ async function loadDeckFromUrl(manifestUrl) {
     id: manifestUrl,
     name: manifest.title,
     description: manifest.description || '',
+    units: memUnits,
     cards,
   };
 }

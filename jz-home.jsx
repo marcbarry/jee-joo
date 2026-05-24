@@ -117,6 +117,16 @@ function Home() {
 function DeckLanding() {
   const { deck, progress, settings, newAllowance } = useStore();
   const { go } = useRoute();
+  const [expandedUnits, setExpandedUnits] = React.useState(() => new Set());
+
+  function toggleUnit(unitId) {
+    setExpandedUnits(s => {
+      const next = new Set(s);
+      if (next.has(unitId)) next.delete(unitId);
+      else next.add(unitId);
+      return next;
+    });
+  }
 
   if (!deck) return <Phone><div className="p-8">No deck loaded.</div></Phone>;
 
@@ -140,10 +150,6 @@ function DeckLanding() {
             <div style={{ fontSize: 22, fontWeight: 600, letterSpacing: '-0.015em' }}>{deck.name}</div>
             <div className="mono" style={{ fontSize: 11, color: 'var(--ink-3)', marginTop: 4 }}>{deck.url}</div>
           </div>
-          <button onClick={() => go('stats')} className="flex items-center gap-1" style={{ color: 'var(--accent)', fontSize: 13, fontWeight: 500 }}>
-            <IconFlame size={14} stroke={2} />
-            Stats
-          </button>
         </div>
 
         <div className="mt-5 grid grid-cols-3 gap-3">
@@ -166,33 +172,74 @@ function DeckLanding() {
           <span className="mono" style={{ fontSize: 10, color: 'var(--ink-3)' }}>{stats.learned} / {stats.total} reviewed</span>
           <span className="mono" style={{ fontSize: 10, color: 'var(--ink-3)' }}>{stats.reviewedPct}%</span>
         </div>
+
+        <div className="mt-5">
+          <button className="btn-primary flex items-center justify-center gap-2"
+                  onClick={() => queue.length && go('review')}
+                  disabled={!queue.length}
+                  style={queue.length ? {} : { opacity: 0.4 }}>
+            {queue.length ? <>Start review <span className="mono" style={{ fontSize: 12, opacity: 0.6 }}>· {queue.length} card{queue.length === 1 ? '' : 's'}</span></> : 'Nothing due'}
+          </button>
+          {stats.due === 0 && stats.new > 0 && newAllowance === 0 && (
+            <p className="text-center mt-2" style={{ fontSize: 11, color: 'var(--ink-3)' }}>
+              Daily new-card cap reached. Reset in Settings or come back tomorrow.
+            </p>
+          )}
+        </div>
       </div>
 
-      <div className="px-5 mt-5 flex items-center justify-between">
-        <span className="tag-on">All cards</span>
-        <span className="mono" style={{ fontSize: 11, color: 'var(--ink-3)' }}>{deck.cards.length}</span>
+      <div className="px-5 mt-6 flex items-center justify-between">
+        <span className="tag-on">Units</span>
+        <span className="mono" style={{ fontSize: 11, color: 'var(--ink-3)' }}>
+          {(deck.units || []).length} units · {deck.cards.length} cards
+        </span>
       </div>
 
-      <div className="px-5 mt-2 flex-1 overflow-hidden">
+      <div className="px-5 mt-2 pb-6 flex-1 overflow-hidden">
         <div className="panel" style={{ height: '100%' }}>
           <div className="divide-rule" style={{ height: '100%', overflowY: 'auto' }}>
-            {deck.cards.map((c) => {
-              const m = mastery(progress[c.id]);
-              const lvl = { new: 'l1', learning: 'l2', reviewing: 'l3', mature: 'l4' }[m];
-              const heading = c.kind === 'pattern' ? renderPattern(c, 0).tokens : c.tokens;
-              const hz = heading.map(t => t.char).join('');
-              const py = heading.map(t => t.pinyin).join(' ');
-              const en = c.kind === 'pattern' ? `pattern · slot: ${c.slot.id}` : c.translation;
+            {(deck.units || []).map((u) => {
+              const isOpen = expandedUnits.has(u.id);
               return (
-                <div key={c.id} className="flex items-center justify-between" style={{ padding: '10px 14px' }}>
-                  <div style={{ minWidth: 0 }}>
-                    <div className="flex items-baseline gap-2">
-                      <span className="sc" style={{ fontSize: 16, fontWeight: 500 }}>{hz}</span>
-                      <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>{py}</span>
-                    </div>
-                    <div style={{ fontSize: 11, color: 'var(--ink-3)', marginTop: 2 }}>{en}</div>
-                  </div>
-                  <span className={"heat " + lvl} />
+                <div key={u.id}>
+                  <button onClick={() => toggleUnit(u.id)}
+                          className="flex items-center justify-between w-full"
+                          style={{ padding: '12px 14px', textAlign: 'left' }}>
+                    <span className="flex items-center gap-2" style={{ minWidth: 0 }}>
+                      <IconChevRight size={14} stroke={2}
+                        style={{
+                          transform: isOpen ? 'rotate(90deg)' : 'none',
+                          transition: 'transform .15s',
+                          color: 'var(--ink-3)',
+                          flexShrink: 0,
+                        }} />
+                      <span style={{ fontSize: 14, fontWeight: 500 }}>{u.title}</span>
+                    </span>
+                    <span className="mono" style={{ fontSize: 11, color: 'var(--ink-3)' }}>
+                      {u.cards.length}
+                    </span>
+                  </button>
+
+                  {isOpen && u.cards.map((c) => {
+                    const m = mastery(progress[c.id]);
+                    const lvl = { new: 'l1', learning: 'l2', reviewing: 'l3', mature: 'l4' }[m];
+                    const heading = c.kind === 'pattern' ? renderPattern(c, 0).tokens : c.tokens;
+                    const hz = heading.map(t => t.char).join('');
+                    const py = heading.map(t => t.pinyin).join(' ');
+                    const en = c.kind === 'pattern' ? `pattern · slot: ${c.slot.id}` : c.translation;
+                    return (
+                      <div key={c.id}
+                           className="flex items-center gap-3"
+                           style={{ padding: '8px 14px 8px 36px', borderTop: '1px solid var(--rule)' }}>
+                        <span className="sc" style={{ fontSize: 16, fontWeight: 500, flexShrink: 0 }}>{hz}</span>
+                        <div style={{ flex: 1, minWidth: 0, textAlign: 'right' }}>
+                          <div style={{ fontSize: 12, color: 'var(--ink-3)' }}>{py}</div>
+                          <div style={{ fontSize: 11, color: 'var(--ink-3)', marginTop: 2 }}>{en}</div>
+                        </div>
+                        <span className={"heat " + lvl} style={{ flexShrink: 0 }} />
+                      </div>
+                    );
+                  })}
                 </div>
               );
             })}
@@ -200,19 +247,6 @@ function DeckLanding() {
         </div>
       </div>
 
-      <div className="px-5 py-4">
-        <button className="btn-primary flex items-center justify-center gap-2"
-                onClick={() => queue.length && go('review')}
-                disabled={!queue.length}
-                style={queue.length ? {} : { opacity: 0.4 }}>
-          {queue.length ? <>Start review <span className="mono" style={{ fontSize: 12, opacity: 0.6 }}>· {queue.length} card{queue.length === 1 ? '' : 's'}</span></> : 'Nothing due'}
-        </button>
-        {stats.due === 0 && stats.new > 0 && newAllowance === 0 && (
-          <p className="text-center mt-2" style={{ fontSize: 11, color: 'var(--ink-3)' }}>
-            Daily new-card cap reached. Reset in Settings or come back tomorrow.
-          </p>
-        )}
-      </div>
     </Phone>
   );
 }
