@@ -10,9 +10,9 @@
       "translation": "It's difficult to choose",
       "tokens": [
         {
-          "hanzi": "很难选。",
-          "pinyin": "Hěn nán xuǎn.",
-          "gloss": "It's difficult to choose."
+          "hanzi": "很难选",
+          "pinyin": "Hěn nán xuǎn",
+          "gloss": "It's difficult to choose"
         }
       ]
     },
@@ -23,9 +23,9 @@
       "translation": "Sorry, I'm thinking slowly",
       "tokens": [
         {
-          "hanzi": "不好意思，我想得慢。",
-          "pinyin": "Bù hǎoyìsi, wǒ xiǎng de màn.",
-          "gloss": "Sorry, I'm thinking slowly."
+          "hanzi": "不好意思，我想得慢",
+          "pinyin": "Bù hǎoyìsi, wǒ xiǎng de màn",
+          "gloss": "Sorry, I'm thinking slowly"
         }
       ]
     },
@@ -36,9 +36,9 @@
       "translation": "I don't know what to order yet",
       "tokens": [
         {
-          "hanzi": "我还不知道点什么。",
-          "pinyin": "Wǒ hái bù zhīdào diǎn shénme.",
-          "gloss": "I don't know what to order yet."
+          "hanzi": "我还不知道点什么",
+          "pinyin": "Wǒ hái bù zhīdào diǎn shénme",
+          "gloss": "I don't know what to order yet"
         }
       ]
     },
@@ -49,9 +49,9 @@
       "translation": "I'm not sure what I want yet",
       "tokens": [
         {
-          "hanzi": "我还不确定想要什么。",
-          "pinyin": "Wǒ hái bù quèdìng xiǎng yào shénme.",
-          "gloss": "I'm not sure what I want yet."
+          "hanzi": "我还不确定想要什么",
+          "pinyin": "Wǒ hái bù quèdìng xiǎng yào shénme",
+          "gloss": "I'm not sure what I want yet"
         }
       ]
     },
@@ -195,9 +195,9 @@
       "translation": "I am hungry",
       "tokens": [
         {
-          "hanzi": "我饿了。",
-          "pinyin": "Wǒ è le.",
-          "gloss": "I am hungry."
+          "hanzi": "我饿了",
+          "pinyin": "Wǒ è le",
+          "gloss": "I am hungry"
         }
       ]
     },
@@ -208,9 +208,9 @@
       "translation": "Lots of vegetables, please",
       "tokens": [
         {
-          "hanzi": "多一点蔬菜，谢谢。",
-          "pinyin": "Duō yìdiǎn shūcài, xièxie.",
-          "gloss": "Lots of vegetables, please."
+          "hanzi": "多一点蔬菜，谢谢",
+          "pinyin": "Duō yìdiǎn shūcài, xièxie",
+          "gloss": "Lots of vegetables, please"
         }
       ]
     },
@@ -221,9 +221,9 @@
       "translation": "Not too spicy, please",
       "tokens": [
         {
-          "hanzi": "不要太辣，谢谢。",
-          "pinyin": "Bú yào tài là, xièxie.",
-          "gloss": "Not too spicy, please."
+          "hanzi": "不要太辣，谢谢",
+          "pinyin": "Bú yào tài là, xièxie",
+          "gloss": "Not too spicy, please"
         }
       ]
     },
@@ -247,9 +247,9 @@
       "translation": "I don't eat meat",
       "tokens": [
         {
-          "hanzi": "我不吃肉。",
-          "pinyin": "Wǒ bù chī ròu.",
-          "gloss": "I don't eat meat."
+          "hanzi": "我不吃肉",
+          "pinyin": "Wǒ bù chī ròu",
+          "gloss": "I don't eat meat"
         }
       ]
     },
@@ -260,9 +260,9 @@
       "translation": "I don't want this",
       "tokens": [
         {
-          "hanzi": "我不要这个。",
-          "pinyin": "Wǒ bú yào zhège.",
-          "gloss": "I don't want this."
+          "hanzi": "我不要这个",
+          "pinyin": "Wǒ bú yào zhège",
+          "gloss": "I don't want this"
         }
       ]
     },
@@ -273,9 +273,9 @@
       "translation": "I don't want that",
       "tokens": [
         {
-          "hanzi": "我不要那个。",
-          "pinyin": "Wǒ bú yào nàge.",
-          "gloss": "I don't want that."
+          "hanzi": "我不要那个",
+          "pinyin": "Wǒ bú yào nàge",
+          "gloss": "I don't want that"
         }
       ]
     },
@@ -299,9 +299,9 @@
       "translation": "The same as theirs, please",
       "tokens": [
         {
-          "hanzi": "我要跟他们一样的。",
-          "pinyin": "Wǒ yào gēn tāmen yíyàng de.",
-          "gloss": "The same as theirs, please."
+          "hanzi": "我要跟他们一样的",
+          "pinyin": "Wǒ yào gēn tāmen yíyàng de",
+          "gloss": "The same as theirs, please"
         }
       ]
     },
@@ -312,9 +312,9 @@
       "translation": "One more, please",
       "tokens": [
         {
-          "hanzi": "再来一个。",
-          "pinyin": "Zài lái yí ge.",
-          "gloss": "One more, please."
+          "hanzi": "再来一个",
+          "pinyin": "Zài lái yí ge",
+          "gloss": "One more, please"
         }
       ]
     },
@@ -325,9 +325,9 @@
       "translation": "The bill, please",
       "tokens": [
         {
-          "hanzi": "买单，谢谢。",
-          "pinyin": "Mǎidān, xièxie.",
-          "gloss": "The bill, please."
+          "hanzi": "买单，谢谢",
+          "pinyin": "Mǎidān, xièxie",
+          "gloss": "The bill, please"
         }
       ]
     },

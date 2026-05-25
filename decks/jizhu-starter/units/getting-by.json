@@ -10,9 +10,9 @@
       "translation": "It's difficult",
       "tokens": [
         {
-          "hanzi": "很难。",
-          "pinyin": "Hěn nán.",
-          "gloss": "It's difficult."
+          "hanzi": "很难",
+          "pinyin": "Hěn nán",
+          "gloss": "It's difficult"
         }
       ]
     },
@@ -23,9 +23,9 @@
       "translation": "I don't understand",
       "tokens": [
         {
-          "hanzi": "我不懂。",
-          "pinyin": "Wǒ bù dǒng.",
-          "gloss": "I don't understand."
+          "hanzi": "我不懂",
+          "pinyin": "Wǒ bù dǒng",
+          "gloss": "I don't understand"
         }
       ]
     },
@@ -36,9 +36,9 @@
       "translation": "Please say it again",
       "tokens": [
         {
-          "hanzi": "请再说一遍。",
-          "pinyin": "Qǐng zài shuō yí biàn.",
-          "gloss": "Please say it again."
+          "hanzi": "请再说一遍",
+          "pinyin": "Qǐng zài shuō yí biàn",
+          "gloss": "Please say it again"
         }
       ]
     },
@@ -49,9 +49,9 @@
       "translation": "Please speak more slowly",
       "tokens": [
         {
-          "hanzi": "请说慢一点。",
-          "pinyin": "Qǐng shuō màn yìdiǎn.",
-          "gloss": "Please speak more slowly."
+          "hanzi": "请说慢一点",
+          "pinyin": "Qǐng shuō màn yìdiǎn",
+          "gloss": "Please speak more slowly"
         }
       ]
     },
@@ -62,9 +62,9 @@
       "translation": "A little",
       "tokens": [
         {
-          "hanzi": "一点儿。",
-          "pinyin": "Yìdiǎnr.",
-          "gloss": "A little."
+          "hanzi": "一点儿",
+          "pinyin": "Yìdiǎnr",
+          "gloss": "A little"
         }
       ]
     },
@@ -75,9 +75,9 @@
       "translation": "I can speak a little Chinese",
       "tokens": [
         {
-          "hanzi": "我会说一点中文。",
-          "pinyin": "Wǒ huì shuō yìdiǎn Zhōngwén.",
-          "gloss": "I can speak a little Chinese."
+          "hanzi": "我会说一点中文",
+          "pinyin": "Wǒ huì shuō yìdiǎn Zhōngwén",
+          "gloss": "I can speak a little Chinese"
         }
       ]
     },
@@ -88,9 +88,9 @@
       "translation": "I'm still learning",
       "tokens": [
         {
-          "hanzi": "我还在学。",
-          "pinyin": "Wǒ hái zài xué.",
-          "gloss": "I'm still learning."
+          "hanzi": "我还在学",
+          "pinyin": "Wǒ hái zài xué",
+          "gloss": "I'm still learning"
         }
       ]
     },

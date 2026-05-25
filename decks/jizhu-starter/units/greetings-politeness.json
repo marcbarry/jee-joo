@@ -10,9 +10,9 @@
       "translation": "Hello",
       "tokens": [
         {
-          "hanzi": "你好。",
-          "pinyin": "Nǐ hǎo.",
-          "gloss": "Hello."
+          "hanzi": "你好",
+          "pinyin": "Nǐ hǎo",
+          "gloss": "Hello"
         }
       ]
     },
@@ -25,7 +25,7 @@
         {
           "hanzi": "喂？",
           "pinyin": "Wéi?",
-          "gloss": "Hello (on the phone)."
+          "gloss": "Hello (on the phone)"
         }
       ]
     },
@@ -36,9 +36,9 @@
       "translation": "Goodbye",
       "tokens": [
         {
-          "hanzi": "再见。",
-          "pinyin": "Zàijiàn.",
-          "gloss": "Goodbye."
+          "hanzi": "再见",
+          "pinyin": "Zàijiàn",
+          "gloss": "Goodbye"
         }
       ]
     },
@@ -49,9 +49,9 @@
       "translation": "See you tomorrow",
       "tokens": [
         {
-          "hanzi": "明天见。",
-          "pinyin": "Míngtiān jiàn.",
-          "gloss": "See you tomorrow."
+          "hanzi": "明天见",
+          "pinyin": "Míngtiān jiàn",
+          "gloss": "See you tomorrow"
         }
       ]
     },
@@ -62,9 +62,9 @@
       "translation": "Thank you",
       "tokens": [
         {
-          "hanzi": "谢谢。",
-          "pinyin": "Xièxie.",
-          "gloss": "Thank you."
+          "hanzi": "谢谢",
+          "pinyin": "Xièxie",
+          "gloss": "Thank you"
         }
       ]
     },
@@ -75,9 +75,9 @@
       "translation": "You're welcome",
       "tokens": [
         {
-          "hanzi": "不客气。",
-          "pinyin": "Bú kèqi.",
-          "gloss": "You're welcome."
+          "hanzi": "不客气",
+          "pinyin": "Bú kèqi",
+          "gloss": "You're welcome"
         }
       ]
     },
@@ -88,9 +88,9 @@
       "translation": "Sorry",
       "tokens": [
         {
-          "hanzi": "对不起。",
-          "pinyin": "Duìbuqǐ.",
-          "gloss": "Sorry."
+          "hanzi": "对不起",
+          "pinyin": "Duìbuqǐ",
+          "gloss": "Sorry"
         }
       ]
     },
@@ -101,9 +101,9 @@
       "translation": "It's nothing. / No problem",
       "tokens": [
         {
-          "hanzi": "没关系。",
-          "pinyin": "Méi guānxi.",
-          "gloss": "It's nothing. / No problem."
+          "hanzi": "没关系",
+          "pinyin": "Méi guānxi",
+          "gloss": "It's nothing. / No problem"
         }
       ]
     },
@@ -114,9 +114,9 @@
       "translation": "Please come in",
       "tokens": [
         {
-          "hanzi": "请进。",
-          "pinyin": "Qǐng jìn.",
-          "gloss": "Please come in."
+          "hanzi": "请进",
+          "pinyin": "Qǐng jìn",
+          "gloss": "Please come in"
         }
       ]
     },
@@ -127,9 +127,9 @@
       "translation": "Please sit down",
       "tokens": [
         {
-          "hanzi": "请坐。",
-          "pinyin": "Qǐng zuò.",
-          "gloss": "Please sit down."
+          "hanzi": "请坐",
+          "pinyin": "Qǐng zuò",
+          "gloss": "Please sit down"
         }
       ]
     },

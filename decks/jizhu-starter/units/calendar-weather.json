@@ -270,9 +270,9 @@
       "translation": "It's hot today",
       "tokens": [
         {
-          "hanzi": "今天很热。",
-          "pinyin": "Jīntiān hěn rè.",
-          "gloss": "It's hot today."
+          "hanzi": "今天很热",
+          "pinyin": "Jīntiān hěn rè",
+          "gloss": "It's hot today"
         }
       ]
     },
@@ -283,9 +283,9 @@
       "translation": "It's cold today",
       "tokens": [
         {
-          "hanzi": "今天很冷。",
-          "pinyin": "Jīntiān hěn lěng.",
-          "gloss": "It's cold today."
+          "hanzi": "今天很冷",
+          "pinyin": "Jīntiān hěn lěng",
+          "gloss": "It's cold today"
         }
       ]
     },

@@ -192,9 +192,9 @@
       "translation": "This book is good",
       "tokens": [
         {
-          "hanzi": "这本书很好。",
-          "pinyin": "Zhè běn shū hěn hǎo.",
-          "gloss": "This book is good."
+          "hanzi": "这本书很好",
+          "pinyin": "Zhè běn shū hěn hǎo",
+          "gloss": "This book is good"
         }
       ]
     },

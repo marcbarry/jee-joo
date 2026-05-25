@@ -23,9 +23,9 @@
       "translation": "Let's go",
       "tokens": [
         {
-          "hanzi": "我们走吧。",
-          "pinyin": "Wǒmen zǒu ba.",
-          "gloss": "Let's go."
+          "hanzi": "我们走吧",
+          "pinyin": "Wǒmen zǒu ba",
+          "gloss": "Let's go"
         }
       ]
     },
@@ -88,9 +88,9 @@
       "translation": "Let's go together",
       "tokens": [
         {
-          "hanzi": "我们一起去吧。",
-          "pinyin": "Wǒmen yìqǐ qù ba.",
-          "gloss": "Let's go together."
+          "hanzi": "我们一起去吧",
+          "pinyin": "Wǒmen yìqǐ qù ba",
+          "gloss": "Let's go together"
         }
       ]
     },
@@ -205,9 +205,9 @@
       "translation": "I'll meet you there",
       "tokens": [
         {
-          "hanzi": "我在那里见你。",
-          "pinyin": "Wǒ zài nàlǐ jiàn nǐ.",
-          "gloss": "I'll meet you there."
+          "hanzi": "我在那里见你",
+          "pinyin": "Wǒ zài nàlǐ jiàn nǐ",
+          "gloss": "I'll meet you there"
         }
       ]
     },
@@ -239,9 +239,9 @@
       "translation": "See you later",
       "tokens": [
         {
-          "hanzi": "一会儿见。",
-          "pinyin": "Yīhuìr jiàn.",
-          "gloss": "See you later."
+          "hanzi": "一会儿见",
+          "pinyin": "Yīhuìr jiàn",
+          "gloss": "See you later"
         }
       ]
     },
@@ -278,9 +278,9 @@
       "translation": "I'll come with you",
       "tokens": [
         {
-          "hanzi": "我跟你一起去。",
-          "pinyin": "Wǒ gēn nǐ yìqǐ qù.",
-          "gloss": "I'll come with you."
+          "hanzi": "我跟你一起去",
+          "pinyin": "Wǒ gēn nǐ yìqǐ qù",
+          "gloss": "I'll come with you"
         }
       ]
     },
@@ -330,9 +330,9 @@
       "translation": "Bring a friend",
       "tokens": [
         {
-          "hanzi": "带一个朋友来吧。",
-          "pinyin": "Dài yí ge péngyou lái ba.",
-          "gloss": "Bring a friend."
+          "hanzi": "带一个朋友来吧",
+          "pinyin": "Dài yí ge péngyou lái ba",
+          "gloss": "Bring a friend"
         }
       ]
     },
@@ -343,9 +343,9 @@
       "translation": "Sounds good",
       "tokens": [
         {
-          "hanzi": "听起来不错。",
-          "pinyin": "Tīng qǐlai búcuò.",
-          "gloss": "Sounds good."
+          "hanzi": "听起来不错",
+          "pinyin": "Tīng qǐlai búcuò",
+          "gloss": "Sounds good"
         }
       ]
     },
@@ -356,9 +356,9 @@
       "translation": "That works for me",
       "tokens": [
         {
-          "hanzi": "我可以。",
-          "pinyin": "Wǒ kěyǐ.",
-          "gloss": "That works for me."
+          "hanzi": "我可以",
+          "pinyin": "Wǒ kěyǐ",
+          "gloss": "That works for me"
         }
       ]
     },
@@ -369,9 +369,9 @@
       "translation": "Sorry, I can't make it",
       "tokens": [
         {
-          "hanzi": "对不起，我去不了。",
-          "pinyin": "Duìbuqǐ, wǒ qù bù liǎo.",
-          "gloss": "Sorry, I can't make it."
+          "hanzi": "对不起，我去不了",
+          "pinyin": "Duìbuqǐ, wǒ qù bù liǎo",
+          "gloss": "Sorry, I can't make it"
         }
       ]
     },
@@ -382,9 +382,9 @@
       "translation": "Maybe next time",
       "tokens": [
         {
-          "hanzi": "下次吧。",
-          "pinyin": "Xià cì ba.",
-          "gloss": "Maybe next time."
+          "hanzi": "下次吧",
+          "pinyin": "Xià cì ba",
+          "gloss": "Maybe next time"
         }
       ]
     },
@@ -395,9 +395,9 @@
       "translation": "Please call me",
       "tokens": [
         {
-          "hanzi": "请给我打电话。",
-          "pinyin": "Qǐng gěi wǒ dǎ diànhuà.",
-          "gloss": "Please call me."
+          "hanzi": "请给我打电话",
+          "pinyin": "Qǐng gěi wǒ dǎ diànhuà",
+          "gloss": "Please call me"
         }
       ]
     },
@@ -408,9 +408,9 @@
       "translation": "I will call you tomorrow",
       "tokens": [
         {
-          "hanzi": "我明天给你打电话。",
-          "pinyin": "Wǒ míngtiān gěi nǐ dǎ diànhuà.",
-          "gloss": "I will call you tomorrow."
+          "hanzi": "我明天给你打电话",
+          "pinyin": "Wǒ míngtiān gěi nǐ dǎ diànhuà",
+          "gloss": "I will call you tomorrow"
         }
       ]
     },
@@ -434,9 +434,9 @@
       "translation": "I can come",
       "tokens": [
         {
-          "hanzi": "我能来。",
-          "pinyin": "Wǒ néng lái.",
-          "gloss": "I can come."
+          "hanzi": "我能来",
+          "pinyin": "Wǒ néng lái",
+          "gloss": "I can come"
         }
       ]
     },
@@ -447,9 +447,9 @@
       "translation": "I can't come",
       "tokens": [
         {
-          "hanzi": "我不能来。",
-          "pinyin": "Wǒ bù néng lái.",
-          "gloss": "I can't come."
+          "hanzi": "我不能来",
+          "pinyin": "Wǒ bù néng lái",
+          "gloss": "I can't come"
         }
       ]
     }

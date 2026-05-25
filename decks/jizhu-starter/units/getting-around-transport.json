@@ -75,9 +75,9 @@
       "translation": "I want to take a taxi",
       "tokens": [
         {
-          "hanzi": "我想打车。",
-          "pinyin": "Wǒ xiǎng dǎchē.",
-          "gloss": "I want to take a taxi."
+          "hanzi": "我想打车",
+          "pinyin": "Wǒ xiǎng dǎchē",
+          "gloss": "I want to take a taxi"
         }
       ]
     },
@@ -90,7 +90,7 @@
         {
           "hanzi": "火车站在哪儿？",
           "pinyin": "Huǒchēzhàn zài nǎr?",
-          "gloss": "Where is the train station."
+          "gloss": "Where is the train station"
         }
       ]
     },
@@ -101,9 +101,9 @@
       "translation": "Please stop here",
       "tokens": [
         {
-          "hanzi": "请在这里停。",
-          "pinyin": "Qǐng zài zhèlǐ tíng.",
-          "gloss": "Please stop here."
+          "hanzi": "请在这里停",
+          "pinyin": "Qǐng zài zhèlǐ tíng",
+          "gloss": "Please stop here"
         }
       ]
     },

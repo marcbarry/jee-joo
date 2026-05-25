@@ -426,9 +426,9 @@
       "translation": "It's still early",
       "tokens": [
         {
-          "hanzi": "还早。",
-          "pinyin": "Hái zǎo.",
-          "gloss": "It's still early."
+          "hanzi": "还早",
+          "pinyin": "Hái zǎo",
+          "gloss": "It's still early"
         }
       ]
     },
@@ -439,9 +439,9 @@
       "translation": "It's getting late",
       "tokens": [
         {
-          "hanzi": "很晚了。",
-          "pinyin": "Hěn wǎn le.",
-          "gloss": "It's getting late."
+          "hanzi": "很晚了",
+          "pinyin": "Hěn wǎn le",
+          "gloss": "It's getting late"
         }
       ]
     },

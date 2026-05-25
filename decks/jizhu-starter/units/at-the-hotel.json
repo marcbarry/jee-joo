@@ -10,9 +10,9 @@
       "translation": "I have a reservation",
       "tokens": [
         {
-          "hanzi": "我有预订。",
-          "pinyin": "Wǒ yǒu yùdìng.",
-          "gloss": "I have a reservation."
+          "hanzi": "我有预订",
+          "pinyin": "Wǒ yǒu yùdìng",
+          "gloss": "I have a reservation"
         }
       ]
     },
@@ -23,9 +23,9 @@
       "translation": "I'd like to check in",
       "tokens": [
         {
-          "hanzi": "我想办理入住。",
-          "pinyin": "Wǒ xiǎng bànlǐ rùzhù.",
-          "gloss": "I'd like to check in."
+          "hanzi": "我想办理入住",
+          "pinyin": "Wǒ xiǎng bànlǐ rùzhù",
+          "gloss": "I'd like to check in"
         }
       ]
     },
@@ -36,9 +36,9 @@
       "translation": "I'd like to check out",
       "tokens": [
         {
-          "hanzi": "我想退房。",
-          "pinyin": "Wǒ xiǎng tuìfáng.",
-          "gloss": "I'd like to check out."
+          "hanzi": "我想退房",
+          "pinyin": "Wǒ xiǎng tuìfáng",
+          "gloss": "I'd like to check out"
         }
       ]
     },
@@ -70,9 +70,9 @@
       "translation": "Here is my passport",
       "tokens": [
         {
-          "hanzi": "这是我的护照。",
-          "pinyin": "Zhè shì wǒ de hùzhào.",
-          "gloss": "Here is my passport."
+          "hanzi": "这是我的护照",
+          "pinyin": "Zhè shì wǒ de hùzhào",
+          "gloss": "Here is my passport"
         }
       ]
     },
@@ -96,9 +96,9 @@
       "translation": "I'd like a single room",
       "tokens": [
         {
-          "hanzi": "我想要一间单人房。",
-          "pinyin": "Wǒ xiǎng yào yì jiān dānrénfáng.",
-          "gloss": "I'd like a single room."
+          "hanzi": "我想要一间单人房",
+          "pinyin": "Wǒ xiǎng yào yì jiān dānrénfáng",
+          "gloss": "I'd like a single room"
         }
       ]
     },
@@ -109,9 +109,9 @@
       "translation": "I'd like a double room",
       "tokens": [
         {
-          "hanzi": "我想要一间双人房。",
-          "pinyin": "Wǒ xiǎng yào yì jiān shuāngrénfáng.",
-          "gloss": "I'd like a double room."
+          "hanzi": "我想要一间双人房",
+          "pinyin": "Wǒ xiǎng yào yì jiān shuāngrénfáng",
+          "gloss": "I'd like a double room"
         }
       ]
     },
@@ -226,9 +226,9 @@
       "translation": "The key, please",
       "tokens": [
         {
-          "hanzi": "请给我钥匙。",
-          "pinyin": "Qǐng gěi wǒ yàoshi.",
-          "gloss": "The key, please."
+          "hanzi": "请给我钥匙",
+          "pinyin": "Qǐng gěi wǒ yàoshi",
+          "gloss": "The key, please"
         }
       ]
     },
@@ -239,9 +239,9 @@
       "translation": "I've lost my key",
       "tokens": [
         {
-          "hanzi": "我的钥匙丢了。",
-          "pinyin": "Wǒ de yàoshi diū le.",
-          "gloss": "I've lost my key."
+          "hanzi": "我的钥匙丢了",
+          "pinyin": "Wǒ de yàoshi diū le",
+          "gloss": "I've lost my key"
         }
       ]
     },
@@ -252,9 +252,9 @@
       "translation": "The room is too hot",
       "tokens": [
         {
-          "hanzi": "房间太热了。",
-          "pinyin": "Fángjiān tài rè le.",
-          "gloss": "The room is too hot."
+          "hanzi": "房间太热了",
+          "pinyin": "Fángjiān tài rè le",
+          "gloss": "The room is too hot"
         }
       ]
     },
@@ -265,9 +265,9 @@
       "translation": "The room is too cold",
       "tokens": [
         {
-          "hanzi": "房间太冷了。",
-          "pinyin": "Fángjiān tài lěng le.",
-          "gloss": "The room is too cold."
+          "hanzi": "房间太冷了",
+          "pinyin": "Fángjiān tài lěng le",
+          "gloss": "The room is too cold"
         }
       ]
     },
@@ -278,9 +278,9 @@
       "translation": "The air conditioning isn't working",
       "tokens": [
         {
-          "hanzi": "空调坏了。",
-          "pinyin": "Kōngtiáo huài le.",
-          "gloss": "The air conditioning isn't working."
+          "hanzi": "空调坏了",
+          "pinyin": "Kōngtiáo huài le",
+          "gloss": "The air conditioning isn't working"
         }
       ]
     },
@@ -291,9 +291,9 @@
       "translation": "The hot water isn't working",
       "tokens": [
         {
-          "hanzi": "热水坏了。",
-          "pinyin": "Rèshuǐ huài le.",
-          "gloss": "The hot water isn't working."
+          "hanzi": "热水坏了",
+          "pinyin": "Rèshuǐ huài le",
+          "gloss": "The hot water isn't working"
         }
       ]
     },
@@ -369,9 +369,9 @@
       "translation": "I'd like to leave my bags here",
       "tokens": [
         {
-          "hanzi": "我想把行李放在这里。",
-          "pinyin": "Wǒ xiǎng bǎ xíngli fàng zài zhèlǐ.",
-          "gloss": "I'd like to leave my bags here."
+          "hanzi": "我想把行李放在这里",
+          "pinyin": "Wǒ xiǎng bǎ xíngli fàng zài zhèlǐ",
+          "gloss": "I'd like to leave my bags here"
         }
       ]
     },
@@ -382,9 +382,9 @@
       "translation": "I'll pick them up later",
       "tokens": [
         {
-          "hanzi": "我一会儿来拿。",
-          "pinyin": "Wǒ yīhuìr lái ná.",
-          "gloss": "I'll pick them up later."
+          "hanzi": "我一会儿来拿",
+          "pinyin": "Wǒ yīhuìr lái ná",
+          "gloss": "I'll pick them up later"
         }
       ]
     },
@@ -395,9 +395,9 @@
       "translation": "Thank you for your help",
       "tokens": [
         {
-          "hanzi": "谢谢你的帮助。",
-          "pinyin": "Xièxie nǐ de bāngzhù.",
-          "gloss": "Thank you for your help."
+          "hanzi": "谢谢你的帮助",
+          "pinyin": "Xièxie nǐ de bāngzhù",
+          "gloss": "Thank you for your help"
         }
       ]
     }

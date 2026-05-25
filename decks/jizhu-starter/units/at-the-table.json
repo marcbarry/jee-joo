@@ -10,9 +10,9 @@
       "translation": "It smells delicious",
       "tokens": [
         {
-          "hanzi": "闻起来很香。",
-          "pinyin": "Wén qǐlai hěn xiāng.",
-          "gloss": "It smells delicious."
+          "hanzi": "闻起来很香",
+          "pinyin": "Wén qǐlai hěn xiāng",
+          "gloss": "It smells delicious"
         }
       ]
     },
@@ -23,9 +23,9 @@
       "translation": "It looks delicious",
       "tokens": [
         {
-          "hanzi": "看起来很好吃。",
-          "pinyin": "Kàn qǐlai hěn hǎochī.",
-          "gloss": "It looks delicious."
+          "hanzi": "看起来很好吃",
+          "pinyin": "Kàn qǐlai hěn hǎochī",
+          "gloss": "It looks delicious"
         }
       ]
     },
@@ -36,9 +36,9 @@
       "translation": "It's delicious",
       "tokens": [
         {
-          "hanzi": "很好吃。",
-          "pinyin": "Hěn hǎochī.",
-          "gloss": "It's delicious."
+          "hanzi": "很好吃",
+          "pinyin": "Hěn hǎochī",
+          "gloss": "It's delicious"
         }
       ]
     },
@@ -62,9 +62,9 @@
       "translation": "Very good",
       "tokens": [
         {
-          "hanzi": "很好。",
-          "pinyin": "Hěn hǎo.",
-          "gloss": "Very good."
+          "hanzi": "很好",
+          "pinyin": "Hěn hǎo",
+          "gloss": "Very good"
         }
       ]
     },
@@ -75,9 +75,9 @@
       "translation": "This dish is very good",
       "tokens": [
         {
-          "hanzi": "这个菜很好。",
-          "pinyin": "Zhège cài hěn hǎo.",
-          "gloss": "This dish is very good."
+          "hanzi": "这个菜很好",
+          "pinyin": "Zhège cài hěn hǎo",
+          "gloss": "This dish is very good"
         }
       ]
     },
@@ -88,9 +88,9 @@
       "translation": "I'm full, thank you",
       "tokens": [
         {
-          "hanzi": "我吃饱了，谢谢。",
-          "pinyin": "Wǒ chī bǎo le, xièxie.",
-          "gloss": "I'm full, thank you."
+          "hanzi": "我吃饱了，谢谢",
+          "pinyin": "Wǒ chī bǎo le, xièxie",
+          "gloss": "I'm full, thank you"
         }
       ]
     },
@@ -101,9 +101,9 @@
       "translation": "A little more, please",
       "tokens": [
         {
-          "hanzi": "再来一点，谢谢。",
-          "pinyin": "Zài lái yìdiǎn, xièxie.",
-          "gloss": "A little more, please."
+          "hanzi": "再来一点，谢谢",
+          "pinyin": "Zài lái yìdiǎn, xièxie",
+          "gloss": "A little more, please"
         }
       ]
     },

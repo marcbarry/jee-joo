@@ -309,9 +309,9 @@
       "translation": "Nice to meet you",
       "tokens": [
         {
-          "hanzi": "很高兴认识你。",
-          "pinyin": "Hěn gāoxìng rènshi nǐ.",
-          "gloss": "Nice to meet you."
+          "hanzi": "很高兴认识你",
+          "pinyin": "Hěn gāoxìng rènshi nǐ",
+          "gloss": "Nice to meet you"
         }
       ]
     },
@@ -335,9 +335,9 @@
       "translation": "This is my teacher",
       "tokens": [
         {
-          "hanzi": "这是我的老师。",
-          "pinyin": "Zhè shì wǒ de lǎoshī.",
-          "gloss": "This is my teacher."
+          "hanzi": "这是我的老师",
+          "pinyin": "Zhè shì wǒ de lǎoshī",
+          "gloss": "This is my teacher"
         }
       ]
     },
@@ -348,9 +348,9 @@
       "translation": "He is my friend",
       "tokens": [
         {
-          "hanzi": "他是我的朋友。",
-          "pinyin": "Tā shì wǒ de péngyou.",
-          "gloss": "He is my friend."
+          "hanzi": "他是我的朋友",
+          "pinyin": "Tā shì wǒ de péngyou",
+          "gloss": "He is my friend"
         }
       ]
     },
@@ -361,9 +361,9 @@
       "translation": "I study Chinese",
       "tokens": [
         {
-          "hanzi": "我学中文。",
-          "pinyin": "Wǒ xué Zhōngwén.",
-          "gloss": "I study Chinese."
+          "hanzi": "我学中文",
+          "pinyin": "Wǒ xué Zhōngwén",
+          "gloss": "I study Chinese"
         }
       ]
     },
@@ -387,9 +387,9 @@
       "translation": "I live in Beijing",
       "tokens": [
         {
-          "hanzi": "我住在北京。",
-          "pinyin": "Wǒ zhù zài Běijīng.",
-          "gloss": "I live in Beijing."
+          "hanzi": "我住在北京",
+          "pinyin": "Wǒ zhù zài Běijīng",
+          "gloss": "I live in Beijing"
         }
       ]
     },
