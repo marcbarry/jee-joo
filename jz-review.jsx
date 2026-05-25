@@ -122,7 +122,7 @@ function PhraseCard({ card, onGrade }) {
     <div className="flex-1 flex flex-col px-5 pt-10">
       <div className="flex items-end justify-center" style={{ gap: '22px 12px', flexWrap: 'wrap' }}>
         {card.tokens.map((t, i) => (
-          <button key={i} onClick={() => hintToken(i)}>
+          <button key={i} onClick={() => hintToken(i)} style={{ userSelect: 'text' }}>
             <HintToken
               char={t.char} pinyin={t.pinyin} say={sayAs(t.pinyin)} gloss={t.gloss}
               hinted={hinted[i]} hanziOff={!settings.showHanzi}
@@ -133,9 +133,11 @@ function PhraseCard({ card, onGrade }) {
 
       {/* Translation reveal — clicking also hints every token.
           minHeight keeps the button the same height in both states so the
-          tokens above don't shift when the text size changes. */}
+          tokens above don't shift when the text size changes.
+          Once revealed, the button is disabled so it stops looking and acting like a control. */}
       <button className="mt-10 mx-1 flex items-center justify-between"
               onClick={revealAll}
+              disabled={transRevealed}
               style={{
                 border: '1px solid var(--rule)', borderRadius: 10,
                 padding: '18px 20px', background: 'var(--bg)',
@@ -186,6 +188,10 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
 
   // Renderers — produce a row of the sentence using a chosen field (char or pinyin).
   // Always available; we render both rows and let the layout switch emphasis based on mode.
+  // For pinyin we space multi-syllable tokens (e.g. "Duìbuqǐ" → "Duì bu qǐ").
+  function fieldValue(t, field) {
+    return field === 'pinyin' ? pinyinSpaced(t[field]) : t[field];
+  }
   function renderRow(field, filledMinWidth, blankPlaceholder) {
     return card.template.map((t, i) => {
       if (t.slot) {
@@ -194,7 +200,7 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
             <span key={i} style={{
               color: 'var(--accent)', background: 'var(--accent-2)',
               padding: '0 8px', borderRadius: 4,
-            }}>{target[field]}</span>
+            }}>{fieldValue(target, field)}</span>
           );
         }
         return (
@@ -204,7 +210,7 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
           }}>{blankPlaceholder}</span>
         );
       }
-      return <React.Fragment key={i}>{t[field]}</React.Fragment>;
+      return <React.Fragment key={i}>{fieldValue(t, field)}</React.Fragment>;
     }).reduce((acc, el, i) => i === 0 ? [el] : [...acc, ' ', el], []);
   }
   const hanziSentence  = renderRow('char',   56, '?');
@@ -296,12 +302,12 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
               {settings.showHanzi ? (
                 <>
                   <div className="sc" style={{ fontSize: 46, fontWeight: 500, lineHeight: 1 }}>{o.char}</div>
-                  <div style={{ fontSize: 17, color: 'var(--ink-2)', marginTop: 10 }}>{o.pinyin}</div>
+                  <div style={{ fontSize: 17, color: 'var(--ink-2)', marginTop: 10 }}>{pinyinSpaced(o.pinyin)}</div>
                 </>
               ) : (
                 <>
                   <div className="sc" style={{ fontSize: 20, fontWeight: 400, lineHeight: 1, color: 'var(--ink-3)' }}>{o.char}</div>
-                  <div style={{ fontSize: 32, fontWeight: 500, marginTop: 8, color: 'var(--ink)' }}>{o.pinyin}</div>
+                  <div style={{ fontSize: 32, fontWeight: 500, marginTop: 8, color: 'var(--ink)' }}>{pinyinSpaced(o.pinyin)}</div>
                 </>
               )}
               <div style={{ fontSize: 13, color: 'var(--accent)', fontStyle: 'italic', marginTop: 6 }}>"{sayAs(o.pinyin)}"</div>

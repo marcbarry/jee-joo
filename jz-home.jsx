@@ -235,7 +235,7 @@ function DeckLanding() {
                     const lvl = { new: 'l1', learning: 'l2', reviewing: 'l3', mature: 'l4' }[m];
                     const heading = c.kind === 'pattern' ? renderPattern(c, 0).tokens : c.tokens;
                     const hz = heading.map(t => t.char).join('');
-                    const py = heading.map(t => t.pinyin).join(' ');
+                    const py = heading.map(t => pinyinSpaced(t.pinyin)).join(' ');
                     const en = c.kind === 'pattern' ? `pattern · slot: ${c.slot.id}` : c.translation;
                     return (
                       <div key={c.id}

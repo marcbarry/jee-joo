@@ -72,6 +72,11 @@ function GradeRow({ disabled = false, onGrade }) {
 //   hanzi-test (default):    bare hanzi · hint reveals pinyin + pronunciation + gloss together.
 //   pinyin-test (hanziOff):  pinyin big + pronunciation always shown · hint reveals gloss.
 function HintToken({ char, pinyin, say, gloss, hinted = false, hanziOff = false }) {
+  // Hidden-by-opacity elements are still part of the DOM and would be caught
+  // by drag selection, which is confusing — exclude them from selection until
+  // they're revealed.
+  const hideFromSelect = { userSelect: 'none' };
+
   if (hanziOff) {
     return (
       <span className="flex flex-col items-center" style={{ padding: '0 8px', minWidth: 112 }}>
@@ -83,7 +88,7 @@ function HintToken({ char, pinyin, say, gloss, hinted = false, hanziOff = false 
           fontWeight: 500,
           borderBottom: hinted ? '1.5px solid transparent' : '1.5px dotted var(--ink-4)',
           paddingBottom: 3,
-        }}>{pinyin}</span>
+        }}>{pinyinSpaced(pinyin)}</span>
         <span style={{
           fontSize: 14, fontWeight: 500, color: 'var(--accent)', marginTop: 10,
           height: 18, lineHeight: 1, fontStyle: 'italic',
@@ -91,6 +96,7 @@ function HintToken({ char, pinyin, say, gloss, hinted = false, hanziOff = false 
         <span style={{
           fontSize: 14, color: 'var(--ink-3)', marginTop: 6, height: 18, lineHeight: 1,
           opacity: hinted ? 1 : 0,
+          ...(hinted ? null : hideFromSelect),
         }}>{gloss}</span>
       </span>
     );
@@ -109,15 +115,18 @@ function HintToken({ char, pinyin, say, gloss, hinted = false, hanziOff = false 
       <span style={{
         marginTop: 24, height: 23, fontSize: 19, fontWeight: 500, color: 'var(--ink-2)', lineHeight: 1,
         opacity: hinted ? 1 : 0,
-      }}>{pinyin}</span>
+        ...(hinted ? null : hideFromSelect),
+      }}>{pinyinSpaced(pinyin)}</span>
       <span style={{
         marginTop: 12, height: 18, fontSize: 14, fontWeight: 500, color: 'var(--accent)',
         lineHeight: 1, fontStyle: 'italic',
         opacity: hinted ? 1 : 0,
+        ...(hinted ? null : hideFromSelect),
       }}>"{say}"</span>
       <span style={{
         marginTop: 14, height: 18, fontSize: 14, color: 'var(--ink-3)', lineHeight: 1,
         opacity: hinted ? 1 : 0,
+        ...(hinted ? null : hideFromSelect),
       }}>{gloss}</span>
     </span>
   );

@@ -43,13 +43,17 @@ function resolveUrl(relative, base) {
   return new URL(relative, base).href;
 }
 
+function normalizePinyin(pinyin) {
+  return (pinyin ?? '').toLowerCase();
+}
+
 // Convert a spec-format token to the in-memory shape (rename hanzi → char).
 // Slot tokens pass through unchanged.
 function toMemToken(t) {
   if (t && typeof t.slot === 'string') return { slot: t.slot };
   return {
     char: t?.hanzi ?? '',
-    pinyin: t?.pinyin ?? '',
+    pinyin: normalizePinyin(t?.pinyin),
     gloss: t?.gloss ?? '',
   };
 }
@@ -59,7 +63,7 @@ function vocabItemToToken(item) {
   return {
     id: item?.id,
     char: item?.hanzi ?? '',
-    pinyin: item?.pinyin ?? '',
+    pinyin: normalizePinyin(item?.pinyin),
     gloss: item?.gloss ?? '',
   };
 }
