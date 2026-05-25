@@ -24,13 +24,13 @@ const FINAL_MAP = {
   // 4-char
   iang: 'yahng', iong: 'yoong', uang: 'wahng', ueng: 'wung',
   // 3-char
-  iao: 'yow', ian: 'yen', iou: 'yo', ing: 'ing',
+  iao: 'yow', ian: 'yen', iou: 'yoh', ing: 'ing',
   uai: 'why', uan: 'wahn',
   uei: 'way', uen: 'wun',
   ang: 'ahng', eng: 'ung', ong: 'oong',
   'üan': 'ywen',
   // 2-char
-  ia: 'yah', ie: 'yeh', iu: 'yo', in: 'een',
+  ia: 'yah', ie: 'yeh', iu: 'yoh', in: 'een',
   ua: 'wah', uo: 'waw', ui: 'way', un: 'wun',
   'üe': 'yweh', 'ün': 'yun',
   ai: 'eye', ei: 'ay', ao: 'ow', ou: 'oh',
@@ -59,7 +59,6 @@ const OVERRIDES = {
   bukeqi: 'boo kuh-chee',
   xuesheng: 'shweh-shung',
   mingzi: 'ming-dzuh',
-  pengyou: 'pung-yo',
   laoshi: 'laow-shrr',
   // w-/y- bare syllables
   wu: 'oo',
