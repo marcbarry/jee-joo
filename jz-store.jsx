@@ -9,7 +9,7 @@ const STORAGE = {
 
 const DEFAULT_SETTINGS = {
   showHanzi: false,        // true → test on hanzi · false → test on pinyin (hanzi stays visible, dim)
-  newCardsPerDay: 8,       // app-wide
+  newCardsPerDay: 20,      // app-wide (matches Anki default)
   cardsPerSession: 20,
   patternInfill: 'rotate', // 'rotate' | 'random'
   version: 1,
@@ -50,10 +50,11 @@ function JzProvider({ children }) {
   React.useEffect(() => { writeJSON(STORAGE.settings, settings); }, [settings]);
 
   // Daily new-card counter (app-wide, by date)
+  // extraNew is one-tap bumps from "Study more" — resets at midnight with the rest.
   const [daily, setDaily] = React.useState(() => {
-    const d = readJSON(STORAGE.daily, { date: todayKey(), newSeen: 0 });
-    if (d.date !== todayKey()) return { date: todayKey(), newSeen: 0 };
-    return d;
+    const d = readJSON(STORAGE.daily, { date: todayKey(), newSeen: 0, extraNew: 0 });
+    if (d.date !== todayKey()) return { date: todayKey(), newSeen: 0, extraNew: 0 };
+    return { extraNew: 0, ...d };
   });
   React.useEffect(() => { writeJSON(STORAGE.daily, daily); }, [daily]);
 
@@ -106,7 +107,7 @@ function JzProvider({ children }) {
     if (wasNew) {
       setDaily(d => d.date === todayKey()
         ? { ...d, newSeen: d.newSeen + 1 }
-        : { date: todayKey(), newSeen: 1 });
+        : { date: todayKey(), newSeen: 1, extraNew: 0 });
     }
   }
 
@@ -126,14 +127,21 @@ function JzProvider({ children }) {
     persistProgress({});
   }
 
-  // Daily new-card cap remaining
-  const newAllowance = Math.max(0, settings.newCardsPerDay - daily.newSeen);
+  // One-tap "Study more": bump today's new-card allowance.
+  function studyMore(n = 20) {
+    setDaily(d => d.date === todayKey()
+      ? { ...d, extraNew: (d.extraNew ?? 0) + n }
+      : { date: todayKey(), newSeen: 0, extraNew: n });
+  }
+
+  // Daily new-card cap remaining (includes any "Study more" bumps)
+  const newAllowance = Math.max(0, settings.newCardsPerDay + (daily.extraNew ?? 0) - daily.newSeen);
 
   const value = {
     settings, updateSettings,
     deck, deckStatus, deckError, openDeck, retryDeck,
     progress, gradeCard, setLastInfill, resetDeckProgress,
-    daily, newAllowance,
+    daily, newAllowance, studyMore,
   };
   return <JzCtx.Provider value={value}>{children}</JzCtx.Provider>;
 }
