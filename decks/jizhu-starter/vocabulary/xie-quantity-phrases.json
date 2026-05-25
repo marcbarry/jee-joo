@@ -1,0 +1,42 @@
+{
+  "id": "xie-quantity-phrases",
+  "description": "Tourist-friendly request chunks with 一些 for some/a little.",
+  "items": [
+    {
+      "id": "208d319d-0496-4fad-98e4-7197dcba5792",
+      "hanzi": "一些水",
+      "pinyin": "yìxiē shuǐ",
+      "gloss": "some water"
+    },
+    {
+      "id": "e08b73bf-191e-40d7-ab49-3c485f52b91c",
+      "hanzi": "一些热水",
+      "pinyin": "yìxiē rèshuǐ",
+      "gloss": "some hot water"
+    },
+    {
+      "id": "a7cd5e7c-242c-4ade-a747-3daf51d7eebe",
+      "hanzi": "一些冰",
+      "pinyin": "yìxiē bīng",
+      "gloss": "some ice"
+    },
+    {
+      "id": "4b3fe7d1-bbd0-4d80-b830-6972c5439ef8",
+      "hanzi": "一些纸巾",
+      "pinyin": "yìxiē zhǐjīn",
+      "gloss": "some napkins / tissues"
+    },
+    {
+      "id": "83759ae0-8fd1-4873-8ac6-39e1245e7020",
+      "hanzi": "一些茶",
+      "pinyin": "yìxiē chá",
+      "gloss": "some tea"
+    },
+    {
+      "id": "bb1b1535-561a-4e95-9972-60d97a7b56d7",
+      "hanzi": "一些建议",
+      "pinyin": "yìxiē jiànyì",
+      "gloss": "some recommendations"
+    }
+  ]
+}

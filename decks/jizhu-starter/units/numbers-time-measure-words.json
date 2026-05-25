@@ -122,20 +122,62 @@
     },
     {
       "id": "0ae0dbec-d55f-4db2-abee-96c64a060acb",
-      "hanzi": "本",
-      "pinyin": "běn",
-      "translation": "volume / measure word for books",
+      "hanzi": "我想买{bookThing}",
+      "pinyin": "Wǒ xiǎng mǎi {bookThing}",
+      "translation": "I want to buy {bookThing}",
+      "slots": {
+        "bookThing": { "group": "ben-measure-phrases" }
+      },
       "tokens": [
-        { "hanzi": "本", "pinyin": "běn", "gloss": "volume / measure word for books" }
+        { "hanzi": "我", "pinyin": "wǒ", "gloss": "I" },
+        { "hanzi": "想", "pinyin": "xiǎng", "gloss": "want / would like" },
+        { "hanzi": "买", "pinyin": "mǎi", "gloss": "buy" },
+        { "slot": "bookThing" }
       ]
     },
     {
       "id": "d1faa93b-6b19-41f6-af4e-279e73255404",
-      "hanzi": "些",
-      "pinyin": "xiē",
-      "translation": "some / a few",
+      "hanzi": "我需要{someThing}",
+      "pinyin": "Wǒ xūyào {someThing}",
+      "translation": "I need {someThing}",
+      "slots": {
+        "someThing": { "group": "xie-quantity-phrases" }
+      },
       "tokens": [
-        { "hanzi": "些", "pinyin": "xiē", "gloss": "some / a few" }
+        { "hanzi": "我", "pinyin": "wǒ", "gloss": "I" },
+        { "hanzi": "需要", "pinyin": "xūyào", "gloss": "need" },
+        { "slot": "someThing" }
+      ]
+    },
+    {
+      "id": "11f82833-7530-4ed8-8681-0cb51b4ab41a",
+      "hanzi": "桌子上有{bookThing}",
+      "pinyin": "Zhuōzi shang yǒu {bookThing}",
+      "translation": "There is {bookThing} on the table",
+      "slots": {
+        "bookThing": { "group": "ben-measure-phrases" }
+      },
+      "tokens": [
+        { "hanzi": "桌", "pinyin": "zhuō", "gloss": "table / desk" },
+        { "hanzi": "子", "pinyin": "zi", "gloss": "(noun suffix)" },
+        { "hanzi": "上", "pinyin": "shang", "gloss": "on" },
+        { "hanzi": "有", "pinyin": "yǒu", "gloss": "have / there is" },
+        { "slot": "bookThing" }
+      ]
+    },
+    {
+      "id": "40aeeaaa-c323-4d3f-a3af-2dfa8b89249b",
+      "hanzi": "请给我{someThing}",
+      "pinyin": "Qǐng gěi wǒ {someThing}",
+      "translation": "Please give me {someThing}",
+      "slots": {
+        "someThing": { "group": "xie-quantity-phrases" }
+      },
+      "tokens": [
+        { "hanzi": "请", "pinyin": "qǐng", "gloss": "please" },
+        { "hanzi": "给", "pinyin": "gěi", "gloss": "give" },
+        { "hanzi": "我", "pinyin": "wǒ", "gloss": "me" },
+        { "slot": "someThing" }
       ]
     },
     {

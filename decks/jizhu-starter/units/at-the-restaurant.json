@@ -81,6 +81,22 @@
       ]
     },
     {
+      "id": "0942aebc-aa0c-497e-b776-041898af66cc",
+      "hanzi": "请给我一小碗米饭",
+      "pinyin": "Qǐng gěi wǒ yì xiǎo wǎn mǐfàn",
+      "translation": "Could I have a small bowl of rice?",
+      "tokens": [
+        { "hanzi": "请", "pinyin": "qǐng", "gloss": "please" },
+        { "hanzi": "给", "pinyin": "gěi", "gloss": "give" },
+        { "hanzi": "我", "pinyin": "wǒ", "gloss": "me" },
+        { "hanzi": "一", "pinyin": "yì", "gloss": "one / a" },
+        { "hanzi": "小", "pinyin": "xiǎo", "gloss": "small" },
+        { "hanzi": "碗", "pinyin": "wǎn", "gloss": "bowl" },
+        { "hanzi": "米", "pinyin": "mǐ", "gloss": "rice grain" },
+        { "hanzi": "饭", "pinyin": "fàn", "gloss": "cooked rice / meal" }
+      ]
+    },
+    {
       "id": "0569ada6-a822-4fb2-9b04-ee071923d312",
       "hanzi": "我想要有{staple}的",
       "pinyin": "Wǒ xiǎng yào yǒu {staple} de",
