@@ -43,12 +43,12 @@ function mandarinNumberParts(n) {
   ];
   if (rest) {
     if (rest < 1000) parts.push(MANDARIN_NUMBER_DIGITS[0]);
-    parts.push(...mandarinNumberPartsBelowWan(rest));
+    parts.push(...mandarinNumberPartsBelowWan(rest, { forceLeadingOneForTeen: rest < 100 }));
   }
   return parts;
 }
 
-function mandarinNumberPartsBelowWan(n) {
+function mandarinNumberPartsBelowWan(n, opts = {}) {
   const parts = [];
   const thousands = Math.floor(n / 1000);
   const hundreds = Math.floor((n % 1000) / 100);
@@ -70,7 +70,7 @@ function mandarinNumberPartsBelowWan(n) {
   }
 
   if (tens) {
-    if (tens > 1 || hundreds || thousands) parts.push(MANDARIN_NUMBER_DIGITS[tens]);
+    if (tens > 1 || hundreds || thousands || opts.forceLeadingOneForTeen) parts.push(MANDARIN_NUMBER_DIGITS[tens]);
     parts.push({ char: '\u5341', pinyin: 'sh\u00ed' });
   }
 

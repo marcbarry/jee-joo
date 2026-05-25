@@ -212,7 +212,9 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
     }
     // rotate
     return { options: card.slot.options, targetIdx: last == null ? 0 : (last + 1) % N };
-  }, [card.id]);
+  // Do not depend on cardState here: setLastInfill runs as soon as the learner
+  // picks an answer, and recomputing would change the target during feedback.
+  }, [card.id, card.slot, settings.patternInfill]);
 
   const target = options[targetIdx];
 

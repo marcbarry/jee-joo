@@ -266,6 +266,8 @@ group('mandarinNumberToken - generated Mandarin number tokens', () => {
   eq('9999', mandarinNumberToken(9999), { id: 'number:9999', char: '\u4e5d\u5343\u4e5d\u767e\u4e5d\u5341\u4e5d', pinyin: 'ji\u01d4 qi\u0101n ji\u01d4 b\u01cei ji\u01d4 sh\u00ed ji\u01d4', gloss: '9999', value: 9999 });
   eq('10000', mandarinNumberToken(10000), { id: 'number:10000', char: '\u4e00\u4e07', pinyin: 'y\u012b w\u00e0n', gloss: '10000', value: 10000 });
   eq('10001', mandarinNumberToken(10001), { id: 'number:10001', char: '\u4e00\u4e07\u96f6\u4e00', pinyin: 'y\u012b w\u00e0n l\u00edng y\u012b', gloss: '10001', value: 10001 });
+  eq('10010', mandarinNumberToken(10010), { id: 'number:10010', char: '\u4e00\u4e07\u96f6\u4e00\u5341', pinyin: 'y\u012b w\u00e0n l\u00edng y\u012b sh\u00ed', gloss: '10010', value: 10010 });
+  eq('10011', mandarinNumberToken(10011), { id: 'number:10011', char: '\u4e00\u4e07\u96f6\u4e00\u5341\u4e00', pinyin: 'y\u012b w\u00e0n l\u00edng y\u012b sh\u00ed y\u012b', gloss: '10011', value: 10011 });
   eq('10100', mandarinNumberToken(10100), { id: 'number:10100', char: '\u4e00\u4e07\u96f6\u4e00\u767e', pinyin: 'y\u012b w\u00e0n l\u00edng y\u012b b\u01cei', gloss: '10100', value: 10100 });
   eq('12034', mandarinNumberToken(12034), { id: 'number:12034', char: '\u4e00\u4e07\u4e8c\u5343\u96f6\u4e09\u5341\u56db', pinyin: 'y\u012b w\u00e0n \u00e8r qi\u0101n l\u00edng s\u0101n sh\u00ed s\u00ec', gloss: '12034', value: 12034 });
   eq('99999', mandarinNumberToken(99999), { id: 'number:99999', char: '\u4e5d\u4e07\u4e5d\u5343\u4e5d\u767e\u4e5d\u5341\u4e5d', pinyin: 'ji\u01d4 w\u00e0n ji\u01d4 qi\u0101n ji\u01d4 b\u01cei ji\u01d4 sh\u00ed ji\u01d4', gloss: '99999', value: 99999 });
@@ -281,6 +283,9 @@ group('generatedSlotOptions - target plus distractors', () => {
   eq('unique option values', new Set(options.map(o => o.value)).size, 3);
   eq('stale last value starts at range minimum',
     generatedSlotOptions(generator, 2, 'rotate', 4).find(o => o.target).value,
+    20);
+  eq('invalid last value starts at range minimum',
+    generatedSlotOptions(generator, null, 'rotate', 4).find(o => o.target).value,
     20);
 });
 

@@ -188,6 +188,8 @@ A card becomes a pattern card simply by declaring a `slots` object — no separa
 | `generator` | string           | conditional | Identifier of a runtime generator. Required for generated slots. Currently supported: `mandarin-number`. |
 | `range`     | array of numbers | for `mandarin-number` | Inclusive integer range for generated Mandarin numbers. Supported values are `0` through `99999`. |
 
+A slot must use either `group` or `generator`, not both.
+
 ### Generated number slots
 
 For mechanical number ranges, use a generated slot instead of authoring a large vocabulary file. The slot renders like a normal vocabulary slot, but the app creates a small answer set for each review.

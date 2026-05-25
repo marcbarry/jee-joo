@@ -137,6 +137,9 @@ function toMemCard(card, vocabulary) {
 
 function normalizeSlotGenerator(slotDef, cardId, slotName) {
   if (!slotDef?.generator) return null;
+  if (slotDef.group) {
+    throwSchema(`Card ${cardId} slot "${slotName}" cannot use both "group" and "generator".`);
+  }
   if (slotDef.generator !== 'mandarin-number') {
     throwSchema(`Card ${cardId} slot "${slotName}" uses unsupported generator "${slotDef.generator}".`);
   }
