@@ -270,7 +270,7 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
 
   return (
     <div className="flex-1 flex flex-col px-5 pt-5">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between" style={{ marginBottom: 8 }}>
         <span className="tag">Pattern · pick the word</span>
         <span className="mono" style={{ fontSize: 10, color: 'var(--ink-3)' }}>{idxInSession + 1} / {sessionTotal}</span>
       </div>
@@ -283,13 +283,13 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
               <div className="sc" style={{
                 fontSize: 92, lineHeight: 1.02, fontWeight: 500, color: 'var(--ink)',
               }}>{hanziSentence}</div>
-              <div style={{ fontSize: 22, color: 'var(--ink-2)', marginTop: 16, lineHeight: 1.35 }}>{pinyinSentence}</div>
+              <div style={{ fontSize: 21, color: 'var(--ink-2)', marginTop: 16, lineHeight: 1.35 }}>{pinyinSentence}</div>
             </>
           ) : (
             <>
               <div className="sc" style={{ fontSize: 28, color: 'var(--ink-3)', fontWeight: 400, lineHeight: 1.1 }}>{hanziSentence}</div>
               <div style={{
-                fontSize: 52, lineHeight: 1.1, fontWeight: 500, color: 'var(--ink)',
+                fontSize: 51, lineHeight: 1.1, fontWeight: 500, color: 'var(--ink)',
                 marginTop: 12,
               }}>{pinyinSentence}</div>
             </>
@@ -346,12 +346,12 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
               {settings.showHanzi ? (
                 <>
                   <div className="sc" style={{ fontSize: 34, fontWeight: 500, lineHeight: 1 }}>{o.char}</div>
-                  <div style={{ fontSize: 14, color: 'var(--ink-2)', marginTop: 3, lineHeight: 1.1 }}>{pinyinSpaced(o.pinyin)}</div>
+                  <div style={{ fontSize: 13, color: 'var(--ink-2)', marginTop: 3, lineHeight: 1.1 }}>{pinyinSpaced(o.pinyin)}</div>
                 </>
               ) : (
                 <>
                   <div className="sc" style={{ fontSize: 16, fontWeight: 400, lineHeight: 1, color: 'var(--ink-3)' }}>{o.char}</div>
-                  <div style={{ fontSize: 24, fontWeight: 500, marginTop: 3, color: 'var(--ink)', lineHeight: 1.1 }}>{pinyinSpaced(o.pinyin)}</div>
+                  <div style={{ fontSize: 23, fontWeight: 500, marginTop: 3, color: 'var(--ink)', lineHeight: 1.1 }}>{pinyinSpaced(o.pinyin)}</div>
                 </>
               )}
               <div style={{
