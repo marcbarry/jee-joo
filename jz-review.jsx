@@ -122,7 +122,7 @@ function PhraseCard({ card, onGrade }) {
     <div className="flex-1 flex flex-col px-5 pt-10">
       <div className="flex items-end justify-center" style={{ gap: '22px 12px', flexWrap: 'wrap' }}>
         {card.tokens.map((t, i) => (
-          <button key={i} onClick={() => hintToken(i)} style={{ userSelect: 'text' }}>
+          <button key={i} onClick={() => hintToken(i)} disabled={hinted[i]} style={{ userSelect: 'text' }}>
             <HintToken
               char={t.char} pinyin={t.pinyin} say={sayAs(t.pinyin)} gloss={t.gloss}
               hinted={hinted[i]} hanziOff={!settings.showHanzi}
