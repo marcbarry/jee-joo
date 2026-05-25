@@ -304,7 +304,7 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
             <span style={{ fontSize: 24, fontWeight: 650, color: 'var(--accent)' }}>"{target.gloss}"</span>
           </div>
         ) : (
-          <div className="text-center">
+          <div className="text-center" style={{ marginTop: 24, marginBottom: 24 }}>
             <div style={{ fontSize: 24, fontWeight: 550 }}>
               "{(card.translation || '').replace(new RegExp(`\\{${card.slot.id}\\}`, 'g'), target.gloss)}"
             </div>
@@ -324,7 +324,7 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
           const isPick = chosen === i;
           const isAnswer = chosen != null && i === targetIdx;
           const dimWrong = chosen != null && !isPick && !isAnswer;
-          let style = { padding: '12px 10px', textAlign: 'center', transition: 'border-color .15s, background .15s', minHeight: 88 };
+          let style = { padding: '8px 10px', textAlign: 'center', transition: 'border-color .15s, background .15s', minHeight: 72 };
           if (isAnswer)       style = { ...style, borderColor: 'var(--pos)', background: '#f0fdf4' };
           else if (isPick)    style = { ...style, borderColor: 'var(--neg)', background: '#fef2f2' };
           else if (dimWrong)  style = { ...style, opacity: 0.4 };
@@ -333,15 +333,15 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
               {settings.showHanzi ? (
                 <>
                   <div className="sc" style={{ fontSize: 34, fontWeight: 500, lineHeight: 1 }}>{o.char}</div>
-                  <div style={{ fontSize: 14, color: 'var(--ink-2)', marginTop: 6 }}>{pinyinSpaced(o.pinyin)}</div>
+                  <div style={{ fontSize: 14, color: 'var(--ink-2)', marginTop: 3, lineHeight: 1.1 }}>{pinyinSpaced(o.pinyin)}</div>
                 </>
               ) : (
                 <>
                   <div className="sc" style={{ fontSize: 16, fontWeight: 400, lineHeight: 1, color: 'var(--ink-3)' }}>{o.char}</div>
-                  <div style={{ fontSize: 24, fontWeight: 500, marginTop: 6, color: 'var(--ink)' }}>{pinyinSpaced(o.pinyin)}</div>
+                  <div style={{ fontSize: 24, fontWeight: 500, marginTop: 3, color: 'var(--ink)', lineHeight: 1.1 }}>{pinyinSpaced(o.pinyin)}</div>
                 </>
               )}
-              <div style={{ fontSize: 11, color: 'var(--accent)', fontStyle: 'italic', marginTop: 4 }}>"{sayAs(o.pinyin)}"</div>
+              <div style={{ fontSize: 11, color: 'var(--accent)', fontStyle: 'italic', marginTop: 2, lineHeight: 1.1 }}>"{sayAs(o.pinyin)}"</div>
             </button>
           );
         })}
