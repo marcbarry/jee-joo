@@ -95,15 +95,13 @@ function mastery(state) {
   return 'mature';
 }
 
-// Build the review queue for a deck.
-// - Includes any card whose dueAt <= now (existing cards that need review)
+// Build the review queue for a deck (Anki-style daily caps).
+// - Includes up to `reviewAllowance` due cards (oldest-due first)
 // - Plus up to `newAllowance` new cards (cards with no state yet)
-// - Capped at `sessionLimit` total
-// - Sorted: due cards first (oldest due first), then new cards
 function buildQueue(cards, progress, opts) {
   const now = opts.now ?? Date.now();
-  const sessionLimit = opts.sessionLimit ?? 20;
-  const newAllowance = Math.max(0, opts.newAllowance ?? 8);
+  const newAllowance    = Math.max(0, opts.newAllowance ?? 20);
+  const reviewAllowance = Math.max(0, opts.reviewAllowance ?? 200);
 
   const due = [];
   const fresh = [];
@@ -119,13 +117,11 @@ function buildQueue(cards, progress, opts) {
 
   const queue = [];
   for (const d of due) {
-    if (queue.length >= sessionLimit) break;
+    if (queue.length >= reviewAllowance) break;
     queue.push(d.card);
   }
-  for (const f of fresh) {
-    if (queue.length >= sessionLimit) break;
-    if (queue.filter(c => !progress[c.id]).length >= newAllowance) break;
-    queue.push(f);
+  for (let i = 0; i < fresh.length && i < newAllowance; i++) {
+    queue.push(fresh[i]);
   }
   return queue;
 }

@@ -55,7 +55,7 @@ function Home() {
         </p>
 
         {showInput && (
-          <div className="w-full mt-8" style={{ maxWidth: 280 }}>
+          <div className="w-full mt-8" style={{ marginLeft: -8, marginRight: -8 }}>
             <input
               type="text"
               value={urlValue}
@@ -115,7 +115,7 @@ function Home() {
 }
 
 function DeckLanding() {
-  const { deck, progress, settings, newAllowance, daily, studyMore } = useStore();
+  const { deck, progress, settings, newAllowance, reviewAllowance, daily, studyMore } = useStore();
   const { go } = useRoute();
   const [expandedUnits, setExpandedUnits] = React.useState(() => new Set());
 
@@ -133,10 +133,7 @@ function DeckLanding() {
   if (!deck) return <Phone><div className="p-8">No deck loaded.</div></Phone>;
 
   const stats = deckStats(deck.cards, progress);
-  const queue = buildQueue(deck.cards, progress, {
-    sessionLimit: settings.cardsPerSession,
-    newAllowance,
-  });
+  const queue = buildQueue(deck.cards, progress, { newAllowance, reviewAllowance });
 
   return (
     <Phone>

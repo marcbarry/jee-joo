@@ -10,7 +10,7 @@ const STORAGE = {
 const DEFAULT_SETTINGS = {
   showHanzi: false,        // true → test on hanzi · false → test on pinyin (hanzi stays visible, dim)
   newCardsPerDay: 20,      // app-wide (matches Anki default)
-  cardsPerSession: 20,
+  maxReviewsPerDay: 200,   // app-wide (matches Anki default)
   patternInfill: 'rotate', // 'rotate' | 'random'
   version: 1,
 };
@@ -49,12 +49,13 @@ function JzProvider({ children }) {
   );
   React.useEffect(() => { writeJSON(STORAGE.settings, settings); }, [settings]);
 
-  // Daily new-card counter (app-wide, by date)
-  // extraNew is one-tap bumps from "Study more" — resets at midnight with the rest.
+  // Daily counters (app-wide, by date).
+  // extraNew/extraReview are one-tap bumps from "Study more" — reset at midnight with the rest.
+  const FRESH_DAILY = () => ({ date: todayKey(), newSeen: 0, reviewSeen: 0, extraNew: 0, extraReview: 0 });
   const [daily, setDaily] = React.useState(() => {
-    const d = readJSON(STORAGE.daily, { date: todayKey(), newSeen: 0, extraNew: 0 });
-    if (d.date !== todayKey()) return { date: todayKey(), newSeen: 0, extraNew: 0 };
-    return { extraNew: 0, ...d };
+    const d = readJSON(STORAGE.daily, FRESH_DAILY());
+    if (d.date !== todayKey()) return FRESH_DAILY();
+    return { reviewSeen: 0, extraNew: 0, extraReview: 0, ...d };
   });
   React.useEffect(() => { writeJSON(STORAGE.daily, daily); }, [daily]);
 
@@ -104,11 +105,12 @@ function JzProvider({ children }) {
     const now = Date.now();
     const next = { ...progress, [cardId]: applyGrade(progress[cardId], grade, now) };
     persistProgress(next);
-    if (wasNew) {
-      setDaily(d => d.date === todayKey()
-        ? { ...d, newSeen: d.newSeen + 1 }
-        : { date: todayKey(), newSeen: 1, extraNew: 0 });
-    }
+    setDaily(d => {
+      const base = d.date === todayKey() ? d : FRESH_DAILY();
+      return wasNew
+        ? { ...base, newSeen: base.newSeen + 1 }
+        : { ...base, reviewSeen: base.reviewSeen + 1 };
+    });
   }
 
   // For pattern cards — record which infill we last showed
@@ -126,24 +128,27 @@ function JzProvider({ children }) {
     if (!deck) return;
     persistProgress({});
     setSettings({ ...DEFAULT_SETTINGS });
-    setDaily({ date: todayKey(), newSeen: 0, extraNew: 0 });
+    setDaily(FRESH_DAILY());
   }
 
-  // One-tap "Study more": bump today's new-card allowance.
+  // One-tap "Study more": ignore today's caps by bumping both allowances.
+  // Mirrors Anki's Custom Study — lets the user keep going past the daily limits.
   function studyMore(n = 20) {
-    setDaily(d => d.date === todayKey()
-      ? { ...d, extraNew: (d.extraNew ?? 0) + n }
-      : { date: todayKey(), newSeen: 0, extraNew: n });
+    setDaily(d => {
+      const base = d.date === todayKey() ? d : FRESH_DAILY();
+      return { ...base, extraNew: (base.extraNew ?? 0) + n, extraReview: (base.extraReview ?? 0) + n };
+    });
   }
 
-  // Daily new-card cap remaining (includes any "Study more" bumps)
-  const newAllowance = Math.max(0, settings.newCardsPerDay + (daily.extraNew ?? 0) - daily.newSeen);
+  // Daily caps remaining (include any "Study more" bumps)
+  const newAllowance    = Math.max(0, settings.newCardsPerDay   + (daily.extraNew ?? 0)    - daily.newSeen);
+  const reviewAllowance = Math.max(0, settings.maxReviewsPerDay + (daily.extraReview ?? 0) - (daily.reviewSeen ?? 0));
 
   const value = {
     settings, updateSettings,
     deck, deckStatus, deckError, openDeck, retryDeck,
     progress, gradeCard, setLastInfill, resetDeckProgress,
-    daily, newAllowance, studyMore,
+    daily, newAllowance, reviewAllowance, studyMore,
   };
   return <JzCtx.Provider value={value}>{children}</JzCtx.Provider>;
 }

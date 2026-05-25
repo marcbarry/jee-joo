@@ -21,16 +21,13 @@ function ReviewTopBar({ progress, onExit }) {
 }
 
 function ReviewScreen() {
-  const { deck, progress, settings, gradeCard, setLastInfill, newAllowance } = useStore();
+  const { deck, progress, settings, gradeCard, setLastInfill, newAllowance, reviewAllowance } = useStore();
   const { go } = useRoute();
 
   // Build the queue once when entering review.
   const queue = React.useMemo(() => {
     if (!deck) return [];
-    return buildQueue(deck.cards, progress, {
-      sessionLimit: settings.cardsPerSession,
-      newAllowance,
-    });
+    return buildQueue(deck.cards, progress, { newAllowance, reviewAllowance });
     // eslint-disable-next-line
   }, [deck?.id]);
 
@@ -77,7 +74,7 @@ function DoneScreen({ total, onContinue }) {
     <Phone>
       <div className="flex-1 flex flex-col items-center justify-center px-8">
         <div className="sc" style={{ fontSize: 64, fontWeight: 500 }}>好</div>
-        <div className="mt-4" style={{ fontSize: 22, fontWeight: 600, letterSpacing: '-0.015em' }}>Session complete</div>
+        <div className="mt-4" style={{ fontSize: 22, fontWeight: 600, letterSpacing: '-0.015em' }}>All caught up</div>
         <div className="mt-2 mono" style={{ fontSize: 13, color: 'var(--ink-2)' }}>{total} card{total === 1 ? '' : 's'} reviewed</div>
       </div>
       <div className="px-6 pb-8">

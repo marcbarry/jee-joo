@@ -1,7 +1,7 @@
 // Settings + Stats (wired to store)
 
 function Settings() {
-  const { settings, updateSettings, deck, resetDeckProgress, daily, newAllowance } = useStore();
+  const { settings, updateSettings, deck, resetDeckProgress, daily, newAllowance, reviewAllowance } = useStore();
   const { go } = useRoute();
 
   return (
@@ -33,10 +33,10 @@ function Settings() {
               hint={`${daily.newSeen} seen today · ${newAllowance} left.`}
               value={settings.newCardsPerDay} min={0} max={50}
               onChange={(v) => updateSettings({ newCardsPerDay: v })} />
-            <StepperRow label="Cards per session"
-              hint="How many cards to study in one round. After this many you'll see a 'done for now' screen — tap Start review again to do another round."
-              value={settings.cardsPerSession} min={1} max={100}
-              onChange={(v) => updateSettings({ cardsPerSession: v })} />
+            <StepperRow label="Max reviews per day"
+              hint={`${daily.reviewSeen ?? 0} reviewed today · ${reviewAllowance} left. Cap on already-seen cards; tap Study more to keep going past the limit.`}
+              value={settings.maxReviewsPerDay} min={0} max={500} step={10}
+              onChange={(v) => updateSettings({ maxReviewsPerDay: v })} />
             <ChoiceRow label="Fill-in-the-blank order"
               hint="Some cards are sentences with a missing word, like 'Please give me ___'. Rotate fills the blank with each option in order; Random shuffles them."
               value={settings.patternInfill}
