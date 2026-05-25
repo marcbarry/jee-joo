@@ -20,8 +20,13 @@ const DEFAULT_SETTINGS = {
   version: 1,
 };
 
+// Local-date key (YYYY-MM-DD in the user's timezone) — daily counters reset at
+// the user's local midnight, not UTC midnight.
 function todayKey(now = new Date()) {
-  return now.toISOString().slice(0, 10);
+  const y = now.getFullYear();
+  const m = String(now.getMonth() + 1).padStart(2, '0');
+  const d = String(now.getDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
 }
 
 function readJSON(key, fallback) {
@@ -63,6 +68,33 @@ function JzProvider({ children }) {
     return { reviewSeen: 0, extraNew: 0, extraReview: 0, ...d };
   });
   React.useEffect(() => { writeJSON(STORAGE.daily, daily); }, [daily]);
+
+  // Roll over the daily counters at local midnight for pages left open across
+  // the boundary. Also catches wake-from-sleep and tab refocus, since timers
+  // are unreliable when the device suspends.
+  React.useEffect(() => {
+    let timer;
+    function schedule() {
+      const now = new Date();
+      const next = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 1);
+      timer = setTimeout(rollover, next - now);
+    }
+    function rollover() {
+      setDaily(d => d.date === todayKey() ? d : FRESH_DAILY());
+      schedule();
+    }
+    function onVisible() {
+      if (document.visibilityState === 'visible') {
+        setDaily(d => d.date === todayKey() ? d : FRESH_DAILY());
+      }
+    }
+    schedule();
+    document.addEventListener('visibilitychange', onVisible);
+    return () => {
+      clearTimeout(timer);
+      document.removeEventListener('visibilitychange', onVisible);
+    };
+  }, []);
 
   // Current deck (in-memory only). status: 'idle' | 'loading' | 'ready' | 'error'
   // If we landed on a deck-bound route with a remembered URL, start in 'loading'
