@@ -32,8 +32,8 @@ const FINAL_MAP = {
   // 2-char
   ia: 'yah', ie: 'yeh', iu: 'yoh', in: 'een',
   ua: 'wah', uo: 'waw', ui: 'way', un: 'wun',
-  'üe': 'yweh', 'ün': 'yun',
-  ai: 'eye', ei: 'ay', ao: 'ow', ou: 'oh',
+  'üe': 'yweh', 'ün': 'yoon',
+  ai: 'eye', ei: 'ay', ao: 'aow', ou: 'oh',
   an: 'ahn', en: 'uhn', er: 'are',
   // 1-char
   a: 'ah', o: 'aw', e: 'uh',
@@ -44,29 +44,15 @@ const FINAL_MAP = {
 // like "rr", not "ee". (chī → "chrr", not "chee".)
 const BUZZED_I_INITIALS = new Set(['zh', 'ch', 'sh', 'r', 'z', 'c', 's']);
 
-// After j/q/x/y, an orthographic 'u' actually represents the ü sound.
-const JQXY = new Set(['j', 'q', 'x', 'y']);
+// After j/q/x, an orthographic 'u' actually represents the ü sound.
+const JQX = new Set(['j', 'q', 'x']);
 
-// Whole-syllable overrides for cases where the rule output reads awkwardly to
-// English speakers. Keep this small — the rules cover the vast majority.
+// Whole-syllable overrides for cases the rules can't express. Keep this small —
+// if you find yourself adding an entry, prefer fixing the rule.
 const OVERRIDES = {
-  // Common compact multi-syllable words with neutral-tone reductions.
-  xiexie: 'shyeh-shyeh',
-  zaijian: 'dzeye-jyen',
-  duibuqi: 'dway-boo-chee',
-  keqi: 'kuh-chee',
-  'bu keqi': 'boo kuh-chee',
-  bukeqi: 'boo kuh-chee',
-  xuesheng: 'shweh-shung',
+  // 名字 — second syllable is neutral-tone, so the buzzed-i "dzrr" softens to
+  // a schwa. Rules can't tell tone from bare pinyin, so this stays an override.
   mingzi: 'ming-dzuh',
-  laoshi: 'laow-shrr',
-  // w-/y- bare syllables
-  wu: 'oo',
-  yi: 'ee',
-  // j/q/x + ü-merged spellings — rules would produce y-prefixed glides
-  xue:  'shweh',  que:  'chweh',  jue:  'jweh',
-  xuan: 'shwen',  quan: 'chwen',  juan: 'jwen',
-  xun:  'shoon',  qun:  'choon',  jun:  'joon',
 };
 
 // Strip sentence punctuation around a pinyin syllable.
@@ -91,8 +77,10 @@ function stripTones(p) {
 }
 
 function normalizeYW(bare) {
-  if (bare === 'yi') return bare;
-  if (bare === 'wu') return bare;
+  // yi/wu/yu are spelt with a leading glide but pronounced as the bare vowel —
+  // collapse them so they flow through the same final-lookup as i/u/ü.
+  if (bare === 'yi') return 'i';
+  if (bare === 'wu') return 'u';
   if (bare === 'yu') return 'ü';
 
   // y marks i-/ü-family finals when no consonant initial is written.
@@ -126,7 +114,7 @@ function isKnownSyllable(bare) {
   if (OVERRIDES[normalized]) return true;
   const [initial, rawFinal] = splitSyllable(normalized);
   let final = rawFinal;
-  if (JQXY.has(initial) && final.startsWith('u')) {
+  if (JQX.has(initial) && final.startsWith('u')) {
     final = 'ü' + final.slice(1);
   }
   return final === 'i' && BUZZED_I_INITIALS.has(initial) || Object.prototype.hasOwnProperty.call(FINAL_MAP, final);
@@ -166,8 +154,8 @@ function sayAsSyllable(pinyin) {
 
   let [initial, final] = splitSyllable(bare);
 
-  // j/q/x/y + u-final → ü-final orthography
-  if (JQXY.has(initial) && final.startsWith('u')) {
+  // j/q/x + u-final → ü-final orthography
+  if (JQX.has(initial) && final.startsWith('u')) {
     final = 'ü' + final.slice(1);
   }
 
@@ -177,7 +165,15 @@ function sayAsSyllable(pinyin) {
   }
 
   const initialSound = INITIAL_MAP[initial] ?? '';
-  const finalSound   = FINAL_MAP[final]    ?? final;
+  let finalSound     = FINAL_MAP[final]    ?? final;
+
+  // After j/q/x, the y-glide in ü-derived finals is redundant for English
+  // speakers (sh/ch/j already imply the front articulation) — xue: "shweh"
+  // not "shyweh", xun: "shoon" not "shyoon".
+  if (JQX.has(initial) && final.startsWith('ü') && finalSound.startsWith('y')) {
+    finalSound = finalSound.slice(1);
+  }
+
   return initialSound + finalSound;
 }
 
