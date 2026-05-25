@@ -148,12 +148,13 @@
     },
     {
       "id": "3d1a52b1-7e89-4e1a-a264-09007d1e9b8d",
-      "hanzi": "厕所在哪里？",
-      "pinyin": "Cèsuǒ zài nǎlǐ?",
+      "hanzi": "洗手间在哪里？",
+      "pinyin": "Xǐshǒujiān zài nǎlǐ?",
       "translation": "Where is the bathroom?",
       "tokens": [
-        { "hanzi": "厕",   "pinyin": "cè",  "gloss": "toilet" },
-        { "hanzi": "所",   "pinyin": "suǒ", "gloss": "place" },
+        { "hanzi": "洗",   "pinyin": "xǐ",  "gloss": "wash" },
+        { "hanzi": "手",   "pinyin": "shǒu", "gloss": "hand" },
+        { "hanzi": "间",   "pinyin": "jiān", "gloss": "room" },
         { "hanzi": "在",   "pinyin": "zài", "gloss": "at / located" },
         { "hanzi": "哪",   "pinyin": "nǎ",  "gloss": "where / which" },
         { "hanzi": "里？", "pinyin": "lǐ",  "gloss": "inside / place" }

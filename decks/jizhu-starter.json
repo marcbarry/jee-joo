@@ -1,6 +1,18 @@
 {
   "title": "Jìzhù Starter Deck",
   "description": "Beginner Chinese foundations for first conversations, restaurants, hotels, travel, and getting around.",
+  "languageProfile": {
+    "language": "Mandarin Chinese",
+    "script": "Simplified Chinese",
+    "standard": "Mainland Putonghua",
+    "regionalPreference": "Broad mainland-neutral beginner Mandarin",
+    "notes": [
+      "Prefer widely understood Mainland forms over strongly regional wording.",
+      "Avoid heavy northern/Beijing erhua, especially when a common non-erhua form is available, such as 哪里 over 哪儿 and 一点 over 一点儿.",
+      "Keep high-frequency standard Mainland forms that are commonly taught with 儿, such as 一会儿.",
+      "Prefer polite learner-safe service words in travel contexts, such as 洗手间, 结账, 女士, and 餐厅."
+    ]
+  },
   "vocabulary": {
     "vegetables": "jizhu-starter/vocabulary/vegetables.json",
     "meats": "jizhu-starter/vocabulary/meats.json",

@@ -200,10 +200,10 @@
     {
       "id": "36d5c265-a8f4-45d6-908e-733c9243c28a",
       "hanzi": "一会儿见",
-      "pinyin": "Yīhuìr jiàn",
+      "pinyin": "Yíhuìr jiàn",
       "translation": "See you later",
       "tokens": [
-        { "hanzi": "一", "pinyin": "yī",   "gloss": "one / a" },
+        { "hanzi": "一", "pinyin": "yí",   "gloss": "one / a" },
         { "hanzi": "会", "pinyin": "huì",  "gloss": "moment / while" },
         { "hanzi": "儿", "pinyin": "ér",   "gloss": "(suffix)" },
         { "hanzi": "见", "pinyin": "jiàn", "gloss": "see / meet" }

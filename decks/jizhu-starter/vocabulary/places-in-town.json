@@ -4,8 +4,8 @@
   "items": [
     {
       "id": "2b485db6-be11-4fdc-8a9e-ebee2145ada4",
-      "hanzi": "厕所",
-      "pinyin": "cèsuǒ",
+      "hanzi": "洗手间",
+      "pinyin": "xǐshǒujiān",
       "gloss": "bathroom"
     },
     {
@@ -46,8 +46,8 @@
     },
     {
       "id": "131acdbd-c9c3-40f4-ab33-e3c01d5ab7ae",
-      "hanzi": "饭店",
-      "pinyin": "fàndiàn",
+      "hanzi": "餐厅",
+      "pinyin": "cāntīng",
       "gloss": "restaurant"
     },
     {

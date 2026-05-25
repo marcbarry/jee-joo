@@ -218,12 +218,12 @@
     {
       "id": "dab02c2b-66a8-4ef3-8f2e-546b9ec9c186",
       "hanzi": "一会儿",
-      "pinyin": "yīhuìr",
+      "pinyin": "yíhuìr",
       "translation": "in a moment",
       "tokens": [
-        { "hanzi": "一", "pinyin": "yī",  "gloss": "one / a" },
+        { "hanzi": "一", "pinyin": "yí",  "gloss": "one / a" },
         { "hanzi": "会", "pinyin": "huì", "gloss": "moment / while" },
-        { "hanzi": "儿", "pinyin": "r",   "gloss": "(suffix)" }
+        { "hanzi": "儿", "pinyin": "ér",  "gloss": "(suffix)" }
       ]
     },
     {

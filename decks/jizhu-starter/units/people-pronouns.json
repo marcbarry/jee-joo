@@ -178,12 +178,12 @@
     },
     {
       "id": "9a3bd4c4-b810-4217-98a0-af5743953b15",
-      "hanzi": "小姐",
-      "pinyin": "xiǎojiě",
-      "translation": "Miss",
+      "hanzi": "女士",
+      "pinyin": "nǚshì",
+      "translation": "Ms / lady",
       "tokens": [
-        { "hanzi": "小", "pinyin": "xiǎo", "gloss": "small / young" },
-        { "hanzi": "姐", "pinyin": "jiě",  "gloss": "older sister / lady" }
+        { "hanzi": "女", "pinyin": "nǚ",  "gloss": "female / woman" },
+        { "hanzi": "士", "pinyin": "shì", "gloss": "person / professional" }
       ]
     },
     {

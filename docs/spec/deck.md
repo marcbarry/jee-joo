@@ -10,6 +10,15 @@ The manifest may either contain all deck data inline, or it may reference separa
 {
   "title": "HSK 1 Core",
   "description": "Beginner Chinese foundations for first conversations, travel, food, and getting around.",
+  "languageProfile": {
+    "language": "Mandarin Chinese",
+    "script": "Simplified Chinese",
+    "standard": "Mainland Putonghua",
+    "regionalPreference": "Broad mainland-neutral beginner Mandarin",
+    "notes": [
+      "Prefer widely understood Mainland forms over strongly regional wording."
+    ]
+  },
   "vocabulary": {
     "vegetables": "hsk-1-core/vocabulary/vegetables.json"
   },
@@ -24,7 +33,20 @@ The manifest may either contain all deck data inline, or it may reference separa
 | `title`      | string                        | yes      | Human-readable deck name shown in the UI.                                                |
 | `description` | string                       | no       | Short learner-facing summary of what the deck covers.                                    |
 | `vocabulary` | object (group id → VocabItem[] or string) | no | Named vocabulary groups that pattern-card slots can draw from. A string value is a relative URL to a vocabulary group file. See [Vocabulary](#vocabulary). |
+| `languageProfile` | object                  | no       | Authoring metadata describing the target language variety, script, regional preference, and wording policy. The app currently treats this as descriptive metadata. See [Language profile](#language-profile). |
 | `units`      | array of Unit or string       | yes      | The units that group cards. A string value is a relative URL to a unit file. Order in the array carries no meaning — units are not studied sequentially. |
+
+## Language profile
+
+`languageProfile` records the deck author's target variety and vocabulary policy. It is optional and descriptive; deck loaders should tolerate it even if they do not expose it in the study UI.
+
+| Field                | Type     | Required | Description                                                                 |
+| -------------------- | -------- | -------- | --------------------------------------------------------------------------- |
+| `language`           | string   | no       | Human-readable language name, e.g. `Mandarin Chinese`.                      |
+| `script`             | string   | no       | Script or orthography target, e.g. `Simplified Chinese`.                    |
+| `standard`           | string   | no       | Named standard or curriculum target, e.g. `Mainland Putonghua`.             |
+| `regionalPreference` | string   | no       | Short description of the preferred regional/register baseline.              |
+| `notes`              | string[] | no       | Specific authoring decisions, such as preferred variants or avoided forms.  |
 
 ## Split deck files
 

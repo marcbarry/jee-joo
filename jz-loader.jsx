@@ -210,6 +210,7 @@ async function loadDeckFromUrl(manifestUrl) {
     id: manifestUrl,
     name: manifest.title,
     description: manifest.description || '',
+    languageProfile: manifest.languageProfile || null,
     units: memUnits,
     cards,
   };

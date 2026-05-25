@@ -52,13 +52,12 @@
     },
     {
       "id": "7be59bdc-81cf-44b2-bc51-9d200f6c07ab",
-      "hanzi": "一点儿",
-      "pinyin": "Yìdiǎnr",
+      "hanzi": "一点",
+      "pinyin": "Yìdiǎn",
       "translation": "A little",
       "tokens": [
         { "hanzi": "一", "pinyin": "yì",   "gloss": "one / a" },
-        { "hanzi": "点", "pinyin": "diǎn", "gloss": "bit / point" },
-        { "hanzi": "儿", "pinyin": "ér",   "gloss": "(suffix)" }
+        { "hanzi": "点", "pinyin": "diǎn", "gloss": "bit / point" }
       ]
     },
     {

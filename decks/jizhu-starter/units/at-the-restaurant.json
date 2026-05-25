@@ -302,12 +302,12 @@
     },
     {
       "id": "d86e4d6b-8646-4b59-87ac-6ef27fe02e90",
-      "hanzi": "买单，谢谢",
-      "pinyin": "Mǎidān, xièxie",
+      "hanzi": "结账，谢谢",
+      "pinyin": "Jiézhàng, xièxie",
       "translation": "The bill, please",
       "tokens": [
-        { "hanzi": "买",  "pinyin": "mǎi", "gloss": "buy" },
-        { "hanzi": "单，", "pinyin": "dān", "gloss": "bill / single" },
+        { "hanzi": "结",  "pinyin": "jié", "gloss": "settle / tie" },
+        { "hanzi": "账，", "pinyin": "zhàng", "gloss": "account / bill" },
         { "hanzi": "谢",  "pinyin": "xiè", "gloss": "thanks" },
         { "hanzi": "谢",  "pinyin": "xie", "gloss": "thanks" }
       ]
