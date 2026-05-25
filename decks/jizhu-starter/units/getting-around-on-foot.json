@@ -156,7 +156,7 @@
         { "hanzi": "所",   "pinyin": "suǒ", "gloss": "place" },
         { "hanzi": "在",   "pinyin": "zài", "gloss": "at / located" },
         { "hanzi": "哪",   "pinyin": "nǎ",  "gloss": "where / which" },
-        { "hanzi": "儿？", "pinyin": "r",   "gloss": "(suffix)" }
+        { "hanzi": "儿？", "pinyin": "ér",  "gloss": "(suffix)" }
       ]
     },
     {
@@ -169,7 +169,7 @@
         { "hanzi": "铁",   "pinyin": "tiě",  "gloss": "iron / metal" },
         { "hanzi": "在",   "pinyin": "zài",  "gloss": "at / located" },
         { "hanzi": "哪",   "pinyin": "nǎ",   "gloss": "where / which" },
-        { "hanzi": "儿？", "pinyin": "r",    "gloss": "(suffix)" }
+        { "hanzi": "儿？", "pinyin": "ér",   "gloss": "(suffix)" }
       ]
     }
   ]

@@ -396,7 +396,7 @@
         { "hanzi": "我", "pinyin": "wǒ",  "gloss": "I" },
         { "hanzi": "一", "pinyin": "yī",  "gloss": "one / a" },
         { "hanzi": "会", "pinyin": "huì", "gloss": "moment / while" },
-        { "hanzi": "儿", "pinyin": "r",   "gloss": "(suffix)" },
+        { "hanzi": "儿", "pinyin": "ér",  "gloss": "(suffix)" },
         { "hanzi": "来", "pinyin": "lái", "gloss": "come" },
         { "hanzi": "拿", "pinyin": "ná",  "gloss": "take / fetch" }
       ]

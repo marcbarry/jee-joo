@@ -128,7 +128,7 @@
         { "hanzi": "们",   "pinyin": "men",  "gloss": "(plural)" },
         { "hanzi": "在",   "pinyin": "zài",  "gloss": "at / in" },
         { "hanzi": "哪",   "pinyin": "nǎ",   "gloss": "where / which" },
-        { "hanzi": "儿",   "pinyin": "r",    "gloss": "(suffix)" },
+        { "hanzi": "儿",   "pinyin": "ér",   "gloss": "(suffix)" },
         { "hanzi": "见？", "pinyin": "jiàn", "gloss": "meet" }
       ]
     },
@@ -205,7 +205,7 @@
       "tokens": [
         { "hanzi": "一", "pinyin": "yī",   "gloss": "one / a" },
         { "hanzi": "会", "pinyin": "huì",  "gloss": "moment / while" },
-        { "hanzi": "儿", "pinyin": "r",    "gloss": "(suffix)" },
+        { "hanzi": "儿", "pinyin": "ér",   "gloss": "(suffix)" },
         { "hanzi": "见", "pinyin": "jiàn", "gloss": "see / meet" }
       ]
     },
