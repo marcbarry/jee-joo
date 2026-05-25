@@ -301,15 +301,15 @@
     },
     {
       "id": "15f1fee1-a837-4004-a1e2-6c40926052ae",
-      "hanzi": "你住在哪儿？",
-      "pinyin": "Nǐ zhù zài nǎr?",
+      "hanzi": "你住在哪里？",
+      "pinyin": "Nǐ zhù zài nǎlǐ?",
       "translation": "Where do you live?",
       "tokens": [
         { "hanzi": "你",   "pinyin": "nǐ",  "gloss": "you" },
         { "hanzi": "住",   "pinyin": "zhù", "gloss": "live / reside" },
         { "hanzi": "在",   "pinyin": "zài", "gloss": "at / in" },
         { "hanzi": "哪",   "pinyin": "nǎ",  "gloss": "where / which" },
-        { "hanzi": "儿？", "pinyin": "ér",  "gloss": "(suffix)" }
+        { "hanzi": "里？", "pinyin": "lǐ",  "gloss": "inside / place" }
       ]
     },
     {

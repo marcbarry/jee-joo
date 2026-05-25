@@ -71,8 +71,8 @@
     },
     {
       "id": "54f2cd1a-8601-48dc-92c5-d719292ad18e",
-      "hanzi": "火车站在哪儿？",
-      "pinyin": "Huǒchēzhàn zài nǎr?",
+      "hanzi": "火车站在哪里？",
+      "pinyin": "Huǒchēzhàn zài nǎlǐ?",
       "translation": "Where is the train station",
       "tokens": [
         { "hanzi": "火",   "pinyin": "huǒ",  "gloss": "fire" },
@@ -80,7 +80,7 @@
         { "hanzi": "站",   "pinyin": "zhàn", "gloss": "stop / station" },
         { "hanzi": "在",   "pinyin": "zài",  "gloss": "at / in" },
         { "hanzi": "哪",   "pinyin": "nǎ",   "gloss": "where / which" },
-        { "hanzi": "儿？", "pinyin": "ér",   "gloss": "(suffix)" }
+        { "hanzi": "里？", "pinyin": "lǐ",   "gloss": "inside / place" }
       ]
     },
     {

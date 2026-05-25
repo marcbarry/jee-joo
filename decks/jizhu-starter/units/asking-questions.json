@@ -24,12 +24,12 @@
     },
     {
       "id": "6d9ce2e2-58f6-4039-b3ae-97cb9f3b806f",
-      "hanzi": "哪儿",
-      "pinyin": "nǎr",
+      "hanzi": "哪里",
+      "pinyin": "nǎlǐ",
       "translation": "where",
       "tokens": [
         { "hanzi": "哪", "pinyin": "nǎ", "gloss": "which / where" },
-        { "hanzi": "儿", "pinyin": "ér", "gloss": "(suffix)" }
+        { "hanzi": "里", "pinyin": "lǐ", "gloss": "inside / place" }
       ]
     },
     {
@@ -97,20 +97,20 @@
     },
     {
       "id": "3845d18d-1d4c-41af-865b-89cc46b81f15",
-      "hanzi": "你去哪儿？",
-      "pinyin": "Nǐ qù nǎr?",
+      "hanzi": "你去哪里？",
+      "pinyin": "Nǐ qù nǎlǐ?",
       "translation": "Where are you going?",
       "tokens": [
         { "hanzi": "你",   "pinyin": "nǐ", "gloss": "you" },
         { "hanzi": "去",   "pinyin": "qù", "gloss": "to go" },
         { "hanzi": "哪",   "pinyin": "nǎ", "gloss": "which / where" },
-        { "hanzi": "儿？", "pinyin": "ér", "gloss": "(suffix)" }
+        { "hanzi": "里？", "pinyin": "lǐ", "gloss": "inside / place" }
       ]
     },
     {
       "id": "819c6be6-73f7-4493-8ee1-4854bdff143d",
-      "hanzi": "{place}在哪儿？",
-      "pinyin": "{place} zài nǎr?",
+      "hanzi": "{place}在哪里？",
+      "pinyin": "{place} zài nǎlǐ?",
       "translation": "Where is {place}?",
       "slots": {
         "place": { "group": "places-in-town" }
@@ -119,7 +119,7 @@
         { "slot": "place" },
         { "hanzi": "在",   "pinyin": "zài", "gloss": "at / in" },
         { "hanzi": "哪",   "pinyin": "nǎ",  "gloss": "which / where" },
-        { "hanzi": "儿？", "pinyin": "ér",  "gloss": "(suffix)" }
+        { "hanzi": "里？", "pinyin": "lǐ",  "gloss": "inside / place" }
       ]
     }
   ]

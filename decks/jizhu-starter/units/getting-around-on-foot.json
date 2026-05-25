@@ -148,28 +148,28 @@
     },
     {
       "id": "3d1a52b1-7e89-4e1a-a264-09007d1e9b8d",
-      "hanzi": "厕所在哪儿？",
-      "pinyin": "Cèsuǒ zài nǎr?",
+      "hanzi": "厕所在哪里？",
+      "pinyin": "Cèsuǒ zài nǎlǐ?",
       "translation": "Where is the bathroom?",
       "tokens": [
         { "hanzi": "厕",   "pinyin": "cè",  "gloss": "toilet" },
         { "hanzi": "所",   "pinyin": "suǒ", "gloss": "place" },
         { "hanzi": "在",   "pinyin": "zài", "gloss": "at / located" },
         { "hanzi": "哪",   "pinyin": "nǎ",  "gloss": "where / which" },
-        { "hanzi": "儿？", "pinyin": "ér",  "gloss": "(suffix)" }
+        { "hanzi": "里？", "pinyin": "lǐ",  "gloss": "inside / place" }
       ]
     },
     {
       "id": "bbd7f596-17a2-46c0-b0cd-1b9be2f508ac",
-      "hanzi": "地铁在哪儿？",
-      "pinyin": "Dìtiě zài nǎr?",
+      "hanzi": "地铁在哪里？",
+      "pinyin": "Dìtiě zài nǎlǐ?",
       "translation": "Where is the subway?",
       "tokens": [
         { "hanzi": "地",   "pinyin": "dì",   "gloss": "earth / ground" },
         { "hanzi": "铁",   "pinyin": "tiě",  "gloss": "iron / metal" },
         { "hanzi": "在",   "pinyin": "zài",  "gloss": "at / located" },
         { "hanzi": "哪",   "pinyin": "nǎ",   "gloss": "where / which" },
-        { "hanzi": "儿？", "pinyin": "ér",   "gloss": "(suffix)" }
+        { "hanzi": "里？", "pinyin": "lǐ",   "gloss": "inside / place" }
       ]
     }
   ]

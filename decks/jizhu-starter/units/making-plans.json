@@ -120,15 +120,15 @@
     },
     {
       "id": "5880b2cc-ba25-4bb1-a137-88482b64dd52",
-      "hanzi": "我们在哪儿见？",
-      "pinyin": "Wǒmen zài nǎr jiàn?",
+      "hanzi": "我们在哪里见？",
+      "pinyin": "Wǒmen zài nǎlǐ jiàn?",
       "translation": "Where shall we meet?",
       "tokens": [
         { "hanzi": "我",   "pinyin": "wǒ",   "gloss": "I" },
         { "hanzi": "们",   "pinyin": "men",  "gloss": "(plural)" },
         { "hanzi": "在",   "pinyin": "zài",  "gloss": "at / in" },
         { "hanzi": "哪",   "pinyin": "nǎ",   "gloss": "where / which" },
-        { "hanzi": "儿",   "pinyin": "ér",   "gloss": "(suffix)" },
+        { "hanzi": "里",   "pinyin": "lǐ",   "gloss": "inside / place" },
         { "hanzi": "见？", "pinyin": "jiàn", "gloss": "meet" }
       ]
     },
