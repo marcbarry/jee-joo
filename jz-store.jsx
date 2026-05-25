@@ -2,10 +2,14 @@
 // All app + deck state lives here. Keys are versioned for migration safety.
 
 const STORAGE = {
-  settings: 'jizhu:settings:v1',
-  progress: (deckUrl) => `jizhu:progress:${deckUrl}:v1`,
-  daily:    'jizhu:daily:v1',
+  settings:    'jizhu:settings:v1',
+  progress:    (deckUrl) => `jizhu:progress:${deckUrl}:v1`,
+  daily:       'jizhu:daily:v1',
+  lastDeckUrl: 'jizhu:lastDeckUrl:v1',
 };
+
+// Routes that need a deck loaded — mirrored in jz-app.jsx.
+const DECK_HASH_ROUTES = new Set(['deck', 'review']);
 
 const DEFAULT_SETTINGS = {
   showHanzi: false,        // true → test on hanzi · false → test on pinyin (hanzi stays visible, dim)
@@ -60,8 +64,17 @@ function JzProvider({ children }) {
   React.useEffect(() => { writeJSON(STORAGE.daily, daily); }, [daily]);
 
   // Current deck (in-memory only). status: 'idle' | 'loading' | 'ready' | 'error'
+  // If we landed on a deck-bound route with a remembered URL, start in 'loading'
+  // so the loader paints immediately on refresh rather than flashing the empty
+  // deck screen before the autoload kicks in.
   const [deck, setDeck] = React.useState(null);
-  const [deckStatus, setDeckStatus] = React.useState('idle');
+  const [deckStatus, setDeckStatus] = React.useState(() => {
+    const initialHash = window.location.hash.replace('#', '');
+    if (DECK_HASH_ROUTES.has(initialHash) && readJSON(STORAGE.lastDeckUrl, null)) {
+      return 'loading';
+    }
+    return 'idle';
+  });
   const [deckError, setDeckError] = React.useState(null);
   const lastUrlRef = React.useRef(null);
 
@@ -82,6 +95,7 @@ function JzProvider({ children }) {
   // first is in flight, the first's result is discarded.
   async function openDeck(url) {
     lastUrlRef.current = url;
+    writeJSON(STORAGE.lastDeckUrl, url);
     setDeckStatus('loading');
     setDeckError(null);
     try {
@@ -96,6 +110,15 @@ function JzProvider({ children }) {
       setDeck(null);
     }
   }
+
+  // On refresh into a deck-bound route, reopen the last-used deck so the user
+  // stays where they were instead of getting bounced to home.
+  React.useEffect(() => {
+    if (deckStatus !== 'loading' || lastUrlRef.current) return;
+    const last = readJSON(STORAGE.lastDeckUrl, null);
+    if (last) openDeck(last);
+    // eslint-disable-next-line
+  }, []);
 
   function retryDeck() {
     if (lastUrlRef.current) openDeck(lastUrlRef.current);
