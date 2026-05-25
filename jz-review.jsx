@@ -135,19 +135,20 @@ function PhraseCard({ card, onGrade }) {
           minHeight keeps the button the same height in both states so the
           tokens above don't shift when the text size changes.
           Once revealed, the button is disabled so it stops looking and acting like a control. */}
-      <button className="mt-10 mx-1 flex items-center justify-between"
+      <button className="mt-10 mx-1 flex flex-col items-center justify-center text-center w-auto"
               onClick={revealAll}
               disabled={transRevealed}
               style={{
                 border: '1px solid var(--rule)', borderRadius: 10,
                 padding: '18px 20px', background: 'var(--bg)',
-                minHeight: 72,
+                minHeight: 84,
+                width: 'calc(100% - 8px)',
               }}>
         <span className="tag">Translation</span>
         {transRevealed
-          ? <span style={{ fontSize: 22, fontWeight: 500, color: 'var(--ink)', lineHeight: '28px', textAlign: 'right' }}>{card.translation}</span>
-          : <span className="flex items-center gap-1.5" style={{ fontSize: 16, color: 'var(--ink-2)', fontWeight: 500, lineHeight: '24px' }}>
-              Tap to reveal <IconChevRight size={14} stroke={2} />
+          ? <span style={{ marginTop: 10, fontSize: 22, fontWeight: 500, color: 'var(--ink)', lineHeight: '28px' }}>{card.translation}</span>
+          : <span className="flex items-center gap-1.5" style={{ marginTop: 10, fontSize: 16, color: 'var(--ink-2)', fontWeight: 500, lineHeight: '24px' }}>
+              Tap to reveal <IconChevDown size={14} stroke={2} />
             </span>}
       </button>
 
