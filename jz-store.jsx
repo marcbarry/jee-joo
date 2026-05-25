@@ -125,6 +125,8 @@ function JzProvider({ children }) {
   function resetDeckProgress() {
     if (!deck) return;
     persistProgress({});
+    setSettings({ ...DEFAULT_SETTINGS });
+    setDaily({ date: todayKey(), newSeen: 0, extraNew: 0 });
   }
 
   // One-tap "Study more": bump today's new-card allowance.
