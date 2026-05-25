@@ -9,11 +9,10 @@
       "pinyin": "Wǒmen zǒu ba?",
       "translation": "Shall we go?",
       "tokens": [
-        {
-          "hanzi": "我们走吧？",
-          "pinyin": "Wǒmen zǒu ba?",
-          "gloss": "Shall we go?"
-        }
+        { "hanzi": "我",   "pinyin": "wǒ",  "gloss": "I" },
+        { "hanzi": "们",   "pinyin": "men", "gloss": "(plural)" },
+        { "hanzi": "走",   "pinyin": "zǒu", "gloss": "go / walk" },
+        { "hanzi": "吧？", "pinyin": "ba",  "gloss": "(suggestion particle)" }
       ]
     },
     {
@@ -22,11 +21,10 @@
       "pinyin": "Wǒmen zǒu ba",
       "translation": "Let's go",
       "tokens": [
-        {
-          "hanzi": "我们走吧",
-          "pinyin": "Wǒmen zǒu ba",
-          "gloss": "Let's go"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",  "gloss": "I" },
+        { "hanzi": "们", "pinyin": "men", "gloss": "(plural)" },
+        { "hanzi": "走", "pinyin": "zǒu", "gloss": "go / walk" },
+        { "hanzi": "吧", "pinyin": "ba",  "gloss": "(suggestion particle)" }
       ]
     },
     {
@@ -40,19 +38,11 @@
         }
       },
       "tokens": [
-        {
-          "hanzi": "我们去",
-          "pinyin": "wǒmen qù",
-          "gloss": "we go to"
-        },
-        {
-          "slot": "place"
-        },
-        {
-          "hanzi": "吧",
-          "pinyin": "ba",
-          "gloss": "suggestion particle"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",  "gloss": "I" },
+        { "hanzi": "们", "pinyin": "men", "gloss": "(plural)" },
+        { "hanzi": "去", "pinyin": "qù",  "gloss": "go to" },
+        { "slot": "place" },
+        { "hanzi": "吧？", "pinyin": "ba", "gloss": "(suggestion particle)" }
       ]
     },
     {
@@ -66,19 +56,11 @@
         }
       },
       "tokens": [
-        {
-          "hanzi": "我们去",
-          "pinyin": "wǒmen qù",
-          "gloss": "we go to"
-        },
-        {
-          "slot": "place"
-        },
-        {
-          "hanzi": "吧",
-          "pinyin": "ba",
-          "gloss": "suggestion particle"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",  "gloss": "I" },
+        { "hanzi": "们", "pinyin": "men", "gloss": "(plural)" },
+        { "hanzi": "去", "pinyin": "qù",  "gloss": "go to" },
+        { "slot": "place" },
+        { "hanzi": "吧", "pinyin": "ba", "gloss": "(suggestion particle)" }
       ]
     },
     {
@@ -87,11 +69,12 @@
       "pinyin": "Wǒmen yìqǐ qù ba",
       "translation": "Let's go together",
       "tokens": [
-        {
-          "hanzi": "我们一起去吧",
-          "pinyin": "Wǒmen yìqǐ qù ba",
-          "gloss": "Let's go together"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",  "gloss": "I" },
+        { "hanzi": "们", "pinyin": "men", "gloss": "(plural)" },
+        { "hanzi": "一", "pinyin": "yì",  "gloss": "one" },
+        { "hanzi": "起", "pinyin": "qǐ",  "gloss": "rise / together" },
+        { "hanzi": "去", "pinyin": "qù",  "gloss": "go" },
+        { "hanzi": "吧", "pinyin": "ba",  "gloss": "(suggestion particle)" }
       ]
     },
     {
@@ -100,11 +83,12 @@
       "pinyin": "Nǐ míngtiān yǒu kòng ma?",
       "translation": "Are you free tomorrow?",
       "tokens": [
-        {
-          "hanzi": "你明天有空吗？",
-          "pinyin": "Nǐ míngtiān yǒu kòng ma?",
-          "gloss": "Are you free tomorrow?"
-        }
+        { "hanzi": "你",   "pinyin": "nǐ",   "gloss": "you" },
+        { "hanzi": "明",   "pinyin": "míng", "gloss": "bright / next" },
+        { "hanzi": "天",   "pinyin": "tiān", "gloss": "day / sky" },
+        { "hanzi": "有",   "pinyin": "yǒu",  "gloss": "have" },
+        { "hanzi": "空",   "pinyin": "kòng", "gloss": "free time" },
+        { "hanzi": "吗？", "pinyin": "ma",   "gloss": "(question particle)" }
       ]
     },
     {
@@ -113,11 +97,12 @@
       "pinyin": "Nǐ jīnwǎn yǒu kòng ma?",
       "translation": "Are you free tonight?",
       "tokens": [
-        {
-          "hanzi": "你今晚有空吗？",
-          "pinyin": "Nǐ jīnwǎn yǒu kòng ma?",
-          "gloss": "Are you free tonight?"
-        }
+        { "hanzi": "你",   "pinyin": "nǐ",   "gloss": "you" },
+        { "hanzi": "今",   "pinyin": "jīn",  "gloss": "today / now" },
+        { "hanzi": "晚",   "pinyin": "wǎn",  "gloss": "evening / night" },
+        { "hanzi": "有",   "pinyin": "yǒu",  "gloss": "have" },
+        { "hanzi": "空",   "pinyin": "kòng", "gloss": "free time" },
+        { "hanzi": "吗？", "pinyin": "ma",   "gloss": "(question particle)" }
       ]
     },
     {
@@ -126,11 +111,11 @@
       "pinyin": "Wǒmen jǐ diǎn jiàn?",
       "translation": "What time shall we meet?",
       "tokens": [
-        {
-          "hanzi": "我们几点见？",
-          "pinyin": "Wǒmen jǐ diǎn jiàn?",
-          "gloss": "What time shall we meet?"
-        }
+        { "hanzi": "我",   "pinyin": "wǒ",   "gloss": "I" },
+        { "hanzi": "们",   "pinyin": "men",  "gloss": "(plural)" },
+        { "hanzi": "几",   "pinyin": "jǐ",   "gloss": "how many / what" },
+        { "hanzi": "点",   "pinyin": "diǎn", "gloss": "o'clock / point" },
+        { "hanzi": "见？", "pinyin": "jiàn", "gloss": "meet" }
       ]
     },
     {
@@ -139,11 +124,12 @@
       "pinyin": "Wǒmen zài nǎr jiàn?",
       "translation": "Where shall we meet?",
       "tokens": [
-        {
-          "hanzi": "我们在哪儿见？",
-          "pinyin": "Wǒmen zài nǎr jiàn?",
-          "gloss": "Where shall we meet?"
-        }
+        { "hanzi": "我",   "pinyin": "wǒ",   "gloss": "I" },
+        { "hanzi": "们",   "pinyin": "men",  "gloss": "(plural)" },
+        { "hanzi": "在",   "pinyin": "zài",  "gloss": "at / in" },
+        { "hanzi": "哪",   "pinyin": "nǎ",   "gloss": "where / which" },
+        { "hanzi": "儿",   "pinyin": "r",    "gloss": "(suffix)" },
+        { "hanzi": "见？", "pinyin": "jiàn", "gloss": "meet" }
       ]
     },
     {
@@ -157,19 +143,11 @@
         }
       },
       "tokens": [
-        {
-          "hanzi": "我们在",
-          "pinyin": "wǒmen zài",
-          "gloss": "we are at"
-        },
-        {
-          "slot": "place"
-        },
-        {
-          "hanzi": "见",
-          "pinyin": "jiàn",
-          "gloss": "meet"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "I" },
+        { "hanzi": "们", "pinyin": "men",  "gloss": "(plural)" },
+        { "hanzi": "在", "pinyin": "zài",  "gloss": "at / in" },
+        { "slot": "place" },
+        { "hanzi": "见", "pinyin": "jiàn", "gloss": "meet" }
       ]
     },
     {
@@ -183,19 +161,11 @@
         }
       },
       "tokens": [
-        {
-          "hanzi": "我们",
-          "pinyin": "wǒmen",
-          "gloss": "we"
-        },
-        {
-          "slot": "hour"
-        },
-        {
-          "hanzi": "点见",
-          "pinyin": "diǎn jiàn",
-          "gloss": "o'clock meet"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "I" },
+        { "hanzi": "们", "pinyin": "men",  "gloss": "(plural)" },
+        { "slot": "hour" },
+        { "hanzi": "点", "pinyin": "diǎn", "gloss": "o'clock" },
+        { "hanzi": "见", "pinyin": "jiàn", "gloss": "meet" }
       ]
     },
     {
@@ -204,11 +174,12 @@
       "pinyin": "Wǒ zài nàlǐ jiàn nǐ",
       "translation": "I'll meet you there",
       "tokens": [
-        {
-          "hanzi": "我在那里见你",
-          "pinyin": "Wǒ zài nàlǐ jiàn nǐ",
-          "gloss": "I'll meet you there"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "I" },
+        { "hanzi": "在", "pinyin": "zài",  "gloss": "at / in" },
+        { "hanzi": "那", "pinyin": "nà",   "gloss": "that" },
+        { "hanzi": "里", "pinyin": "lǐ",   "gloss": "inside / place" },
+        { "hanzi": "见", "pinyin": "jiàn", "gloss": "meet" },
+        { "hanzi": "你", "pinyin": "nǐ",   "gloss": "you" }
       ]
     },
     {
@@ -222,14 +193,8 @@
         }
       },
       "tokens": [
-        {
-          "slot": "place"
-        },
-        {
-          "hanzi": "见",
-          "pinyin": "jiàn",
-          "gloss": "see"
-        }
+        { "slot": "place" },
+        { "hanzi": "见", "pinyin": "jiàn", "gloss": "see / meet" }
       ]
     },
     {
@@ -238,11 +203,10 @@
       "pinyin": "Yīhuìr jiàn",
       "translation": "See you later",
       "tokens": [
-        {
-          "hanzi": "一会儿见",
-          "pinyin": "Yīhuìr jiàn",
-          "gloss": "See you later"
-        }
+        { "hanzi": "一", "pinyin": "yī",   "gloss": "one / a" },
+        { "hanzi": "会", "pinyin": "huì",  "gloss": "moment / while" },
+        { "hanzi": "儿", "pinyin": "r",    "gloss": "(suffix)" },
+        { "hanzi": "见", "pinyin": "jiàn", "gloss": "see / meet" }
       ]
     },
     {
@@ -251,11 +215,10 @@
       "pinyin": "Nǐ xiǎng lái ma?",
       "translation": "Do you want to come?",
       "tokens": [
-        {
-          "hanzi": "你想来吗？",
-          "pinyin": "Nǐ xiǎng lái ma?",
-          "gloss": "Do you want to come?"
-        }
+        { "hanzi": "你",   "pinyin": "nǐ",    "gloss": "you" },
+        { "hanzi": "想",   "pinyin": "xiǎng", "gloss": "want / think" },
+        { "hanzi": "来",   "pinyin": "lái",   "gloss": "come" },
+        { "hanzi": "吗？", "pinyin": "ma",    "gloss": "(question particle)" }
       ]
     },
     {
@@ -264,11 +227,14 @@
       "pinyin": "Nǐ xiǎng gēn wǒ yìqǐ lái ma?",
       "translation": "Do you want to come with me?",
       "tokens": [
-        {
-          "hanzi": "你想跟我一起来吗？",
-          "pinyin": "Nǐ xiǎng gēn wǒ yìqǐ lái ma?",
-          "gloss": "Do you want to come with me?"
-        }
+        { "hanzi": "你",   "pinyin": "nǐ",    "gloss": "you" },
+        { "hanzi": "想",   "pinyin": "xiǎng", "gloss": "want / think" },
+        { "hanzi": "跟",   "pinyin": "gēn",   "gloss": "with / follow" },
+        { "hanzi": "我",   "pinyin": "wǒ",    "gloss": "me" },
+        { "hanzi": "一",   "pinyin": "yì",    "gloss": "one" },
+        { "hanzi": "起",   "pinyin": "qǐ",    "gloss": "rise / together" },
+        { "hanzi": "来",   "pinyin": "lái",   "gloss": "come" },
+        { "hanzi": "吗？", "pinyin": "ma",    "gloss": "(question particle)" }
       ]
     },
     {
@@ -277,11 +243,12 @@
       "pinyin": "Wǒ gēn nǐ yìqǐ qù",
       "translation": "I'll come with you",
       "tokens": [
-        {
-          "hanzi": "我跟你一起去",
-          "pinyin": "Wǒ gēn nǐ yìqǐ qù",
-          "gloss": "I'll come with you"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",  "gloss": "I" },
+        { "hanzi": "跟", "pinyin": "gēn", "gloss": "with / follow" },
+        { "hanzi": "你", "pinyin": "nǐ",  "gloss": "you" },
+        { "hanzi": "一", "pinyin": "yì",  "gloss": "one" },
+        { "hanzi": "起", "pinyin": "qǐ",  "gloss": "rise / together" },
+        { "hanzi": "去", "pinyin": "qù",  "gloss": "go" }
       ]
     },
     {
@@ -290,11 +257,8 @@
       "pinyin": "yìqǐ",
       "translation": "together",
       "tokens": [
-        {
-          "hanzi": "一起",
-          "pinyin": "yìqǐ",
-          "gloss": "together"
-        }
+        { "hanzi": "一", "pinyin": "yì", "gloss": "one" },
+        { "hanzi": "起", "pinyin": "qǐ", "gloss": "rise / together" }
       ]
     },
     {
@@ -303,11 +267,8 @@
       "pinyin": "gēn wǒ",
       "translation": "with me",
       "tokens": [
-        {
-          "hanzi": "跟我",
-          "pinyin": "gēn wǒ",
-          "gloss": "with me"
-        }
+        { "hanzi": "跟", "pinyin": "gēn", "gloss": "with / follow" },
+        { "hanzi": "我", "pinyin": "wǒ",  "gloss": "me" }
       ]
     },
     {
@@ -316,11 +277,9 @@
       "pinyin": "gēn wǒmen",
       "translation": "with us",
       "tokens": [
-        {
-          "hanzi": "跟我们",
-          "pinyin": "gēn wǒmen",
-          "gloss": "with us"
-        }
+        { "hanzi": "跟", "pinyin": "gēn", "gloss": "with / follow" },
+        { "hanzi": "我", "pinyin": "wǒ",  "gloss": "us" },
+        { "hanzi": "们", "pinyin": "men", "gloss": "(plural)" }
       ]
     },
     {
@@ -329,11 +288,13 @@
       "pinyin": "Dài yí ge péngyou lái ba",
       "translation": "Bring a friend",
       "tokens": [
-        {
-          "hanzi": "带一个朋友来吧",
-          "pinyin": "Dài yí ge péngyou lái ba",
-          "gloss": "Bring a friend"
-        }
+        { "hanzi": "带", "pinyin": "dài",  "gloss": "bring / carry" },
+        { "hanzi": "一", "pinyin": "yí",   "gloss": "one / a" },
+        { "hanzi": "个", "pinyin": "ge",   "gloss": "(measure word)" },
+        { "hanzi": "朋", "pinyin": "péng", "gloss": "friend" },
+        { "hanzi": "友", "pinyin": "you",  "gloss": "companion" },
+        { "hanzi": "来", "pinyin": "lái",  "gloss": "come" },
+        { "hanzi": "吧", "pinyin": "ba",   "gloss": "(suggestion particle)" }
       ]
     },
     {
@@ -342,11 +303,11 @@
       "pinyin": "Tīng qǐlai búcuò",
       "translation": "Sounds good",
       "tokens": [
-        {
-          "hanzi": "听起来不错",
-          "pinyin": "Tīng qǐlai búcuò",
-          "gloss": "Sounds good"
-        }
+        { "hanzi": "听", "pinyin": "tīng", "gloss": "listen / hear" },
+        { "hanzi": "起", "pinyin": "qǐ",   "gloss": "rise / up" },
+        { "hanzi": "来", "pinyin": "lai",  "gloss": "come (directional)" },
+        { "hanzi": "不", "pinyin": "bú",   "gloss": "not" },
+        { "hanzi": "错", "pinyin": "cuò",  "gloss": "wrong / bad" }
       ]
     },
     {
@@ -355,11 +316,9 @@
       "pinyin": "Wǒ kěyǐ",
       "translation": "That works for me",
       "tokens": [
-        {
-          "hanzi": "我可以",
-          "pinyin": "Wǒ kěyǐ",
-          "gloss": "That works for me"
-        }
+        { "hanzi": "我", "pinyin": "wǒ", "gloss": "I" },
+        { "hanzi": "可", "pinyin": "kě", "gloss": "can / may" },
+        { "hanzi": "以", "pinyin": "yǐ", "gloss": "able to" }
       ]
     },
     {
@@ -368,11 +327,13 @@
       "pinyin": "Duìbuqǐ, wǒ qù bù liǎo",
       "translation": "Sorry, I can't make it",
       "tokens": [
-        {
-          "hanzi": "对不起，我去不了",
-          "pinyin": "Duìbuqǐ, wǒ qù bù liǎo",
-          "gloss": "Sorry, I can't make it"
-        }
+        { "hanzi": "对",   "pinyin": "duì",  "gloss": "correct / face" },
+        { "hanzi": "不",   "pinyin": "bu",   "gloss": "not" },
+        { "hanzi": "起，", "pinyin": "qǐ",   "gloss": "rise" },
+        { "hanzi": "我",   "pinyin": "wǒ",   "gloss": "I" },
+        { "hanzi": "去",   "pinyin": "qù",   "gloss": "go" },
+        { "hanzi": "不",   "pinyin": "bù",   "gloss": "not" },
+        { "hanzi": "了",   "pinyin": "liǎo", "gloss": "able to" }
       ]
     },
     {
@@ -381,11 +342,9 @@
       "pinyin": "Xià cì ba",
       "translation": "Maybe next time",
       "tokens": [
-        {
-          "hanzi": "下次吧",
-          "pinyin": "Xià cì ba",
-          "gloss": "Maybe next time"
-        }
+        { "hanzi": "下", "pinyin": "xià", "gloss": "next / down" },
+        { "hanzi": "次", "pinyin": "cì",  "gloss": "time / occasion" },
+        { "hanzi": "吧", "pinyin": "ba",  "gloss": "(suggestion particle)" }
       ]
     },
     {
@@ -394,11 +353,12 @@
       "pinyin": "Qǐng gěi wǒ dǎ diànhuà",
       "translation": "Please call me",
       "tokens": [
-        {
-          "hanzi": "请给我打电话",
-          "pinyin": "Qǐng gěi wǒ dǎ diànhuà",
-          "gloss": "Please call me"
-        }
+        { "hanzi": "请", "pinyin": "qǐng", "gloss": "please" },
+        { "hanzi": "给", "pinyin": "gěi",  "gloss": "to / give" },
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "me" },
+        { "hanzi": "打", "pinyin": "dǎ",   "gloss": "hit / make (a call)" },
+        { "hanzi": "电", "pinyin": "diàn", "gloss": "electric" },
+        { "hanzi": "话", "pinyin": "huà",  "gloss": "speech / words" }
       ]
     },
     {
@@ -407,11 +367,14 @@
       "pinyin": "Wǒ míngtiān gěi nǐ dǎ diànhuà",
       "translation": "I will call you tomorrow",
       "tokens": [
-        {
-          "hanzi": "我明天给你打电话",
-          "pinyin": "Wǒ míngtiān gěi nǐ dǎ diànhuà",
-          "gloss": "I will call you tomorrow"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "I" },
+        { "hanzi": "明", "pinyin": "míng", "gloss": "bright / next" },
+        { "hanzi": "天", "pinyin": "tiān", "gloss": "day / sky" },
+        { "hanzi": "给", "pinyin": "gěi",  "gloss": "to / give" },
+        { "hanzi": "你", "pinyin": "nǐ",   "gloss": "you" },
+        { "hanzi": "打", "pinyin": "dǎ",   "gloss": "hit / make (a call)" },
+        { "hanzi": "电", "pinyin": "diàn", "gloss": "electric" },
+        { "hanzi": "话", "pinyin": "huà",  "gloss": "speech / words" }
       ]
     },
     {
@@ -420,11 +383,10 @@
       "pinyin": "Nǐ néng lái ma?",
       "translation": "Can you come?",
       "tokens": [
-        {
-          "hanzi": "你能来吗？",
-          "pinyin": "Nǐ néng lái ma?",
-          "gloss": "Can you come?"
-        }
+        { "hanzi": "你",   "pinyin": "nǐ",   "gloss": "you" },
+        { "hanzi": "能",   "pinyin": "néng", "gloss": "can / able" },
+        { "hanzi": "来",   "pinyin": "lái",  "gloss": "come" },
+        { "hanzi": "吗？", "pinyin": "ma",   "gloss": "(question particle)" }
       ]
     },
     {
@@ -433,11 +395,9 @@
       "pinyin": "Wǒ néng lái",
       "translation": "I can come",
       "tokens": [
-        {
-          "hanzi": "我能来",
-          "pinyin": "Wǒ néng lái",
-          "gloss": "I can come"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "I" },
+        { "hanzi": "能", "pinyin": "néng", "gloss": "can / able" },
+        { "hanzi": "来", "pinyin": "lái",  "gloss": "come" }
       ]
     },
     {
@@ -446,11 +406,10 @@
       "pinyin": "Wǒ bù néng lái",
       "translation": "I can't come",
       "tokens": [
-        {
-          "hanzi": "我不能来",
-          "pinyin": "Wǒ bù néng lái",
-          "gloss": "I can't come"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "I" },
+        { "hanzi": "不", "pinyin": "bù",   "gloss": "not" },
+        { "hanzi": "能", "pinyin": "néng", "gloss": "can / able" },
+        { "hanzi": "来", "pinyin": "lái",  "gloss": "come" }
       ]
     }
   ]

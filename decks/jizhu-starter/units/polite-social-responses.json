@@ -9,11 +9,11 @@
       "pinyin": "Bú yòng le, xièxie",
       "translation": "No, thank you",
       "tokens": [
-        {
-          "hanzi": "不用了，谢谢",
-          "pinyin": "Bú yòng le, xièxie",
-          "gloss": "No, thank you"
-        }
+        { "hanzi": "不",   "pinyin": "bú",   "gloss": "no / not" },
+        { "hanzi": "用",   "pinyin": "yòng", "gloss": "use / need" },
+        { "hanzi": "了，", "pinyin": "le",   "gloss": "(particle)" },
+        { "hanzi": "谢",   "pinyin": "xiè",  "gloss": "thanks" },
+        { "hanzi": "谢",   "pinyin": "xie",  "gloss": "thanks" }
       ]
     },
     {
@@ -22,11 +22,10 @@
       "pinyin": "Hǎo de, xièxie",
       "translation": "Yes please, I appreciate that",
       "tokens": [
-        {
-          "hanzi": "好的，谢谢",
-          "pinyin": "Hǎo de, xièxie",
-          "gloss": "Yes please, I appreciate that"
-        }
+        { "hanzi": "好",   "pinyin": "hǎo", "gloss": "good / okay" },
+        { "hanzi": "的，", "pinyin": "de",  "gloss": "(particle)" },
+        { "hanzi": "谢",   "pinyin": "xiè", "gloss": "thanks" },
+        { "hanzi": "谢",   "pinyin": "xie", "gloss": "thanks" }
       ]
     },
     {
@@ -35,11 +34,12 @@
       "pinyin": "Xièxie, nǐ tài hǎo le",
       "translation": "Thank you, you're very kind",
       "tokens": [
-        {
-          "hanzi": "谢谢，你太好了",
-          "pinyin": "Xièxie, nǐ tài hǎo le",
-          "gloss": "Thank you, you're very kind"
-        }
+        { "hanzi": "谢",   "pinyin": "xiè", "gloss": "thanks" },
+        { "hanzi": "谢，", "pinyin": "xie", "gloss": "thanks" },
+        { "hanzi": "你",   "pinyin": "nǐ",  "gloss": "you" },
+        { "hanzi": "太",   "pinyin": "tài", "gloss": "too / very" },
+        { "hanzi": "好",   "pinyin": "hǎo", "gloss": "good / kind" },
+        { "hanzi": "了",   "pinyin": "le",  "gloss": "(particle)" }
       ]
     },
     {
@@ -48,11 +48,9 @@
       "pinyin": "Tài hǎo le",
       "translation": "Great",
       "tokens": [
-        {
-          "hanzi": "太好了",
-          "pinyin": "Tài hǎo le",
-          "gloss": "Great"
-        }
+        { "hanzi": "太", "pinyin": "tài", "gloss": "too / very" },
+        { "hanzi": "好", "pinyin": "hǎo", "gloss": "good" },
+        { "hanzi": "了", "pinyin": "le",  "gloss": "(particle)" }
       ]
     },
     {
@@ -61,11 +59,7 @@
       "pinyin": "Hǎo",
       "translation": "Good",
       "tokens": [
-        {
-          "hanzi": "好",
-          "pinyin": "Hǎo",
-          "gloss": "Good"
-        }
+        { "hanzi": "好", "pinyin": "hǎo", "gloss": "good" }
       ]
     },
     {
@@ -74,11 +68,8 @@
       "pinyin": "Kěyǐ",
       "translation": "That's fine",
       "tokens": [
-        {
-          "hanzi": "可以",
-          "pinyin": "Kěyǐ",
-          "gloss": "That's fine"
-        }
+        { "hanzi": "可", "pinyin": "kě", "gloss": "can / may" },
+        { "hanzi": "以", "pinyin": "yǐ", "gloss": "by means of" }
       ]
     },
     {
@@ -87,11 +78,10 @@
       "pinyin": "Wǒ huì nǔlì",
       "translation": "I will work hard",
       "tokens": [
-        {
-          "hanzi": "我会努力",
-          "pinyin": "Wǒ huì nǔlì",
-          "gloss": "I will work hard"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",  "gloss": "I" },
+        { "hanzi": "会", "pinyin": "huì", "gloss": "will / can" },
+        { "hanzi": "努", "pinyin": "nǔ",  "gloss": "exert / strive" },
+        { "hanzi": "力", "pinyin": "lì",  "gloss": "strength / effort" }
       ]
     },
     {
@@ -100,11 +90,11 @@
       "pinyin": "Wǒ bú tài chōuyān",
       "translation": "I don't really smoke",
       "tokens": [
-        {
-          "hanzi": "我不太抽烟",
-          "pinyin": "Wǒ bú tài chōuyān",
-          "gloss": "I don't really smoke"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "I" },
+        { "hanzi": "不", "pinyin": "bú",   "gloss": "not" },
+        { "hanzi": "太", "pinyin": "tài",  "gloss": "too / very" },
+        { "hanzi": "抽", "pinyin": "chōu", "gloss": "draw / inhale" },
+        { "hanzi": "烟", "pinyin": "yān",  "gloss": "smoke / cigarette" }
       ]
     },
     {
@@ -113,11 +103,11 @@
       "pinyin": "Wǒ bú tài hējiǔ",
       "translation": "I don't really drink",
       "tokens": [
-        {
-          "hanzi": "我不太喝酒",
-          "pinyin": "Wǒ bú tài hējiǔ",
-          "gloss": "I don't really drink"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",  "gloss": "I" },
+        { "hanzi": "不", "pinyin": "bú",  "gloss": "not" },
+        { "hanzi": "太", "pinyin": "tài", "gloss": "too / very" },
+        { "hanzi": "喝", "pinyin": "hē",  "gloss": "drink" },
+        { "hanzi": "酒", "pinyin": "jiǔ", "gloss": "alcohol / wine" }
       ]
     },
     {
@@ -126,11 +116,11 @@
       "pinyin": "Yìdiǎndiǎn jiù hǎo",
       "translation": "Just a little, please",
       "tokens": [
-        {
-          "hanzi": "一点点就好",
-          "pinyin": "Yìdiǎndiǎn jiù hǎo",
-          "gloss": "Just a little, please"
-        }
+        { "hanzi": "一", "pinyin": "yì",   "gloss": "one / a" },
+        { "hanzi": "点", "pinyin": "diǎn", "gloss": "bit / dot" },
+        { "hanzi": "点", "pinyin": "diǎn", "gloss": "bit / dot" },
+        { "hanzi": "就", "pinyin": "jiù",  "gloss": "just / then" },
+        { "hanzi": "好", "pinyin": "hǎo",  "gloss": "good / fine" }
       ]
     }
   ]

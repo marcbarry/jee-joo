@@ -9,11 +9,9 @@
       "pinyin": "Hěn nán xuǎn",
       "translation": "It's difficult to choose",
       "tokens": [
-        {
-          "hanzi": "很难选",
-          "pinyin": "Hěn nán xuǎn",
-          "gloss": "It's difficult to choose"
-        }
+        { "hanzi": "很", "pinyin": "hěn", "gloss": "very" },
+        { "hanzi": "难", "pinyin": "nán", "gloss": "difficult" },
+        { "hanzi": "选", "pinyin": "xuǎn", "gloss": "choose / select" }
       ]
     },
     {
@@ -22,11 +20,14 @@
       "pinyin": "Bù hǎoyìsi, wǒ xiǎng de màn",
       "translation": "Sorry, I'm thinking slowly",
       "tokens": [
-        {
-          "hanzi": "不好意思，我想得慢",
-          "pinyin": "Bù hǎoyìsi, wǒ xiǎng de màn",
-          "gloss": "Sorry, I'm thinking slowly"
-        }
+        { "hanzi": "不",  "pinyin": "bù",   "gloss": "not" },
+        { "hanzi": "好",  "pinyin": "hǎo",  "gloss": "good" },
+        { "hanzi": "意",  "pinyin": "yì",   "gloss": "meaning / intent" },
+        { "hanzi": "思，", "pinyin": "si",   "gloss": "thought" },
+        { "hanzi": "我",  "pinyin": "wǒ",   "gloss": "I" },
+        { "hanzi": "想",  "pinyin": "xiǎng", "gloss": "think" },
+        { "hanzi": "得",  "pinyin": "de",   "gloss": "(particle)" },
+        { "hanzi": "慢",  "pinyin": "màn",  "gloss": "slow" }
       ]
     },
     {
@@ -35,11 +36,14 @@
       "pinyin": "Wǒ hái bù zhīdào diǎn shénme",
       "translation": "I don't know what to order yet",
       "tokens": [
-        {
-          "hanzi": "我还不知道点什么",
-          "pinyin": "Wǒ hái bù zhīdào diǎn shénme",
-          "gloss": "I don't know what to order yet"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "I" },
+        { "hanzi": "还", "pinyin": "hái",  "gloss": "still / yet" },
+        { "hanzi": "不", "pinyin": "bù",   "gloss": "not" },
+        { "hanzi": "知", "pinyin": "zhī",  "gloss": "know" },
+        { "hanzi": "道", "pinyin": "dào",  "gloss": "way / know" },
+        { "hanzi": "点", "pinyin": "diǎn", "gloss": "order / a bit" },
+        { "hanzi": "什", "pinyin": "shén", "gloss": "what" },
+        { "hanzi": "么", "pinyin": "me",   "gloss": "(suffix)" }
       ]
     },
     {
@@ -48,11 +52,15 @@
       "pinyin": "Wǒ hái bù quèdìng xiǎng yào shénme",
       "translation": "I'm not sure what I want yet",
       "tokens": [
-        {
-          "hanzi": "我还不确定想要什么",
-          "pinyin": "Wǒ hái bù quèdìng xiǎng yào shénme",
-          "gloss": "I'm not sure what I want yet"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",    "gloss": "I" },
+        { "hanzi": "还", "pinyin": "hái",   "gloss": "still / yet" },
+        { "hanzi": "不", "pinyin": "bù",    "gloss": "not" },
+        { "hanzi": "确", "pinyin": "què",   "gloss": "sure / certain" },
+        { "hanzi": "定", "pinyin": "dìng",  "gloss": "fix / decide" },
+        { "hanzi": "想", "pinyin": "xiǎng", "gloss": "want / think" },
+        { "hanzi": "要", "pinyin": "yào",   "gloss": "want" },
+        { "hanzi": "什", "pinyin": "shén",  "gloss": "what" },
+        { "hanzi": "么", "pinyin": "me",    "gloss": "(suffix)" }
       ]
     },
     {
@@ -66,14 +74,10 @@
         }
       },
       "tokens": [
-        {
-          "hanzi": "请给我",
-          "pinyin": "qǐng gěi wǒ",
-          "gloss": "please give me"
-        },
-        {
-          "slot": "staple"
-        }
+        { "hanzi": "请", "pinyin": "qǐng", "gloss": "please" },
+        { "hanzi": "给", "pinyin": "gěi",  "gloss": "give" },
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "me" },
+        { "slot": "staple" }
       ]
     },
     {
@@ -87,19 +91,12 @@
         }
       },
       "tokens": [
-        {
-          "hanzi": "我想要有",
-          "pinyin": "wǒ xiǎng yào yǒu",
-          "gloss": "I would like something with"
-        },
-        {
-          "slot": "staple"
-        },
-        {
-          "hanzi": "的",
-          "pinyin": "de",
-          "gloss": "one"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",    "gloss": "I" },
+        { "hanzi": "想", "pinyin": "xiǎng", "gloss": "want / think" },
+        { "hanzi": "要", "pinyin": "yào",   "gloss": "want" },
+        { "hanzi": "有", "pinyin": "yǒu",   "gloss": "have" },
+        { "slot": "staple" },
+        { "hanzi": "的", "pinyin": "de",    "gloss": "one / (possessive)" }
       ]
     },
     {
@@ -113,19 +110,12 @@
         }
       },
       "tokens": [
-        {
-          "hanzi": "我想要有",
-          "pinyin": "wǒ xiǎng yào yǒu",
-          "gloss": "I would like something with"
-        },
-        {
-          "slot": "vegetable"
-        },
-        {
-          "hanzi": "的",
-          "pinyin": "de",
-          "gloss": "one"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",    "gloss": "I" },
+        { "hanzi": "想", "pinyin": "xiǎng", "gloss": "want / think" },
+        { "hanzi": "要", "pinyin": "yào",   "gloss": "want" },
+        { "hanzi": "有", "pinyin": "yǒu",   "gloss": "have" },
+        { "slot": "vegetable" },
+        { "hanzi": "的", "pinyin": "de",    "gloss": "one / (possessive)" }
       ]
     },
     {
@@ -139,19 +129,12 @@
         }
       },
       "tokens": [
-        {
-          "hanzi": "我想要有",
-          "pinyin": "wǒ xiǎng yào yǒu",
-          "gloss": "I would like something with"
-        },
-        {
-          "slot": "meat"
-        },
-        {
-          "hanzi": "的",
-          "pinyin": "de",
-          "gloss": "one"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",    "gloss": "I" },
+        { "hanzi": "想", "pinyin": "xiǎng", "gloss": "want / think" },
+        { "hanzi": "要", "pinyin": "yào",   "gloss": "want" },
+        { "hanzi": "有", "pinyin": "yǒu",   "gloss": "have" },
+        { "slot": "meat" },
+        { "hanzi": "的", "pinyin": "de",    "gloss": "one / (possessive)" }
       ]
     },
     {
@@ -165,14 +148,10 @@
         }
       },
       "tokens": [
-        {
-          "hanzi": "我想喝",
-          "pinyin": "wǒ xiǎng hē",
-          "gloss": "I want to drink"
-        },
-        {
-          "slot": "drink"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",    "gloss": "I" },
+        { "hanzi": "想", "pinyin": "xiǎng", "gloss": "want / think" },
+        { "hanzi": "喝", "pinyin": "hē",    "gloss": "drink" },
+        { "slot": "drink" }
       ]
     },
     {
@@ -181,11 +160,11 @@
       "pinyin": "Nǐ xiǎng chīfàn ma?",
       "translation": "Do you want to eat?",
       "tokens": [
-        {
-          "hanzi": "你想吃饭吗？",
-          "pinyin": "Nǐ xiǎng chīfàn ma?",
-          "gloss": "Do you want to eat?"
-        }
+        { "hanzi": "你",   "pinyin": "nǐ",    "gloss": "you" },
+        { "hanzi": "想",   "pinyin": "xiǎng", "gloss": "want / think" },
+        { "hanzi": "吃",   "pinyin": "chī",   "gloss": "eat" },
+        { "hanzi": "饭",   "pinyin": "fàn",   "gloss": "meal / rice" },
+        { "hanzi": "吗？", "pinyin": "ma",    "gloss": "(question)" }
       ]
     },
     {
@@ -194,11 +173,9 @@
       "pinyin": "Wǒ è le",
       "translation": "I am hungry",
       "tokens": [
-        {
-          "hanzi": "我饿了",
-          "pinyin": "Wǒ è le",
-          "gloss": "I am hungry"
-        }
+        { "hanzi": "我", "pinyin": "wǒ", "gloss": "I" },
+        { "hanzi": "饿", "pinyin": "è",  "gloss": "hungry" },
+        { "hanzi": "了", "pinyin": "le", "gloss": "(change of state)" }
       ]
     },
     {
@@ -207,11 +184,13 @@
       "pinyin": "Duō yìdiǎn shūcài, xièxie",
       "translation": "Lots of vegetables, please",
       "tokens": [
-        {
-          "hanzi": "多一点蔬菜，谢谢",
-          "pinyin": "Duō yìdiǎn shūcài, xièxie",
-          "gloss": "Lots of vegetables, please"
-        }
+        { "hanzi": "多",  "pinyin": "duō",  "gloss": "much / more" },
+        { "hanzi": "一",  "pinyin": "yì",   "gloss": "one / a" },
+        { "hanzi": "点",  "pinyin": "diǎn", "gloss": "a bit" },
+        { "hanzi": "蔬",  "pinyin": "shū",  "gloss": "vegetable" },
+        { "hanzi": "菜，", "pinyin": "cài",  "gloss": "dish / vegetable" },
+        { "hanzi": "谢",  "pinyin": "xiè",  "gloss": "thanks" },
+        { "hanzi": "谢",  "pinyin": "xie",  "gloss": "thanks" }
       ]
     },
     {
@@ -220,11 +199,12 @@
       "pinyin": "Bú yào tài là, xièxie",
       "translation": "Not too spicy, please",
       "tokens": [
-        {
-          "hanzi": "不要太辣，谢谢",
-          "pinyin": "Bú yào tài là, xièxie",
-          "gloss": "Not too spicy, please"
-        }
+        { "hanzi": "不",  "pinyin": "bú",  "gloss": "not" },
+        { "hanzi": "要",  "pinyin": "yào", "gloss": "want" },
+        { "hanzi": "太",  "pinyin": "tài", "gloss": "too" },
+        { "hanzi": "辣，", "pinyin": "là",  "gloss": "spicy" },
+        { "hanzi": "谢",  "pinyin": "xiè", "gloss": "thanks" },
+        { "hanzi": "谢",  "pinyin": "xie", "gloss": "thanks" }
       ]
     },
     {
@@ -233,11 +213,10 @@
       "pinyin": "Zhège là ma?",
       "translation": "Is this spicy?",
       "tokens": [
-        {
-          "hanzi": "这个辣吗？",
-          "pinyin": "Zhège là ma?",
-          "gloss": "Is this spicy?"
-        }
+        { "hanzi": "这",   "pinyin": "zhè", "gloss": "this" },
+        { "hanzi": "个",   "pinyin": "ge",  "gloss": "(measure word)" },
+        { "hanzi": "辣",   "pinyin": "là",  "gloss": "spicy" },
+        { "hanzi": "吗？", "pinyin": "ma",  "gloss": "(question)" }
       ]
     },
     {
@@ -246,11 +225,10 @@
       "pinyin": "Wǒ bù chī ròu",
       "translation": "I don't eat meat",
       "tokens": [
-        {
-          "hanzi": "我不吃肉",
-          "pinyin": "Wǒ bù chī ròu",
-          "gloss": "I don't eat meat"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",  "gloss": "I" },
+        { "hanzi": "不", "pinyin": "bù",  "gloss": "not" },
+        { "hanzi": "吃", "pinyin": "chī", "gloss": "eat" },
+        { "hanzi": "肉", "pinyin": "ròu", "gloss": "meat" }
       ]
     },
     {
@@ -259,11 +237,11 @@
       "pinyin": "Wǒ bú yào zhège",
       "translation": "I don't want this",
       "tokens": [
-        {
-          "hanzi": "我不要这个",
-          "pinyin": "Wǒ bú yào zhège",
-          "gloss": "I don't want this"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",  "gloss": "I" },
+        { "hanzi": "不", "pinyin": "bú",  "gloss": "not" },
+        { "hanzi": "要", "pinyin": "yào", "gloss": "want" },
+        { "hanzi": "这", "pinyin": "zhè", "gloss": "this" },
+        { "hanzi": "个", "pinyin": "ge",  "gloss": "(measure word)" }
       ]
     },
     {
@@ -272,11 +250,11 @@
       "pinyin": "Wǒ bú yào nàge",
       "translation": "I don't want that",
       "tokens": [
-        {
-          "hanzi": "我不要那个",
-          "pinyin": "Wǒ bú yào nàge",
-          "gloss": "I don't want that"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",  "gloss": "I" },
+        { "hanzi": "不", "pinyin": "bú",  "gloss": "not" },
+        { "hanzi": "要", "pinyin": "yào", "gloss": "want" },
+        { "hanzi": "那", "pinyin": "nà",  "gloss": "that" },
+        { "hanzi": "个", "pinyin": "ge",  "gloss": "(measure word)" }
       ]
     },
     {
@@ -285,11 +263,13 @@
       "pinyin": "Nǐ néng tuījiàn yí ge ma?",
       "translation": "Can you recommend something?",
       "tokens": [
-        {
-          "hanzi": "你能推荐一个吗？",
-          "pinyin": "Nǐ néng tuījiàn yí ge ma?",
-          "gloss": "Can you recommend something?"
-        }
+        { "hanzi": "你",   "pinyin": "nǐ",   "gloss": "you" },
+        { "hanzi": "能",   "pinyin": "néng", "gloss": "can / able" },
+        { "hanzi": "推",   "pinyin": "tuī",  "gloss": "push / recommend" },
+        { "hanzi": "荐",   "pinyin": "jiàn", "gloss": "recommend" },
+        { "hanzi": "一",   "pinyin": "yí",   "gloss": "one" },
+        { "hanzi": "个",   "pinyin": "ge",   "gloss": "(measure word)" },
+        { "hanzi": "吗？", "pinyin": "ma",   "gloss": "(question)" }
       ]
     },
     {
@@ -298,11 +278,14 @@
       "pinyin": "Wǒ yào gēn tāmen yíyàng de",
       "translation": "The same as theirs, please",
       "tokens": [
-        {
-          "hanzi": "我要跟他们一样的",
-          "pinyin": "Wǒ yào gēn tāmen yíyàng de",
-          "gloss": "The same as theirs, please"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "I" },
+        { "hanzi": "要", "pinyin": "yào",  "gloss": "want" },
+        { "hanzi": "跟", "pinyin": "gēn",  "gloss": "with / and" },
+        { "hanzi": "他", "pinyin": "tā",   "gloss": "he" },
+        { "hanzi": "们", "pinyin": "men",  "gloss": "(plural)" },
+        { "hanzi": "一", "pinyin": "yí",   "gloss": "one / same" },
+        { "hanzi": "样", "pinyin": "yàng", "gloss": "kind / way" },
+        { "hanzi": "的", "pinyin": "de",   "gloss": "(possessive)" }
       ]
     },
     {
@@ -311,11 +294,10 @@
       "pinyin": "Zài lái yí ge",
       "translation": "One more, please",
       "tokens": [
-        {
-          "hanzi": "再来一个",
-          "pinyin": "Zài lái yí ge",
-          "gloss": "One more, please"
-        }
+        { "hanzi": "再", "pinyin": "zài", "gloss": "again" },
+        { "hanzi": "来", "pinyin": "lái", "gloss": "come / bring" },
+        { "hanzi": "一", "pinyin": "yí",  "gloss": "one" },
+        { "hanzi": "个", "pinyin": "ge",  "gloss": "(measure word)" }
       ]
     },
     {
@@ -324,11 +306,10 @@
       "pinyin": "Mǎidān, xièxie",
       "translation": "The bill, please",
       "tokens": [
-        {
-          "hanzi": "买单，谢谢",
-          "pinyin": "Mǎidān, xièxie",
-          "gloss": "The bill, please"
-        }
+        { "hanzi": "买",  "pinyin": "mǎi", "gloss": "buy" },
+        { "hanzi": "单，", "pinyin": "dān", "gloss": "bill / single" },
+        { "hanzi": "谢",  "pinyin": "xiè", "gloss": "thanks" },
+        { "hanzi": "谢",  "pinyin": "xie", "gloss": "thanks" }
       ]
     },
     {
@@ -337,11 +318,13 @@
       "pinyin": "Kěyǐ shǒujī zhīfù ma?",
       "translation": "Can I pay by phone?",
       "tokens": [
-        {
-          "hanzi": "可以手机支付吗？",
-          "pinyin": "Kěyǐ shǒujī zhīfù ma?",
-          "gloss": "Can I pay by phone?"
-        }
+        { "hanzi": "可",   "pinyin": "kě",   "gloss": "can / may" },
+        { "hanzi": "以",   "pinyin": "yǐ",   "gloss": "with / by" },
+        { "hanzi": "手",   "pinyin": "shǒu", "gloss": "hand" },
+        { "hanzi": "机",   "pinyin": "jī",   "gloss": "machine" },
+        { "hanzi": "支",   "pinyin": "zhī",  "gloss": "pay / support" },
+        { "hanzi": "付",   "pinyin": "fù",   "gloss": "pay / hand over" },
+        { "hanzi": "吗？", "pinyin": "ma",   "gloss": "(question)" }
       ]
     }
   ]

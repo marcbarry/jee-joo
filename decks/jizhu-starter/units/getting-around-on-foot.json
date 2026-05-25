@@ -9,11 +9,8 @@
       "pinyin": "zuǒbian",
       "translation": "left",
       "tokens": [
-        {
-          "hanzi": "左边",
-          "pinyin": "zuǒbian",
-          "gloss": "left"
-        }
+        { "hanzi": "左", "pinyin": "zuǒ",  "gloss": "left" },
+        { "hanzi": "边", "pinyin": "bian", "gloss": "side" }
       ]
     },
     {
@@ -22,11 +19,8 @@
       "pinyin": "yòubian",
       "translation": "right",
       "tokens": [
-        {
-          "hanzi": "右边",
-          "pinyin": "yòubian",
-          "gloss": "right"
-        }
+        { "hanzi": "右", "pinyin": "yòu",  "gloss": "right" },
+        { "hanzi": "边", "pinyin": "bian", "gloss": "side" }
       ]
     },
     {
@@ -35,11 +29,9 @@
       "pinyin": "yīzhí zǒu",
       "translation": "straight ahead",
       "tokens": [
-        {
-          "hanzi": "一直走",
-          "pinyin": "yīzhí zǒu",
-          "gloss": "straight ahead"
-        }
+        { "hanzi": "一", "pinyin": "yī",  "gloss": "one" },
+        { "hanzi": "直", "pinyin": "zhí", "gloss": "straight" },
+        { "hanzi": "走", "pinyin": "zǒu", "gloss": "walk / go" }
       ]
     },
     {
@@ -48,11 +40,9 @@
       "pinyin": "wǎng huí zǒu",
       "translation": "turn around / go back",
       "tokens": [
-        {
-          "hanzi": "往回走",
-          "pinyin": "wǎng huí zǒu",
-          "gloss": "turn around / go back"
-        }
+        { "hanzi": "往", "pinyin": "wǎng", "gloss": "toward" },
+        { "hanzi": "回", "pinyin": "huí",  "gloss": "return / back" },
+        { "hanzi": "走", "pinyin": "zǒu",  "gloss": "walk / go" }
       ]
     },
     {
@@ -61,11 +51,8 @@
       "pinyin": "zhèlǐ",
       "translation": "here",
       "tokens": [
-        {
-          "hanzi": "这里",
-          "pinyin": "zhèlǐ",
-          "gloss": "here"
-        }
+        { "hanzi": "这", "pinyin": "zhè", "gloss": "this" },
+        { "hanzi": "里", "pinyin": "lǐ",  "gloss": "inside / place" }
       ]
     },
     {
@@ -74,11 +61,8 @@
       "pinyin": "nàlǐ",
       "translation": "there",
       "tokens": [
-        {
-          "hanzi": "那里",
-          "pinyin": "nàlǐ",
-          "gloss": "there"
-        }
+        { "hanzi": "那", "pinyin": "nà", "gloss": "that" },
+        { "hanzi": "里", "pinyin": "lǐ", "gloss": "inside / place" }
       ]
     },
     {
@@ -92,14 +76,8 @@
         }
       },
       "tokens": [
-        {
-          "hanzi": "往",
-          "pinyin": "wǎng",
-          "gloss": "toward"
-        },
-        {
-          "slot": "direction"
-        }
+        { "hanzi": "往", "pinyin": "wǎng", "gloss": "toward" },
+        { "slot": "direction" }
       ]
     },
     {
@@ -108,11 +86,9 @@
       "pinyin": "Yǒu duō yuǎn?",
       "translation": "How far is it?",
       "tokens": [
-        {
-          "hanzi": "有多远？",
-          "pinyin": "Yǒu duō yuǎn?",
-          "gloss": "How far is it?"
-        }
+        { "hanzi": "有",   "pinyin": "yǒu",  "gloss": "have / there is" },
+        { "hanzi": "多",   "pinyin": "duō",  "gloss": "how / much" },
+        { "hanzi": "远？", "pinyin": "yuǎn", "gloss": "far" }
       ]
     },
     {
@@ -121,11 +97,9 @@
       "pinyin": "Yào duō jiǔ?",
       "translation": "How long does it take?",
       "tokens": [
-        {
-          "hanzi": "要多久？",
-          "pinyin": "Yào duō jiǔ?",
-          "gloss": "How long does it take?"
-        }
+        { "hanzi": "要",   "pinyin": "yào", "gloss": "need / want" },
+        { "hanzi": "多",   "pinyin": "duō", "gloss": "how / much" },
+        { "hanzi": "久？", "pinyin": "jiǔ", "gloss": "long (time)" }
       ]
     },
     {
@@ -134,11 +108,12 @@
       "pinyin": "Kěyǐ zǒulù qù ma?",
       "translation": "Is it walkable?",
       "tokens": [
-        {
-          "hanzi": "可以走路去吗？",
-          "pinyin": "Kěyǐ zǒulù qù ma?",
-          "gloss": "Is it walkable?"
-        }
+        { "hanzi": "可",   "pinyin": "kě",  "gloss": "can / may" },
+        { "hanzi": "以",   "pinyin": "yǐ",  "gloss": "by means of" },
+        { "hanzi": "走",   "pinyin": "zǒu", "gloss": "walk" },
+        { "hanzi": "路",   "pinyin": "lù",  "gloss": "road / path" },
+        { "hanzi": "去",   "pinyin": "qù",  "gloss": "go" },
+        { "hanzi": "吗？", "pinyin": "ma",  "gloss": "(question particle)" }
       ]
     },
     {
@@ -147,11 +122,16 @@
       "pinyin": "Nǐ néng zài dìtú shang gěi wǒ kàn ma?",
       "translation": "Can you show me on the map?",
       "tokens": [
-        {
-          "hanzi": "你能在地图上给我看吗？",
-          "pinyin": "Nǐ néng zài dìtú shang gěi wǒ kàn ma?",
-          "gloss": "Can you show me on the map?"
-        }
+        { "hanzi": "你",   "pinyin": "nǐ",   "gloss": "you" },
+        { "hanzi": "能",   "pinyin": "néng", "gloss": "can / be able to" },
+        { "hanzi": "在",   "pinyin": "zài",  "gloss": "at / on" },
+        { "hanzi": "地",   "pinyin": "dì",   "gloss": "earth / ground" },
+        { "hanzi": "图",   "pinyin": "tú",   "gloss": "map / picture" },
+        { "hanzi": "上",   "pinyin": "shang", "gloss": "on / above" },
+        { "hanzi": "给",   "pinyin": "gěi",  "gloss": "give / for" },
+        { "hanzi": "我",   "pinyin": "wǒ",   "gloss": "me" },
+        { "hanzi": "看",   "pinyin": "kàn",  "gloss": "look / see" },
+        { "hanzi": "吗？", "pinyin": "ma",   "gloss": "(question particle)" }
       ]
     },
     {
@@ -160,11 +140,10 @@
       "pinyin": "Wǒ mílù le",
       "translation": "I'm lost",
       "tokens": [
-        {
-          "hanzi": "我迷路了",
-          "pinyin": "Wǒ mílù le",
-          "gloss": "I'm lost"
-        }
+        { "hanzi": "我", "pinyin": "wǒ", "gloss": "I" },
+        { "hanzi": "迷", "pinyin": "mí", "gloss": "lost / confused" },
+        { "hanzi": "路", "pinyin": "lù", "gloss": "road / way" },
+        { "hanzi": "了", "pinyin": "le", "gloss": "(change of state)" }
       ]
     },
     {
@@ -173,11 +152,11 @@
       "pinyin": "Cèsuǒ zài nǎr?",
       "translation": "Where is the bathroom?",
       "tokens": [
-        {
-          "hanzi": "厕所在哪儿？",
-          "pinyin": "Cèsuǒ zài nǎr?",
-          "gloss": "Where is the bathroom?"
-        }
+        { "hanzi": "厕",   "pinyin": "cè",  "gloss": "toilet" },
+        { "hanzi": "所",   "pinyin": "suǒ", "gloss": "place" },
+        { "hanzi": "在",   "pinyin": "zài", "gloss": "at / located" },
+        { "hanzi": "哪",   "pinyin": "nǎ",  "gloss": "where / which" },
+        { "hanzi": "儿？", "pinyin": "r",   "gloss": "(suffix)" }
       ]
     },
     {
@@ -186,11 +165,11 @@
       "pinyin": "Dìtiě zài nǎr?",
       "translation": "Where is the subway?",
       "tokens": [
-        {
-          "hanzi": "地铁在哪儿？",
-          "pinyin": "Dìtiě zài nǎr?",
-          "gloss": "Where is the subway?"
-        }
+        { "hanzi": "地",   "pinyin": "dì",   "gloss": "earth / ground" },
+        { "hanzi": "铁",   "pinyin": "tiě",  "gloss": "iron / metal" },
+        { "hanzi": "在",   "pinyin": "zài",  "gloss": "at / located" },
+        { "hanzi": "哪",   "pinyin": "nǎ",   "gloss": "where / which" },
+        { "hanzi": "儿？", "pinyin": "r",    "gloss": "(suffix)" }
       ]
     }
   ]

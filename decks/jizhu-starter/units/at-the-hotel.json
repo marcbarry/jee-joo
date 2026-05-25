@@ -9,11 +9,10 @@
       "pinyin": "Wǒ yǒu yùdìng",
       "translation": "I have a reservation",
       "tokens": [
-        {
-          "hanzi": "我有预订",
-          "pinyin": "Wǒ yǒu yùdìng",
-          "gloss": "I have a reservation"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "I" },
+        { "hanzi": "有", "pinyin": "yǒu",  "gloss": "have" },
+        { "hanzi": "预", "pinyin": "yù",   "gloss": "in advance" },
+        { "hanzi": "订", "pinyin": "dìng", "gloss": "book / reserve" }
       ]
     },
     {
@@ -22,11 +21,12 @@
       "pinyin": "Wǒ xiǎng bànlǐ rùzhù",
       "translation": "I'd like to check in",
       "tokens": [
-        {
-          "hanzi": "我想办理入住",
-          "pinyin": "Wǒ xiǎng bànlǐ rùzhù",
-          "gloss": "I'd like to check in"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",    "gloss": "I" },
+        { "hanzi": "想", "pinyin": "xiǎng", "gloss": "want / would like" },
+        { "hanzi": "办", "pinyin": "bàn",   "gloss": "handle" },
+        { "hanzi": "理", "pinyin": "lǐ",    "gloss": "manage / arrange" },
+        { "hanzi": "入", "pinyin": "rù",    "gloss": "enter" },
+        { "hanzi": "住", "pinyin": "zhù",   "gloss": "stay / reside" }
       ]
     },
     {
@@ -35,11 +35,10 @@
       "pinyin": "Wǒ xiǎng tuìfáng",
       "translation": "I'd like to check out",
       "tokens": [
-        {
-          "hanzi": "我想退房",
-          "pinyin": "Wǒ xiǎng tuìfáng",
-          "gloss": "I'd like to check out"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",    "gloss": "I" },
+        { "hanzi": "想", "pinyin": "xiǎng", "gloss": "want / would like" },
+        { "hanzi": "退", "pinyin": "tuì",   "gloss": "return / withdraw" },
+        { "hanzi": "房", "pinyin": "fáng",  "gloss": "room" }
       ]
     },
     {
@@ -53,14 +52,9 @@
         }
       },
       "tokens": [
-        {
-          "hanzi": "我叫",
-          "pinyin": "wǒ jiào",
-          "gloss": "my name is"
-        },
-        {
-          "slot": "name"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "I" },
+        { "hanzi": "叫", "pinyin": "jiào", "gloss": "to be called" },
+        { "slot": "name" }
       ]
     },
     {
@@ -69,11 +63,12 @@
       "pinyin": "Zhè shì wǒ de hùzhào",
       "translation": "Here is my passport",
       "tokens": [
-        {
-          "hanzi": "这是我的护照",
-          "pinyin": "Zhè shì wǒ de hùzhào",
-          "gloss": "Here is my passport"
-        }
+        { "hanzi": "这", "pinyin": "zhè",  "gloss": "this" },
+        { "hanzi": "是", "pinyin": "shì",  "gloss": "to be" },
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "I / my" },
+        { "hanzi": "的", "pinyin": "de",   "gloss": "(possessive)" },
+        { "hanzi": "护", "pinyin": "hù",   "gloss": "protect" },
+        { "hanzi": "照", "pinyin": "zhào", "gloss": "certificate / photo" }
       ]
     },
     {
@@ -82,11 +77,10 @@
       "pinyin": "Yǒu kòngfáng ma?",
       "translation": "Do you have any rooms available?",
       "tokens": [
-        {
-          "hanzi": "有空房吗？",
-          "pinyin": "Yǒu kòngfáng ma?",
-          "gloss": "Do you have any rooms available?"
-        }
+        { "hanzi": "有",   "pinyin": "yǒu",  "gloss": "have" },
+        { "hanzi": "空",   "pinyin": "kòng", "gloss": "empty / vacant" },
+        { "hanzi": "房",   "pinyin": "fáng", "gloss": "room" },
+        { "hanzi": "吗？", "pinyin": "ma",   "gloss": "(question particle)" }
       ]
     },
     {
@@ -95,11 +89,14 @@
       "pinyin": "Wǒ xiǎng yào yì jiān dānrénfáng",
       "translation": "I'd like a single room",
       "tokens": [
-        {
-          "hanzi": "我想要一间单人房",
-          "pinyin": "Wǒ xiǎng yào yì jiān dānrénfáng",
-          "gloss": "I'd like a single room"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",    "gloss": "I" },
+        { "hanzi": "想", "pinyin": "xiǎng", "gloss": "want / would like" },
+        { "hanzi": "要", "pinyin": "yào",   "gloss": "want" },
+        { "hanzi": "一", "pinyin": "yì",    "gloss": "one" },
+        { "hanzi": "间", "pinyin": "jiān",  "gloss": "(measure word for rooms)" },
+        { "hanzi": "单", "pinyin": "dān",   "gloss": "single" },
+        { "hanzi": "人", "pinyin": "rén",   "gloss": "person" },
+        { "hanzi": "房", "pinyin": "fáng",  "gloss": "room" }
       ]
     },
     {
@@ -108,11 +105,14 @@
       "pinyin": "Wǒ xiǎng yào yì jiān shuāngrénfáng",
       "translation": "I'd like a double room",
       "tokens": [
-        {
-          "hanzi": "我想要一间双人房",
-          "pinyin": "Wǒ xiǎng yào yì jiān shuāngrénfáng",
-          "gloss": "I'd like a double room"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",      "gloss": "I" },
+        { "hanzi": "想", "pinyin": "xiǎng",   "gloss": "want / would like" },
+        { "hanzi": "要", "pinyin": "yào",     "gloss": "want" },
+        { "hanzi": "一", "pinyin": "yì",      "gloss": "one" },
+        { "hanzi": "间", "pinyin": "jiān",    "gloss": "(measure word for rooms)" },
+        { "hanzi": "双", "pinyin": "shuāng",  "gloss": "double / pair" },
+        { "hanzi": "人", "pinyin": "rén",     "gloss": "person" },
+        { "hanzi": "房", "pinyin": "fáng",    "gloss": "room" }
       ]
     },
     {
@@ -121,11 +121,9 @@
       "pinyin": "Zhù jǐ wǎn?",
       "translation": "For how many nights?",
       "tokens": [
-        {
-          "hanzi": "住几晚？",
-          "pinyin": "Zhù jǐ wǎn?",
-          "gloss": "For how many nights?"
-        }
+        { "hanzi": "住",   "pinyin": "zhù", "gloss": "stay" },
+        { "hanzi": "几",   "pinyin": "jǐ",  "gloss": "how many" },
+        { "hanzi": "晚？", "pinyin": "wǎn", "gloss": "night" }
       ]
     },
     {
@@ -139,19 +137,9 @@
         }
       },
       "tokens": [
-        {
-          "hanzi": "住",
-          "pinyin": "zhù",
-          "gloss": "stay"
-        },
-        {
-          "slot": "nights"
-        },
-        {
-          "hanzi": "晚",
-          "pinyin": "wǎn",
-          "gloss": "nights"
-        }
+        { "hanzi": "住", "pinyin": "zhù", "gloss": "stay" },
+        { "slot": "nights" },
+        { "hanzi": "晚", "pinyin": "wǎn", "gloss": "night" }
       ]
     },
     {
@@ -160,11 +148,11 @@
       "pinyin": "Měi wǎn duōshao qián?",
       "translation": "How much per night?",
       "tokens": [
-        {
-          "hanzi": "每晚多少钱？",
-          "pinyin": "Měi wǎn duōshao qián?",
-          "gloss": "How much per night?"
-        }
+        { "hanzi": "每",   "pinyin": "měi",   "gloss": "every" },
+        { "hanzi": "晚",   "pinyin": "wǎn",   "gloss": "night" },
+        { "hanzi": "多",   "pinyin": "duō",   "gloss": "much / many" },
+        { "hanzi": "少",   "pinyin": "shao",  "gloss": "few / less" },
+        { "hanzi": "钱？", "pinyin": "qián",  "gloss": "money" }
       ]
     },
     {
@@ -173,11 +161,11 @@
       "pinyin": "Bāokuò zǎocān ma?",
       "translation": "Is breakfast included?",
       "tokens": [
-        {
-          "hanzi": "包括早餐吗？",
-          "pinyin": "Bāokuò zǎocān ma?",
-          "gloss": "Is breakfast included?"
-        }
+        { "hanzi": "包",   "pinyin": "bāo",  "gloss": "wrap / include" },
+        { "hanzi": "括",   "pinyin": "kuò",  "gloss": "include" },
+        { "hanzi": "早",   "pinyin": "zǎo",  "gloss": "early / morning" },
+        { "hanzi": "餐",   "pinyin": "cān",  "gloss": "meal" },
+        { "hanzi": "吗？", "pinyin": "ma",   "gloss": "(question particle)" }
       ]
     },
     {
@@ -186,11 +174,10 @@
       "pinyin": "Zǎocān jǐ diǎn?",
       "translation": "What time is breakfast?",
       "tokens": [
-        {
-          "hanzi": "早餐几点？",
-          "pinyin": "Zǎocān jǐ diǎn?",
-          "gloss": "What time is breakfast?"
-        }
+        { "hanzi": "早",   "pinyin": "zǎo",  "gloss": "early / morning" },
+        { "hanzi": "餐",   "pinyin": "cān",  "gloss": "meal" },
+        { "hanzi": "几",   "pinyin": "jǐ",   "gloss": "how many / what" },
+        { "hanzi": "点？", "pinyin": "diǎn", "gloss": "o'clock / point" }
       ]
     },
     {
@@ -199,11 +186,11 @@
       "pinyin": "Yǒu wúxiànwǎng ma?",
       "translation": "Is there Wi-Fi?",
       "tokens": [
-        {
-          "hanzi": "有无线网吗？",
-          "pinyin": "Yǒu wúxiànwǎng ma?",
-          "gloss": "Is there Wi-Fi?"
-        }
+        { "hanzi": "有",   "pinyin": "yǒu",  "gloss": "have / there is" },
+        { "hanzi": "无",   "pinyin": "wú",   "gloss": "without" },
+        { "hanzi": "线",   "pinyin": "xiàn", "gloss": "line / wire" },
+        { "hanzi": "网",   "pinyin": "wǎng", "gloss": "net / network" },
+        { "hanzi": "吗？", "pinyin": "ma",   "gloss": "(question particle)" }
       ]
     },
     {
@@ -212,11 +199,14 @@
       "pinyin": "Wúxiànwǎng mìmǎ shì shénme?",
       "translation": "What is the Wi-Fi password?",
       "tokens": [
-        {
-          "hanzi": "无线网密码是什么？",
-          "pinyin": "Wúxiànwǎng mìmǎ shì shénme?",
-          "gloss": "What is the Wi-Fi password?"
-        }
+        { "hanzi": "无",   "pinyin": "wú",   "gloss": "without" },
+        { "hanzi": "线",   "pinyin": "xiàn", "gloss": "line / wire" },
+        { "hanzi": "网",   "pinyin": "wǎng", "gloss": "net / network" },
+        { "hanzi": "密",   "pinyin": "mì",   "gloss": "secret" },
+        { "hanzi": "码",   "pinyin": "mǎ",   "gloss": "code" },
+        { "hanzi": "是",   "pinyin": "shì",  "gloss": "to be" },
+        { "hanzi": "什",   "pinyin": "shén", "gloss": "what" },
+        { "hanzi": "么？", "pinyin": "me",   "gloss": "(suffix)" }
       ]
     },
     {
@@ -225,11 +215,11 @@
       "pinyin": "Qǐng gěi wǒ yàoshi",
       "translation": "The key, please",
       "tokens": [
-        {
-          "hanzi": "请给我钥匙",
-          "pinyin": "Qǐng gěi wǒ yàoshi",
-          "gloss": "The key, please"
-        }
+        { "hanzi": "请", "pinyin": "qǐng", "gloss": "please" },
+        { "hanzi": "给", "pinyin": "gěi",  "gloss": "give" },
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "me" },
+        { "hanzi": "钥", "pinyin": "yào",  "gloss": "key" },
+        { "hanzi": "匙", "pinyin": "shi",  "gloss": "key / spoon" }
       ]
     },
     {
@@ -238,11 +228,12 @@
       "pinyin": "Wǒ de yàoshi diū le",
       "translation": "I've lost my key",
       "tokens": [
-        {
-          "hanzi": "我的钥匙丢了",
-          "pinyin": "Wǒ de yàoshi diū le",
-          "gloss": "I've lost my key"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",  "gloss": "I / my" },
+        { "hanzi": "的", "pinyin": "de",  "gloss": "(possessive)" },
+        { "hanzi": "钥", "pinyin": "yào", "gloss": "key" },
+        { "hanzi": "匙", "pinyin": "shi", "gloss": "key / spoon" },
+        { "hanzi": "丢", "pinyin": "diū", "gloss": "lose" },
+        { "hanzi": "了", "pinyin": "le",  "gloss": "(completed action)" }
       ]
     },
     {
@@ -251,11 +242,11 @@
       "pinyin": "Fángjiān tài rè le",
       "translation": "The room is too hot",
       "tokens": [
-        {
-          "hanzi": "房间太热了",
-          "pinyin": "Fángjiān tài rè le",
-          "gloss": "The room is too hot"
-        }
+        { "hanzi": "房", "pinyin": "fáng", "gloss": "room" },
+        { "hanzi": "间", "pinyin": "jiān", "gloss": "room / space" },
+        { "hanzi": "太", "pinyin": "tài",  "gloss": "too" },
+        { "hanzi": "热", "pinyin": "rè",   "gloss": "hot" },
+        { "hanzi": "了", "pinyin": "le",   "gloss": "(state change)" }
       ]
     },
     {
@@ -264,11 +255,11 @@
       "pinyin": "Fángjiān tài lěng le",
       "translation": "The room is too cold",
       "tokens": [
-        {
-          "hanzi": "房间太冷了",
-          "pinyin": "Fángjiān tài lěng le",
-          "gloss": "The room is too cold"
-        }
+        { "hanzi": "房", "pinyin": "fáng", "gloss": "room" },
+        { "hanzi": "间", "pinyin": "jiān", "gloss": "room / space" },
+        { "hanzi": "太", "pinyin": "tài",  "gloss": "too" },
+        { "hanzi": "冷", "pinyin": "lěng", "gloss": "cold" },
+        { "hanzi": "了", "pinyin": "le",   "gloss": "(state change)" }
       ]
     },
     {
@@ -277,11 +268,10 @@
       "pinyin": "Kōngtiáo huài le",
       "translation": "The air conditioning isn't working",
       "tokens": [
-        {
-          "hanzi": "空调坏了",
-          "pinyin": "Kōngtiáo huài le",
-          "gloss": "The air conditioning isn't working"
-        }
+        { "hanzi": "空", "pinyin": "kōng",  "gloss": "air / empty" },
+        { "hanzi": "调", "pinyin": "tiáo",  "gloss": "adjust / tune" },
+        { "hanzi": "坏", "pinyin": "huài",  "gloss": "broken" },
+        { "hanzi": "了", "pinyin": "le",    "gloss": "(state change)" }
       ]
     },
     {
@@ -290,11 +280,10 @@
       "pinyin": "Rèshuǐ huài le",
       "translation": "The hot water isn't working",
       "tokens": [
-        {
-          "hanzi": "热水坏了",
-          "pinyin": "Rèshuǐ huài le",
-          "gloss": "The hot water isn't working"
-        }
+        { "hanzi": "热", "pinyin": "rè",   "gloss": "hot" },
+        { "hanzi": "水", "pinyin": "shuǐ", "gloss": "water" },
+        { "hanzi": "坏", "pinyin": "huài", "gloss": "broken" },
+        { "hanzi": "了", "pinyin": "le",   "gloss": "(state change)" }
       ]
     },
     {
@@ -303,11 +292,16 @@
       "pinyin": "Kěyǐ zài gěi wǒ yì tiáo máojīn ma?",
       "translation": "Could I have another towel?",
       "tokens": [
-        {
-          "hanzi": "可以再给我一条毛巾吗？",
-          "pinyin": "Kěyǐ zài gěi wǒ yì tiáo máojīn ma?",
-          "gloss": "Could I have another towel?"
-        }
+        { "hanzi": "可",   "pinyin": "kě",   "gloss": "can / may" },
+        { "hanzi": "以",   "pinyin": "yǐ",   "gloss": "by means of" },
+        { "hanzi": "再",   "pinyin": "zài",  "gloss": "again / more" },
+        { "hanzi": "给",   "pinyin": "gěi",  "gloss": "give" },
+        { "hanzi": "我",   "pinyin": "wǒ",   "gloss": "me" },
+        { "hanzi": "一",   "pinyin": "yì",   "gloss": "one" },
+        { "hanzi": "条",   "pinyin": "tiáo", "gloss": "(measure word, long things)" },
+        { "hanzi": "毛",   "pinyin": "máo",  "gloss": "hair / fur" },
+        { "hanzi": "巾",   "pinyin": "jīn",  "gloss": "towel / cloth" },
+        { "hanzi": "吗？", "pinyin": "ma",   "gloss": "(question particle)" }
       ]
     },
     {
@@ -316,11 +310,15 @@
       "pinyin": "Kěyǐ zài gěi wǒ yìdiǎn shuǐ ma?",
       "translation": "Could I have more water?",
       "tokens": [
-        {
-          "hanzi": "可以再给我一点水吗？",
-          "pinyin": "Kěyǐ zài gěi wǒ yìdiǎn shuǐ ma?",
-          "gloss": "Could I have more water?"
-        }
+        { "hanzi": "可",   "pinyin": "kě",   "gloss": "can / may" },
+        { "hanzi": "以",   "pinyin": "yǐ",   "gloss": "by means of" },
+        { "hanzi": "再",   "pinyin": "zài",  "gloss": "again / more" },
+        { "hanzi": "给",   "pinyin": "gěi",  "gloss": "give" },
+        { "hanzi": "我",   "pinyin": "wǒ",   "gloss": "me" },
+        { "hanzi": "一",   "pinyin": "yì",   "gloss": "one / a" },
+        { "hanzi": "点",   "pinyin": "diǎn", "gloss": "a little / bit" },
+        { "hanzi": "水",   "pinyin": "shuǐ", "gloss": "water" },
+        { "hanzi": "吗？", "pinyin": "ma",   "gloss": "(question particle)" }
       ]
     },
     {
@@ -329,11 +327,12 @@
       "pinyin": "Shénme shíhou tuìfáng?",
       "translation": "When is checkout time?",
       "tokens": [
-        {
-          "hanzi": "什么时候退房？",
-          "pinyin": "Shénme shíhou tuìfáng?",
-          "gloss": "When is checkout time?"
-        }
+        { "hanzi": "什",   "pinyin": "shén", "gloss": "what" },
+        { "hanzi": "么",   "pinyin": "me",   "gloss": "(suffix)" },
+        { "hanzi": "时",   "pinyin": "shí",  "gloss": "time" },
+        { "hanzi": "候",   "pinyin": "hou",  "gloss": "time / moment" },
+        { "hanzi": "退",   "pinyin": "tuì",  "gloss": "return / withdraw" },
+        { "hanzi": "房？", "pinyin": "fáng", "gloss": "room" }
       ]
     },
     {
@@ -342,11 +341,15 @@
       "pinyin": "Kěyǐ bāng wǒ jiào chūzūchē ma?",
       "translation": "Could you call me a taxi?",
       "tokens": [
-        {
-          "hanzi": "可以帮我叫出租车吗？",
-          "pinyin": "Kěyǐ bāng wǒ jiào chūzūchē ma?",
-          "gloss": "Could you call me a taxi?"
-        }
+        { "hanzi": "可",   "pinyin": "kě",   "gloss": "can / may" },
+        { "hanzi": "以",   "pinyin": "yǐ",   "gloss": "by means of" },
+        { "hanzi": "帮",   "pinyin": "bāng", "gloss": "help" },
+        { "hanzi": "我",   "pinyin": "wǒ",   "gloss": "me" },
+        { "hanzi": "叫",   "pinyin": "jiào", "gloss": "call" },
+        { "hanzi": "出",   "pinyin": "chū",  "gloss": "go out" },
+        { "hanzi": "租",   "pinyin": "zū",   "gloss": "rent / hire" },
+        { "hanzi": "车",   "pinyin": "chē",  "gloss": "vehicle / car" },
+        { "hanzi": "吗？", "pinyin": "ma",   "gloss": "(question particle)" }
       ]
     },
     {
@@ -355,11 +358,16 @@
       "pinyin": "Kěyǐ bāng wǒ kàn yíxià xíngli ma?",
       "translation": "Could you keep my bags?",
       "tokens": [
-        {
-          "hanzi": "可以帮我看一下行李吗？",
-          "pinyin": "Kěyǐ bāng wǒ kàn yíxià xíngli ma?",
-          "gloss": "Could you keep my bags?"
-        }
+        { "hanzi": "可",   "pinyin": "kě",   "gloss": "can / may" },
+        { "hanzi": "以",   "pinyin": "yǐ",   "gloss": "by means of" },
+        { "hanzi": "帮",   "pinyin": "bāng", "gloss": "help" },
+        { "hanzi": "我",   "pinyin": "wǒ",   "gloss": "me" },
+        { "hanzi": "看",   "pinyin": "kàn",  "gloss": "look / watch" },
+        { "hanzi": "一",   "pinyin": "yí",   "gloss": "one / a" },
+        { "hanzi": "下",   "pinyin": "xià",  "gloss": "(brief action)" },
+        { "hanzi": "行",   "pinyin": "xíng", "gloss": "go / travel" },
+        { "hanzi": "李",   "pinyin": "li",   "gloss": "luggage" },
+        { "hanzi": "吗？", "pinyin": "ma",   "gloss": "(question particle)" }
       ]
     },
     {
@@ -368,11 +376,15 @@
       "pinyin": "Wǒ xiǎng bǎ xíngli fàng zài zhèlǐ",
       "translation": "I'd like to leave my bags here",
       "tokens": [
-        {
-          "hanzi": "我想把行李放在这里",
-          "pinyin": "Wǒ xiǎng bǎ xíngli fàng zài zhèlǐ",
-          "gloss": "I'd like to leave my bags here"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",    "gloss": "I" },
+        { "hanzi": "想", "pinyin": "xiǎng", "gloss": "want / would like" },
+        { "hanzi": "把", "pinyin": "bǎ",    "gloss": "(object marker)" },
+        { "hanzi": "行", "pinyin": "xíng",  "gloss": "go / travel" },
+        { "hanzi": "李", "pinyin": "li",    "gloss": "luggage" },
+        { "hanzi": "放", "pinyin": "fàng",  "gloss": "place / put" },
+        { "hanzi": "在", "pinyin": "zài",   "gloss": "at / in" },
+        { "hanzi": "这", "pinyin": "zhè",   "gloss": "this" },
+        { "hanzi": "里", "pinyin": "lǐ",    "gloss": "inside / here" }
       ]
     },
     {
@@ -381,11 +393,12 @@
       "pinyin": "Wǒ yīhuìr lái ná",
       "translation": "I'll pick them up later",
       "tokens": [
-        {
-          "hanzi": "我一会儿来拿",
-          "pinyin": "Wǒ yīhuìr lái ná",
-          "gloss": "I'll pick them up later"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",  "gloss": "I" },
+        { "hanzi": "一", "pinyin": "yī",  "gloss": "one / a" },
+        { "hanzi": "会", "pinyin": "huì", "gloss": "moment / while" },
+        { "hanzi": "儿", "pinyin": "r",   "gloss": "(suffix)" },
+        { "hanzi": "来", "pinyin": "lái", "gloss": "come" },
+        { "hanzi": "拿", "pinyin": "ná",  "gloss": "take / fetch" }
       ]
     },
     {
@@ -394,11 +407,12 @@
       "pinyin": "Xièxie nǐ de bāngzhù",
       "translation": "Thank you for your help",
       "tokens": [
-        {
-          "hanzi": "谢谢你的帮助",
-          "pinyin": "Xièxie nǐ de bāngzhù",
-          "gloss": "Thank you for your help"
-        }
+        { "hanzi": "谢", "pinyin": "xiè",  "gloss": "thank" },
+        { "hanzi": "谢", "pinyin": "xie",  "gloss": "thank" },
+        { "hanzi": "你", "pinyin": "nǐ",   "gloss": "you / your" },
+        { "hanzi": "的", "pinyin": "de",   "gloss": "(possessive)" },
+        { "hanzi": "帮", "pinyin": "bāng", "gloss": "help" },
+        { "hanzi": "助", "pinyin": "zhù",  "gloss": "assist / aid" }
       ]
     }
   ]

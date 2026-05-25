@@ -9,11 +9,7 @@
       "pinyin": "nián",
       "translation": "year",
       "tokens": [
-        {
-          "hanzi": "年",
-          "pinyin": "nián",
-          "gloss": "year"
-        }
+        { "hanzi": "年", "pinyin": "nián", "gloss": "year" }
       ]
     },
     {
@@ -22,11 +18,7 @@
       "pinyin": "yuè",
       "translation": "month",
       "tokens": [
-        {
-          "hanzi": "月",
-          "pinyin": "yuè",
-          "gloss": "month"
-        }
+        { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
       ]
     },
     {
@@ -35,11 +27,7 @@
       "pinyin": "hào",
       "translation": "day of the month",
       "tokens": [
-        {
-          "hanzi": "号",
-          "pinyin": "hào",
-          "gloss": "day of the month"
-        }
+        { "hanzi": "号", "pinyin": "hào", "gloss": "day of the month" }
       ]
     },
     {
@@ -48,11 +36,8 @@
       "pinyin": "xīngqī",
       "translation": "week",
       "tokens": [
-        {
-          "hanzi": "星期",
-          "pinyin": "xīngqī",
-          "gloss": "week"
-        }
+        { "hanzi": "星", "pinyin": "xīng", "gloss": "star" },
+        { "hanzi": "期", "pinyin": "qī",   "gloss": "period" }
       ]
     },
     {
@@ -61,11 +46,8 @@
       "pinyin": "tiānqì",
       "translation": "weather",
       "tokens": [
-        {
-          "hanzi": "天气",
-          "pinyin": "tiānqì",
-          "gloss": "weather"
-        }
+        { "hanzi": "天", "pinyin": "tiān", "gloss": "sky / day" },
+        { "hanzi": "气", "pinyin": "qì",   "gloss": "air" }
       ]
     },
     {
@@ -74,11 +56,8 @@
       "pinyin": "xià yǔ",
       "translation": "to rain",
       "tokens": [
-        {
-          "hanzi": "下雨",
-          "pinyin": "xià yǔ",
-          "gloss": "to rain"
-        }
+        { "hanzi": "下", "pinyin": "xià", "gloss": "down / fall" },
+        { "hanzi": "雨", "pinyin": "yǔ",  "gloss": "rain" }
       ]
     },
     {
@@ -87,11 +66,11 @@
       "pinyin": "Jīntiān xīngqī jǐ?",
       "translation": "What day is today?",
       "tokens": [
-        {
-          "hanzi": "今天星期几？",
-          "pinyin": "Jīntiān xīngqī jǐ?",
-          "gloss": "What day is today?"
-        }
+        { "hanzi": "今",   "pinyin": "jīn",  "gloss": "now / present" },
+        { "hanzi": "天",   "pinyin": "tiān", "gloss": "day" },
+        { "hanzi": "星",   "pinyin": "xīng", "gloss": "star" },
+        { "hanzi": "期",   "pinyin": "qī",   "gloss": "period" },
+        { "hanzi": "几？", "pinyin": "jǐ",   "gloss": "how many / which" }
       ]
     },
     {
@@ -100,11 +79,12 @@
       "pinyin": "Jīntiān jǐ yuè jǐ hào?",
       "translation": "What is the date today?",
       "tokens": [
-        {
-          "hanzi": "今天几月几号？",
-          "pinyin": "Jīntiān jǐ yuè jǐ hào?",
-          "gloss": "What is the date today?"
-        }
+        { "hanzi": "今",   "pinyin": "jīn",  "gloss": "now / present" },
+        { "hanzi": "天",   "pinyin": "tiān", "gloss": "day" },
+        { "hanzi": "几",   "pinyin": "jǐ",   "gloss": "how many / which" },
+        { "hanzi": "月",   "pinyin": "yuè",  "gloss": "month" },
+        { "hanzi": "几",   "pinyin": "jǐ",   "gloss": "how many / which" },
+        { "hanzi": "号？", "pinyin": "hào",  "gloss": "day of the month" }
       ]
     },
     {
@@ -113,11 +93,8 @@
       "pinyin": "yī yuè",
       "translation": "one month / month 1",
       "tokens": [
-        {
-          "hanzi": "一月",
-          "pinyin": "yī yuè",
-          "gloss": "one month / month 1"
-        }
+        { "hanzi": "一", "pinyin": "yī",  "gloss": "one" },
+        { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
       ]
     },
     {
@@ -126,11 +103,8 @@
       "pinyin": "èr yuè",
       "translation": "two month / month 2",
       "tokens": [
-        {
-          "hanzi": "二月",
-          "pinyin": "èr yuè",
-          "gloss": "two month / month 2"
-        }
+        { "hanzi": "二", "pinyin": "èr",  "gloss": "two" },
+        { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
       ]
     },
     {
@@ -139,11 +113,8 @@
       "pinyin": "sān yuè",
       "translation": "three month / month 3",
       "tokens": [
-        {
-          "hanzi": "三月",
-          "pinyin": "sān yuè",
-          "gloss": "three month / month 3"
-        }
+        { "hanzi": "三", "pinyin": "sān", "gloss": "three" },
+        { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
       ]
     },
     {
@@ -152,11 +123,8 @@
       "pinyin": "sì yuè",
       "translation": "four month / month 4",
       "tokens": [
-        {
-          "hanzi": "四月",
-          "pinyin": "sì yuè",
-          "gloss": "four month / month 4"
-        }
+        { "hanzi": "四", "pinyin": "sì",  "gloss": "four" },
+        { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
       ]
     },
     {
@@ -165,11 +133,8 @@
       "pinyin": "wǔ yuè",
       "translation": "five month / month 5",
       "tokens": [
-        {
-          "hanzi": "五月",
-          "pinyin": "wǔ yuè",
-          "gloss": "five month / month 5"
-        }
+        { "hanzi": "五", "pinyin": "wǔ",  "gloss": "five" },
+        { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
       ]
     },
     {
@@ -178,11 +143,8 @@
       "pinyin": "liù yuè",
       "translation": "six month / month 6",
       "tokens": [
-        {
-          "hanzi": "六月",
-          "pinyin": "liù yuè",
-          "gloss": "six month / month 6"
-        }
+        { "hanzi": "六", "pinyin": "liù", "gloss": "six" },
+        { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
       ]
     },
     {
@@ -191,11 +153,8 @@
       "pinyin": "qī yuè",
       "translation": "seven month / month 7",
       "tokens": [
-        {
-          "hanzi": "七月",
-          "pinyin": "qī yuè",
-          "gloss": "seven month / month 7"
-        }
+        { "hanzi": "七", "pinyin": "qī",  "gloss": "seven" },
+        { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
       ]
     },
     {
@@ -204,11 +163,8 @@
       "pinyin": "bā yuè",
       "translation": "eight month / month 8",
       "tokens": [
-        {
-          "hanzi": "八月",
-          "pinyin": "bā yuè",
-          "gloss": "eight month / month 8"
-        }
+        { "hanzi": "八", "pinyin": "bā",  "gloss": "eight" },
+        { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
       ]
     },
     {
@@ -217,11 +173,8 @@
       "pinyin": "jiǔ yuè",
       "translation": "nine month / month 9",
       "tokens": [
-        {
-          "hanzi": "九月",
-          "pinyin": "jiǔ yuè",
-          "gloss": "nine month / month 9"
-        }
+        { "hanzi": "九", "pinyin": "jiǔ", "gloss": "nine" },
+        { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
       ]
     },
     {
@@ -230,11 +183,8 @@
       "pinyin": "shí yuè",
       "translation": "ten month / month 10",
       "tokens": [
-        {
-          "hanzi": "十月",
-          "pinyin": "shí yuè",
-          "gloss": "ten month / month 10"
-        }
+        { "hanzi": "十", "pinyin": "shí", "gloss": "ten" },
+        { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
       ]
     },
     {
@@ -243,11 +193,9 @@
       "pinyin": "shí yī yuè",
       "translation": "ten-one month / month 11",
       "tokens": [
-        {
-          "hanzi": "十一月",
-          "pinyin": "shí yī yuè",
-          "gloss": "ten-one month / month 11"
-        }
+        { "hanzi": "十", "pinyin": "shí", "gloss": "ten" },
+        { "hanzi": "一", "pinyin": "yī",  "gloss": "one" },
+        { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
       ]
     },
     {
@@ -256,11 +204,9 @@
       "pinyin": "shí èr yuè",
       "translation": "ten-two month / month 12",
       "tokens": [
-        {
-          "hanzi": "十二月",
-          "pinyin": "shí èr yuè",
-          "gloss": "ten-two month / month 12"
-        }
+        { "hanzi": "十", "pinyin": "shí", "gloss": "ten" },
+        { "hanzi": "二", "pinyin": "èr",  "gloss": "two" },
+        { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
       ]
     },
     {
@@ -269,11 +215,10 @@
       "pinyin": "Jīntiān hěn rè",
       "translation": "It's hot today",
       "tokens": [
-        {
-          "hanzi": "今天很热",
-          "pinyin": "Jīntiān hěn rè",
-          "gloss": "It's hot today"
-        }
+        { "hanzi": "今", "pinyin": "jīn",  "gloss": "now / present" },
+        { "hanzi": "天", "pinyin": "tiān", "gloss": "day" },
+        { "hanzi": "很", "pinyin": "hěn",  "gloss": "very" },
+        { "hanzi": "热", "pinyin": "rè",   "gloss": "hot" }
       ]
     },
     {
@@ -282,11 +227,10 @@
       "pinyin": "Jīntiān hěn lěng",
       "translation": "It's cold today",
       "tokens": [
-        {
-          "hanzi": "今天很冷",
-          "pinyin": "Jīntiān hěn lěng",
-          "gloss": "It's cold today"
-        }
+        { "hanzi": "今", "pinyin": "jīn",  "gloss": "now / present" },
+        { "hanzi": "天", "pinyin": "tiān", "gloss": "day" },
+        { "hanzi": "很", "pinyin": "hěn",  "gloss": "very" },
+        { "hanzi": "冷", "pinyin": "lěng", "gloss": "cold" }
       ]
     },
     {
@@ -295,11 +239,10 @@
       "pinyin": "Huì xià yǔ ma?",
       "translation": "Is it going to rain?",
       "tokens": [
-        {
-          "hanzi": "会下雨吗？",
-          "pinyin": "Huì xià yǔ ma?",
-          "gloss": "Is it going to rain?"
-        }
+        { "hanzi": "会",   "pinyin": "huì", "gloss": "will / able to" },
+        { "hanzi": "下",   "pinyin": "xià", "gloss": "down / fall" },
+        { "hanzi": "雨",   "pinyin": "yǔ",  "gloss": "rain" },
+        { "hanzi": "吗？", "pinyin": "ma",  "gloss": "(question particle)" }
       ]
     }
   ]

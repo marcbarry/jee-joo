@@ -9,11 +9,8 @@
       "pinyin": "Hěn nán",
       "translation": "It's difficult",
       "tokens": [
-        {
-          "hanzi": "很难",
-          "pinyin": "Hěn nán",
-          "gloss": "It's difficult"
-        }
+        { "hanzi": "很", "pinyin": "hěn", "gloss": "very" },
+        { "hanzi": "难", "pinyin": "nán", "gloss": "difficult" }
       ]
     },
     {
@@ -22,11 +19,9 @@
       "pinyin": "Wǒ bù dǒng",
       "translation": "I don't understand",
       "tokens": [
-        {
-          "hanzi": "我不懂",
-          "pinyin": "Wǒ bù dǒng",
-          "gloss": "I don't understand"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "I" },
+        { "hanzi": "不", "pinyin": "bù",   "gloss": "not" },
+        { "hanzi": "懂", "pinyin": "dǒng", "gloss": "understand" }
       ]
     },
     {
@@ -35,11 +30,11 @@
       "pinyin": "Qǐng zài shuō yí biàn",
       "translation": "Please say it again",
       "tokens": [
-        {
-          "hanzi": "请再说一遍",
-          "pinyin": "Qǐng zài shuō yí biàn",
-          "gloss": "Please say it again"
-        }
+        { "hanzi": "请", "pinyin": "qǐng", "gloss": "please" },
+        { "hanzi": "再", "pinyin": "zài",  "gloss": "again" },
+        { "hanzi": "说", "pinyin": "shuō", "gloss": "say / speak" },
+        { "hanzi": "一", "pinyin": "yí",   "gloss": "one" },
+        { "hanzi": "遍", "pinyin": "biàn", "gloss": "time (occurrence)" }
       ]
     },
     {
@@ -48,11 +43,11 @@
       "pinyin": "Qǐng shuō màn yìdiǎn",
       "translation": "Please speak more slowly",
       "tokens": [
-        {
-          "hanzi": "请说慢一点",
-          "pinyin": "Qǐng shuō màn yìdiǎn",
-          "gloss": "Please speak more slowly"
-        }
+        { "hanzi": "请", "pinyin": "qǐng", "gloss": "please" },
+        { "hanzi": "说", "pinyin": "shuō", "gloss": "say / speak" },
+        { "hanzi": "慢", "pinyin": "màn",  "gloss": "slow" },
+        { "hanzi": "一", "pinyin": "yì",   "gloss": "one / a" },
+        { "hanzi": "点", "pinyin": "diǎn", "gloss": "bit / point" }
       ]
     },
     {
@@ -61,11 +56,9 @@
       "pinyin": "Yìdiǎnr",
       "translation": "A little",
       "tokens": [
-        {
-          "hanzi": "一点儿",
-          "pinyin": "Yìdiǎnr",
-          "gloss": "A little"
-        }
+        { "hanzi": "一", "pinyin": "yì",   "gloss": "one / a" },
+        { "hanzi": "点", "pinyin": "diǎn", "gloss": "bit / point" },
+        { "hanzi": "儿", "pinyin": "r",    "gloss": "(suffix)" }
       ]
     },
     {
@@ -74,11 +67,13 @@
       "pinyin": "Wǒ huì shuō yìdiǎn Zhōngwén",
       "translation": "I can speak a little Chinese",
       "tokens": [
-        {
-          "hanzi": "我会说一点中文",
-          "pinyin": "Wǒ huì shuō yìdiǎn Zhōngwén",
-          "gloss": "I can speak a little Chinese"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",    "gloss": "I" },
+        { "hanzi": "会", "pinyin": "huì",   "gloss": "can / be able" },
+        { "hanzi": "说", "pinyin": "shuō",  "gloss": "say / speak" },
+        { "hanzi": "一", "pinyin": "yì",    "gloss": "one / a" },
+        { "hanzi": "点", "pinyin": "diǎn",  "gloss": "bit / point" },
+        { "hanzi": "中", "pinyin": "zhōng", "gloss": "middle / China" },
+        { "hanzi": "文", "pinyin": "wén",   "gloss": "language / writing" }
       ]
     },
     {
@@ -87,11 +82,10 @@
       "pinyin": "Wǒ hái zài xué",
       "translation": "I'm still learning",
       "tokens": [
-        {
-          "hanzi": "我还在学",
-          "pinyin": "Wǒ hái zài xué",
-          "gloss": "I'm still learning"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",  "gloss": "I" },
+        { "hanzi": "还", "pinyin": "hái", "gloss": "still" },
+        { "hanzi": "在", "pinyin": "zài", "gloss": "at / -ing" },
+        { "hanzi": "学", "pinyin": "xué", "gloss": "study / learn" }
       ]
     },
     {
@@ -100,11 +94,13 @@
       "pinyin": "Zhège Zhōngwén zěnme shuō?",
       "translation": "How do you say this in Chinese?",
       "tokens": [
-        {
-          "hanzi": "这个中文怎么说？",
-          "pinyin": "Zhège Zhōngwén zěnme shuō?",
-          "gloss": "How do you say this in Chinese?"
-        }
+        { "hanzi": "这",   "pinyin": "zhè",   "gloss": "this" },
+        { "hanzi": "个",   "pinyin": "ge",    "gloss": "(measure word)" },
+        { "hanzi": "中",   "pinyin": "zhōng", "gloss": "middle / China" },
+        { "hanzi": "文",   "pinyin": "wén",   "gloss": "language / writing" },
+        { "hanzi": "怎",   "pinyin": "zěn",   "gloss": "how" },
+        { "hanzi": "么",   "pinyin": "me",    "gloss": "(suffix)" },
+        { "hanzi": "说？", "pinyin": "shuō",  "gloss": "say / speak" }
       ]
     },
     {
@@ -113,11 +109,12 @@
       "pinyin": "Zhè shì shénme yìsi?",
       "translation": "What does this mean?",
       "tokens": [
-        {
-          "hanzi": "这是什么意思？",
-          "pinyin": "Zhè shì shénme yìsi?",
-          "gloss": "What does this mean?"
-        }
+        { "hanzi": "这",   "pinyin": "zhè",  "gloss": "this" },
+        { "hanzi": "是",   "pinyin": "shì",  "gloss": "to be" },
+        { "hanzi": "什",   "pinyin": "shén", "gloss": "what" },
+        { "hanzi": "么",   "pinyin": "me",   "gloss": "(suffix)" },
+        { "hanzi": "意",   "pinyin": "yì",   "gloss": "meaning / idea" },
+        { "hanzi": "思？", "pinyin": "si",   "gloss": "thought" }
       ]
     }
   ]

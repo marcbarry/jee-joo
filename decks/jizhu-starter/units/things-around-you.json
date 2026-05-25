@@ -9,11 +9,7 @@
       "pinyin": "shū",
       "translation": "book",
       "tokens": [
-        {
-          "hanzi": "书",
-          "pinyin": "shū",
-          "gloss": "book"
-        }
+        { "hanzi": "书", "pinyin": "shū", "gloss": "book" }
       ]
     },
     {
@@ -22,11 +18,7 @@
       "pinyin": "zì",
       "translation": "Chinese character",
       "tokens": [
-        {
-          "hanzi": "字",
-          "pinyin": "zì",
-          "gloss": "Chinese character"
-        }
+        { "hanzi": "字", "pinyin": "zì", "gloss": "Chinese character" }
       ]
     },
     {
@@ -35,11 +27,8 @@
       "pinyin": "yīfu",
       "translation": "clothes",
       "tokens": [
-        {
-          "hanzi": "衣服",
-          "pinyin": "yīfu",
-          "gloss": "clothes"
-        }
+        { "hanzi": "衣", "pinyin": "yī", "gloss": "clothing / garment" },
+        { "hanzi": "服", "pinyin": "fu", "gloss": "clothes / dress" }
       ]
     },
     {
@@ -48,11 +37,7 @@
       "pinyin": "qián",
       "translation": "money",
       "tokens": [
-        {
-          "hanzi": "钱",
-          "pinyin": "qián",
-          "gloss": "money"
-        }
+        { "hanzi": "钱", "pinyin": "qián", "gloss": "money" }
       ]
     },
     {
@@ -61,11 +46,8 @@
       "pinyin": "bēizi",
       "translation": "cup",
       "tokens": [
-        {
-          "hanzi": "杯子",
-          "pinyin": "bēizi",
-          "gloss": "cup"
-        }
+        { "hanzi": "杯", "pinyin": "bēi", "gloss": "cup / glass" },
+        { "hanzi": "子", "pinyin": "zi",  "gloss": "(noun suffix)" }
       ]
     },
     {
@@ -74,11 +56,8 @@
       "pinyin": "zhuōzi",
       "translation": "table",
       "tokens": [
-        {
-          "hanzi": "桌子",
-          "pinyin": "zhuōzi",
-          "gloss": "table"
-        }
+        { "hanzi": "桌", "pinyin": "zhuō", "gloss": "table / desk" },
+        { "hanzi": "子", "pinyin": "zi",   "gloss": "(noun suffix)" }
       ]
     },
     {
@@ -87,11 +66,8 @@
       "pinyin": "yǐzi",
       "translation": "chair",
       "tokens": [
-        {
-          "hanzi": "椅子",
-          "pinyin": "yǐzi",
-          "gloss": "chair"
-        }
+        { "hanzi": "椅", "pinyin": "yǐ", "gloss": "chair" },
+        { "hanzi": "子", "pinyin": "zi", "gloss": "(noun suffix)" }
       ]
     },
     {
@@ -100,11 +76,8 @@
       "pinyin": "dōngxi",
       "translation": "thing / stuff",
       "tokens": [
-        {
-          "hanzi": "东西",
-          "pinyin": "dōngxi",
-          "gloss": "thing / stuff"
-        }
+        { "hanzi": "东", "pinyin": "dōng", "gloss": "east" },
+        { "hanzi": "西", "pinyin": "xi",   "gloss": "west" }
       ]
     },
     {
@@ -113,11 +86,7 @@
       "pinyin": "māo",
       "translation": "cat",
       "tokens": [
-        {
-          "hanzi": "猫",
-          "pinyin": "māo",
-          "gloss": "cat"
-        }
+        { "hanzi": "猫", "pinyin": "māo", "gloss": "cat" }
       ]
     },
     {
@@ -126,11 +95,7 @@
       "pinyin": "gǒu",
       "translation": "dog",
       "tokens": [
-        {
-          "hanzi": "狗",
-          "pinyin": "gǒu",
-          "gloss": "dog"
-        }
+        { "hanzi": "狗", "pinyin": "gǒu", "gloss": "dog" }
       ]
     },
     {
@@ -139,11 +104,8 @@
       "pinyin": "diànshì",
       "translation": "television",
       "tokens": [
-        {
-          "hanzi": "电视",
-          "pinyin": "diànshì",
-          "gloss": "television"
-        }
+        { "hanzi": "电", "pinyin": "diàn", "gloss": "electric" },
+        { "hanzi": "视", "pinyin": "shì",  "gloss": "look / view" }
       ]
     },
     {
@@ -152,11 +114,8 @@
       "pinyin": "diànnǎo",
       "translation": "computer",
       "tokens": [
-        {
-          "hanzi": "电脑",
-          "pinyin": "diànnǎo",
-          "gloss": "computer"
-        }
+        { "hanzi": "电", "pinyin": "diàn", "gloss": "electric" },
+        { "hanzi": "脑", "pinyin": "nǎo",  "gloss": "brain" }
       ]
     },
     {
@@ -165,11 +124,8 @@
       "pinyin": "diànhuà",
       "translation": "telephone",
       "tokens": [
-        {
-          "hanzi": "电话",
-          "pinyin": "diànhuà",
-          "gloss": "telephone"
-        }
+        { "hanzi": "电", "pinyin": "diàn", "gloss": "electric" },
+        { "hanzi": "话", "pinyin": "huà",  "gloss": "speech / word" }
       ]
     },
     {
@@ -178,11 +134,8 @@
       "pinyin": "diànyǐng",
       "translation": "movie",
       "tokens": [
-        {
-          "hanzi": "电影",
-          "pinyin": "diànyǐng",
-          "gloss": "movie"
-        }
+        { "hanzi": "电", "pinyin": "diàn", "gloss": "electric" },
+        { "hanzi": "影", "pinyin": "yǐng", "gloss": "shadow / image" }
       ]
     },
     {
@@ -191,11 +144,11 @@
       "pinyin": "Zhè běn shū hěn hǎo",
       "translation": "This book is good",
       "tokens": [
-        {
-          "hanzi": "这本书很好",
-          "pinyin": "Zhè běn shū hěn hǎo",
-          "gloss": "This book is good"
-        }
+        { "hanzi": "这", "pinyin": "zhè", "gloss": "this" },
+        { "hanzi": "本", "pinyin": "běn", "gloss": "(measure word for books)" },
+        { "hanzi": "书", "pinyin": "shū", "gloss": "book" },
+        { "hanzi": "很", "pinyin": "hěn", "gloss": "very" },
+        { "hanzi": "好", "pinyin": "hǎo", "gloss": "good" }
       ]
     },
     {
@@ -204,11 +157,10 @@
       "pinyin": "Zhè shì shénme?",
       "translation": "What is this?",
       "tokens": [
-        {
-          "hanzi": "这是什么？",
-          "pinyin": "Zhè shì shénme?",
-          "gloss": "What is this?"
-        }
+        { "hanzi": "这",   "pinyin": "zhè",  "gloss": "this" },
+        { "hanzi": "是",   "pinyin": "shì",  "gloss": "to be" },
+        { "hanzi": "什",   "pinyin": "shén", "gloss": "what" },
+        { "hanzi": "么？", "pinyin": "me",   "gloss": "(suffix)" }
       ]
     },
     {
@@ -217,11 +169,10 @@
       "pinyin": "Zhè shì shéi de?",
       "translation": "Whose is this?",
       "tokens": [
-        {
-          "hanzi": "这是谁的？",
-          "pinyin": "Zhè shì shéi de?",
-          "gloss": "Whose is this?"
-        }
+        { "hanzi": "这",   "pinyin": "zhè",  "gloss": "this" },
+        { "hanzi": "是",   "pinyin": "shì",  "gloss": "to be" },
+        { "hanzi": "谁",   "pinyin": "shéi", "gloss": "who" },
+        { "hanzi": "的？", "pinyin": "de",   "gloss": "(possessive)" }
       ]
     }
   ]

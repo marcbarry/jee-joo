@@ -9,11 +9,7 @@
       "pinyin": "shéi",
       "translation": "who",
       "tokens": [
-        {
-          "hanzi": "谁",
-          "pinyin": "shéi",
-          "gloss": "who"
-        }
+        { "hanzi": "谁", "pinyin": "shéi", "gloss": "who" }
       ]
     },
     {
@@ -22,11 +18,8 @@
       "pinyin": "shénme",
       "translation": "what",
       "tokens": [
-        {
-          "hanzi": "什么",
-          "pinyin": "shénme",
-          "gloss": "what"
-        }
+        { "hanzi": "什", "pinyin": "shén", "gloss": "what" },
+        { "hanzi": "么", "pinyin": "me",   "gloss": "(suffix)" }
       ]
     },
     {
@@ -35,11 +28,8 @@
       "pinyin": "nǎr",
       "translation": "where",
       "tokens": [
-        {
-          "hanzi": "哪儿",
-          "pinyin": "nǎr",
-          "gloss": "where"
-        }
+        { "hanzi": "哪", "pinyin": "nǎ", "gloss": "which / where" },
+        { "hanzi": "儿", "pinyin": "r",  "gloss": "(suffix)" }
       ]
     },
     {
@@ -48,11 +38,7 @@
       "pinyin": "nǎ",
       "translation": "which",
       "tokens": [
-        {
-          "hanzi": "哪",
-          "pinyin": "nǎ",
-          "gloss": "which"
-        }
+        { "hanzi": "哪", "pinyin": "nǎ", "gloss": "which" }
       ]
     },
     {
@@ -61,11 +47,9 @@
       "pinyin": "zěnmeyàng",
       "translation": "how",
       "tokens": [
-        {
-          "hanzi": "怎么样",
-          "pinyin": "zěnmeyàng",
-          "gloss": "how"
-        }
+        { "hanzi": "怎", "pinyin": "zěn",  "gloss": "how" },
+        { "hanzi": "么", "pinyin": "me",   "gloss": "(suffix)" },
+        { "hanzi": "样", "pinyin": "yàng", "gloss": "kind / way" }
       ]
     },
     {
@@ -74,11 +58,9 @@
       "pinyin": "zěnmeyàng?",
       "translation": "how about?",
       "tokens": [
-        {
-          "hanzi": "怎么样？",
-          "pinyin": "zěnmeyàng?",
-          "gloss": "how about?"
-        }
+        { "hanzi": "怎",   "pinyin": "zěn",  "gloss": "how" },
+        { "hanzi": "么",   "pinyin": "me",   "gloss": "(suffix)" },
+        { "hanzi": "样？", "pinyin": "yàng", "gloss": "kind / way" }
       ]
     },
     {
@@ -87,11 +69,7 @@
       "pinyin": "jǐ",
       "translation": "how many (small)",
       "tokens": [
-        {
-          "hanzi": "几",
-          "pinyin": "jǐ",
-          "gloss": "how many (small)"
-        }
+        { "hanzi": "几", "pinyin": "jǐ", "gloss": "how many (small)" }
       ]
     },
     {
@@ -100,11 +78,8 @@
       "pinyin": "duōshao",
       "translation": "how much / how many",
       "tokens": [
-        {
-          "hanzi": "多少",
-          "pinyin": "duōshao",
-          "gloss": "how much / how many"
-        }
+        { "hanzi": "多", "pinyin": "duō",  "gloss": "many / much" },
+        { "hanzi": "少", "pinyin": "shao", "gloss": "few / little" }
       ]
     },
     {
@@ -113,11 +88,11 @@
       "pinyin": "Zhège duōshao qián?",
       "translation": "How much is this?",
       "tokens": [
-        {
-          "hanzi": "这个多少钱？",
-          "pinyin": "Zhège duōshao qián?",
-          "gloss": "How much is this?"
-        }
+        { "hanzi": "这",   "pinyin": "zhè",  "gloss": "this" },
+        { "hanzi": "个",   "pinyin": "ge",   "gloss": "(measure word)" },
+        { "hanzi": "多",   "pinyin": "duō",  "gloss": "many / much" },
+        { "hanzi": "少",   "pinyin": "shao", "gloss": "few / little" },
+        { "hanzi": "钱？", "pinyin": "qián", "gloss": "money" }
       ]
     },
     {
@@ -126,11 +101,10 @@
       "pinyin": "Nǐ qù nǎr?",
       "translation": "Where are you going?",
       "tokens": [
-        {
-          "hanzi": "你去哪儿？",
-          "pinyin": "Nǐ qù nǎr?",
-          "gloss": "Where are you going?"
-        }
+        { "hanzi": "你",   "pinyin": "nǐ", "gloss": "you" },
+        { "hanzi": "去",   "pinyin": "qù", "gloss": "to go" },
+        { "hanzi": "哪",   "pinyin": "nǎ", "gloss": "which / where" },
+        { "hanzi": "儿？", "pinyin": "r",  "gloss": "(suffix)" }
       ]
     },
     {
@@ -139,19 +113,13 @@
       "pinyin": "{place} zài nǎr?",
       "translation": "Where is {place}?",
       "slots": {
-        "place": {
-          "group": "places-in-town"
-        }
+        "place": { "group": "places-in-town" }
       },
       "tokens": [
-        {
-          "slot": "place"
-        },
-        {
-          "hanzi": "在哪儿",
-          "pinyin": "zài nǎr",
-          "gloss": "where is"
-        }
+        { "slot": "place" },
+        { "hanzi": "在",   "pinyin": "zài", "gloss": "at / in" },
+        { "hanzi": "哪",   "pinyin": "nǎ",  "gloss": "which / where" },
+        { "hanzi": "儿？", "pinyin": "r",   "gloss": "(suffix)" }
       ]
     }
   ]

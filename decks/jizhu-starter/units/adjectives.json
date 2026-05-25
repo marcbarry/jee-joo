@@ -9,11 +9,7 @@
       "pinyin": "hǎo",
       "translation": "good",
       "tokens": [
-        {
-          "hanzi": "好",
-          "pinyin": "hǎo",
-          "gloss": "good"
-        }
+        { "hanzi": "好", "pinyin": "hǎo", "gloss": "good" }
       ]
     },
     {
@@ -22,11 +18,7 @@
       "pinyin": "dà",
       "translation": "big",
       "tokens": [
-        {
-          "hanzi": "大",
-          "pinyin": "dà",
-          "gloss": "big"
-        }
+        { "hanzi": "大", "pinyin": "dà", "gloss": "big" }
       ]
     },
     {
@@ -35,11 +27,7 @@
       "pinyin": "xiǎo",
       "translation": "small",
       "tokens": [
-        {
-          "hanzi": "小",
-          "pinyin": "xiǎo",
-          "gloss": "small"
-        }
+        { "hanzi": "小", "pinyin": "xiǎo", "gloss": "small" }
       ]
     },
     {
@@ -48,11 +36,7 @@
       "pinyin": "duō",
       "translation": "many / much",
       "tokens": [
-        {
-          "hanzi": "多",
-          "pinyin": "duō",
-          "gloss": "many / much"
-        }
+        { "hanzi": "多", "pinyin": "duō", "gloss": "many / much" }
       ]
     },
     {
@@ -61,11 +45,7 @@
       "pinyin": "shǎo",
       "translation": "few / little",
       "tokens": [
-        {
-          "hanzi": "少",
-          "pinyin": "shǎo",
-          "gloss": "few / little"
-        }
+        { "hanzi": "少", "pinyin": "shǎo", "gloss": "few / little" }
       ]
     },
     {
@@ -74,11 +54,7 @@
       "pinyin": "rè",
       "translation": "hot",
       "tokens": [
-        {
-          "hanzi": "热",
-          "pinyin": "rè",
-          "gloss": "hot"
-        }
+        { "hanzi": "热", "pinyin": "rè", "gloss": "hot" }
       ]
     },
     {
@@ -87,11 +63,7 @@
       "pinyin": "lěng",
       "translation": "cold",
       "tokens": [
-        {
-          "hanzi": "冷",
-          "pinyin": "lěng",
-          "gloss": "cold"
-        }
+        { "hanzi": "冷", "pinyin": "lěng", "gloss": "cold" }
       ]
     },
     {
@@ -100,11 +72,8 @@
       "pinyin": "gāoxìng",
       "translation": "happy / pleased",
       "tokens": [
-        {
-          "hanzi": "高兴",
-          "pinyin": "gāoxìng",
-          "gloss": "happy / pleased"
-        }
+        { "hanzi": "高", "pinyin": "gāo",  "gloss": "tall / high" },
+        { "hanzi": "兴", "pinyin": "xìng", "gloss": "interest / mood" }
       ]
     },
     {
@@ -113,11 +82,8 @@
       "pinyin": "piàoliang",
       "translation": "pretty / beautiful",
       "tokens": [
-        {
-          "hanzi": "漂亮",
-          "pinyin": "piàoliang",
-          "gloss": "pretty / beautiful"
-        }
+        { "hanzi": "漂", "pinyin": "piào",  "gloss": "elegant / pretty" },
+        { "hanzi": "亮", "pinyin": "liang", "gloss": "bright" }
       ]
     }
   ]

@@ -9,11 +9,8 @@
       "pinyin": "fēijī",
       "translation": "airplane",
       "tokens": [
-        {
-          "hanzi": "飞机",
-          "pinyin": "fēijī",
-          "gloss": "airplane"
-        }
+        { "hanzi": "飞", "pinyin": "fēi", "gloss": "fly" },
+        { "hanzi": "机", "pinyin": "jī",  "gloss": "machine" }
       ]
     },
     {
@@ -22,11 +19,9 @@
       "pinyin": "chūzūchē",
       "translation": "taxi",
       "tokens": [
-        {
-          "hanzi": "出租车",
-          "pinyin": "chūzūchē",
-          "gloss": "taxi"
-        }
+        { "hanzi": "出", "pinyin": "chū", "gloss": "go out" },
+        { "hanzi": "租", "pinyin": "zū",  "gloss": "rent / hire" },
+        { "hanzi": "车", "pinyin": "chē", "gloss": "vehicle" }
       ]
     },
     {
@@ -35,11 +30,10 @@
       "pinyin": "gōnggòng qìchē",
       "translation": "bus",
       "tokens": [
-        {
-          "hanzi": "公共汽车",
-          "pinyin": "gōnggòng qìchē",
-          "gloss": "bus"
-        }
+        { "hanzi": "公", "pinyin": "gōng", "gloss": "public" },
+        { "hanzi": "共", "pinyin": "gòng", "gloss": "common / shared" },
+        { "hanzi": "汽", "pinyin": "qì",   "gloss": "steam / gas" },
+        { "hanzi": "车", "pinyin": "chē",  "gloss": "vehicle" }
       ]
     },
     {
@@ -48,11 +42,8 @@
       "pinyin": "dìtiě",
       "translation": "subway / metro",
       "tokens": [
-        {
-          "hanzi": "地铁",
-          "pinyin": "dìtiě",
-          "gloss": "subway / metro"
-        }
+        { "hanzi": "地", "pinyin": "dì",  "gloss": "ground / earth" },
+        { "hanzi": "铁", "pinyin": "tiě", "gloss": "iron" }
       ]
     },
     {
@@ -61,11 +52,9 @@
       "pinyin": "huǒchēzhàn",
       "translation": "train station",
       "tokens": [
-        {
-          "hanzi": "火车站",
-          "pinyin": "huǒchēzhàn",
-          "gloss": "train station"
-        }
+        { "hanzi": "火", "pinyin": "huǒ",  "gloss": "fire" },
+        { "hanzi": "车", "pinyin": "chē",  "gloss": "vehicle" },
+        { "hanzi": "站", "pinyin": "zhàn", "gloss": "stop / station" }
       ]
     },
     {
@@ -74,11 +63,10 @@
       "pinyin": "Wǒ xiǎng dǎchē",
       "translation": "I want to take a taxi",
       "tokens": [
-        {
-          "hanzi": "我想打车",
-          "pinyin": "Wǒ xiǎng dǎchē",
-          "gloss": "I want to take a taxi"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",    "gloss": "I" },
+        { "hanzi": "想", "pinyin": "xiǎng", "gloss": "want / think" },
+        { "hanzi": "打", "pinyin": "dǎ",    "gloss": "hit / hail" },
+        { "hanzi": "车", "pinyin": "chē",   "gloss": "vehicle" }
       ]
     },
     {
@@ -87,11 +75,12 @@
       "pinyin": "Huǒchēzhàn zài nǎr?",
       "translation": "Where is the train station",
       "tokens": [
-        {
-          "hanzi": "火车站在哪儿？",
-          "pinyin": "Huǒchēzhàn zài nǎr?",
-          "gloss": "Where is the train station"
-        }
+        { "hanzi": "火",   "pinyin": "huǒ",  "gloss": "fire" },
+        { "hanzi": "车",   "pinyin": "chē",  "gloss": "vehicle" },
+        { "hanzi": "站",   "pinyin": "zhàn", "gloss": "stop / station" },
+        { "hanzi": "在",   "pinyin": "zài",  "gloss": "at / in" },
+        { "hanzi": "哪",   "pinyin": "nǎ",   "gloss": "where / which" },
+        { "hanzi": "儿？", "pinyin": "r",    "gloss": "(suffix)" }
       ]
     },
     {
@@ -100,11 +89,11 @@
       "pinyin": "Qǐng zài zhèlǐ tíng",
       "translation": "Please stop here",
       "tokens": [
-        {
-          "hanzi": "请在这里停",
-          "pinyin": "Qǐng zài zhèlǐ tíng",
-          "gloss": "Please stop here"
-        }
+        { "hanzi": "请", "pinyin": "qǐng", "gloss": "please" },
+        { "hanzi": "在", "pinyin": "zài",  "gloss": "at / in" },
+        { "hanzi": "这", "pinyin": "zhè",  "gloss": "this" },
+        { "hanzi": "里", "pinyin": "lǐ",   "gloss": "inside / place" },
+        { "hanzi": "停", "pinyin": "tíng", "gloss": "stop" }
       ]
     },
     {
@@ -118,14 +107,10 @@
         }
       },
       "tokens": [
-        {
-          "hanzi": "我要去",
-          "pinyin": "wǒ yào qù",
-          "gloss": "I am going to"
-        },
-        {
-          "slot": "place"
-        }
+        { "hanzi": "我", "pinyin": "wǒ",  "gloss": "I" },
+        { "hanzi": "要", "pinyin": "yào", "gloss": "want / will" },
+        { "hanzi": "去", "pinyin": "qù",  "gloss": "go" },
+        { "slot": "place" }
       ]
     },
     {
@@ -139,19 +124,11 @@
         }
       },
       "tokens": [
-        {
-          "hanzi": "去",
-          "pinyin": "qù",
-          "gloss": "go to"
-        },
-        {
-          "slot": "place"
-        },
-        {
-          "hanzi": "多少钱",
-          "pinyin": "duōshao qián",
-          "gloss": "how much"
-        }
+        { "hanzi": "去",   "pinyin": "qù",    "gloss": "go" },
+        { "slot": "place" },
+        { "hanzi": "多",   "pinyin": "duō",   "gloss": "many / much" },
+        { "hanzi": "少",   "pinyin": "shao",  "gloss": "few / little" },
+        { "hanzi": "钱？", "pinyin": "qián",  "gloss": "money" }
       ]
     },
     {
@@ -165,14 +142,11 @@
         }
       },
       "tokens": [
-        {
-          "hanzi": "请带我去",
-          "pinyin": "qǐng dài wǒ qù",
-          "gloss": "please take me to"
-        },
-        {
-          "slot": "place"
-        }
+        { "hanzi": "请", "pinyin": "qǐng", "gloss": "please" },
+        { "hanzi": "带", "pinyin": "dài",  "gloss": "bring / take" },
+        { "hanzi": "我", "pinyin": "wǒ",   "gloss": "me" },
+        { "hanzi": "去", "pinyin": "qù",   "gloss": "go" },
+        { "slot": "place" }
       ]
     }
   ]
