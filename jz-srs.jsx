@@ -95,9 +95,19 @@ function mastery(state) {
   return 'mature';
 }
 
+// Fisher-Yates in place.
+function shuffleInPlace(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
 // Build the review queue for a deck (Anki-style daily caps).
-// - Includes up to `reviewAllowance` due cards (oldest-due first)
-// - Plus up to `newAllowance` new cards (cards with no state yet)
+// - Includes up to `reviewAllowance` due cards (oldest-due first, then shuffled)
+// - Plus up to `newAllowance` new cards (shuffled within the bucket)
+// Within-bucket shuffling stops the learner from memorising the deck sequence.
 function buildQueue(cards, progress, opts) {
   const now = opts.now ?? Date.now();
   const newAllowance    = Math.max(0, opts.newAllowance ?? 20);
@@ -113,17 +123,16 @@ function buildQueue(cards, progress, opts) {
       due.push({ card, dueAt: s.dueAt });
     }
   }
+  // Sort by dueAt so the oldest-due cards win the cap, then shuffle the
+  // selected slice so order within the day isn't deterministic.
   due.sort((a, b) => a.dueAt - b.dueAt);
+  const dueSlice = due.slice(0, reviewAllowance).map(d => d.card);
+  shuffleInPlace(dueSlice);
 
-  const queue = [];
-  for (const d of due) {
-    if (queue.length >= reviewAllowance) break;
-    queue.push(d.card);
-  }
-  for (let i = 0; i < fresh.length && i < newAllowance; i++) {
-    queue.push(fresh[i]);
-  }
-  return queue;
+  const freshSlice = fresh.slice(0, newAllowance);
+  shuffleInPlace(freshSlice);
+
+  return [...dueSlice, ...freshSlice];
 }
 
 // Stats for the deck landing screen
