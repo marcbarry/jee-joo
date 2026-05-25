@@ -104,17 +104,19 @@
     },
     {
       "id": "98db9883-70e0-4c3d-98d4-7bba804a8bbd",
-      "hanzi": "请给我一个袋子",
-      "pinyin": "Qǐng gěi wǒ yí ge dàizi",
-      "translation": "Please give me a bag",
+      "hanzi": "可以给我一个袋子吗？",
+      "pinyin": "Kěyǐ gěi wǒ yí ge dàizi ma?",
+      "translation": "Could you give me a bag?",
       "tokens": [
-        { "hanzi": "请", "pinyin": "qǐng", "gloss": "please" },
+        { "hanzi": "可", "pinyin": "kě", "gloss": "can / may" },
+        { "hanzi": "以", "pinyin": "yǐ", "gloss": "by means of" },
         { "hanzi": "给", "pinyin": "gěi", "gloss": "give" },
         { "hanzi": "我", "pinyin": "wǒ", "gloss": "me" },
         { "hanzi": "一", "pinyin": "yí", "gloss": "one / a" },
         { "hanzi": "个", "pinyin": "ge", "gloss": "(measure word)" },
         { "hanzi": "袋", "pinyin": "dài", "gloss": "bag" },
-        { "hanzi": "子", "pinyin": "zi", "gloss": "(noun suffix)" }
+        { "hanzi": "子", "pinyin": "zi", "gloss": "(noun suffix)" },
+        { "hanzi": "吗？", "pinyin": "ma", "gloss": "(question particle)" }
       ]
     },
     {
@@ -213,7 +215,7 @@
       "pinyin": "Xiànzài {hour} diǎn",
       "translation": "It is {hour} o'clock now",
       "slots": {
-        "hour": { "generator": "mandarin-number", "range": [1, 12] }
+        "hour": { "group": "hours" }
       },
       "tokens": [
         { "hanzi": "现在", "pinyin": "xiànzài", "gloss": "now" },
