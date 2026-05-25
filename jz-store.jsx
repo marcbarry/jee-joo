@@ -138,6 +138,22 @@ function JzProvider({ children }) {
       return next;
     });
   }
+  // Anki-style learning step: re-insert the current card `offset` positions
+  // ahead, then advance. The copy will resurface after the learner reviews
+  // `offset` more cards, mimicking the 1m/6m short intervals in-session.
+  function requeueCurrent(offset) {
+    setSession(s => {
+      if (!s) return s;
+      const ids = [...s.cardIds];
+      const curId = ids[s.idx];
+      if (curId == null) return s;
+      const insertAt = Math.min(s.idx + offset + 1, ids.length);
+      ids.splice(insertAt, 0, curId);
+      const next = { ...s, cardIds: ids, idx: s.idx + 1 };
+      if (deck) writeJSON(STORAGE.session(deck.url), next);
+      return next;
+    });
+  }
   function clearSession() {
     setSession(null);
     if (deck) localStorage.removeItem(STORAGE.session(deck.url));
@@ -230,7 +246,7 @@ function JzProvider({ children }) {
     settings, updateSettings,
     deck, deckStatus, deckError, openDeck, retryDeck,
     progress, gradeCard, setLastInfill, resetDeckProgress,
-    session, startSession, advanceSession, clearSession,
+    session, startSession, advanceSession, requeueCurrent, clearSession,
     daily, newAllowance, reviewAllowance, studyMore,
   };
   return <JzCtx.Provider value={value}>{children}</JzCtx.Provider>;

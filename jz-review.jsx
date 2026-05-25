@@ -23,7 +23,7 @@ function ReviewTopBar({ progress, onExit }) {
 function ReviewScreen() {
   const {
     deck, progress, settings, gradeCard, setLastInfill, newAllowance, reviewAllowance,
-    session, startSession, advanceSession, clearSession,
+    session, startSession, advanceSession, requeueCurrent, clearSession,
   } = useStore();
   const { go } = useRoute();
 
@@ -86,7 +86,12 @@ function ReviewScreen() {
 
   function handleGrade(grade) {
     gradeCard(card.id, grade, wasNew);
-    advanceSession();
+    // Learning-step requeue: Again resurfaces the card ~3 slots later (≈1m);
+    // Hard on a still-new card resurfaces it ~10 slots later (≈6m). Other
+    // grades graduate the card out of this session.
+    const offset = grade === 'again' ? 3 : (grade === 'hard' && wasNew ? 10 : 0);
+    if (offset > 0) requeueCurrent(offset);
+    else advanceSession();
   }
 
   return (
