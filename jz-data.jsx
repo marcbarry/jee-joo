@@ -77,26 +77,22 @@ function stripTones(p) {
 }
 
 function normalizeYW(bare) {
-  // yi/wu/yu are spelt with a leading glide but pronounced as the bare vowel —
-  // collapse them so they flow through the same final-lookup as i/u/ü.
-  if (bare === 'yi') return 'i';
+  // wu/yu — the leading glide is silent before a bare back/front-rounded vowel.
   if (bare === 'wu') return 'u';
   if (bare === 'yu') return 'ü';
 
-  // y marks i-/ü-family finals when no consonant initial is written.
   if (bare.startsWith('y')) {
     const rest = bare.slice(1);
+    // y is silent before an i-starting final (yi/yin/ying) — the syllable
+    // collapses to the bare final. Otherwise y marks the i-glide.
+    if (rest === '' || rest.startsWith('i')) return rest || 'i';
     if (['ue', 'uan', 'un'].includes(rest)) return 'ü' + rest.slice(1);
     if (rest === 'ong') return 'iong';
     return 'i' + rest;
   }
 
-  // w marks u-family finals when no consonant initial is written.
-  if (bare.startsWith('w')) {
-    const rest = bare.slice(1);
-    if (rest === 'u') return 'u';
-    return 'u' + rest;
-  }
+  // w marks the u-glide (wa/wan/wo etc.); bare 'wu' is handled above.
+  if (bare.startsWith('w')) return 'u' + bare.slice(1);
 
   return bare;
 }
