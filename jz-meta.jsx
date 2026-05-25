@@ -34,11 +34,11 @@ function Settings() {
               value={settings.newCardsPerDay} min={0} max={50}
               onChange={(v) => updateSettings({ newCardsPerDay: v })} />
             <StepperRow label="Cards per session"
-              hint="One round between Start review and Session complete. Tap Start again for another batch."
+              hint="How many cards to study in one round. After this many you'll see a 'done for now' screen — tap Start review again to do another round."
               value={settings.cardsPerSession} min={1} max={100}
               onChange={(v) => updateSettings({ cardsPerSession: v })} />
             <ChoiceRow label="Pattern infill"
-              hint="On pattern cards: rotate cycles slot options in order, random picks one each time."
+              hint="Some cards are sentences with a missing word, like 'Please give me ___'. Rotate fills the blank with each option in order; Random shuffles them."
               value={settings.patternInfill}
               options={[['rotate','Rotate'], ['random','Random']]}
               onChange={(v) => updateSettings({ patternInfill: v })} last />
