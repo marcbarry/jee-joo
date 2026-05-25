@@ -21,32 +21,63 @@ function ReviewTopBar({ progress, onExit }) {
 }
 
 function ReviewScreen() {
-  const { deck, progress, settings, gradeCard, setLastInfill, newAllowance, reviewAllowance } = useStore();
+  const {
+    deck, progress, settings, gradeCard, setLastInfill, newAllowance, reviewAllowance,
+    session, startSession, advanceSession, clearSession,
+  } = useStore();
   const { go } = useRoute();
 
-  // Build the queue once when entering review.
-  const queue = React.useMemo(() => {
-    if (!deck) return [];
+  // Card lookup by id — empty map when no deck so hook order stays stable.
+  const byId = React.useMemo(
+    () => new Map((deck?.cards ?? []).map(c => [c.id, c])),
+    [deck?.id]
+  );
+
+  // A persisted session is usable if it's from today and every card still exists.
+  const sessionValid = !!(deck && session
+    && session.date === todayKey()
+    && session.cardIds.length > 0
+    && session.cardIds.every(id => byId.has(id)));
+
+  // If there's no usable session, compute a fresh queue from the SRS.
+  // The effect below persists it so a refresh resumes at the same card.
+  const freshQueue = React.useMemo(() => {
+    if (!deck || sessionValid) return null;
     return buildQueue(deck.cards, progress, { newAllowance, reviewAllowance });
     // eslint-disable-next-line
-  }, [deck?.id]);
+  }, [sessionValid, deck?.id]);
 
-  const [idx, setIdx] = React.useState(0);
+  React.useEffect(() => {
+    if (!deck || sessionValid) return;
+    if (freshQueue && freshQueue.length > 0) {
+      startSession(freshQueue.map(c => c.id));
+    }
+  }, [sessionValid, freshQueue, deck?.id]);
 
   if (!deck) { go('home'); return null; }
-  if (!queue.length) {
-    return (
-      <Phone>
-        <AppHeader back="Back" onBack={() => go('deck')} />
-        <div className="flex-1 flex flex-col items-center justify-center px-8">
-          <div className="sc" style={{ fontSize: 56, color: 'var(--ink-4)' }}>完</div>
-          <p className="mt-4" style={{ fontSize: 15, color: 'var(--ink-2)' }}>Nothing due right now.</p>
-        </div>
-      </Phone>
-    );
+
+  let queue, idx;
+  if (sessionValid) {
+    queue = session.cardIds.map(id => byId.get(id));
+    idx = session.idx;
+  } else {
+    if (!freshQueue || freshQueue.length === 0) {
+      return (
+        <Phone>
+          <AppHeader back="Back" onBack={() => go('deck')} />
+          <div className="flex-1 flex flex-col items-center justify-center px-8">
+            <div className="sc" style={{ fontSize: 56, color: 'var(--ink-4)' }}>完</div>
+            <p className="mt-4" style={{ fontSize: 15, color: 'var(--ink-2)' }}>Nothing due right now.</p>
+          </div>
+        </Phone>
+      );
+    }
+    queue = freshQueue;
+    idx = 0;
   }
+
   if (idx >= queue.length) {
-    return <DoneScreen total={queue.length} onContinue={() => go('deck')} />;
+    return <DoneScreen total={queue.length} onContinue={() => { clearSession(); go('deck'); }} />;
   }
 
   const card = queue[idx];
@@ -55,7 +86,7 @@ function ReviewScreen() {
 
   function handleGrade(grade) {
     gradeCard(card.id, grade, wasNew);
-    setIdx(i => i + 1);
+    advanceSession();
   }
 
   return (

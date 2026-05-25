@@ -4,6 +4,7 @@
 const STORAGE = {
   settings:    'jizhu:settings:v1',
   progress:    (deckUrl) => `jizhu:progress:${deckUrl}:v1`,
+  session:     (deckUrl) => `jizhu:session:${deckUrl}:v1`,
   daily:       'jizhu:daily:v1',
   lastDeckUrl: 'jizhu:lastDeckUrl:v1',
 };
@@ -80,14 +81,34 @@ function JzProvider({ children }) {
 
   // Per-deck progress
   const [progress, setProgress] = React.useState({});
-  React.useEffect(() => {
-    if (!deck) return;
-    setProgress(readJSON(STORAGE.progress(deck.url), {}));
-  }, [deck?.url]);
+  // Per-deck in-flight review session: { cardIds, idx, date }.
+  // Persisted so refresh / exit-and-resume keeps the user at the same card.
+  // Cleared only when the user completes the queue or resets deck progress.
+  // Hydrated synchronously inside openDeck (not via [deck?.url] effect) so
+  // ReviewScreen never sees deck-without-session and races to overwrite it.
+  const [session, setSession] = React.useState(null);
 
   function persistProgress(next) {
     setProgress(next);
     if (deck) writeJSON(STORAGE.progress(deck.url), next);
+  }
+
+  function startSession(cardIds) {
+    const s = { cardIds, idx: 0, date: todayKey() };
+    setSession(s);
+    if (deck) writeJSON(STORAGE.session(deck.url), s);
+  }
+  function advanceSession() {
+    setSession(s => {
+      if (!s) return s;
+      const next = { ...s, idx: s.idx + 1 };
+      if (deck) writeJSON(STORAGE.session(deck.url), next);
+      return next;
+    });
+  }
+  function clearSession() {
+    setSession(null);
+    if (deck) localStorage.removeItem(STORAGE.session(deck.url));
   }
 
   // Async load — fetches and resolves the deck manifest into the in-memory shape.
@@ -101,13 +122,18 @@ function JzProvider({ children }) {
     try {
       const d = await loadDeckFromUrl(url);
       if (lastUrlRef.current !== url) return; // superseded
+      // Batch deck + per-deck state so ReviewScreen never renders with deck
+      // set but session still null (that race would clobber the saved idx).
       setDeck(d);
+      setProgress(readJSON(STORAGE.progress(d.url), {}));
+      setSession(readJSON(STORAGE.session(d.url), null));
       setDeckStatus('ready');
     } catch (e) {
       if (lastUrlRef.current !== url) return;
       setDeckError(e);
       setDeckStatus('error');
       setDeck(null);
+      setSession(null);
     }
   }
 
@@ -150,6 +176,7 @@ function JzProvider({ children }) {
   function resetDeckProgress() {
     if (!deck) return;
     persistProgress({});
+    clearSession();
     setSettings({ ...DEFAULT_SETTINGS });
     setDaily(FRESH_DAILY());
   }
@@ -171,6 +198,7 @@ function JzProvider({ children }) {
     settings, updateSettings,
     deck, deckStatus, deckError, openDeck, retryDeck,
     progress, gradeCard, setLastInfill, resetDeckProgress,
+    session, startSession, advanceSession, clearSession,
     daily, newAllowance, reviewAllowance, studyMore,
   };
   return <JzCtx.Provider value={value}>{children}</JzCtx.Provider>;
