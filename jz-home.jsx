@@ -44,14 +44,14 @@ function Home() {
         }}>
           jì zhù
         </div>
-        <p style={{
+        <p className="mono" style={{
           marginTop: 22,
           fontSize: 14,
           lineHeight: 1.5,
           color: 'var(--ink-2)',
-          maxWidth: 220,
+          maxWidth: 420,
         }}>
-          A flashcard system built specifically for learning Chinese with Pinyin and Hanzi.
+          A flashcard system designed for learning Chinese through Pinyin and phonetic pronunciation.
         </p>
 
         {showInput && (
@@ -115,7 +115,7 @@ function Home() {
 }
 
 function DeckLanding() {
-  const { deck, progress, settings, newAllowance } = useStore();
+  const { deck, progress, settings, newAllowance, daily } = useStore();
   const { go } = useRoute();
   const [expandedUnits, setExpandedUnits] = React.useState(() => new Set());
 
@@ -178,13 +178,23 @@ function DeckLanding() {
                   onClick={() => queue.length && go('review')}
                   disabled={!queue.length}
                   style={queue.length ? {} : { opacity: 0.4 }}>
-            {queue.length ? <>Start review <span className="mono" style={{ fontSize: 12, opacity: 0.6 }}>· {queue.length} card{queue.length === 1 ? '' : 's'}</span></> : 'Nothing due'}
+            {queue.length ? (
+              <>
+                <span style={{ lineHeight: 1 }}>Start review</span>
+                <span className="mono" style={{ fontSize: 12, opacity: 0.6, lineHeight: 1 }}>
+                  · {queue.length} card{queue.length === 1 ? '' : 's'}
+                </span>
+              </>
+            ) : (
+              <span style={{ lineHeight: 1 }}>Nothing due</span>
+            )}
           </button>
-          {stats.due === 0 && stats.new > 0 && newAllowance === 0 && (
-            <p className="text-center mt-2" style={{ fontSize: 11, color: 'var(--ink-3)' }}>
-              Daily new-card cap reached. Reset in Settings or come back tomorrow.
-            </p>
-          )}
+          <p className="text-center mt-2" style={{ fontSize: 11, color: 'var(--ink-3)' }}>
+            <span className="mono">{daily.newSeen}</span> of <span className="mono">{settings.newCardsPerDay}</span> new cards shown today
+            {stats.due === 0 && stats.new > 0 && newAllowance === 0 && (
+              <> · come back tomorrow or raise the cap in Settings</>
+            )}
+          </p>
         </div>
       </div>
 

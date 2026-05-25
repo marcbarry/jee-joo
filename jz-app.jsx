@@ -46,7 +46,7 @@ function LoadingScreen({ onCancel }) {
     <Phone>
       <div className="flex-1 flex flex-col items-center justify-center px-8 text-center">
         <div className="sc" style={{ fontSize: 56, color: 'var(--ink-3)', fontWeight: 500 }}>记</div>
-        <div className="mt-5 mono" style={{ fontSize: 11, color: 'var(--ink-3)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+        <div className="mt-5" style={{ fontSize: 11, fontWeight: 600, color: 'var(--ink-3)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
           Loading deck…
         </div>
       </div>

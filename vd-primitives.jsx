@@ -2,7 +2,7 @@
 
 function Phone({ children }) {
   return (
-    <div className="phone mono">
+    <div className="phone">
       <div className="phone-notch" />
       <div className="phone-screen">
         <div className="phone-statusbar">
@@ -74,22 +74,22 @@ function GradeRow({ disabled = false, onGrade }) {
 function HintToken({ char, pinyin, say, gloss, hinted = false, hanziOff = false }) {
   if (hanziOff) {
     return (
-      <span className="flex flex-col items-center" style={{ padding: '0 4px', minWidth: 64 }}>
+      <span className="flex flex-col items-center" style={{ padding: '0 8px', minWidth: 112 }}>
         <span className="sc" style={{
-          height: 18, fontSize: 16, lineHeight: 1, color: 'var(--ink-3)', fontWeight: 400,
+          height: 28, fontSize: 24, lineHeight: 1, color: 'var(--ink-3)', fontWeight: 400,
         }}>{char}</span>
         <span style={{
-          fontSize: 26, lineHeight: 1.05, marginTop: 4, color: 'var(--ink)',
-          fontWeight: 500, letterSpacing: '-0.005em',
+          fontSize: 48, lineHeight: 1.02, marginTop: 8, color: 'var(--ink)',
+          fontWeight: 500,
           borderBottom: hinted ? '1.5px solid transparent' : '1.5px dotted var(--ink-4)',
-          paddingBottom: 1,
+          paddingBottom: 3,
         }}>{pinyin}</span>
-        <span className="mono" style={{
-          fontSize: 11, fontWeight: 500, color: 'var(--accent)', marginTop: 6,
-          height: 14, lineHeight: 1, fontStyle: 'italic',
+        <span style={{
+          fontSize: 14, fontWeight: 500, color: 'var(--accent)', marginTop: 10,
+          height: 18, lineHeight: 1, fontStyle: 'italic',
         }}>"{say}"</span>
         <span style={{
-          fontSize: 11, color: 'var(--ink-3)', marginTop: 4, height: 13, lineHeight: 1,
+          fontSize: 14, color: 'var(--ink-3)', marginTop: 6, height: 18, lineHeight: 1,
           opacity: hinted ? 1 : 0,
         }}>{gloss}</span>
       </span>
@@ -97,24 +97,24 @@ function HintToken({ char, pinyin, say, gloss, hinted = false, hanziOff = false 
   }
 
   return (
-    <span className="flex flex-col items-center" style={{ padding: '0 4px', minWidth: 64 }}>
+    <span className="flex flex-col items-center" style={{ padding: '0 8px', minWidth: 112 }}>
       <span style={{
-        height: 14, fontSize: 12, fontWeight: 500, color: 'var(--ink-2)', lineHeight: 1,
+        height: 23, fontSize: 19, fontWeight: 500, color: 'var(--ink-2)', lineHeight: 1,
         opacity: hinted ? 1 : 0,
       }}>{pinyin}</span>
       <span className="sc" style={{
-        fontSize: 42, lineHeight: 1.05, marginTop: 6, color: 'var(--ink)',
+        fontSize: 88, lineHeight: 1, marginTop: 10, color: 'var(--ink)',
         fontWeight: 500,
         borderBottom: hinted ? '1.5px solid transparent' : '1.5px dotted var(--ink-4)',
-        paddingBottom: 1,
+        paddingBottom: 3,
       }}>{char}</span>
-      <span className="mono" style={{
-        fontSize: 11, fontWeight: 500, color: 'var(--accent)', marginTop: 6,
-        height: 14, lineHeight: 1, fontStyle: 'italic',
+      <span style={{
+        fontSize: 14, fontWeight: 500, color: 'var(--accent)', marginTop: 10,
+        height: 18, lineHeight: 1, fontStyle: 'italic',
         opacity: hinted ? 1 : 0,
       }}>"{say}"</span>
       <span style={{
-        fontSize: 11, color: 'var(--ink-3)', marginTop: 4, height: 13, lineHeight: 1,
+        fontSize: 14, color: 'var(--ink-3)', marginTop: 6, height: 18, lineHeight: 1,
         opacity: hinted ? 1 : 0,
       }}>{gloss}</span>
     </span>
