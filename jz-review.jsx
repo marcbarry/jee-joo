@@ -192,26 +192,51 @@ function PhraseCard({ card, onGrade }) {
 // ─── Pattern card · Pick the word ────────────────────────────────────────
 
 function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInSession, sessionTotal }) {
-  // Pick the target infill based on settings + last-shown
-  const { options, targetIdx } = React.useMemo(() => {
+  // Pick the target infill and build the displayed option set (target + up to
+  // 5 random distractors, shuffled). `originalTargetIdx` is the target's index
+  // in the underlying `card.slot.options` list — stable across renders, used
+  // when persisting last-shown so rotate/random infill mode stays correct.
+  const { options, targetIdx, originalTargetIdx } = React.useMemo(() => {
     const last = cardState?.lastInfillIdx;
     if (card.slot.generator) {
-      const generated = generatedSlotOptions(card.slot.generator, last, settings.patternInfill, 4);
+      const generated = generatedSlotOptions(card.slot.generator, last, settings.patternInfill, 6);
       return {
         options: generated,
         targetIdx: Math.max(0, generated.findIndex(o => o.target)),
+        originalTargetIdx: null,
       };
     }
 
-    const N = card.slot.options.length;
+    const allOptions = card.slot.options;
+    const N = allOptions.length;
+
+    let pickIdx;
     if (settings.patternInfill === 'random') {
-      if (last == null) return { options: card.slot.options, targetIdx: Math.floor(Math.random() * N) };
-      let pick;
-      do { pick = Math.floor(Math.random() * N); } while (N > 1 && pick === last);
-      return { options: card.slot.options, targetIdx: pick };
+      if (last == null) {
+        pickIdx = Math.floor(Math.random() * N);
+      } else {
+        do { pickIdx = Math.floor(Math.random() * N); } while (N > 1 && pickIdx === last);
+      }
+    } else {
+      pickIdx = last == null ? 0 : (last + 1) % N;
     }
-    // rotate
-    return { options: card.slot.options, targetIdx: last == null ? 0 : (last + 1) % N };
+
+    const shuffle = (xs) => {
+      for (let i = xs.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [xs[i], xs[j]] = [xs[j], xs[i]];
+      }
+      return xs;
+    };
+    const targetOption = allOptions[pickIdx];
+    const distractors = shuffle(allOptions.filter((_, i) => i !== pickIdx)).slice(0, 5);
+    const displayed = shuffle([targetOption, ...distractors]);
+
+    return {
+      options: displayed,
+      targetIdx: displayed.indexOf(targetOption),
+      originalTargetIdx: pickIdx,
+    };
   // Do not depend on cardState here: setLastInfill runs as soon as the learner
   // picks an answer, and recomputing would change the target during feedback.
   }, [card.id, card.slot, settings.patternInfill]);
@@ -219,10 +244,16 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
   const target = options[targetIdx];
 
   const [chosen, setChosen] = React.useState(null); // index or null
+  // Per-template-token gloss reveal (post-pick only). Mirrors phrase-card
+  // tap-to-hint, scoped to the non-slot tokens of the sentence.
+  const [tokenRevealed, setTokenRevealed] = React.useState(
+    () => card.template.map(() => false)
+  );
 
   // Reset on card change
   React.useEffect(() => {
     setChosen(null);
+    setTokenRevealed(card.template.map(() => false));
   }, [card.id]);
 
   // Renderers — produce a row of the sentence using a chosen field (char or pinyin).
@@ -263,7 +294,7 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
   function pick(i) {
     if (chosen != null) return;
     setChosen(i);
-    setLastInfill(card.id, card.slot.generator ? target.value : targetIdx);
+    setLastInfill(card.id, card.slot.generator ? target.value : originalTargetIdx);
   }
 
   const isCorrect = chosen === targetIdx;
@@ -300,6 +331,39 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
           }}>
             "{sayRow}"
           </div>
+
+          {/* Per-token gloss strip — tap each non-slot token to reveal its English. */}
+          {chosen != null && (
+            <div className="flex flex-wrap items-start justify-center"
+                 style={{ gap: '10px 18px', marginTop: 18 }}>
+              {card.template.map((t, i) => {
+                if (t.slot) return null;
+                const rev = tokenRevealed[i];
+                return (
+                  <button key={i} type="button"
+                          onClick={() => setTokenRevealed(R => R.map((v, j) => j === i ? !v : v))}
+                          style={{
+                            display: 'inline-flex', flexDirection: 'column', alignItems: 'center',
+                            background: 'transparent', border: 'none', padding: 0, cursor: 'pointer',
+                          }}>
+                    <span style={{
+                      display: 'inline-flex', alignItems: 'baseline', gap: 4,
+                      borderBottom: rev ? '1px solid transparent' : '1px dotted var(--ink-4)',
+                      paddingBottom: 2,
+                    }}>
+                      <span className="sc" style={{ fontSize: 13, fontWeight: 500, color: 'var(--ink)', lineHeight: 1 }}>{t.char}</span>
+                      <span style={{ fontSize: 10, color: 'var(--ink-3)', lineHeight: 1 }}>{pinyinSpaced(t.pinyin)}</span>
+                    </span>
+                    <span style={{
+                      fontSize: 11, color: 'var(--ink-2)', fontStyle: 'italic',
+                      marginTop: 3, lineHeight: 1.1, minHeight: 13,
+                      opacity: rev ? 1 : 0,
+                    }}>{t.gloss}</span>
+                  </button>
+                );
+              })}
+            </div>
+          )}
         </div>
 
         {/* English clue / answer state */}
@@ -346,12 +410,12 @@ function PatternCard({ card, onGrade, setLastInfill, cardState, settings, idxInS
               {settings.showHanzi ? (
                 <>
                   <div className="sc" style={{ fontSize: 34, fontWeight: 500, lineHeight: 1 }}>{o.char}</div>
-                  <div style={{ fontSize: 13, color: 'var(--ink-2)', marginTop: 3, lineHeight: 1.1 }}>{pinyinSpaced(o.pinyin)}</div>
+                  <div style={{ fontSize: 13, color: 'var(--ink-2)', marginTop: 10, lineHeight: 1.1 }}>{pinyinSpaced(o.pinyin)}</div>
                 </>
               ) : (
                 <>
                   <div className="sc" style={{ fontSize: 16, fontWeight: 400, lineHeight: 1, color: 'var(--ink-3)' }}>{o.char}</div>
-                  <div style={{ fontSize: 23, fontWeight: 500, marginTop: 3, color: 'var(--ink)', lineHeight: 1.1 }}>{pinyinSpaced(o.pinyin)}</div>
+                  <div style={{ fontSize: 23, fontWeight: 500, marginTop: 10, color: 'var(--ink)', lineHeight: 1.1 }}>{pinyinSpaced(o.pinyin)}</div>
                 </>
               )}
               <div style={{
