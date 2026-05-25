@@ -91,7 +91,7 @@
       "id": "7e3dd22e-f5bf-4697-97a7-b012be84603a",
       "hanzi": "一月",
       "pinyin": "yī yuè",
-      "translation": "one month / month 1",
+      "translation": "January",
       "tokens": [
         { "hanzi": "一", "pinyin": "yī",  "gloss": "one" },
         { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
@@ -101,7 +101,7 @@
       "id": "5fb33f2c-f22e-42c8-9bfb-1c35797eaac1",
       "hanzi": "二月",
       "pinyin": "èr yuè",
-      "translation": "two month / month 2",
+      "translation": "February",
       "tokens": [
         { "hanzi": "二", "pinyin": "èr",  "gloss": "two" },
         { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
@@ -111,7 +111,7 @@
       "id": "5376c03d-d4bd-4fd5-b711-ecf1f1f5b267",
       "hanzi": "三月",
       "pinyin": "sān yuè",
-      "translation": "three month / month 3",
+      "translation": "March",
       "tokens": [
         { "hanzi": "三", "pinyin": "sān", "gloss": "three" },
         { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
@@ -121,7 +121,7 @@
       "id": "28105b72-42d9-4c31-a020-ade332275b4b",
       "hanzi": "四月",
       "pinyin": "sì yuè",
-      "translation": "four month / month 4",
+      "translation": "April",
       "tokens": [
         { "hanzi": "四", "pinyin": "sì",  "gloss": "four" },
         { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
@@ -131,7 +131,7 @@
       "id": "5214d41e-1f5d-4c46-8dc6-e6f3b66cd5b2",
       "hanzi": "五月",
       "pinyin": "wǔ yuè",
-      "translation": "five month / month 5",
+      "translation": "May",
       "tokens": [
         { "hanzi": "五", "pinyin": "wǔ",  "gloss": "five" },
         { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
@@ -141,7 +141,7 @@
       "id": "59d7b9ef-7a5d-447b-86ef-b269582c09f9",
       "hanzi": "六月",
       "pinyin": "liù yuè",
-      "translation": "six month / month 6",
+      "translation": "June",
       "tokens": [
         { "hanzi": "六", "pinyin": "liù", "gloss": "six" },
         { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
@@ -151,7 +151,7 @@
       "id": "efeb83aa-89aa-47d8-a2c2-afe0c0a0dc46",
       "hanzi": "七月",
       "pinyin": "qī yuè",
-      "translation": "seven month / month 7",
+      "translation": "July",
       "tokens": [
         { "hanzi": "七", "pinyin": "qī",  "gloss": "seven" },
         { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
@@ -161,7 +161,7 @@
       "id": "09600ced-a38d-4fef-a01c-d339fca19392",
       "hanzi": "八月",
       "pinyin": "bā yuè",
-      "translation": "eight month / month 8",
+      "translation": "August",
       "tokens": [
         { "hanzi": "八", "pinyin": "bā",  "gloss": "eight" },
         { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
@@ -171,7 +171,7 @@
       "id": "446028ce-2667-4ea3-9380-cf28c96c663f",
       "hanzi": "九月",
       "pinyin": "jiǔ yuè",
-      "translation": "nine month / month 9",
+      "translation": "September",
       "tokens": [
         { "hanzi": "九", "pinyin": "jiǔ", "gloss": "nine" },
         { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
@@ -181,7 +181,7 @@
       "id": "f9eb1bb5-0633-4c45-9bfc-51a357527ff6",
       "hanzi": "十月",
       "pinyin": "shí yuè",
-      "translation": "ten month / month 10",
+      "translation": "October",
       "tokens": [
         { "hanzi": "十", "pinyin": "shí", "gloss": "ten" },
         { "hanzi": "月", "pinyin": "yuè", "gloss": "month" }
@@ -191,7 +191,7 @@
       "id": "590c045a-9723-4069-9db3-7865eb357edf",
       "hanzi": "十一月",
       "pinyin": "shí yī yuè",
-      "translation": "ten-one month / month 11",
+      "translation": "November",
       "tokens": [
         { "hanzi": "十", "pinyin": "shí", "gloss": "ten" },
         { "hanzi": "一", "pinyin": "yī",  "gloss": "one" },
@@ -202,7 +202,7 @@
       "id": "1e753459-e157-4353-97e4-37914686ab1b",
       "hanzi": "十二月",
       "pinyin": "shí èr yuè",
-      "translation": "ten-two month / month 12",
+      "translation": "December",
       "tokens": [
         { "hanzi": "十", "pinyin": "shí", "gloss": "ten" },
         { "hanzi": "二", "pinyin": "èr",  "gloss": "two" },

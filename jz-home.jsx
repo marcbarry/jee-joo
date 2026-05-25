@@ -115,9 +115,11 @@ function Home() {
 }
 
 function DeckLanding() {
-  const { deck, progress, settings, newAllowance, daily } = useStore();
+  const { deck, progress, settings, newAllowance, daily, studyMore } = useStore();
   const { go } = useRoute();
   const [expandedUnits, setExpandedUnits] = React.useState(() => new Set());
+
+  const STUDY_MORE_BUMP = 20; // matches Anki Custom Study default
 
   function toggleUnit(unitId) {
     setExpandedUnits(s => {
@@ -186,13 +188,31 @@ function DeckLanding() {
                 </span>
               </>
             ) : (
-              <span style={{ lineHeight: 1 }}>Nothing due</span>
+              <span style={{ lineHeight: 1 }}>Congratulations! You've finished for now.</span>
             )}
           </button>
+          <button onClick={() => { if (stats.new > 0) { studyMore(STUDY_MORE_BUMP); go('review'); } }}
+                  disabled={stats.new === 0}
+                  style={{
+                    background: 'transparent',
+                    color: 'var(--ink)',
+                    border: '1.5px dashed var(--ink-3)',
+                    borderRadius: 10,
+                    padding: '10px 20px',
+                    font: '500 13px/1 Inter',
+                    width: '100%',
+                    marginTop: 10,
+                    opacity: stats.new === 0 ? 0.4 : 1,
+                  }}>
+            <span style={{ lineHeight: 1 }}>Study more</span>
+            <span className="mono" style={{ fontSize: 11, opacity: 0.6, lineHeight: 1, marginLeft: 6 }}>
+              · +{STUDY_MORE_BUMP} new
+            </span>
+          </button>
           <p className="text-center mt-2" style={{ fontSize: 11, color: 'var(--ink-3)' }}>
-            <span className="mono">{daily.newSeen}</span> of <span className="mono">{settings.newCardsPerDay}</span> new cards shown today
-            {stats.due === 0 && stats.new > 0 && newAllowance === 0 && (
-              <> · come back tomorrow or raise the cap in Settings</>
+            <span className="mono">{daily.newSeen}</span> of <span className="mono">{settings.newCardsPerDay + (daily.extraNew ?? 0)}</span> new cards shown today
+            {stats.due === 0 && stats.new === 0 && (
+              <> · deck complete, come back tomorrow</>
             )}
           </p>
         </div>

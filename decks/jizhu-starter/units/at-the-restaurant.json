@@ -96,7 +96,7 @@
         { "hanzi": "要", "pinyin": "yào",   "gloss": "want" },
         { "hanzi": "有", "pinyin": "yǒu",   "gloss": "have" },
         { "slot": "staple" },
-        { "hanzi": "的", "pinyin": "de",    "gloss": "one / (possessive)" }
+        { "hanzi": "的", "pinyin": "de",    "gloss": "(possessive)" }
       ]
     },
     {
@@ -115,7 +115,7 @@
         { "hanzi": "要", "pinyin": "yào",   "gloss": "want" },
         { "hanzi": "有", "pinyin": "yǒu",   "gloss": "have" },
         { "slot": "vegetable" },
-        { "hanzi": "的", "pinyin": "de",    "gloss": "one / (possessive)" }
+        { "hanzi": "的", "pinyin": "de",    "gloss": "(possessive)" }
       ]
     },
     {
@@ -134,7 +134,7 @@
         { "hanzi": "要", "pinyin": "yào",   "gloss": "want" },
         { "hanzi": "有", "pinyin": "yǒu",   "gloss": "have" },
         { "slot": "meat" },
-        { "hanzi": "的", "pinyin": "de",    "gloss": "one / (possessive)" }
+        { "hanzi": "的", "pinyin": "de",    "gloss": "(possessive)" }
       ]
     },
     {

@@ -219,7 +219,7 @@
         { "hanzi": "给", "pinyin": "gěi",  "gloss": "give" },
         { "hanzi": "我", "pinyin": "wǒ",   "gloss": "me" },
         { "hanzi": "钥", "pinyin": "yào",  "gloss": "key" },
-        { "hanzi": "匙", "pinyin": "shi",  "gloss": "key / spoon" }
+        { "hanzi": "匙", "pinyin": "shi",  "gloss": "key" }
       ]
     },
     {
@@ -231,7 +231,7 @@
         { "hanzi": "我", "pinyin": "wǒ",  "gloss": "I / my" },
         { "hanzi": "的", "pinyin": "de",  "gloss": "(possessive)" },
         { "hanzi": "钥", "pinyin": "yào", "gloss": "key" },
-        { "hanzi": "匙", "pinyin": "shi", "gloss": "key / spoon" },
+        { "hanzi": "匙", "pinyin": "shi", "gloss": "key" },
         { "hanzi": "丢", "pinyin": "diū", "gloss": "lose" },
         { "hanzi": "了", "pinyin": "le",  "gloss": "(completed action)" }
       ]

@@ -73,9 +73,9 @@
       "pinyin": "húluóbo",
       "translation": "carrot",
       "tokens": [
-        { "hanzi": "胡", "pinyin": "hú",  "gloss": "non-Chinese / foreign" },
-        { "hanzi": "萝", "pinyin": "luó", "gloss": "radish / trailing plant" },
-        { "hanzi": "卜", "pinyin": "bo",  "gloss": "radish (suffix)" }
+        { "hanzi": "胡", "pinyin": "hú",  "gloss": "foreign" },
+        { "hanzi": "萝", "pinyin": "luó", "gloss": "radish" },
+        { "hanzi": "卜", "pinyin": "bo",  "gloss": "radish" }
       ]
     },
     {
@@ -244,8 +244,8 @@
       "pinyin": "hélándòu",
       "translation": "snow peas",
       "tokens": [
-        { "hanzi": "荷", "pinyin": "hé",  "gloss": "lotus / Holland" },
-        { "hanzi": "兰", "pinyin": "lán", "gloss": "orchid / Holland" },
+        { "hanzi": "荷", "pinyin": "hé",  "gloss": "Holland" },
+        { "hanzi": "兰", "pinyin": "lán", "gloss": "Holland" },
         { "hanzi": "豆", "pinyin": "dòu", "gloss": "bean" }
       ]
     },
@@ -266,7 +266,7 @@
       "translation": "tofu",
       "tokens": [
         { "hanzi": "豆", "pinyin": "dòu", "gloss": "bean" },
-        { "hanzi": "腐", "pinyin": "fu",  "gloss": "fermented / curd" }
+        { "hanzi": "腐", "pinyin": "fu",  "gloss": "curd" }
       ]
     },
     {
@@ -510,7 +510,7 @@
       "pinyin": "hújiāo",
       "translation": "pepper",
       "tokens": [
-        { "hanzi": "胡", "pinyin": "hú",   "gloss": "non-Chinese / foreign" },
+        { "hanzi": "胡", "pinyin": "hú",   "gloss": "foreign" },
         { "hanzi": "椒", "pinyin": "jiāo", "gloss": "pepper" }
       ]
     },
