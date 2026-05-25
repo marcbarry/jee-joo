@@ -27,7 +27,7 @@ function Home() {
         position: 'relative',
         flex: 1, display: 'flex', flexDirection: 'column', minHeight: 0,
       }}>
-        <a href="https://github.com/marcbarry/jee-joo"
+        <a href="https://github.com/marcbarry/jizhu"
            target="_blank" rel="noopener noreferrer"
            aria-label="View source on GitHub"
            style={{
